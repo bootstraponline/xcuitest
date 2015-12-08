@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCTestDriverTestObserver.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCTestDriverTestObserver</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testBundleDidFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testBundleDidFinish:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testBundleDidFinish:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/_testCase:didFinishActivity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)_testCase:(id)arg1 didFinishActivity:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_testCase:didFinishActivity:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/_testCase:willStartActivity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)_testCase:(id)arg1 willStartActivity:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_testCase:willStartActivity:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/_testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)_testCase:(id)arg1 didMeasureValues:(id)arg2 forPerformanceMetricID:(id)arg3 name:(id)arg4 unitsOfMeasurement:(id)arg5 baselineName:(id)arg6 baselineAverage:(id)arg7 maxPercentRegression:(id)arg8 maxPercentRelativeStandardDeviation:(id)arg9 maxRegression:(id)arg10 maxStandardDeviation:(id)arg11 file:(id)arg12 line:(unsigned long long)arg13</Declaration>
+			
+			
+			<Anchor>//api/name/_testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testCase:didFailWithDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCase:(id)arg1 didFailWithDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testCase:didFailWithDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testCaseDidFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidFinish:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidFinish:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testCaseWillStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseWillStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseWillStart:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testSuiteDidFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidFinish:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidFinish:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testSuite:didFailWithDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuite:(id)arg1 didFailWithDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testSuite:didFailWithDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testSuiteWillStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteWillStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteWillStart:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/testBundleWillStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testBundleWillStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testBundleWillStart:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/setDebugDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/debugDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestDriverTestObserver/debugDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/setDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestDriverTestObserver/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/setHash:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long hash</Declaration>
+			
+			
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/hash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long hash</Declaration>
+			
+			
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestDriverTestObserver/hash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long hash</Declaration>
+			
+			
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/setSuperclass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class superclass</Declaration>
+			
+			
+			<Anchor>//api/name/superclass</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestDriverTestObserver/superclass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class superclass</Declaration>
+			
+			
+			<Anchor>//api/name/superclass</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestDriverTestObserver/superclass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestDriverTestObserver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class superclass</Declaration>
+			
+			
+			<Anchor>//api/name/superclass</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

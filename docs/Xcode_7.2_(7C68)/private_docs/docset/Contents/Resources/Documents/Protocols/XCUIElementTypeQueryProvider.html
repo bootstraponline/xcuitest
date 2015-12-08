@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCUIElementTypeQueryProvider Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/activityIndicators">activityIndicators</option>
+		
+		<option value="//api/name/alerts">alerts</option>
+		
+		<option value="//api/name/browsers">browsers</option>
+		
+		<option value="//api/name/buttons">buttons</option>
+		
+		<option value="//api/name/cells">cells</option>
+		
+		<option value="//api/name/checkBoxes">checkBoxes</option>
+		
+		<option value="//api/name/collectionViews">collectionViews</option>
+		
+		<option value="//api/name/colorWells">colorWells</option>
+		
+		<option value="//api/name/comboBoxes">comboBoxes</option>
+		
+		<option value="//api/name/datePickers">datePickers</option>
+		
+		<option value="//api/name/decrementArrows">decrementArrows</option>
+		
+		<option value="//api/name/dialogs">dialogs</option>
+		
+		<option value="//api/name/disclosureTriangles">disclosureTriangles</option>
+		
+		<option value="//api/name/dockItems">dockItems</option>
+		
+		<option value="//api/name/drawers">drawers</option>
+		
+		<option value="//api/name/grids">grids</option>
+		
+		<option value="//api/name/groups">groups</option>
+		
+		<option value="//api/name/handles">handles</option>
+		
+		<option value="//api/name/helpTags">helpTags</option>
+		
+		<option value="//api/name/icons">icons</option>
+		
+		<option value="//api/name/images">images</option>
+		
+		<option value="//api/name/incrementArrows">incrementArrows</option>
+		
+		<option value="//api/name/keyboards">keyboards</option>
+		
+		<option value="//api/name/keys">keys</option>
+		
+		<option value="//api/name/layoutAreas">layoutAreas</option>
+		
+		<option value="//api/name/layoutItems">layoutItems</option>
+		
+		<option value="//api/name/levelIndicators">levelIndicators</option>
+		
+		<option value="//api/name/links">links</option>
+		
+		<option value="//api/name/maps">maps</option>
+		
+		<option value="//api/name/mattes">mattes</option>
+		
+		<option value="//api/name/menuBarItems">menuBarItems</option>
+		
+		<option value="//api/name/menuBars">menuBars</option>
+		
+		<option value="//api/name/menuButtons">menuButtons</option>
+		
+		<option value="//api/name/menuItems">menuItems</option>
+		
+		<option value="//api/name/menus">menus</option>
+		
+		<option value="//api/name/navigationBars">navigationBars</option>
+		
+		<option value="//api/name/otherElements">otherElements</option>
+		
+		<option value="//api/name/outlineRows">outlineRows</option>
+		
+		<option value="//api/name/outlines">outlines</option>
+		
+		<option value="//api/name/pageIndicators">pageIndicators</option>
+		
+		<option value="//api/name/pickerWheels">pickerWheels</option>
+		
+		<option value="//api/name/pickers">pickers</option>
+		
+		<option value="//api/name/popUpButtons">popUpButtons</option>
+		
+		<option value="//api/name/popovers">popovers</option>
+		
+		<option value="//api/name/progressIndicators">progressIndicators</option>
+		
+		<option value="//api/name/radioButtons">radioButtons</option>
+		
+		<option value="//api/name/radioGroups">radioGroups</option>
+		
+		<option value="//api/name/ratingIndicators">ratingIndicators</option>
+		
+		<option value="//api/name/relevanceIndicators">relevanceIndicators</option>
+		
+		<option value="//api/name/rulerMarkers">rulerMarkers</option>
+		
+		<option value="//api/name/rulers">rulers</option>
+		
+		<option value="//api/name/scrollBars">scrollBars</option>
+		
+		<option value="//api/name/scrollViews">scrollViews</option>
+		
+		<option value="//api/name/searchFields">searchFields</option>
+		
+		<option value="//api/name/secureTextFields">secureTextFields</option>
+		
+		<option value="//api/name/segmentedControls">segmentedControls</option>
+		
+		<option value="//api/name/sheets">sheets</option>
+		
+		<option value="//api/name/sliders">sliders</option>
+		
+		<option value="//api/name/splitGroups">splitGroups</option>
+		
+		<option value="//api/name/splitters">splitters</option>
+		
+		<option value="//api/name/staticTexts">staticTexts</option>
+		
+		<option value="//api/name/statusBars">statusBars</option>
+		
+		<option value="//api/name/steppers">steppers</option>
+		
+		<option value="//api/name/switches">switches</option>
+		
+		<option value="//api/name/tabBars">tabBars</option>
+		
+		<option value="//api/name/tabGroups">tabGroups</option>
+		
+		<option value="//api/name/tableColumns">tableColumns</option>
+		
+		<option value="//api/name/tableRows">tableRows</option>
+		
+		<option value="//api/name/tables">tables</option>
+		
+		<option value="//api/name/tabs">tabs</option>
+		
+		<option value="//api/name/textFields">textFields</option>
+		
+		<option value="//api/name/textViews">textViews</option>
+		
+		<option value="//api/name/timelines">timelines</option>
+		
+		<option value="//api/name/toggles">toggles</option>
+		
+		<option value="//api/name/toolbarButtons">toolbarButtons</option>
+		
+		<option value="//api/name/toolbars">toolbars</option>
+		
+		<option value="//api/name/valueIndicators">valueIndicators</option>
+		
+		<option value="//api/name/webViews">webViews</option>
+		
+		<option value="//api/name/windows">windows</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCUIElementTypeQueryProvider Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>XCUIElementTypeQueryProvider-Protocol.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/otherElements" title="otherElements"></a>
+	<h3 class="method-title"><code><a href="#//api/name/otherElements">&nbsp;&nbsp;otherElements</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *otherElements</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/handles" title="handles"></a>
+	<h3 class="method-title"><code><a href="#//api/name/handles">&nbsp;&nbsp;handles</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *handles</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/layoutItems" title="layoutItems"></a>
+	<h3 class="method-title"><code><a href="#//api/name/layoutItems">&nbsp;&nbsp;layoutItems</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *layoutItems</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/layoutAreas" title="layoutAreas"></a>
+	<h3 class="method-title"><code><a href="#//api/name/layoutAreas">&nbsp;&nbsp;layoutAreas</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *layoutAreas</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cells" title="cells"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cells">&nbsp;&nbsp;cells</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *cells</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/levelIndicators" title="levelIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/levelIndicators">&nbsp;&nbsp;levelIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *levelIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/grids" title="grids"></a>
+	<h3 class="method-title"><code><a href="#//api/name/grids">&nbsp;&nbsp;grids</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *grids</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rulerMarkers" title="rulerMarkers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rulerMarkers">&nbsp;&nbsp;rulerMarkers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *rulerMarkers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rulers" title="rulers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rulers">&nbsp;&nbsp;rulers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *rulers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dockItems" title="dockItems"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dockItems">&nbsp;&nbsp;dockItems</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *dockItems</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mattes" title="mattes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mattes">&nbsp;&nbsp;mattes</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *mattes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/helpTags" title="helpTags"></a>
+	<h3 class="method-title"><code><a href="#//api/name/helpTags">&nbsp;&nbsp;helpTags</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *helpTags</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/colorWells" title="colorWells"></a>
+	<h3 class="method-title"><code><a href="#//api/name/colorWells">&nbsp;&nbsp;colorWells</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *colorWells</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/relevanceIndicators" title="relevanceIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/relevanceIndicators">&nbsp;&nbsp;relevanceIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *relevanceIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/splitters" title="splitters"></a>
+	<h3 class="method-title"><code><a href="#//api/name/splitters">&nbsp;&nbsp;splitters</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *splitters</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/splitGroups" title="splitGroups"></a>
+	<h3 class="method-title"><code><a href="#//api/name/splitGroups">&nbsp;&nbsp;splitGroups</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *splitGroups</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/valueIndicators" title="valueIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/valueIndicators">&nbsp;&nbsp;valueIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *valueIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ratingIndicators" title="ratingIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ratingIndicators">&nbsp;&nbsp;ratingIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *ratingIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/timelines" title="timelines"></a>
+	<h3 class="method-title"><code><a href="#//api/name/timelines">&nbsp;&nbsp;timelines</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *timelines</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tabs" title="tabs"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tabs">&nbsp;&nbsp;tabs</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *tabs</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/decrementArrows" title="decrementArrows"></a>
+	<h3 class="method-title"><code><a href="#//api/name/decrementArrows">&nbsp;&nbsp;decrementArrows</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *decrementArrows</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/incrementArrows" title="incrementArrows"></a>
+	<h3 class="method-title"><code><a href="#//api/name/incrementArrows">&nbsp;&nbsp;incrementArrows</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *incrementArrows</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/steppers" title="steppers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/steppers">&nbsp;&nbsp;steppers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *steppers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/webViews" title="webViews"></a>
+	<h3 class="method-title"><code><a href="#//api/name/webViews">&nbsp;&nbsp;webViews</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *webViews</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/maps" title="maps"></a>
+	<h3 class="method-title"><code><a href="#//api/name/maps">&nbsp;&nbsp;maps</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *maps</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/menuBarItems" title="menuBarItems"></a>
+	<h3 class="method-title"><code><a href="#//api/name/menuBarItems">&nbsp;&nbsp;menuBarItems</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *menuBarItems</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/menuBars" title="menuBars"></a>
+	<h3 class="method-title"><code><a href="#//api/name/menuBars">&nbsp;&nbsp;menuBars</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *menuBars</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/menuItems" title="menuItems"></a>
+	<h3 class="method-title"><code><a href="#//api/name/menuItems">&nbsp;&nbsp;menuItems</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *menuItems</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/menus" title="menus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/menus">&nbsp;&nbsp;menus</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *menus</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/textViews" title="textViews"></a>
+	<h3 class="method-title"><code><a href="#//api/name/textViews">&nbsp;&nbsp;textViews</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *textViews</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/datePickers" title="datePickers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/datePickers">&nbsp;&nbsp;datePickers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *datePickers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/secureTextFields" title="secureTextFields"></a>
+	<h3 class="method-title"><code><a href="#//api/name/secureTextFields">&nbsp;&nbsp;secureTextFields</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *secureTextFields</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/textFields" title="textFields"></a>
+	<h3 class="method-title"><code><a href="#//api/name/textFields">&nbsp;&nbsp;textFields</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *textFields</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/staticTexts" title="staticTexts"></a>
+	<h3 class="method-title"><code><a href="#//api/name/staticTexts">&nbsp;&nbsp;staticTexts</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *staticTexts</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/scrollBars" title="scrollBars"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scrollBars">&nbsp;&nbsp;scrollBars</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *scrollBars</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/scrollViews" title="scrollViews"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scrollViews">&nbsp;&nbsp;scrollViews</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *scrollViews</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/searchFields" title="searchFields"></a>
+	<h3 class="method-title"><code><a href="#//api/name/searchFields">&nbsp;&nbsp;searchFields</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *searchFields</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/icons" title="icons"></a>
+	<h3 class="method-title"><code><a href="#//api/name/icons">&nbsp;&nbsp;icons</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *icons</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/images" title="images"></a>
+	<h3 class="method-title"><code><a href="#//api/name/images">&nbsp;&nbsp;images</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *images</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/links" title="links"></a>
+	<h3 class="method-title"><code><a href="#//api/name/links">&nbsp;&nbsp;links</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *links</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/toggles" title="toggles"></a>
+	<h3 class="method-title"><code><a href="#//api/name/toggles">&nbsp;&nbsp;toggles</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *toggles</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/switches" title="switches"></a>
+	<h3 class="method-title"><code><a href="#//api/name/switches">&nbsp;&nbsp;switches</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *switches</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pickerWheels" title="pickerWheels"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pickerWheels">&nbsp;&nbsp;pickerWheels</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *pickerWheels</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pickers" title="pickers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pickers">&nbsp;&nbsp;pickers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *pickers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/segmentedControls" title="segmentedControls"></a>
+	<h3 class="method-title"><code><a href="#//api/name/segmentedControls">&nbsp;&nbsp;segmentedControls</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *segmentedControls</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/activityIndicators" title="activityIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/activityIndicators">&nbsp;&nbsp;activityIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *activityIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/progressIndicators" title="progressIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/progressIndicators">&nbsp;&nbsp;progressIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *progressIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pageIndicators" title="pageIndicators"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pageIndicators">&nbsp;&nbsp;pageIndicators</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *pageIndicators</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sliders" title="sliders"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sliders">&nbsp;&nbsp;sliders</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *sliders</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/collectionViews" title="collectionViews"></a>
+	<h3 class="method-title"><code><a href="#//api/name/collectionViews">&nbsp;&nbsp;collectionViews</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *collectionViews</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/browsers" title="browsers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/browsers">&nbsp;&nbsp;browsers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *browsers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/outlineRows" title="outlineRows"></a>
+	<h3 class="method-title"><code><a href="#//api/name/outlineRows">&nbsp;&nbsp;outlineRows</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *outlineRows</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/outlines" title="outlines"></a>
+	<h3 class="method-title"><code><a href="#//api/name/outlines">&nbsp;&nbsp;outlines</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *outlines</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tableColumns" title="tableColumns"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tableColumns">&nbsp;&nbsp;tableColumns</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *tableColumns</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tableRows" title="tableRows"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tableRows">&nbsp;&nbsp;tableRows</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *tableRows</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tables" title="tables"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tables">&nbsp;&nbsp;tables</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *tables</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/statusBars" title="statusBars"></a>
+	<h3 class="method-title"><code><a href="#//api/name/statusBars">&nbsp;&nbsp;statusBars</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *statusBars</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/toolbars" title="toolbars"></a>
+	<h3 class="method-title"><code><a href="#//api/name/toolbars">&nbsp;&nbsp;toolbars</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *toolbars</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tabGroups" title="tabGroups"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tabGroups">&nbsp;&nbsp;tabGroups</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *tabGroups</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tabBars" title="tabBars"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tabBars">&nbsp;&nbsp;tabBars</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *tabBars</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/navigationBars" title="navigationBars"></a>
+	<h3 class="method-title"><code><a href="#//api/name/navigationBars">&nbsp;&nbsp;navigationBars</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *navigationBars</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/keys" title="keys"></a>
+	<h3 class="method-title"><code><a href="#//api/name/keys">&nbsp;&nbsp;keys</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *keys</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/keyboards" title="keyboards"></a>
+	<h3 class="method-title"><code><a href="#//api/name/keyboards">&nbsp;&nbsp;keyboards</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *keyboards</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/popovers" title="popovers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/popovers">&nbsp;&nbsp;popovers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *popovers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/toolbarButtons" title="toolbarButtons"></a>
+	<h3 class="method-title"><code><a href="#//api/name/toolbarButtons">&nbsp;&nbsp;toolbarButtons</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *toolbarButtons</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/menuButtons" title="menuButtons"></a>
+	<h3 class="method-title"><code><a href="#//api/name/menuButtons">&nbsp;&nbsp;menuButtons</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *menuButtons</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/comboBoxes" title="comboBoxes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/comboBoxes">&nbsp;&nbsp;comboBoxes</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *comboBoxes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/popUpButtons" title="popUpButtons"></a>
+	<h3 class="method-title"><code><a href="#//api/name/popUpButtons">&nbsp;&nbsp;popUpButtons</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *popUpButtons</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/disclosureTriangles" title="disclosureTriangles"></a>
+	<h3 class="method-title"><code><a href="#//api/name/disclosureTriangles">&nbsp;&nbsp;disclosureTriangles</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *disclosureTriangles</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/checkBoxes" title="checkBoxes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/checkBoxes">&nbsp;&nbsp;checkBoxes</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *checkBoxes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/radioGroups" title="radioGroups"></a>
+	<h3 class="method-title"><code><a href="#//api/name/radioGroups">&nbsp;&nbsp;radioGroups</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *radioGroups</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/radioButtons" title="radioButtons"></a>
+	<h3 class="method-title"><code><a href="#//api/name/radioButtons">&nbsp;&nbsp;radioButtons</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *radioButtons</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buttons" title="buttons"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buttons">&nbsp;&nbsp;buttons</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *buttons</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dialogs" title="dialogs"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dialogs">&nbsp;&nbsp;dialogs</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *dialogs</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/alerts" title="alerts"></a>
+	<h3 class="method-title"><code><a href="#//api/name/alerts">&nbsp;&nbsp;alerts</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *alerts</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/drawers" title="drawers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/drawers">&nbsp;&nbsp;drawers</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *drawers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sheets" title="sheets"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sheets">&nbsp;&nbsp;sheets</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *sheets</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/windows" title="windows"></a>
+	<h3 class="method-title"><code><a href="#//api/name/windows">&nbsp;&nbsp;windows</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *windows</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/groups" title="groups"></a>
+	<h3 class="method-title"><code><a href="#//api/name/groups">&nbsp;&nbsp;groups</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) XCUIElementQuery *groups</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

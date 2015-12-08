@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NSCopying.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NSCopying</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCopying-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCopying/copyWithZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCopying-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(struct _NSZone *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="74"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

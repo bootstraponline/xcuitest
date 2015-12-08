@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCApplicationMonitor Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/monitoredApplications">monitoredApplications</option>
+		
+		<option value="//api/name/queue">queue</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/sharedMonitor">+ sharedMonitor</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_beginMonitoringApplication:">- _beginMonitoringApplication:</option>
+		
+		<option value="//api/name/applicationImplementationForApplicationAtPath:bundleID:">- applicationImplementationForApplicationAtPath:bundleID:</option>
+		
+		<option value="//api/name/applicationProcessWithPID:">- applicationProcessWithPID:</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/monitoredApplicationWithProcessIdentifier:">- monitoredApplicationWithProcessIdentifier:</option>
+		
+		<option value="//api/name/setApplicationProcess:forPID:">- setApplicationProcess:forPID:</option>
+		
+		<option value="//api/name/terminateApplicationProcess:">- terminateApplicationProcess:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCApplicationMonitor Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCApplicationMonitor.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sharedMonitor" title="sharedMonitor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sharedMonitor">+&nbsp;sharedMonitor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)sharedMonitor</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/queue" title="queue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/queue">&nbsp;&nbsp;queue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property NSObject&lt;OS_dispatch_queue&gt; *queue</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/terminateApplicationProcess:" title="terminateApplicationProcess:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/terminateApplicationProcess:">&ndash;&nbsp;terminateApplicationProcess:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)terminateApplicationProcess:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/monitoredApplicationWithProcessIdentifier:" title="monitoredApplicationWithProcessIdentifier:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/monitoredApplicationWithProcessIdentifier:">&ndash;&nbsp;monitoredApplicationWithProcessIdentifier:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)monitoredApplicationWithProcessIdentifier:(int)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_beginMonitoringApplication:" title="_beginMonitoringApplication:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_beginMonitoringApplication:">&ndash;&nbsp;_beginMonitoringApplication:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_beginMonitoringApplication:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/monitoredApplications" title="monitoredApplications"></a>
+	<h3 class="method-title"><code><a href="#//api/name/monitoredApplications">&nbsp;&nbsp;monitoredApplications</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSArray *monitoredApplications</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setApplicationProcess:forPID:" title="setApplicationProcess:forPID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setApplicationProcess:forPID:">&ndash;&nbsp;setApplicationProcess:forPID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)setApplicationProcess:(id)<em>arg1</em> forPID:(int)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/applicationProcessWithPID:" title="applicationProcessWithPID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/applicationProcessWithPID:">&ndash;&nbsp;applicationProcessWithPID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)applicationProcessWithPID:(int)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/applicationImplementationForApplicationAtPath:bundleID:" title="applicationImplementationForApplicationAtPath:bundleID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/applicationImplementationForApplicationAtPath:bundleID:">&ndash;&nbsp;applicationImplementationForApplicationAtPath:bundleID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)applicationImplementationForApplicationAtPath:(id)<em>arg1</em> bundleID:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

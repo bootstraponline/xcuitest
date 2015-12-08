@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCActivityRecord.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCActivityRecord</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCActivityRecord/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setSynthesizedEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCSynthesizedEventRecord *synthesizedEvent</Declaration>
+			
+			
+			<Anchor>//api/name/synthesizedEvent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/synthesizedEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCSynthesizedEventRecord *synthesizedEvent</Declaration>
+			
+			
+			<Anchor>//api/name/synthesizedEvent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/synthesizedEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCSynthesizedEventRecord *synthesizedEvent</Declaration>
+			
+			
+			<Anchor>//api/name/synthesizedEvent</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setElementsOfInterest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *elementsOfInterest</Declaration>
+			
+			
+			<Anchor>//api/name/elementsOfInterest</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/elementsOfInterest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *elementsOfInterest</Declaration>
+			
+			
+			<Anchor>//api/name/elementsOfInterest</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/elementsOfInterest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *elementsOfInterest</Declaration>
+			
+			
+			<Anchor>//api/name/elementsOfInterest</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCElementSnapshot *snapshot</Declaration>
+			
+			
+			<Anchor>//api/name/snapshot</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/snapshot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCElementSnapshot *snapshot</Declaration>
+			
+			
+			<Anchor>//api/name/snapshot</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/snapshot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCElementSnapshot *snapshot</Declaration>
+			
+			
+			<Anchor>//api/name/snapshot</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setScreenImageData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSData *screenImageData</Declaration>
+			
+			
+			<Anchor>//api/name/screenImageData</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/screenImageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSData *screenImageData</Declaration>
+			
+			
+			<Anchor>//api/name/screenImageData</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/screenImageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSData *screenImageData</Declaration>
+			
+			
+			<Anchor>//api/name/screenImageData</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setHasSubactivities:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasSubactivities</Declaration>
+			
+			
+			<Anchor>//api/name/hasSubactivities</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/hasSubactivities</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasSubactivities</Declaration>
+			
+			
+			<Anchor>//api/name/hasSubactivities</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/hasSubactivities</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasSubactivities</Declaration>
+			
+			
+			<Anchor>//api/name/hasSubactivities</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDate *start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDate *start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDate *start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDate *finish</Declaration>
+			
+			
+			<Anchor>//api/name/finish</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/finish</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDate *finish</Declaration>
+			
+			
+			<Anchor>//api/name/finish</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/finish</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDate *finish</Declaration>
+			
+			
+			<Anchor>//api/name/finish</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setUuid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *uuid</Declaration>
+			
+			
+			<Anchor>//api/name/uuid</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/uuid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *uuid</Declaration>
+			
+			
+			<Anchor>//api/name/uuid</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/uuid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *uuid</Declaration>
+			
+			
+			<Anchor>//api/name/uuid</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/setDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/duration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCActivityRecord/duration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCActivityRecord/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCActivityRecord.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

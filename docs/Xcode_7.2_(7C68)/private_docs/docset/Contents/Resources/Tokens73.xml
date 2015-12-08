@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/NSCoding.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/NSCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoding-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoding/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoding-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoding/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoding-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

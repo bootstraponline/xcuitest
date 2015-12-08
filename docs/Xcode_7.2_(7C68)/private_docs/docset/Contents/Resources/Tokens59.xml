@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCTestCaseImplementation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCTestCaseImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setTestContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestContext *testContext</Declaration>
+			
+			
+			<Anchor>//api/name/testContext</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/testContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestContext *testContext</Declaration>
+			
+			
+			<Anchor>//api/name/testContext</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/testContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestContext *testContext</Declaration>
+			
+			
+			<Anchor>//api/name/testContext</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setActivityRecordStack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *activityRecordStack</Declaration>
+			
+			
+			<Anchor>//api/name/activityRecordStack</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/activityRecordStack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *activityRecordStack</Declaration>
+			
+			
+			<Anchor>//api/name/activityRecordStack</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/activityRecordStack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *activityRecordStack</Declaration>
+			
+			
+			<Anchor>//api/name/activityRecordStack</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setShouldIgnoreSubsequentFailures:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool shouldIgnoreSubsequentFailures</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreSubsequentFailures</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/shouldIgnoreSubsequentFailures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool shouldIgnoreSubsequentFailures</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreSubsequentFailures</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/shouldIgnoreSubsequentFailures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool shouldIgnoreSubsequentFailures</Declaration>
+			
+			
+			<Anchor>//api/name/shouldIgnoreSubsequentFailures</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setShouldHaltWhenReceivesControl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool shouldHaltWhenReceivesControl</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHaltWhenReceivesControl</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/shouldHaltWhenReceivesControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool shouldHaltWhenReceivesControl</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHaltWhenReceivesControl</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/shouldHaltWhenReceivesControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool shouldHaltWhenReceivesControl</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHaltWhenReceivesControl</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setFailureRecords:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *failureRecords</Declaration>
+			
+			
+			<Anchor>//api/name/failureRecords</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/failureRecords</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *failureRecords</Declaration>
+			
+			
+			<Anchor>//api/name/failureRecords</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/failureRecords</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *failureRecords</Declaration>
+			
+			
+			<Anchor>//api/name/failureRecords</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setRunLoopNestingCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property long long runLoopNestingCount</Declaration>
+			
+			
+			<Anchor>//api/name/runLoopNestingCount</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/runLoopNestingCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property long long runLoopNestingCount</Declaration>
+			
+			
+			<Anchor>//api/name/runLoopNestingCount</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/runLoopNestingCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property long long runLoopNestingCount</Declaration>
+			
+			
+			<Anchor>//api/name/runLoopNestingCount</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setTimeoutSource:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSObject&lt;OS_dispatch_source&gt; *timeoutSource</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutSource</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/timeoutSource</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSObject&lt;OS_dispatch_source&gt; *timeoutSource</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutSource</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/timeoutSource</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSObject&lt;OS_dispatch_source&gt; *timeoutSource</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutSource</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setCallAddressesForLastCreatedExpectation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *callAddressesForLastCreatedExpectation</Declaration>
+			
+			
+			<Anchor>//api/name/callAddressesForLastCreatedExpectation</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/callAddressesForLastCreatedExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *callAddressesForLastCreatedExpectation</Declaration>
+			
+			
+			<Anchor>//api/name/callAddressesForLastCreatedExpectation</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/callAddressesForLastCreatedExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *callAddressesForLastCreatedExpectation</Declaration>
+			
+			
+			<Anchor>//api/name/callAddressesForLastCreatedExpectation</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setCallAddressForCurrentWait:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long callAddressForCurrentWait</Declaration>
+			
+			
+			<Anchor>//api/name/callAddressForCurrentWait</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/callAddressForCurrentWait</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long callAddressForCurrentWait</Declaration>
+			
+			
+			<Anchor>//api/name/callAddressForCurrentWait</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/callAddressForCurrentWait</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long callAddressForCurrentWait</Declaration>
+			
+			
+			<Anchor>//api/name/callAddressForCurrentWait</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setLineNumberForUnexpectedFailure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long lineNumberForUnexpectedFailure</Declaration>
+			
+			
+			<Anchor>//api/name/lineNumberForUnexpectedFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/lineNumberForUnexpectedFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long lineNumberForUnexpectedFailure</Declaration>
+			
+			
+			<Anchor>//api/name/lineNumberForUnexpectedFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/lineNumberForUnexpectedFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long lineNumberForUnexpectedFailure</Declaration>
+			
+			
+			<Anchor>//api/name/lineNumberForUnexpectedFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setFilePathForUnexpectedFailure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *filePathForUnexpectedFailure</Declaration>
+			
+			
+			<Anchor>//api/name/filePathForUnexpectedFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/filePathForUnexpectedFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *filePathForUnexpectedFailure</Declaration>
+			
+			
+			<Anchor>//api/name/filePathForUnexpectedFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/filePathForUnexpectedFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *filePathForUnexpectedFailure</Declaration>
+			
+			
+			<Anchor>//api/name/filePathForUnexpectedFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setCompletionHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType completionHandler</Declaration>
+			
+			
+			<Anchor>//api/name/completionHandler</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/completionHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType completionHandler</Declaration>
+			
+			
+			<Anchor>//api/name/completionHandler</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/completionHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType completionHandler</Declaration>
+			
+			
+			<Anchor>//api/name/completionHandler</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setTimeoutDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property double timeoutDuration</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutDuration</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/timeoutDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property double timeoutDuration</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutDuration</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/timeoutDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property double timeoutDuration</Declaration>
+			
+			
+			<Anchor>//api/name/timeoutDuration</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setWaiting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool waiting</Declaration>
+			
+			
+			<Anchor>//api/name/waiting</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/waiting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool waiting</Declaration>
+			
+			
+			<Anchor>//api/name/waiting</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/waiting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool waiting</Declaration>
+			
+			
+			<Anchor>//api/name/waiting</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setFulfillments:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *fulfillments</Declaration>
+			
+			
+			<Anchor>//api/name/fulfillments</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/fulfillments</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *fulfillments</Declaration>
+			
+			
+			<Anchor>//api/name/fulfillments</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/fulfillments</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableArray *fulfillments</Declaration>
+			
+			
+			<Anchor>//api/name/fulfillments</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setExpectations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableSet *expectations</Declaration>
+			
+			
+			<Anchor>//api/name/expectations</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/expectations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableSet *expectations</Declaration>
+			
+			
+			<Anchor>//api/name/expectations</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/expectations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) NSMutableSet *expectations</Declaration>
+			
+			
+			<Anchor>//api/name/expectations</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setDidStopMeasuring:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didStopMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/didStopMeasuring</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/didStopMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didStopMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/didStopMeasuring</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/didStopMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didStopMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/didStopMeasuring</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setDidStartMeasuring:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didStartMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/didStartMeasuring</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/didStartMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didStartMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/didStartMeasuring</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/didStartMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didStartMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/didStartMeasuring</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setDidMeasureMetrics:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didMeasureMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/didMeasureMetrics</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/didMeasureMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didMeasureMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/didMeasureMetrics</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/didMeasureMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didMeasureMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/didMeasureMetrics</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setIsMeasuringMetrics:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool isMeasuringMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/isMeasuringMetrics</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/isMeasuringMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool isMeasuringMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/isMeasuringMetrics</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/isMeasuringMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool isMeasuringMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/isMeasuringMetrics</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setMeasuringIteration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long measuringIteration</Declaration>
+			
+			
+			<Anchor>//api/name/measuringIteration</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/measuringIteration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long measuringIteration</Declaration>
+			
+			
+			<Anchor>//api/name/measuringIteration</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/measuringIteration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long measuringIteration</Declaration>
+			
+			
+			<Anchor>//api/name/measuringIteration</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setStartUserTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property struct time_value startUserTime</Declaration>
+			
+			
+			<Anchor>//api/name/startUserTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/startUserTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property struct time_value startUserTime</Declaration>
+			
+			
+			<Anchor>//api/name/startUserTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/startUserTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property struct time_value startUserTime</Declaration>
+			
+			
+			<Anchor>//api/name/startUserTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setStartSystemTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property struct time_value startSystemTime</Declaration>
+			
+			
+			<Anchor>//api/name/startSystemTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/startSystemTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property struct time_value startSystemTime</Declaration>
+			
+			
+			<Anchor>//api/name/startSystemTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/startSystemTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property struct time_value startSystemTime</Declaration>
+			
+			
+			<Anchor>//api/name/startSystemTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setStartWallClockTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long startWallClockTime</Declaration>
+			
+			
+			<Anchor>//api/name/startWallClockTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/startWallClockTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long startWallClockTime</Declaration>
+			
+			
+			<Anchor>//api/name/startWallClockTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/startWallClockTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long startWallClockTime</Declaration>
+			
+			
+			<Anchor>//api/name/startWallClockTime</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setPerfMetricDataForID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableDictionary *perfMetricDataForID</Declaration>
+			
+			
+			<Anchor>//api/name/perfMetricDataForID</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/perfMetricDataForID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableDictionary *perfMetricDataForID</Declaration>
+			
+			
+			<Anchor>//api/name/perfMetricDataForID</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/perfMetricDataForID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableDictionary *perfMetricDataForID</Declaration>
+			
+			
+			<Anchor>//api/name/perfMetricDataForID</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setActivePerformanceMetricIDs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *activePerformanceMetricIDs</Declaration>
+			
+			
+			<Anchor>//api/name/activePerformanceMetricIDs</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/activePerformanceMetricIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *activePerformanceMetricIDs</Declaration>
+			
+			
+			<Anchor>//api/name/activePerformanceMetricIDs</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/activePerformanceMetricIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *activePerformanceMetricIDs</Declaration>
+			
+			
+			<Anchor>//api/name/activePerformanceMetricIDs</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setPerformanceMetricIDs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *performanceMetricIDs</Declaration>
+			
+			
+			<Anchor>//api/name/performanceMetricIDs</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/performanceMetricIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *performanceMetricIDs</Declaration>
+			
+			
+			<Anchor>//api/name/performanceMetricIDs</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/performanceMetricIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *performanceMetricIDs</Declaration>
+			
+			
+			<Anchor>//api/name/performanceMetricIDs</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setContinueAfterFailure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool continueAfterFailure</Declaration>
+			
+			
+			<Anchor>//api/name/continueAfterFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/continueAfterFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool continueAfterFailure</Declaration>
+			
+			
+			<Anchor>//api/name/continueAfterFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/continueAfterFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool continueAfterFailure</Declaration>
+			
+			
+			<Anchor>//api/name/continueAfterFailure</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setTestCaseRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCTestCaseRun *testCaseRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseRun</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/testCaseRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCTestCaseRun *testCaseRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseRun</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/testCaseRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCTestCaseRun *testCaseRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseRun</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/setInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSInvocation *invocation</Declaration>
+			
+			
+			<Anchor>//api/name/invocation</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/invocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSInvocation *invocation</Declaration>
+			
+			
+			<Anchor>//api/name/invocation</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestCaseImplementation/invocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSInvocation *invocation</Declaration>
+			
+			
+			<Anchor>//api/name/invocation</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/resetExpectations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>- (void)resetExpectations</Declaration>
+			
+			
+			<Anchor>//api/name/resetExpectations</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/addExpectation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>- (void)addExpectation:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/addExpectation:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestCaseImplementation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseImplementation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

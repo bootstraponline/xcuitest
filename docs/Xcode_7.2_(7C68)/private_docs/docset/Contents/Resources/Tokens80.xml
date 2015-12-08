@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCTestManager_IDEInterface.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCTestManager_IDEInterface</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="80"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_nativeFocusItemDidChangeAtTime:parameterSnapshot:applicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_nativeFocusItemDidChangeAtTime:(NSNumber *)arg1 parameterSnapshot:(XCElementSnapshot *)arg2 applicationSnapshot:(XCElementSnapshot *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_nativeFocusItemDidChangeAtTime:parameterSnapshot:applicationSnapshot:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedEventNames:timestamp:duration:startLocation:startElementSnapshot:startApplicationSnapshot:endLocation:endElementSnapshot:endApplicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedEventNames:(NSArray *)arg1 timestamp:(NSNumber *)arg2 duration:(NSNumber *)arg3 startLocation:(NSDictionary *)arg4 startElementSnapshot:(XCElementSnapshot *)arg5 startApplicationSnapshot:(XCElementSnapshot *)arg6 endLocation:(NSDictionary *)arg7 endElementSnapshot:(XCElementSnapshot *)arg8 endApplicationSnapshot:(XCElementSnapshot *)arg9</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedEventNames:timestamp:duration:startLocation:startElementSnapshot:startApplicationSnapshot:endLocation:endElementSnapshot:endApplicationSnapshot:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testCase:method:didFinishActivity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testCase:(NSString *)arg1 method:(NSString *)arg2 didFinishActivity:(XCActivityRecord *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testCase:method:didFinishActivity:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testCase:method:willStartActivity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testCase:(NSString *)arg1 method:(NSString *)arg2 willStartActivity:(XCActivityRecord *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testCase:method:willStartActivity:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedOrientationChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedOrientationChange:(NSString *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedOrientationChange:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedFirstResponderChangedWithApplicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedFirstResponderChangedWithApplicationSnapshot:(XCElementSnapshot *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedFirstResponderChangedWithApplicationSnapshot:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_exchangeCurrentProtocolVersion:minimumVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_exchangeCurrentProtocolVersion:(NSNumber *)arg1 minimumVersion:(NSNumber *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_exchangeCurrentProtocolVersion:minimumVersion:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedKeyEventsWithApplicationSnapshot:characters:charactersIgnoringModifiers:modifierFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedKeyEventsWithApplicationSnapshot:(XCElementSnapshot *)arg1 characters:(NSString *)arg2 charactersIgnoringModifiers:(NSString *)arg3 modifierFlags:(NSNumber *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedKeyEventsWithApplicationSnapshot:characters:charactersIgnoringModifiers:modifierFlags:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedEventNames:duration:startLocation:startElementSnapshot:startApplicationSnapshot:endLocation:endElementSnapshot:endApplicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedEventNames:(NSArray *)arg1 duration:(NSNumber *)arg2 startLocation:(NSDictionary *)arg3 startElementSnapshot:(XCElementSnapshot *)arg4 startApplicationSnapshot:(XCElementSnapshot *)arg5 endLocation:(NSDictionary *)arg6 endElementSnapshot:(XCElementSnapshot *)arg7 endApplicationSnapshot:(XCElementSnapshot *)arg8</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedEventNames:duration:startLocation:startElementSnapshot:startApplicationSnapshot:endLocation:endElementSnapshot:endApplicationSnapshot:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedKeyEventsWithCharacters:charactersIgnoringModifiers:modifierFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedKeyEventsWithCharacters:(NSString *)arg1 charactersIgnoringModifiers:(NSString *)arg2 modifierFlags:(NSNumber *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedKeyEventsWithCharacters:charactersIgnoringModifiers:modifierFlags:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedEventNames:duration:startElement:startApplicationSnapshot:endElement:endApplicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedEventNames:(NSArray *)arg1 duration:(NSNumber *)arg2 startElement:(XCAccessibilityElement *)arg3 startApplicationSnapshot:(XCElementSnapshot *)arg4 endElement:(XCAccessibilityElement *)arg5 endApplicationSnapshot:(XCElementSnapshot *)arg6</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedEventNames:duration:startElement:startApplicationSnapshot:endElement:endApplicationSnapshot:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedEvent:targetElementID:applicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedEvent:(NSString *)arg1 targetElementID:(NSDictionary *)arg2 applicationSnapshot:(XCElementSnapshot *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedEvent:targetElementID:applicationSnapshot:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_recordedEvent:forElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_recordedEvent:(NSString *)arg1 forElement:(NSString *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_recordedEvent:forElement:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_logDebugMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_logDebugMessage:(NSString *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_logDebugMessage:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_logMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_logMessage:(NSString *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_logMessage:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testMethod:ofClass:didMeasureMetric:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testMethod:(NSString *)arg1 ofClass:(NSString *)arg2 didMeasureMetric:(NSDictionary *)arg3 file:(NSString *)arg4 line:(NSNumber *)arg5</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testMethod:ofClass:didMeasureMetric:file:line:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testCase:method:didStallOnMainThreadInFile:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testCase:(NSString *)arg1 method:(NSString *)arg2 didStallOnMainThreadInFile:(NSString *)arg3 line:(NSNumber *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testCase:method:didStallOnMainThreadInFile:line:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testCaseDidFinishForTestClass:method:withStatus:duration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testCaseDidFinishForTestClass:(NSString *)arg1 method:(NSString *)arg2 withStatus:(NSString *)arg3 duration:(NSNumber *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testCaseDidFinishForTestClass:method:withStatus:duration:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testCaseDidFailForTestClass:method:withMessage:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testCaseDidFailForTestClass:(NSString *)arg1 method:(NSString *)arg2 withMessage:(NSString *)arg3 file:(NSString *)arg4 line:(NSNumber *)arg5</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testCaseDidFailForTestClass:method:withMessage:file:line:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testCaseDidStartForTestClass:method:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testCaseDidStartForTestClass:(NSString *)arg1 method:(NSString *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testCaseDidStartForTestClass:method:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testSuite:didFinishAt:runCount:withFailures:unexpected:testDuration:totalDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testSuite:(NSString *)arg1 didFinishAt:(NSString *)arg2 runCount:(NSNumber *)arg3 withFailures:(NSNumber *)arg4 unexpected:(NSNumber *)arg5 testDuration:(NSNumber *)arg6 totalDuration:(NSNumber *)arg7</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testSuite:didFinishAt:runCount:withFailures:unexpected:testDuration:totalDuration:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testSuite:didStartAt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testSuite:(NSString *)arg1 didStartAt:(NSString *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testSuite:didStartAt:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_didFinishExecutingTestPlan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_didFinishExecutingTestPlan</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_didFinishExecutingTestPlan</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_didBeginExecutingTestPlan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_didBeginExecutingTestPlan</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_didBeginExecutingTestPlan</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testBundleReadyWithProtocolVersion:minimumVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testBundleReadyWithProtocolVersion:(NSNumber *)arg1 minimumVersion:(NSNumber *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testBundleReadyWithProtocolVersion:minimumVersion:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_getProgressForLaunch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_getProgressForLaunch:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_getProgressForLaunch:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_terminateProcess:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_terminateProcess:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_terminateProcess:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_launchProcessWithPath:bundleID:arguments:environmentVariables:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_launchProcessWithPath:(NSString *)arg1 bundleID:(NSString *)arg2 arguments:(NSArray *)arg3 environmentVariables:(NSDictionary *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_launchProcessWithPath:bundleID:arguments:environmentVariables:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testMethod:ofClass:didMeasureValues:forPerformanceMetricID:name:withUnits:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testMethod:(NSString *)arg1 ofClass:(NSString *)arg2 didMeasureValues:(NSArray *)arg3 forPerformanceMetricID:(NSString *)arg4 name:(NSString *)arg5 withUnits:(NSString *)arg6 baselineName:(NSString *)arg7 baselineAverage:(NSNumber *)arg8 maxPercentRegression:(NSNumber *)arg9 maxPercentRelativeStandardDeviation:(NSNumber *)arg10 file:(NSString *)arg11 line:(NSNumber *)arg12</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testMethod:ofClass:didMeasureValues:forPerformanceMetricID:name:withUnits:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:file:line:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_IDEInterface/_XCT_testBundleReady</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_IDEInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_XCT_testBundleReady</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_testBundleReady</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

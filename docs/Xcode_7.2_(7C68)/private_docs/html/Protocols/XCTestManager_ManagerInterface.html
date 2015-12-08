@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCTestManager_ManagerInterface Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_XCT_exchangeProtocolVersion:reply:">- _XCT_exchangeProtocolVersion:reply:</option>
+		
+		<option value="//api/name/_XCT_fetchAttributesForElement:attributes:reply:">- _XCT_fetchAttributesForElement:attributes:reply:</option>
+		
+		<option value="//api/name/_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:">- _XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:</option>
+		
+		<option value="//api/name/_XCT_launchApplicationWithBundleID:arguments:environment:completion:">- _XCT_launchApplicationWithBundleID:arguments:environment:completion:</option>
+		
+		<option value="//api/name/_XCT_performAccessibilityAction:onElement:withValue:reply:">- _XCT_performAccessibilityAction:onElement:withValue:reply:</option>
+		
+		<option value="//api/name/_XCT_performDeviceEvent:completion:">- _XCT_performDeviceEvent:completion:</option>
+		
+		<option value="//api/name/_XCT_performTouchGesture:completion:">- _XCT_performTouchGesture:completion:</option>
+		
+		<option value="//api/name/_XCT_registerForAccessibilityNotification:reply:">- _XCT_registerForAccessibilityNotification:reply:</option>
+		
+		<option value="//api/name/_XCT_requestBackgroundAssertionWithReply:">- _XCT_requestBackgroundAssertionWithReply:</option>
+		
+		<option value="//api/name/_XCT_requestElementAtPoint:reply:">- _XCT_requestElementAtPoint:reply:</option>
+		
+		<option value="//api/name/_XCT_requestScreenshotWithReply:">- _XCT_requestScreenshotWithReply:</option>
+		
+		<option value="//api/name/_XCT_requestSocketForSessionIdentifier:reply:">- _XCT_requestSocketForSessionIdentifier:reply:</option>
+		
+		<option value="//api/name/_XCT_sendString:completion:">- _XCT_sendString:completion:</option>
+		
+		<option value="//api/name/_XCT_sendString:maximumFrequency:completion:">- _XCT_sendString:maximumFrequency:completion:</option>
+		
+		<option value="//api/name/_XCT_snapshotForElement:attributes:parameters:reply:">- _XCT_snapshotForElement:attributes:parameters:reply:</option>
+		
+		<option value="//api/name/_XCT_startMonitoringApplicationWithBundleID:">- _XCT_startMonitoringApplicationWithBundleID:</option>
+		
+		<option value="//api/name/_XCT_synthesizeEvent:completion:">- _XCT_synthesizeEvent:completion:</option>
+		
+		<option value="//api/name/_XCT_terminateApplicationWithBundleID:completion:">- _XCT_terminateApplicationWithBundleID:completion:</option>
+		
+		<option value="//api/name/_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:">- _XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:</option>
+		
+		<option value="//api/name/_XCT_updateDeviceOrientation:completion:">- _XCT_updateDeviceOrientation:completion:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCTestManager_ManagerInterface Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Declared in</th>
+	<td>XCTestManager_ManagerInterface-Protocol.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/_XCT_requestScreenshotWithReply:" title="_XCT_requestScreenshotWithReply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_requestScreenshotWithReply:">&ndash;&nbsp;_XCT_requestScreenshotWithReply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_requestScreenshotWithReply:(void ( ^ ) ( NSData *, NSError *))<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_sendString:completion:" title="_XCT_sendString:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_sendString:completion:">&ndash;&nbsp;_XCT_sendString:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_sendString:(NSString *)<em>arg1</em> completion:(void ( ^ ) ( NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_sendString:maximumFrequency:completion:" title="_XCT_sendString:maximumFrequency:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_sendString:maximumFrequency:completion:">&ndash;&nbsp;_XCT_sendString:maximumFrequency:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_sendString:(NSString *)<em>arg1</em> maximumFrequency:(unsigned long long)<em>arg2</em> completion:(void ( ^ ) ( NSError *))<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_updateDeviceOrientation:completion:" title="_XCT_updateDeviceOrientation:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_updateDeviceOrientation:completion:">&ndash;&nbsp;_XCT_updateDeviceOrientation:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_updateDeviceOrientation:(long long)<em>arg1</em> completion:(void ( ^ ) ( NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_performDeviceEvent:completion:" title="_XCT_performDeviceEvent:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_performDeviceEvent:completion:">&ndash;&nbsp;_XCT_performDeviceEvent:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_performDeviceEvent:(XCDeviceEvent *)<em>arg1</em> completion:(void ( ^ ) ( NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_performTouchGesture:completion:" title="_XCT_performTouchGesture:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_performTouchGesture:completion:">&ndash;&nbsp;_XCT_performTouchGesture:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_performTouchGesture:(XCTouchGesture *)<em>arg1</em> completion:(void ( ^ ) ( NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_synthesizeEvent:completion:" title="_XCT_synthesizeEvent:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_synthesizeEvent:completion:">&ndash;&nbsp;_XCT_synthesizeEvent:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_synthesizeEvent:(XCSynthesizedEventRecord *)<em>arg1</em> completion:(void ( ^ ) ( NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_requestElementAtPoint:reply:" title="_XCT_requestElementAtPoint:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_requestElementAtPoint:reply:">&ndash;&nbsp;_XCT_requestElementAtPoint:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_requestElementAtPoint:(struct CGPoint)<em>arg1</em> reply:(void ( ^ ) ( XCAccessibilityElement *, NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:" title="_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:">&ndash;&nbsp;_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_fetchParameterizedAttributeForElement:(XCAccessibilityElement *)<em>arg1</em> attributes:(NSNumber *)<em>arg2</em> parameter:(id)<em>arg3</em> reply:(void ( ^ ) ( id , NSError *))<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_fetchAttributesForElement:attributes:reply:" title="_XCT_fetchAttributesForElement:attributes:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_fetchAttributesForElement:attributes:reply:">&ndash;&nbsp;_XCT_fetchAttributesForElement:attributes:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_fetchAttributesForElement:(XCAccessibilityElement *)<em>arg1</em> attributes:(NSArray *)<em>arg2</em> reply:(void ( ^ ) ( NSDictionary *, NSError *))<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_snapshotForElement:attributes:parameters:reply:" title="_XCT_snapshotForElement:attributes:parameters:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_snapshotForElement:attributes:parameters:reply:">&ndash;&nbsp;_XCT_snapshotForElement:attributes:parameters:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_snapshotForElement:(XCAccessibilityElement *)<em>arg1</em> attributes:(NSArray *)<em>arg2</em> parameters:(NSDictionary *)<em>arg3</em> reply:(void ( ^ ) ( XCElementSnapshot *, NSError *))<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_terminateApplicationWithBundleID:completion:" title="_XCT_terminateApplicationWithBundleID:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_terminateApplicationWithBundleID:completion:">&ndash;&nbsp;_XCT_terminateApplicationWithBundleID:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_terminateApplicationWithBundleID:(NSString *)<em>arg1</em> completion:(void ( ^ ) ( NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_performAccessibilityAction:onElement:withValue:reply:" title="_XCT_performAccessibilityAction:onElement:withValue:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_performAccessibilityAction:onElement:withValue:reply:">&ndash;&nbsp;_XCT_performAccessibilityAction:onElement:withValue:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_performAccessibilityAction:(int)<em>arg1</em> onElement:(XCAccessibilityElement *)<em>arg2</em> withValue:(id)<em>arg3</em> reply:(void ( ^ ) ( NSError *))<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:" title="_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:">&ndash;&nbsp;_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_unregisterForAccessibilityNotification:(int)<em>arg1</em> withRegistrationToken:(NSNumber *)<em>arg2</em> reply:(void ( ^ ) ( NSError *))<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_registerForAccessibilityNotification:reply:" title="_XCT_registerForAccessibilityNotification:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_registerForAccessibilityNotification:reply:">&ndash;&nbsp;_XCT_registerForAccessibilityNotification:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_registerForAccessibilityNotification:(int)<em>arg1</em> reply:(void ( ^ ) ( NSNumber *, NSError *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_launchApplicationWithBundleID:arguments:environment:completion:" title="_XCT_launchApplicationWithBundleID:arguments:environment:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_launchApplicationWithBundleID:arguments:environment:completion:">&ndash;&nbsp;_XCT_launchApplicationWithBundleID:arguments:environment:completion:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_launchApplicationWithBundleID:(NSString *)<em>arg1</em> arguments:(NSArray *)<em>arg2</em> environment:(NSDictionary *)<em>arg3</em> completion:(void ( ^ ) ( NSError *))<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_startMonitoringApplicationWithBundleID:" title="_XCT_startMonitoringApplicationWithBundleID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_startMonitoringApplicationWithBundleID:">&ndash;&nbsp;_XCT_startMonitoringApplicationWithBundleID:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_startMonitoringApplicationWithBundleID:(NSString *)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_requestBackgroundAssertionWithReply:" title="_XCT_requestBackgroundAssertionWithReply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_requestBackgroundAssertionWithReply:">&ndash;&nbsp;_XCT_requestBackgroundAssertionWithReply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_requestBackgroundAssertionWithReply:(void ( ^ ) ( void ))<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_requestSocketForSessionIdentifier:reply:" title="_XCT_requestSocketForSessionIdentifier:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_requestSocketForSessionIdentifier:reply:">&ndash;&nbsp;_XCT_requestSocketForSessionIdentifier:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_requestSocketForSessionIdentifier:(NSUUID *)<em>arg1</em> reply:(void ( ^ ) ( NSFileHandle *))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_exchangeProtocolVersion:reply:" title="_XCT_exchangeProtocolVersion:reply:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_exchangeProtocolVersion:reply:">&ndash;&nbsp;_XCT_exchangeProtocolVersion:reply:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_exchangeProtocolVersion:(unsigned long long)<em>arg1</em> reply:(void ( ^ ) ( unsigned long long ))<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

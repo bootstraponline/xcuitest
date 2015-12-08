@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCKeyboardKeyMap Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/canEmitSequenceIDAndKeyState">canEmitSequenceIDAndKeyState</option>
+		
+		<option value="//api/name/primary">primary</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_initInexactSequences">- _initInexactSequences</option>
+		
+		<option value="//api/name/_initIntendedStrings">- _initIntendedStrings</option>
+		
+		<option value="//api/name/_initKeyOutputs">- _initKeyOutputs</option>
+		
+		<option value="//api/name/_initKeyStates">- _initKeyStates</option>
+		
+		<option value="//api/name/_initKeyboardKeys">- _initKeyboardKeys</option>
+		
+		<option value="//api/name/_initModifiers">- _initModifiers</option>
+		
+		<option value="//api/name/_initValidity">- _initValidity</option>
+		
+		<option value="//api/name/_pathByTerminatingKeyState:next:output:sequenceID:">- _pathByTerminatingKeyState:next:output:sequenceID:</option>
+		
+		<option value="//api/name/_pathsForSequenceID:range:nextPath:results:">- _pathsForSequenceID:range:nextPath:results:</option>
+		
+		<option value="//api/name/_pathsForSystemKeyEndingString:range:nextPath:results:">- _pathsForSystemKeyEndingString:range:nextPath:results:</option>
+		
+		<option value="//api/name/_sequenceIDsEndingString:range:suffixRange:results:">- _sequenceIDsEndingString:range:suffixRange:results:</option>
+		
+		<option value="//api/name/_stringForInput:keyState:output:">- _stringForInput:keyState:output:</option>
+		
+		<option value="//api/name/addCachedPaths:endingString:range:">- addCachedPaths:endingString:range:</option>
+		
+		<option value="//api/name/cachedPathsEndingString:range:">- cachedPathsEndingString:range:</option>
+		
+		<option value="//api/name/canEmitKeyState:">- canEmitKeyState:</option>
+		
+		<option value="//api/name/canEmitOutputID:">- canEmitOutputID:</option>
+		
+		<option value="//api/name/canEmitSequenceID:">- canEmitSequenceID:</option>
+		
+		<option value="//api/name/canEmitSequenceIDAsOutputID:">- canEmitSequenceIDAsOutputID:</option>
+		
+		<option value="//api/name/dealloc">- dealloc</option>
+		
+		<option value="//api/name/description">- description</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/initWithInputSource:layoutData:index:">- initWithInputSource:layoutData:index:</option>
+		
+		<option value="//api/name/inputForKey:modifierFlags:">- inputForKey:modifierFlags:</option>
+		
+		<option value="//api/name/inputsForOutputID:">- inputsForOutputID:</option>
+		
+		<option value="//api/name/inputsForText:">- inputsForText:</option>
+		
+		<option value="//api/name/inputsForText:currentFlags:">- inputsForText:currentFlags:</option>
+		
+		<option value="//api/name/inputsToSetModifierFlags:currentFlags:">- inputsToSetModifierFlags:currentFlags:</option>
+		
+		<option value="//api/name/pathsEndingString:range:nextPath:">- pathsEndingString:range:nextPath:</option>
+		
+		<option value="//api/name/pathsForSequenceID:nextPath:">- pathsForSequenceID:nextPath:</option>
+		
+		<option value="//api/name/sequenceIDsEndingString:range:">- sequenceIDsEndingString:range:</option>
+		
+		<option value="//api/name/sequenceIDsForString:">- sequenceIDsForString:</option>
+		
+		<option value="//api/name/sequenceIDsForString:range:">- sequenceIDsForString:range:</option>
+		
+		<option value="//api/name/stringForInput:">- stringForInput:</option>
+		
+		<option value="//api/name/stringForInputs:">- stringForInputs:</option>
+		
+		<option value="//api/name/stringForIntendedString:">- stringForIntendedString:</option>
+		
+		<option value="//api/name/stringForSequenceID:">- stringForSequenceID:</option>
+		
+		<option value="//api/name/supportsKeyboardType:">- supportsKeyboardType:</option>
+		
+		<option value="//api/name/uniqueKeyboardType:">- uniqueKeyboardType:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCKeyboardKeyMap Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCKeyboardKeyMap.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/canEmitSequenceIDAndKeyState" title="canEmitSequenceIDAndKeyState"></a>
+	<h3 class="method-title"><code><a href="#//api/name/canEmitSequenceIDAndKeyState">&nbsp;&nbsp;canEmitSequenceIDAndKeyState</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) _Bool canEmitSequenceIDAndKeyState</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="method-title"><code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)description</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringForIntendedString:" title="stringForIntendedString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringForIntendedString:">&ndash;&nbsp;stringForIntendedString:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)stringForIntendedString:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringForInputs:" title="stringForInputs:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringForInputs:">&ndash;&nbsp;stringForInputs:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)stringForInputs:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringForInput:" title="stringForInput:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringForInput:">&ndash;&nbsp;stringForInput:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)stringForInput:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_stringForInput:keyState:output:" title="_stringForInput:keyState:output:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_stringForInput:keyState:output:">&ndash;&nbsp;_stringForInput:keyState:output:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_stringForInput:(id)<em>arg1</em> keyState:(unsigned long long *)<em>arg2</em> output:(id)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addCachedPaths:endingString:range:" title="addCachedPaths:endingString:range:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addCachedPaths:endingString:range:">&ndash;&nbsp;addCachedPaths:endingString:range:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)addCachedPaths:(id)<em>arg1</em> endingString:(id)<em>arg2</em> range:(struct _NSRange)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cachedPathsEndingString:range:" title="cachedPathsEndingString:range:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cachedPathsEndingString:range:">&ndash;&nbsp;cachedPathsEndingString:range:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)cachedPathsEndingString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_pathsForSequenceID:range:nextPath:results:" title="_pathsForSequenceID:range:nextPath:results:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_pathsForSequenceID:range:nextPath:results:">&ndash;&nbsp;_pathsForSequenceID:range:nextPath:results:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_pathsForSequenceID:(unsigned short)<em>arg1</em> range:(id)<em>arg2</em> nextPath:(id)<em>arg3</em> results:(id)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_pathsForSystemKeyEndingString:range:nextPath:results:" title="_pathsForSystemKeyEndingString:range:nextPath:results:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_pathsForSystemKeyEndingString:range:nextPath:results:">&ndash;&nbsp;_pathsForSystemKeyEndingString:range:nextPath:results:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_pathsForSystemKeyEndingString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em> nextPath:(id)<em>arg3</em> results:(id)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pathsEndingString:range:nextPath:" title="pathsEndingString:range:nextPath:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pathsEndingString:range:nextPath:">&ndash;&nbsp;pathsEndingString:range:nextPath:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)pathsEndingString:(id)<em>arg1</em> range:(id)<em>arg2</em> nextPath:(id)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_pathByTerminatingKeyState:next:output:sequenceID:" title="_pathByTerminatingKeyState:next:output:sequenceID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_pathByTerminatingKeyState:next:output:sequenceID:">&ndash;&nbsp;_pathByTerminatingKeyState:next:output:sequenceID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_pathByTerminatingKeyState:(unsigned short)<em>arg1</em> next:(id)<em>arg2</em> output:(id)<em>arg3</em> sequenceID:(unsigned short)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pathsForSequenceID:nextPath:" title="pathsForSequenceID:nextPath:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pathsForSequenceID:nextPath:">&ndash;&nbsp;pathsForSequenceID:nextPath:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)pathsForSequenceID:(unsigned short)<em>arg1</em> nextPath:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_sequenceIDsEndingString:range:suffixRange:results:" title="_sequenceIDsEndingString:range:suffixRange:results:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_sequenceIDsEndingString:range:suffixRange:results:">&ndash;&nbsp;_sequenceIDsEndingString:range:suffixRange:results:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_sequenceIDsEndingString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em> suffixRange:(struct _NSRange)<em>arg3</em> results:(id)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sequenceIDsEndingString:range:" title="sequenceIDsEndingString:range:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sequenceIDsEndingString:range:">&ndash;&nbsp;sequenceIDsEndingString:range:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)sequenceIDsEndingString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sequenceIDsForString:range:" title="sequenceIDsForString:range:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sequenceIDsForString:range:">&ndash;&nbsp;sequenceIDsForString:range:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)sequenceIDsForString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sequenceIDsForString:" title="sequenceIDsForString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sequenceIDsForString:">&ndash;&nbsp;sequenceIDsForString:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)sequenceIDsForString:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringForSequenceID:" title="stringForSequenceID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringForSequenceID:">&ndash;&nbsp;stringForSequenceID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)stringForSequenceID:(unsigned short)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputsForOutputID:" title="inputsForOutputID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputsForOutputID:">&ndash;&nbsp;inputsForOutputID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)inputsForOutputID:(unsigned short)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputsForText:currentFlags:" title="inputsForText:currentFlags:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputsForText:currentFlags:">&ndash;&nbsp;inputsForText:currentFlags:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)inputsForText:(id)<em>arg1</em> currentFlags:(unsigned long long)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputsForText:" title="inputsForText:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputsForText:">&ndash;&nbsp;inputsForText:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)inputsForText:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputsToSetModifierFlags:currentFlags:" title="inputsToSetModifierFlags:currentFlags:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputsToSetModifierFlags:currentFlags:">&ndash;&nbsp;inputsToSetModifierFlags:currentFlags:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)inputsToSetModifierFlags:(unsigned long long)<em>arg1</em> currentFlags:(unsigned long long)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputForKey:modifierFlags:" title="inputForKey:modifierFlags:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputForKey:modifierFlags:">&ndash;&nbsp;inputForKey:modifierFlags:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)inputForKey:(id)<em>arg1</em> modifierFlags:(unsigned long long)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/canEmitKeyState:" title="canEmitKeyState:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/canEmitKeyState:">&ndash;&nbsp;canEmitKeyState:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)canEmitKeyState:(unsigned short)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/canEmitSequenceIDAsOutputID:" title="canEmitSequenceIDAsOutputID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/canEmitSequenceIDAsOutputID:">&ndash;&nbsp;canEmitSequenceIDAsOutputID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)canEmitSequenceIDAsOutputID:(unsigned short)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/canEmitSequenceID:" title="canEmitSequenceID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/canEmitSequenceID:">&ndash;&nbsp;canEmitSequenceID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)canEmitSequenceID:(unsigned short)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/canEmitOutputID:" title="canEmitOutputID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/canEmitOutputID:">&ndash;&nbsp;canEmitOutputID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)canEmitOutputID:(unsigned short)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uniqueKeyboardType:" title="uniqueKeyboardType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uniqueKeyboardType:">&ndash;&nbsp;uniqueKeyboardType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)uniqueKeyboardType:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/supportsKeyboardType:" title="supportsKeyboardType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/supportsKeyboardType:">&ndash;&nbsp;supportsKeyboardType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)supportsKeyboardType:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/primary" title="primary"></a>
+	<h3 class="method-title"><code><a href="#//api/name/primary">&nbsp;&nbsp;primary</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, getter=isPrimary) _Bool primary</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initIntendedStrings" title="_initIntendedStrings"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initIntendedStrings">&ndash;&nbsp;_initIntendedStrings</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initIntendedStrings</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initInexactSequences" title="_initInexactSequences"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initInexactSequences">&ndash;&nbsp;_initInexactSequences</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initInexactSequences</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initValidity" title="_initValidity"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initValidity">&ndash;&nbsp;_initValidity</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initValidity</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initKeyStates" title="_initKeyStates"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initKeyStates">&ndash;&nbsp;_initKeyStates</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initKeyStates</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initKeyOutputs" title="_initKeyOutputs"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initKeyOutputs">&ndash;&nbsp;_initKeyOutputs</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initKeyOutputs</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initModifiers" title="_initModifiers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initModifiers">&ndash;&nbsp;_initModifiers</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initModifiers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_initKeyboardKeys" title="_initKeyboardKeys"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_initKeyboardKeys">&ndash;&nbsp;_initKeyboardKeys</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_initKeyboardKeys</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithInputSource:layoutData:index:" title="initWithInputSource:layoutData:index:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithInputSource:layoutData:index:">&ndash;&nbsp;initWithInputSource:layoutData:index:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithInputSource:(struct __GSKeyboard *)<em>arg1</em> layoutData:(id)<em>arg2</em> index:(unsigned long long)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

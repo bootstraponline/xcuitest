@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCKeyboardLayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCKeyboardLayout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCKeyboardLayout/unicodeHexKeyboardLayout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>+ (id)unicodeHexKeyboardLayout</Declaration>
+			
+			
+			<Anchor>//api/name/unicodeHexKeyboardLayout</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCKeyboardLayout/currentKeyboardLayout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>+ (id)currentKeyboardLayout</Declaration>
+			
+			
+			<Anchor>//api/name/currentKeyboardLayout</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCKeyboardLayout/enumerateKeyboardLayoutsUsingBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>+ (void)enumerateKeyboardLayoutsUsingBlock:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/enumerateKeyboardLayoutsUsingBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCKeyboardLayout/keyboardLayoutWithInputSource:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>+ (id)keyboardLayoutWithInputSource:(struct __GSKeyboard *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardLayoutWithInputSource:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCKeyboardLayout/keyboardLayoutWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>+ (id)keyboardLayoutWithIdentifier:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/keyboardLayoutWithIdentifier:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/setPrimaryKeyMap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCKeyboardKeyMap *primaryKeyMap</Declaration>
+			
+			
+			<Anchor>//api/name/primaryKeyMap</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/primaryKeyMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCKeyboardKeyMap *primaryKeyMap</Declaration>
+			
+			
+			<Anchor>//api/name/primaryKeyMap</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardLayout/primaryKeyMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCKeyboardKeyMap *primaryKeyMap</Declaration>
+			
+			
+			<Anchor>//api/name/primaryKeyMap</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardLayout/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/deactivate:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)deactivate:(id)arg1 error:(id *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/deactivate:error:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/activateWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (id)activateWithError:(id *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/activateWithError:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/_setActiveLayoutState:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (id)_setActiveLayoutState:(id)arg1 error:(id *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_setActiveLayoutState:error:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/enumerateKeyMapsUsingBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (void)enumerateKeyMapsUsingBlock:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/enumerateKeyMapsUsingBlock:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/keyMapForKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (id)keyMapForKeyboardType:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/keyMapForKeyboardType:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/initWithInputSource:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithInputSource:(struct __GSKeyboard *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithInputSource:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardLayout/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardLayout.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

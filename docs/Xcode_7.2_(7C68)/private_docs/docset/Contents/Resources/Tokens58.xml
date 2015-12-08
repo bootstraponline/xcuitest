@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCPredicateExpectation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCPredicateExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/setHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/handler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCPredicateExpectation/handler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/setPredicate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
+			
+			
+			<Anchor>//api/name/predicate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/predicate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
+			
+			
+			<Anchor>//api/name/predicate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCPredicateExpectation/predicate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
+			
+			
+			<Anchor>//api/name/predicate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/setObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCPredicateExpectation/object</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id object</Declaration>
+			
+			
+			<Anchor>//api/name/object</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/_considerFulfilling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)_considerFulfilling</Declaration>
+			
+			
+			<Anchor>//api/name/_considerFulfilling</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/startObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)startObserving</Declaration>
+			
+			
+			<Anchor>//api/name/startObserving</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

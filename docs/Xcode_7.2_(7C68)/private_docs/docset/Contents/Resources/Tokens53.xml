@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIRecorderUtilities.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIRecorderUtilities</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+            
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderUtilities/applicationNodeForLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>+ (id)applicationNodeForLanguage:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/applicationNodeForLanguage:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderUtilities/currentPlatform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>+ (unsigned long long)currentPlatform</Declaration>
+			
+			
+			<Anchor>//api/name/currentPlatform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/setPreviousTyping:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableString *previousTyping</Declaration>
+			
+			
+			<Anchor>//api/name/previousTyping</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/previousTyping</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableString *previousTyping</Declaration>
+			
+			
+			<Anchor>//api/name/previousTyping</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderUtilities/previousTyping</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableString *previousTyping</Declaration>
+			
+			
+			<Anchor>//api/name/previousTyping</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/setPreviousFocusedAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *previousFocusedAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/previousFocusedAccessibilityElement</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/previousFocusedAccessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *previousFocusedAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/previousFocusedAccessibilityElement</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderUtilities/previousFocusedAccessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *previousFocusedAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/previousFocusedAccessibilityElement</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/set_compareSnapshotsLikePlatform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long _compareSnapshotsLikePlatform</Declaration>
+			
+			
+			<Anchor>//api/name/_compareSnapshotsLikePlatform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/_compareSnapshotsLikePlatform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long _compareSnapshotsLikePlatform</Declaration>
+			
+			
+			<Anchor>//api/name/_compareSnapshotsLikePlatform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderUtilities/_compareSnapshotsLikePlatform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long _compareSnapshotsLikePlatform</Declaration>
+			
+			
+			<Anchor>//api/name/_compareSnapshotsLikePlatform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/setLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderUtilities/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/performWithKeyModifiersAndBlockNodeForModifierFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)performWithKeyModifiersAndBlockNodeForModifierFlags:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/performWithKeyModifiersAndBlockNodeForModifierFlags:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/gestureNodesForKeyDownEventWithCharacters:charactersIgnoringModifiers:modifierFlags:focusedAccessibilityElement:didAppendToPreviousString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)gestureNodesForKeyDownEventWithCharacters:(id)arg1 charactersIgnoringModifiers:(id)arg2 modifierFlags:(unsigned long long)arg3 focusedAccessibilityElement:(id)arg4 didAppendToPreviousString:(_Bool *)arg5</Declaration>
+			
+			
+			<Anchor>//api/name/gestureNodesForKeyDownEventWithCharacters:charactersIgnoringModifiers:modifierFlags:focusedAccessibilityElement:didAppendToPreviousString:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/_stringConstantForString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)_stringConstantForString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_stringConstantForString:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/clearPreviousTyping</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (void)clearPreviousTyping</Declaration>
+			
+			
+			<Anchor>//api/name/clearPreviousTyping</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/nodeToFindElementForSnapshots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)nodeToFindElementForSnapshots:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/nodeToFindElementForSnapshots:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/typeKeyNodeForKey:modifierFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)typeKeyNodeForKey:(id)arg1 modifierFlags:(unsigned long long)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/typeKeyNodeForKey:modifierFlags:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/typeStringNodeForString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)typeStringNodeForString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/typeStringNodeForString:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/stringForKeyModifierFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)stringForKeyModifierFlags:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKeyModifierFlags:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/simpleGestureNodeForMethodName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)simpleGestureNodeForMethodName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/simpleGestureNodeForMethodName:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/assertHasFocusNode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)assertHasFocusNode</Declaration>
+			
+			
+			<Anchor>//api/name/assertHasFocusNode</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/remoteNodeWithButtonSymbolName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)remoteNodeWithButtonSymbolName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/remoteNodeWithButtonSymbolName:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/commentNodeWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)commentNodeWithString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/commentNodeWithString:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/applicationNode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)applicationNode</Declaration>
+			
+			
+			<Anchor>//api/name/applicationNode</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/focusedAccessibilityElementForApplicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)focusedAccessibilityElementForApplicationSnapshot:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/focusedAccessibilityElementForApplicationSnapshot:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/snapshotsForAccessibilityElement:applicationSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)snapshotsForAccessibilityElement:(id)arg1 applicationSnapshot:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotsForAccessibilityElement:applicationSnapshot:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/snapshotInTreeStartingWithSnapshot:forElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)snapshotInTreeStartingWithSnapshot:(id)arg1 forElement:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotInTreeStartingWithSnapshot:forElement:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/_snapshotInTreeStartingWithSnapshot:passingPredicateBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)_snapshotInTreeStartingWithSnapshot:(id)arg1 passingPredicateBlock:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_snapshotInTreeStartingWithSnapshot:passingPredicateBlock:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/nodeForOrientationChangeWithSymbolName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>- (id)nodeForOrientationChangeWithSymbolName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/nodeForOrientationChangeWithSymbolName:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/setPlatform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderUtilities/platform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderUtilities/platform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderUtilities.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

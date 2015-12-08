@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCTestConfiguration Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/baselineFileURL">baselineFileURL</option>
+		
+		<option value="//api/name/disablePerformanceMetrics">disablePerformanceMetrics</option>
+		
+		<option value="//api/name/pathToXcodeReportingSocket">pathToXcodeReportingSocket</option>
+		
+		<option value="//api/name/productModuleName">productModuleName</option>
+		
+		<option value="//api/name/reportActivities">reportActivities</option>
+		
+		<option value="//api/name/reportResultsToIDE">reportResultsToIDE</option>
+		
+		<option value="//api/name/sessionIdentifier">sessionIdentifier</option>
+		
+		<option value="//api/name/targetApplicationBundleID">targetApplicationBundleID</option>
+		
+		<option value="//api/name/targetApplicationPath">targetApplicationPath</option>
+		
+		<option value="//api/name/testBundleURL">testBundleURL</option>
+		
+		<option value="//api/name/testsMustRunOnMainThread">testsMustRunOnMainThread</option>
+		
+		<option value="//api/name/testsToRun">testsToRun</option>
+		
+		<option value="//api/name/testsToSkip">testsToSkip</option>
+		
+		<option value="//api/name/treatMissingBaselinesAsFailures">treatMissingBaselinesAsFailures</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/activeTestConfiguration">+ activeTestConfiguration</option>
+		
+		<option value="//api/name/configurationWithContentsOfFile:">+ configurationWithContentsOfFile:</option>
+		
+		<option value="//api/name/setActiveTestConfiguration:">+ setActiveTestConfiguration:</option>
+		
+		<option value="//api/name/supportsSecureCoding">+ supportsSecureCoding</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/dealloc">- dealloc</option>
+		
+		<option value="//api/name/description">- description</option>
+		
+		<option value="//api/name/encodeWithCoder:">- encodeWithCoder:</option>
+		
+		<option value="//api/name/hash">- hash</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/initWithCoder:">- initWithCoder:</option>
+		
+		<option value="//api/name/isEqual:">- isEqual:</option>
+		
+		<option value="//api/name/writeToFile:">- writeToFile:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCTestConfiguration Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td><a href="../Protocols/NSSecureCoding.html">NSSecureCoding</a></td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCTestConfiguration.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/configurationWithContentsOfFile:" title="configurationWithContentsOfFile:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/configurationWithContentsOfFile:">+&nbsp;configurationWithContentsOfFile:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)configurationWithContentsOfFile:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/activeTestConfiguration" title="activeTestConfiguration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/activeTestConfiguration">+&nbsp;activeTestConfiguration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)activeTestConfiguration</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setActiveTestConfiguration:" title="setActiveTestConfiguration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setActiveTestConfiguration:">+&nbsp;setActiveTestConfiguration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (void)setActiveTestConfiguration:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/supportsSecureCoding" title="supportsSecureCoding"></a>
+	<h3 class="method-title"><code><a href="#//api/name/supportsSecureCoding">+&nbsp;supportsSecureCoding</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (_Bool)supportsSecureCoding</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testsMustRunOnMainThread" title="testsMustRunOnMainThread"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testsMustRunOnMainThread">&nbsp;&nbsp;testsMustRunOnMainThread</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool testsMustRunOnMainThread</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reportActivities" title="reportActivities"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reportActivities">&nbsp;&nbsp;reportActivities</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool reportActivities</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/productModuleName" title="productModuleName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/productModuleName">&nbsp;&nbsp;productModuleName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *productModuleName</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/targetApplicationBundleID" title="targetApplicationBundleID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/targetApplicationBundleID">&nbsp;&nbsp;targetApplicationBundleID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *targetApplicationBundleID</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/targetApplicationPath" title="targetApplicationPath"></a>
+	<h3 class="method-title"><code><a href="#//api/name/targetApplicationPath">&nbsp;&nbsp;targetApplicationPath</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *targetApplicationPath</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/treatMissingBaselinesAsFailures" title="treatMissingBaselinesAsFailures"></a>
+	<h3 class="method-title"><code><a href="#//api/name/treatMissingBaselinesAsFailures">&nbsp;&nbsp;treatMissingBaselinesAsFailures</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool treatMissingBaselinesAsFailures</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/disablePerformanceMetrics" title="disablePerformanceMetrics"></a>
+	<h3 class="method-title"><code><a href="#//api/name/disablePerformanceMetrics">&nbsp;&nbsp;disablePerformanceMetrics</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool disablePerformanceMetrics</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reportResultsToIDE" title="reportResultsToIDE"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reportResultsToIDE">&nbsp;&nbsp;reportResultsToIDE</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool reportResultsToIDE</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/baselineFileURL" title="baselineFileURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/baselineFileURL">&nbsp;&nbsp;baselineFileURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSURL *baselineFileURL</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pathToXcodeReportingSocket" title="pathToXcodeReportingSocket"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pathToXcodeReportingSocket">&nbsp;&nbsp;pathToXcodeReportingSocket</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *pathToXcodeReportingSocket</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sessionIdentifier" title="sessionIdentifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sessionIdentifier">&nbsp;&nbsp;sessionIdentifier</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSUUID *sessionIdentifier</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testsToSkip" title="testsToSkip"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testsToSkip">&nbsp;&nbsp;testsToSkip</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSSet *testsToSkip</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testsToRun" title="testsToRun"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testsToRun">&nbsp;&nbsp;testsToRun</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSSet *testsToRun</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testBundleURL" title="testBundleURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testBundleURL">&nbsp;&nbsp;testBundleURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSURL *testBundleURL</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isEqual:" title="isEqual:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isEqual:">&ndash;&nbsp;isEqual:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)isEqual:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hash" title="hash"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hash">&ndash;&nbsp;hash</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)hash</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="method-title"><code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)description</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/writeToFile:" title="writeToFile:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/writeToFile:">&ndash;&nbsp;writeToFile:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)writeToFile:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/encodeWithCoder:" title="encodeWithCoder:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/encodeWithCoder:">&ndash;&nbsp;encodeWithCoder:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)encodeWithCoder:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithCoder:" title="initWithCoder:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithCoder:">&ndash;&nbsp;initWithCoder:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithCoder:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

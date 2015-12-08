@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIPanGestureRecognizer+RecordingAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIPanGestureRecognizer(RecordingAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIPanGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIPanGestureRecognizer/_automationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIPanGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+			
+			<Declaration>- (id)_automationName</Declaration>
+			
+			
+			<Anchor>//api/name/_automationName</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

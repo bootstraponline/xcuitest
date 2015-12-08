@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UILongPressGestureRecognizer+RecordingAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UILongPressGestureRecognizer(RecordingAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILongPressGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UILongPressGestureRecognizer/_automationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UILongPressGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+			
+			<Declaration>- (id)_automationName</Declaration>
+			
+			
+			<Anchor>//api/name/_automationName</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

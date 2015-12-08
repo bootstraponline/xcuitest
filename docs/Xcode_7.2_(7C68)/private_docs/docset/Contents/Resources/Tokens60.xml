@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCTestCaseInterruptionException.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCTestCaseInterruptionException</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseInterruptionException.h</DeclaredIn>
+            
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/_XCTestCaseInterruptionException/interruptTest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestCaseInterruptionException.h</DeclaredIn>
+			
+			<Declaration>+ (void)interruptTest</Declaration>
+			
+			
+			<Anchor>//api/name/interruptTest</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIDevice/sharedDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>+ (id)sharedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/sharedDevice</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/pressLockButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)pressLockButton</Declaration>
+			
+			
+			<Anchor>//api/name/pressLockButton</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/holdHomeButtonForDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)holdHomeButtonForDuration:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/holdHomeButtonForDuration:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/pressButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)pressButton:(long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/pressButton:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/_silentPressButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)_silentPressButton:(long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_silentPressButton:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/_dispatchEventWithPage:usage:duration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)_dispatchEventWithPage:(unsigned int)arg1 usage:(unsigned int)arg2 duration:(double)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_dispatchEventWithPage:usage:duration:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/setOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) long long orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/orientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) long long orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIDevice/orientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) long long orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

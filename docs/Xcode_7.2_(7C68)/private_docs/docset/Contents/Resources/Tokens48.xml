@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIElementHitPointCoordinate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIElementHitPointCoordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementHitPointCoordinate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementHitPointCoordinate/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementHitPointCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementHitPointCoordinate/screenPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementHitPointCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (struct CGPoint)screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementHitPointCoordinate/initWithCoordinate:pointsOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementHitPointCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoordinate:(id)arg1 pointsOffset:(struct CGVector)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoordinate:pointsOffset:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementHitPointCoordinate/initWithElement:normalizedOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementHitPointCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithElement:(id)arg1 normalizedOffset:(struct CGVector)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initWithElement:normalizedOffset:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementHitPointCoordinate/initWithElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementHitPointCoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithElement:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

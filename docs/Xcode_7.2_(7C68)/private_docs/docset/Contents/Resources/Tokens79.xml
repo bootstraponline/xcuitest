@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCTestDriverInterface.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCTestDriverInterface</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriverInterface-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestDriverInterface/_IDE_startExecutingTestPlanWithProtocolVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriverInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_IDE_startExecutingTestPlanWithProtocolVersion:(NSNumber *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_IDE_startExecutingTestPlanWithProtocolVersion:</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestDriverInterface/_IDE_startExecutingTestPlanWhenReady</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriverInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (id)_IDE_startExecutingTestPlanWhenReady</Declaration>
+			
+			
+			<Anchor>//api/name/_IDE_startExecutingTestPlanWhenReady</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

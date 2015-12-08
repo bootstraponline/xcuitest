@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIGestureRecognizer+RecordingAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIGestureRecognizer(RecordingAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIGestureRecognizer/_automationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+			
+			<Declaration>- (id)_automationName</Declaration>
+			
+			
+			<Anchor>//api/name/_automationName</Anchor>
+            <NodeRef refid="67"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

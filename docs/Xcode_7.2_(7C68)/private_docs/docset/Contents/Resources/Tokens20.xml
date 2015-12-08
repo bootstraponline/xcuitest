@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCSymbolicatorHolder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCSymbolicatorHolder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicatorHolder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicatorHolder/setSymbolicator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicatorHolder.h</DeclaredIn>
+			
+			<Declaration>@property struct _CSTypeRef symbolicator</Declaration>
+			
+			
+			<Anchor>//api/name/symbolicator</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicatorHolder/symbolicator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicatorHolder.h</DeclaredIn>
+			
+			<Declaration>@property struct _CSTypeRef symbolicator</Declaration>
+			
+			
+			<Anchor>//api/name/symbolicator</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSymbolicatorHolder/symbolicator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicatorHolder.h</DeclaredIn>
+			
+			<Declaration>@property struct _CSTypeRef symbolicator</Declaration>
+			
+			
+			<Anchor>//api/name/symbolicator</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

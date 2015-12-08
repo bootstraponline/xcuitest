@@ -1,0 +1,7 @@
+---
+BuildVersion: '7'
+CFBundleShortVersionString: '7.2'
+CFBundleVersion: '9548'
+ProductBuildVersion: 7C68
+ProjectName: IDEFrameworks
+SourceVersion: '9548000000000000'

@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCTestDriver Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/IDEConnection">IDEConnection</option>
+		
+		<option value="//api/name/IDEProtocolVersion">IDEProtocolVersion</option>
+		
+		<option value="//api/name/IDEProxy">IDEProxy</option>
+		
+		<option value="//api/name/currentTestSuite">currentTestSuite</option>
+		
+		<option value="//api/name/daemonProtocolVersion">daemonProtocolVersion</option>
+		
+		<option value="//api/name/debugDescription">debugDescription</option>
+		
+		<option value="//api/name/description">description</option>
+		
+		<option value="//api/name/hasIDEConnection">hasIDEConnection</option>
+		
+		<option value="//api/name/hash">hash</option>
+		
+		<option value="//api/name/managerProxy">managerProxy</option>
+		
+		<option value="//api/name/sessionIdentifier">sessionIdentifier</option>
+		
+		<option value="//api/name/superclass">superclass</option>
+		
+		<option value="//api/name/waitingToStart">waitingToStart</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/sharedTestDriver">+ sharedTestDriver</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_IDE_startExecutingTestPlanWithProtocolVersion:">- _IDE_startExecutingTestPlanWithProtocolVersion:</option>
+		
+		<option value="//api/name/_XCT_applicationWithBundleID:didUpdatePID:andState:">- _XCT_applicationWithBundleID:didUpdatePID:andState:</option>
+		
+		<option value="//api/name/_XCT_receivedAccessibilityNotification:withPayload:">- _XCT_receivedAccessibilityNotification:withPayload:</option>
+		
+		<option value="//api/name/_checkForTestManager">- _checkForTestManager</option>
+		
+		<option value="//api/name/_checkManagerDaemonStateAndConnectIfAvailable">- _checkManagerDaemonStateAndConnectIfAvailable</option>
+		
+		<option value="//api/name/_connectToIDEWithTransport:">- _connectToIDEWithTransport:</option>
+		
+		<option value="//api/name/_connectToTestManager">- _connectToTestManager</option>
+		
+		<option value="//api/name/_resetManagerConnection">- _resetManagerConnection</option>
+		
+		<option value="//api/name/_runSuite">- _runSuite</option>
+		
+		<option value="//api/name/_softlinkDTXConnectionServices">- _softlinkDTXConnectionServices</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/logDebugMessage:">- logDebugMessage:</option>
+		
+		<option value="//api/name/resumeAppSleep:">- resumeAppSleep:</option>
+		
+		<option value="//api/name/runTestConfiguration:completionHandler:">- runTestConfiguration:completionHandler:</option>
+		
+		<option value="//api/name/runTestSuite:completionHandler:">- runTestSuite:completionHandler:</option>
+		
+		<option value="//api/name/suspendAppSleep">- suspendAppSleep</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCTestDriver Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td><a href="../Protocols/XCDebugLogDelegate.html">XCDebugLogDelegate</a><br /><a href="../Protocols/XCTestDriverInterface.html">XCTestDriverInterface</a><br /><a href="../Protocols/XCTestManager_TestsInterface.html">XCTestManager_TestsInterface</a></td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCTestDriver.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/sharedTestDriver" title="sharedTestDriver"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sharedTestDriver">+&nbsp;sharedTestDriver</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)sharedTestDriver</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/daemonProtocolVersion" title="daemonProtocolVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/daemonProtocolVersion">&nbsp;&nbsp;daemonProtocolVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long daemonProtocolVersion</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hasIDEConnection" title="hasIDEConnection"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hasIDEConnection">&nbsp;&nbsp;hasIDEConnection</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool hasIDEConnection</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/waitingToStart" title="waitingToStart"></a>
+	<h3 class="method-title"><code><a href="#//api/name/waitingToStart">&nbsp;&nbsp;waitingToStart</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool waitingToStart</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/IDEProtocolVersion" title="IDEProtocolVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/IDEProtocolVersion">&nbsp;&nbsp;IDEProtocolVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property long long IDEProtocolVersion</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/IDEProxy" title="IDEProxy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/IDEProxy">&nbsp;&nbsp;IDEProxy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) id&lt;XCTestManager_IDEInterface&gt; IDEProxy</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/IDEConnection" title="IDEConnection"></a>
+	<h3 class="method-title"><code><a href="#//api/name/IDEConnection">&nbsp;&nbsp;IDEConnection</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) DTXConnection *IDEConnection</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sessionIdentifier" title="sessionIdentifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sessionIdentifier">&nbsp;&nbsp;sessionIdentifier</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) NSUUID *sessionIdentifier</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/currentTestSuite" title="currentTestSuite"></a>
+	<h3 class="method-title"><code><a href="#//api/name/currentTestSuite">&nbsp;&nbsp;currentTestSuite</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property XCTestSuite *currentTestSuite</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_receivedAccessibilityNotification:withPayload:" title="_XCT_receivedAccessibilityNotification:withPayload:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_receivedAccessibilityNotification:withPayload:">&ndash;&nbsp;_XCT_receivedAccessibilityNotification:withPayload:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_receivedAccessibilityNotification:(int)<em>arg1</em> withPayload:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_XCT_applicationWithBundleID:didUpdatePID:andState:" title="_XCT_applicationWithBundleID:didUpdatePID:andState:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_XCT_applicationWithBundleID:didUpdatePID:andState:">&ndash;&nbsp;_XCT_applicationWithBundleID:didUpdatePID:andState:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_XCT_applicationWithBundleID:(id)<em>arg1</em> didUpdatePID:(int)<em>arg2</em> andState:(unsigned long long)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_IDE_startExecutingTestPlanWithProtocolVersion:" title="_IDE_startExecutingTestPlanWithProtocolVersion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_IDE_startExecutingTestPlanWithProtocolVersion:">&ndash;&nbsp;_IDE_startExecutingTestPlanWithProtocolVersion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_IDE_startExecutingTestPlanWithProtocolVersion:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/runTestConfiguration:completionHandler:" title="runTestConfiguration:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/runTestConfiguration:completionHandler:">&ndash;&nbsp;runTestConfiguration:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)runTestConfiguration:(id)<em>arg1</em> completionHandler:(CDUnknownBlockType)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/runTestSuite:completionHandler:" title="runTestSuite:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/runTestSuite:completionHandler:">&ndash;&nbsp;runTestSuite:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)runTestSuite:(id)<em>arg1</em> completionHandler:(CDUnknownBlockType)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_checkForTestManager" title="_checkForTestManager"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_checkForTestManager">&ndash;&nbsp;_checkForTestManager</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_checkForTestManager</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_connectToTestManager" title="_connectToTestManager"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_connectToTestManager">&ndash;&nbsp;_connectToTestManager</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_connectToTestManager</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_checkManagerDaemonStateAndConnectIfAvailable" title="_checkManagerDaemonStateAndConnectIfAvailable"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_checkManagerDaemonStateAndConnectIfAvailable">&ndash;&nbsp;_checkManagerDaemonStateAndConnectIfAvailable</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_checkManagerDaemonStateAndConnectIfAvailable</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_resetManagerConnection" title="_resetManagerConnection"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_resetManagerConnection">&ndash;&nbsp;_resetManagerConnection</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_resetManagerConnection</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_connectToIDEWithTransport:" title="_connectToIDEWithTransport:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_connectToIDEWithTransport:">&ndash;&nbsp;_connectToIDEWithTransport:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_connectToIDEWithTransport:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_runSuite" title="_runSuite"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_runSuite">&ndash;&nbsp;_runSuite</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_runSuite</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resumeAppSleep:" title="resumeAppSleep:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resumeAppSleep:">&ndash;&nbsp;resumeAppSleep:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)resumeAppSleep:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/suspendAppSleep" title="suspendAppSleep"></a>
+	<h3 class="method-title"><code><a href="#//api/name/suspendAppSleep">&ndash;&nbsp;suspendAppSleep</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)suspendAppSleep</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/managerProxy" title="managerProxy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/managerProxy">&nbsp;&nbsp;managerProxy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) id&lt;XCTestManager_ManagerInterface&gt; managerProxy</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_softlinkDTXConnectionServices" title="_softlinkDTXConnectionServices"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_softlinkDTXConnectionServices">&ndash;&nbsp;_softlinkDTXConnectionServices</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_softlinkDTXConnectionServices</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/logDebugMessage:" title="logDebugMessage:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logDebugMessage:">&ndash;&nbsp;logDebugMessage:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)logDebugMessage:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/debugDescription" title="debugDescription"></a>
+	<h3 class="method-title"><code><a href="#//api/name/debugDescription">&nbsp;&nbsp;debugDescription</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *debugDescription</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="method-title"><code><a href="#//api/name/description">&nbsp;&nbsp;description</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *description</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hash" title="hash"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hash">&nbsp;&nbsp;hash</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) unsigned long long hash</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/superclass" title="superclass"></a>
+	<h3 class="method-title"><code><a href="#//api/name/superclass">&nbsp;&nbsp;superclass</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) Class superclass</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

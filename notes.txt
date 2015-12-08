@@ -1,18 +1,16 @@
+To use private APIs in a XCUITest target, create a framework and add the private headers to the framework.
+Then the XCUITest can import the framework.
 
+
+./bin/class-dump /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework -H -o ./private_headers/
+
+
+https://github.com/facebook/WebDriverAgent/tree/master/PrivateHeaders/XCTest
 =begin
-  backup old headers, replace with modified ones
-  new headers from:
-    - class-dump https://github.com/nygard/class-dump
-    -
-
-  must sudo chown the header files before making modifications.
- `sudo chown $USER path/to/header.h
-
-
   XCTest version.plist
 
-  /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Frameworks/XCTest.framework/version.plist
-  /Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Frameworks/XCTest.framework/version.plist
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/version.plist
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/version.plist
 
   Xcode Version 7.2 (7C62b) - Beta 4
 

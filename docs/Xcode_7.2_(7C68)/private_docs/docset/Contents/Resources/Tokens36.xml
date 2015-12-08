@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestSuite.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestSuite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testSuiteForTestConfiguration:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForTestConfiguration:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/defaultTestSuite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)defaultTestSuite</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTestSuite</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/allTests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)allTests</Declaration>
+			
+			
+			<Anchor>//api/name/allTests</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestCaseClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testSuiteForTestCaseClass:(Class)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForTestCaseClass:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestCaseWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testSuiteForTestCaseWithName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForTestCaseWithName:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForBundlePath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testSuiteForBundlePath:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForBundlePath:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/suiteForBundleCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)suiteForBundleCache</Declaration>
+			
+			
+			<Anchor>//api/name/suiteForBundleCache</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/invalidateCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (void)invalidateCache</Declaration>
+			
+			
+			<Anchor>//api/name/invalidateCache</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/_suiteForBundleCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)_suiteForBundleCache</Declaration>
+			
+			
+			<Anchor>//api/name/_suiteForBundleCache</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/emptyTestSuiteNamedFromPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)emptyTestSuiteNamedFromPath:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/emptyTestSuiteNamedFromPath:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testSuiteWithName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteWithName:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testCaseNamesForScopeNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testCaseNamesForScopeNames:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseNamesForScopeNames:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_initWithTestConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (id)_initWithTestConfiguration:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_initWithTestConfiguration:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_sortTestsUsingComparator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)_sortTestsUsingComparator:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_sortTestsUsingComparator:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/performTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)performTest:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/performTest:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_recordUnexpectedFailureForTestRun:description:exception:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)_recordUnexpectedFailureForTestRun:(id)arg1 description:(id)arg2 exception:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_recordUnexpectedFailureForTestRun:description:exception:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/testRunClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (Class)testRunClass</Declaration>
+			
+			
+			<Anchor>//api/name/testRunClass</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_requiredTestRunBaseClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (Class)_requiredTestRunBaseClass</Declaration>
+			
+			
+			<Anchor>//api/name/_requiredTestRunBaseClass</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/isEqual:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/setTests:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/tests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuite/tests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/addTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)addTest:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/addTest:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuite/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/initWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithName:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/removeTestsWithNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)removeTestsWithNames:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/removeTestsWithNames:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

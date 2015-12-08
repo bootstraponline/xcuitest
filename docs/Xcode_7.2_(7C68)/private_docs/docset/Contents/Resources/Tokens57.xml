@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCNotificationExpectation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCNotificationExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/setHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/handler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCNotificationExpectation/handler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/setNotificationName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/notificationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCNotificationExpectation/notificationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/setObservedObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id observedObject</Declaration>
+			
+			
+			<Anchor>//api/name/observedObject</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/observedObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id observedObject</Declaration>
+			
+			
+			<Anchor>//api/name/observedObject</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCNotificationExpectation/observedObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id observedObject</Declaration>
+			
+			
+			<Anchor>//api/name/observedObject</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/_observeExpectedNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)_observeExpectedNotification:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_observeExpectedNotification:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/cleanup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/startObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)startObserving</Declaration>
+			
+			
+			<Anchor>//api/name/startObserving</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

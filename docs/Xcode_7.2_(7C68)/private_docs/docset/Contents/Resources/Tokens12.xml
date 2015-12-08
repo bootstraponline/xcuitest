@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCKeyboardKeyMap.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCKeyboardKeyMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/setCanEmitSequenceIDAndKeyState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool canEmitSequenceIDAndKeyState</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitSequenceIDAndKeyState</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/canEmitSequenceIDAndKeyState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool canEmitSequenceIDAndKeyState</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitSequenceIDAndKeyState</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardKeyMap/canEmitSequenceIDAndKeyState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool canEmitSequenceIDAndKeyState</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitSequenceIDAndKeyState</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/stringForIntendedString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)stringForIntendedString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/stringForIntendedString:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/stringForInputs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)stringForInputs:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/stringForInputs:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/stringForInput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)stringForInput:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/stringForInput:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_stringForInput:keyState:output:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)_stringForInput:(id)arg1 keyState:(unsigned long long *)arg2 output:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_stringForInput:keyState:output:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/addCachedPaths:endingString:range:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)addCachedPaths:(id)arg1 endingString:(id)arg2 range:(struct _NSRange)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/addCachedPaths:endingString:range:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/cachedPathsEndingString:range:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)cachedPathsEndingString:(id)arg1 range:(struct _NSRange)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/cachedPathsEndingString:range:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_pathsForSequenceID:range:nextPath:results:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_pathsForSequenceID:(unsigned short)arg1 range:(id)arg2 nextPath:(id)arg3 results:(id)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_pathsForSequenceID:range:nextPath:results:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_pathsForSystemKeyEndingString:range:nextPath:results:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_pathsForSystemKeyEndingString:(id)arg1 range:(struct _NSRange)arg2 nextPath:(id)arg3 results:(id)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_pathsForSystemKeyEndingString:range:nextPath:results:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/pathsEndingString:range:nextPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)pathsEndingString:(id)arg1 range:(id)arg2 nextPath:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/pathsEndingString:range:nextPath:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_pathByTerminatingKeyState:next:output:sequenceID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)_pathByTerminatingKeyState:(unsigned short)arg1 next:(id)arg2 output:(id)arg3 sequenceID:(unsigned short)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_pathByTerminatingKeyState:next:output:sequenceID:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/pathsForSequenceID:nextPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)pathsForSequenceID:(unsigned short)arg1 nextPath:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/pathsForSequenceID:nextPath:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_sequenceIDsEndingString:range:suffixRange:results:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_sequenceIDsEndingString:(id)arg1 range:(struct _NSRange)arg2 suffixRange:(struct _NSRange)arg3 results:(id)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_sequenceIDsEndingString:range:suffixRange:results:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/sequenceIDsEndingString:range:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)sequenceIDsEndingString:(id)arg1 range:(struct _NSRange)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/sequenceIDsEndingString:range:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/sequenceIDsForString:range:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)sequenceIDsForString:(id)arg1 range:(struct _NSRange)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/sequenceIDsForString:range:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/sequenceIDsForString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)sequenceIDsForString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/sequenceIDsForString:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/stringForSequenceID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)stringForSequenceID:(unsigned short)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/stringForSequenceID:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/inputsForOutputID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)inputsForOutputID:(unsigned short)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/inputsForOutputID:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/inputsForText:currentFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)inputsForText:(id)arg1 currentFlags:(unsigned long long)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/inputsForText:currentFlags:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/inputsForText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)inputsForText:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/inputsForText:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/inputsToSetModifierFlags:currentFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)inputsToSetModifierFlags:(unsigned long long)arg1 currentFlags:(unsigned long long)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/inputsToSetModifierFlags:currentFlags:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/inputForKey:modifierFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)inputForKey:(id)arg1 modifierFlags:(unsigned long long)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/inputForKey:modifierFlags:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/canEmitKeyState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)canEmitKeyState:(unsigned short)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitKeyState:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/canEmitSequenceIDAsOutputID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)canEmitSequenceIDAsOutputID:(unsigned short)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitSequenceIDAsOutputID:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/canEmitSequenceID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)canEmitSequenceID:(unsigned short)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitSequenceID:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/canEmitOutputID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)canEmitOutputID:(unsigned short)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/canEmitOutputID:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/uniqueKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)uniqueKeyboardType:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/uniqueKeyboardType:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/supportsKeyboardType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)supportsKeyboardType:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/supportsKeyboardType:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/setPrimary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isPrimary) _Bool primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/isPrimary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isPrimary) _Bool primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardKeyMap/primary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isPrimary) _Bool primary</Declaration>
+			
+			
+			<Anchor>//api/name/primary</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initIntendedStrings</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initIntendedStrings</Declaration>
+			
+			
+			<Anchor>//api/name/_initIntendedStrings</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initInexactSequences</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initInexactSequences</Declaration>
+			
+			
+			<Anchor>//api/name/_initInexactSequences</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initValidity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initValidity</Declaration>
+			
+			
+			<Anchor>//api/name/_initValidity</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initKeyStates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initKeyStates</Declaration>
+			
+			
+			<Anchor>//api/name/_initKeyStates</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initKeyOutputs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initKeyOutputs</Declaration>
+			
+			
+			<Anchor>//api/name/_initKeyOutputs</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initModifiers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initModifiers</Declaration>
+			
+			
+			<Anchor>//api/name/_initModifiers</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/_initKeyboardKeys</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (void)_initKeyboardKeys</Declaration>
+			
+			
+			<Anchor>//api/name/_initKeyboardKeys</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/initWithInputSource:layoutData:index:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithInputSource:(struct __GSKeyboard *)arg1 layoutData:(id)arg2 index:(unsigned long long)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/initWithInputSource:layoutData:index:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardKeyMap/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardKeyMap.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
