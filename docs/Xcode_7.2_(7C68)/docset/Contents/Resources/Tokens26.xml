@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/XCUIRemoteButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/XCUIRemoteButton</TokenIdentifier>
+			<Abstract type="html">@enum XCUIRemoteButton</Abstract>
+			<DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonUp</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonUp</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonDown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonDown</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonLeft</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonLeft</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonRight</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonRight</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonSelect</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonSelect</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonMenu</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonMenu</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIRemoteButtonPlayPause</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIRemoteButtonPlayPause</Declaration>
+            
+            <DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+            <NodeRef refid="26"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

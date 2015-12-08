@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/_XCTAssertionType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/_XCTAssertionType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_Fail</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_Fail</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_Nil</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_Nil</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NotNil</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NotNil</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_EqualObjects</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_EqualObjects</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NotEqualObjects</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NotEqualObjects</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_Equal</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_Equal</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NotEqual</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NotEqual</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_EqualWithAccuracy</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_EqualWithAccuracy</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NotEqualWithAccuracy</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NotEqualWithAccuracy</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_GreaterThan</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_GreaterThan</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_GreaterThanOrEqual</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_GreaterThanOrEqual</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_LessThan</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_LessThan</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_LessThanOrEqual</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_LessThanOrEqual</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_True</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_True</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_False</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_False</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_Throws</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_Throws</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_ThrowsSpecific</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_ThrowsSpecific</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_ThrowsSpecificNamed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_ThrowsSpecificNamed</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NoThrow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NoThrow</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NoThrowSpecific</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NoThrowSpecific</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/_XCTAssertion_NoThrowSpecificNamed</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>_XCTAssertion_NoThrowSpecificNamed</Declaration>
+            
+            <DeclaredIn>XCTestAssertionsImpl.h</DeclaredIn>
+            
+            <NodeRef refid="28"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

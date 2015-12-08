@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCUIElementAttributes.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCUIElementAttributes</TokenIdentifier>
+			<Abstract type="html">Protocol describing the attributes exposed on user interface elements and available during query matching. These attributes represent data exposed to the Accessibility system.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">The accessibility identifier.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/identifier</TokenIdentifier>
+			<Abstract type="html">The accessibility identifier.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/identifier</TokenIdentifier>
+			<Abstract type="html">The accessibility identifier.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setFrame:</TokenIdentifier>
+			<Abstract type="html">The frame of the element in the screen coordinate space.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGRect frame</Declaration>
+			
+			
+			<Anchor>//api/name/frame</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/frame</TokenIdentifier>
+			<Abstract type="html">The frame of the element in the screen coordinate space.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGRect frame</Declaration>
+			
+			
+			<Anchor>//api/name/frame</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/frame</TokenIdentifier>
+			<Abstract type="html">The frame of the element in the screen coordinate space.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGRect frame</Declaration>
+			
+			
+			<Anchor>//api/name/frame</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setValue:</TokenIdentifier>
+			<Abstract type="html">The raw value attribute of the element. Depending on the element, the actual type can vary.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/value</TokenIdentifier>
+			<Abstract type="html">The raw value attribute of the element. Depending on the element, the actual type can vary.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/value</TokenIdentifier>
+			<Abstract type="html">The raw value attribute of the element. Depending on the element, the actual type can vary.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setTitle:</TokenIdentifier>
+			<Abstract type="html">The title attribute of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/title</TokenIdentifier>
+			<Abstract type="html">The title attribute of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/title</TokenIdentifier>
+			<Abstract type="html">The title attribute of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setLabel:</TokenIdentifier>
+			<Abstract type="html">The label attribute of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/label</TokenIdentifier>
+			<Abstract type="html">The label attribute of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/label</TokenIdentifier>
+			<Abstract type="html">The label attribute of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setElementType:</TokenIdentifier>
+			<Abstract type="html">The type of the element. /seealso XCUIElementType.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElementType elementType</Declaration>
+			
+			
+			<Anchor>//api/name/elementType</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/elementType</TokenIdentifier>
+			<Abstract type="html">The type of the element. /seealso XCUIElementType.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElementType elementType</Declaration>
+			
+			
+			<Anchor>//api/name/elementType</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/elementType</TokenIdentifier>
+			<Abstract type="html">The type of the element. /seealso XCUIElementType.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElementType elementType</Declaration>
+			
+			
+			<Anchor>//api/name/elementType</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setEnabled:</TokenIdentifier>
+			<Abstract type="html">Whether or not the element is enabled for user interaction.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isEnabled) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/isEnabled</TokenIdentifier>
+			<Abstract type="html">Whether or not the element is enabled for user interaction.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isEnabled) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/enabled</TokenIdentifier>
+			<Abstract type="html">Whether or not the element is enabled for user interaction.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isEnabled) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setHorizontalSizeClass:</TokenIdentifier>
+			<Abstract type="html">The horizontal size class of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIUserInterfaceSizeClass horizontalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalSizeClass</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/horizontalSizeClass</TokenIdentifier>
+			<Abstract type="html">The horizontal size class of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIUserInterfaceSizeClass horizontalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalSizeClass</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/horizontalSizeClass</TokenIdentifier>
+			<Abstract type="html">The horizontal size class of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIUserInterfaceSizeClass horizontalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalSizeClass</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setVerticalSizeClass:</TokenIdentifier>
+			<Abstract type="html">The vertical size class of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIUserInterfaceSizeClass verticalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/verticalSizeClass</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/verticalSizeClass</TokenIdentifier>
+			<Abstract type="html">The vertical size class of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIUserInterfaceSizeClass verticalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/verticalSizeClass</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/verticalSizeClass</TokenIdentifier>
+			<Abstract type="html">The vertical size class of the element.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIUserInterfaceSizeClass verticalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/verticalSizeClass</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setPlaceholderValue:</TokenIdentifier>
+			<Abstract type="html">The value that is displayed when the element has no value.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/placeholderValue</TokenIdentifier>
+			<Abstract type="html">The value that is displayed when the element has no value.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/placeholderValue</TokenIdentifier>
+			<Abstract type="html">The value that is displayed when the element has no value.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, nullable) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setSelected:</TokenIdentifier>
+			<Abstract type="html">Whether or not the element is selected.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isSelected) BOOL selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/isSelected</TokenIdentifier>
+			<Abstract type="html">Whether or not the element is selected.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isSelected) BOOL selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/selected</TokenIdentifier>
+			<Abstract type="html">Whether or not the element is selected.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isSelected) BOOL selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setHasFocus:</TokenIdentifier>
+			<Abstract type="html">Whether or not the elment has UI focus.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL hasFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasFocus</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/hasFocus</TokenIdentifier>
+			<Abstract type="html">Whether or not the elment has UI focus.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL hasFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasFocus</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/hasFocus</TokenIdentifier>
+			<Abstract type="html">Whether or not the elment has UI focus.</Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL hasFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasFocus</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

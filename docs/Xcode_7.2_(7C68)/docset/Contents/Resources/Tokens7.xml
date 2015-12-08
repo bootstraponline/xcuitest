@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestObserver.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestObserver</TokenIdentifier>
+			<Abstract type="html">XCTestObserver is deprecated.</Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/startObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)startObserving</Declaration>
+			
+			
+			<Anchor>//api/name/startObserving</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/stopObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)stopObserving</Declaration>
+			
+			
+			<Anchor>//api/name/stopObserving</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testSuiteDidStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidStart:(XCTestRun *)testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidStart:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testSuiteDidStop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidStop:(XCTestRun *)testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidStop:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testCaseDidStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidStart:(XCTestRun *)testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidStart:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testCaseDidStop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidStop:(XCTestRun *)testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidStop:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testCaseDidFail:withDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidFail:(XCTestRun *)testRun withDescription:(NSString *)description inFile:(NSString *)filePath atLine:(NSUInteger)lineNumber</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidFail:withDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

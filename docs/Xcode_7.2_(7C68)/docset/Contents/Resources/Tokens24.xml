@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/XCUIElementType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/XCUIElementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeAny</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeAny</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeOther</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeOther</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeApplication</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeApplication</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeGroup</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeGroup</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeWindow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeWindow</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSheet</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSheet</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeDrawer</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeDrawer</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeAlert</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeAlert</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeDialog</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeDialog</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeButton</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeButton</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeRadioButton</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeRadioButton</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeRadioGroup</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeRadioGroup</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeCheckBox</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeCheckBox</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeDisclosureTriangle</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeDisclosureTriangle</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypePopUpButton</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypePopUpButton</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeComboBox</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeComboBox</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMenuButton</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMenuButton</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeToolbarButton</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeToolbarButton</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypePopover</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypePopover</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeKeyboard</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeKeyboard</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeKey</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeKey</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeNavigationBar</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeNavigationBar</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTabBar</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTabBar</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTabGroup</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTabGroup</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeToolbar</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeToolbar</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeStatusBar</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeStatusBar</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTable</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTable</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTableRow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTableRow</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTableColumn</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTableColumn</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeOutline</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeOutline</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeOutlineRow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeOutlineRow</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeBrowser</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeBrowser</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeCollectionView</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeCollectionView</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSlider</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSlider</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypePageIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypePageIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeProgressIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeProgressIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeActivityIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeActivityIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSegmentedControl</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSegmentedControl</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypePicker</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypePicker</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypePickerWheel</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypePickerWheel</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSwitch</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSwitch</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeToggle</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeToggle</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeLink</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeLink</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeImage</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeImage</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeIcon</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeIcon</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSearchField</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSearchField</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeScrollView</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeScrollView</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeScrollBar</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeScrollBar</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeStaticText</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeStaticText</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTextField</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTextField</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSecureTextField</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSecureTextField</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeDatePicker</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeDatePicker</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTextView</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTextView</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMenu</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMenu</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMenuItem</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMenuItem</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMenuBar</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMenuBar</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMenuBarItem</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMenuBarItem</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMap</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMap</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeWebView</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeWebView</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeIncrementArrow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeIncrementArrow</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeDecrementArrow</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeDecrementArrow</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTimeline</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTimeline</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeRatingIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeRatingIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeValueIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeValueIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSplitGroup</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSplitGroup</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeSplitter</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeSplitter</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeRelevanceIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeRelevanceIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeColorWell</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeColorWell</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeHelpTag</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeHelpTag</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeMatte</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeMatte</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeDockItem</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeDockItem</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeRuler</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeRuler</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeRulerMarker</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeRulerMarker</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeGrid</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeGrid</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeLevelIndicator</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeLevelIndicator</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeCell</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeCell</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeLayoutArea</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeLayoutArea</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeLayoutItem</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeLayoutItem</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeHandle</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeHandle</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeStepper</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeStepper</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIElementTypeTab</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIElementTypeTab</Declaration>
+            
+            <DeclaredIn>XCUIElementTypes.h</DeclaredIn>
+            
+            <NodeRef refid="24"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

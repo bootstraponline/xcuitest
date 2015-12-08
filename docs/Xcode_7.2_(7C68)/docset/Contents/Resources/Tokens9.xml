@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestRun.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestRun</TokenIdentifier>
+			<Abstract type="html">@class XCTestRun
+A test run collects information about the execution of a test. Failures in explicit
+test assertions are classified as &quot;expected&quot;, while failures from unrelated or
+uncaught exceptions are classified as &quot;unexpected&quot;.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestRun/testRunWithTest:</TokenIdentifier>
+			<Abstract type="html">@method +testRunWithTest:
+Class factory method for the XCTestRun class.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)testRunWithTest:(XCTest *)test</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>test</Name>
+					<Abstract type="html">An XCTest instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A test run for the provided test.</Abstract></ReturnValue>
+			<Anchor>//api/name/testRunWithTest:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/initWithTest:</TokenIdentifier>
+			<Abstract type="html">@method -initWithTest:
+Designated initializer for the XCTestRun class.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithTest:(XCTest *)test</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>test</Name>
+					<Abstract type="html">An XCTest instance.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A test run for the provided test.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithTest:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setTest:</TokenIdentifier>
+			<Abstract type="html">@property test
+The test instance provided when the test run was initialized.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong) XCTest *test</Declaration>
+			
+			
+			<Anchor>//api/name/test</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/test</TokenIdentifier>
+			<Abstract type="html">@property test
+The test instance provided when the test run was initialized.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong) XCTest *test</Declaration>
+			
+			
+			<Anchor>//api/name/test</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/test</TokenIdentifier>
+			<Abstract type="html">@property test
+The test instance provided when the test run was initialized.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong) XCTest *test</Declaration>
+			
+			
+			<Anchor>//api/name/test</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/start</TokenIdentifier>
+			<Abstract type="html">@method -start
+Start a test run. Must not be called more than once.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/stop</TokenIdentifier>
+			<Abstract type="html">@method -stop
+Stop a test run. Must not be called unless the run has been started. Must not be called more than once.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setStartDate:</TokenIdentifier>
+			<Abstract type="html">@property startDate
+The time at which the test run was started, or nil.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy, nullable) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/startDate</TokenIdentifier>
+			<Abstract type="html">@property startDate
+The time at which the test run was started, or nil.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy, nullable) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/startDate</TokenIdentifier>
+			<Abstract type="html">@property startDate
+The time at which the test run was started, or nil.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy, nullable) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setStopDate:</TokenIdentifier>
+			<Abstract type="html">@property stopDate
+The time at which the test run was stopped, or nil.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy, nullable) NSDate *stopDate</Declaration>
+			
+			
+			<Anchor>//api/name/stopDate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/stopDate</TokenIdentifier>
+			<Abstract type="html">@property stopDate
+The time at which the test run was stopped, or nil.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy, nullable) NSDate *stopDate</Declaration>
+			
+			
+			<Anchor>//api/name/stopDate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/stopDate</TokenIdentifier>
+			<Abstract type="html">@property stopDate
+The time at which the test run was stopped, or nil.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy, nullable) NSDate *stopDate</Declaration>
+			
+			
+			<Anchor>//api/name/stopDate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setTotalDuration:</TokenIdentifier>
+			<Abstract type="html">@property totalDuration
+The number of seconds that elapsed between when the run was started and when it was stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSTimeInterval totalDuration</Declaration>
+			
+			
+			<Anchor>//api/name/totalDuration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/totalDuration</TokenIdentifier>
+			<Abstract type="html">@property totalDuration
+The number of seconds that elapsed between when the run was started and when it was stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSTimeInterval totalDuration</Declaration>
+			
+			
+			<Anchor>//api/name/totalDuration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/totalDuration</TokenIdentifier>
+			<Abstract type="html">@property totalDuration
+The number of seconds that elapsed between when the run was started and when it was stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSTimeInterval totalDuration</Declaration>
+			
+			
+			<Anchor>//api/name/totalDuration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setTestDuration:</TokenIdentifier>
+			<Abstract type="html">@property testDuration
+The number of seconds that elapsed between when the run was started and when it was stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSTimeInterval testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/testDuration</TokenIdentifier>
+			<Abstract type="html">@property testDuration
+The number of seconds that elapsed between when the run was started and when it was stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSTimeInterval testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/testDuration</TokenIdentifier>
+			<Abstract type="html">@property testDuration
+The number of seconds that elapsed between when the run was started and when it was stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSTimeInterval testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setTestCaseCount:</TokenIdentifier>
+			<Abstract type="html">@property testCaseCount
+The number of tests in the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/testCaseCount</TokenIdentifier>
+			<Abstract type="html">@property testCaseCount
+The number of tests in the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/testCaseCount</TokenIdentifier>
+			<Abstract type="html">@property testCaseCount
+The number of tests in the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setExecutionCount:</TokenIdentifier>
+			<Abstract type="html">@property executionCount
+The number of test executions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/executionCount</TokenIdentifier>
+			<Abstract type="html">@property executionCount
+The number of test executions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/executionCount</TokenIdentifier>
+			<Abstract type="html">@property executionCount
+The number of test executions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setFailureCount:</TokenIdentifier>
+			<Abstract type="html">@property failureCount
+The number of test failures recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/failureCount</TokenIdentifier>
+			<Abstract type="html">@property failureCount
+The number of test failures recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/failureCount</TokenIdentifier>
+			<Abstract type="html">@property failureCount
+The number of test failures recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setUnexpectedExceptionCount:</TokenIdentifier>
+			<Abstract type="html">@property unexpectedExceptionCount
+The number of uncaught exceptions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/unexpectedExceptionCount</TokenIdentifier>
+			<Abstract type="html">@property unexpectedExceptionCount
+The number of uncaught exceptions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/unexpectedExceptionCount</TokenIdentifier>
+			<Abstract type="html">@property unexpectedExceptionCount
+The number of uncaught exceptions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setTotalFailureCount:</TokenIdentifier>
+			<Abstract type="html">@property totalFailureCount
+The total number of test failures and uncaught exceptions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger totalFailureCount</Declaration>
+			
+			
+			<Anchor>//api/name/totalFailureCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/totalFailureCount</TokenIdentifier>
+			<Abstract type="html">@property totalFailureCount
+The total number of test failures and uncaught exceptions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger totalFailureCount</Declaration>
+			
+			
+			<Anchor>//api/name/totalFailureCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/totalFailureCount</TokenIdentifier>
+			<Abstract type="html">@property totalFailureCount
+The total number of test failures and uncaught exceptions recorded during the run.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger totalFailureCount</Declaration>
+			
+			
+			<Anchor>//api/name/totalFailureCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/setHasSucceeded:</TokenIdentifier>
+			<Abstract type="html">@property hasSucceeded
+YES if all tests in the run completed their execution without recording any failures, otherwise NO.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL hasSucceeded</Declaration>
+			
+			
+			<Anchor>//api/name/hasSucceeded</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/hasSucceeded</TokenIdentifier>
+			<Abstract type="html">@property hasSucceeded
+YES if all tests in the run completed their execution without recording any failures, otherwise NO.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL hasSucceeded</Declaration>
+			
+			
+			<Anchor>//api/name/hasSucceeded</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestRun/hasSucceeded</TokenIdentifier>
+			<Abstract type="html">@property hasSucceeded
+YES if all tests in the run completed their execution without recording any failures, otherwise NO.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL hasSucceeded</Declaration>
+			
+			
+			<Anchor>//api/name/hasSucceeded</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestRun/recordFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
+			<Abstract type="html">@method -recordFailureWithDescription:inFile:atLine:expected:
+Records a failure in the execution of the test for this test run. Must not be called
+unless the run has been started. Must not be called if the test run has been stopped.</Abstract>
+			<DeclaredIn>XCTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)recordFailureWithDescription:(NSString *)description inFile:(nullable NSString *)filePath atLine:(NSUInteger)lineNumber expected:(BOOL)expected</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>description</Name>
+					<Abstract type="html">The description of the failure being reported.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The file path to the source file where the failure being reported
+was encountered or nil if unknown.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineNumber</Name>
+					<Abstract type="html">The line number in the source file at filePath where the
+failure being reported was encountered.</Abstract>
+				</Parameter><Parameter>
+					<Name>expected</Name>
+					<Abstract type="html">YES if the failure being reported was the result of a failed assertion,
+NO if it was the result of an uncaught exception.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/recordFailureWithDescription:inFile:atLine:expected:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

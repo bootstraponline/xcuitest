@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestSuite.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestSuite</TokenIdentifier>
+			<Abstract type="html">* @class XCTestSuite
+* A concrete subclass of XCTest, XCTestSuite is a collection of test cases. Suites
+* are usually managed by the IDE, but XCTestSuite also provides API for dynamic test
+* and suite management:</Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/defaultTestSuite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)defaultTestSuite</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTestSuite</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForBundlePath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)testSuiteForBundlePath:(NSString *)bundlePath</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForBundlePath:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestCaseWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)testSuiteForTestCaseWithName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForTestCaseWithName:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestCaseClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)testSuiteForTestCaseClass:(Class)testCaseClass</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForTestCaseClass:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)testSuiteWithName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteWithName:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/initWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/initWithName:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/addTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)addTest:(XCTest *)test</Declaration>
+			
+			
+			<Anchor>//api/name/addTest:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/setTests:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;__kindofXCTest*&gt; *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/tests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;__kindofXCTest*&gt; *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuite/tests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;__kindofXCTest*&gt; *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

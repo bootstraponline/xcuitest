@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIElementQuery.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIElementQuery</TokenIdentifier>
+			<Abstract type="html">Object for locating elements that can be chained with other queries.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/setElement:</TokenIdentifier>
+			<Abstract type="html">Returns an element that will use the query for resolution.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *element</Declaration>
+			
+			
+			<Anchor>//api/name/element</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/element</TokenIdentifier>
+			<Abstract type="html">Returns an element that will use the query for resolution.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *element</Declaration>
+			
+			
+			<Anchor>//api/name/element</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementQuery/element</TokenIdentifier>
+			<Abstract type="html">Returns an element that will use the query for resolution.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *element</Declaration>
+			
+			
+			<Anchor>//api/name/element</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/setCount:</TokenIdentifier>
+			<Abstract type="html">Evaluates the query at the time it is called and returns the number of matches found.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/count</TokenIdentifier>
+			<Abstract type="html">Evaluates the query at the time it is called and returns the number of matches found.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementQuery/count</TokenIdentifier>
+			<Abstract type="html">Evaluates the query at the time it is called and returns the number of matches found.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSUInteger count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/elementAtIndex:</TokenIdentifier>
+			<Abstract type="html">Returns an element that will resolve to the index into the query&apos;s result set.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElement *)elementAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/elementAtIndex:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/elementBoundByIndex:</TokenIdentifier>
+			<Abstract type="html">Returns an element that will use the index into the query&apos;s results to determine which underlying accessibility element it is matched with.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElement *)elementBoundByIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/elementBoundByIndex:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/elementMatchingPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns an element that matches the predicate.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElement *)elementMatchingPredicate:(NSPredicate *)predicate</Declaration>
+			
+			
+			<Anchor>//api/name/elementMatchingPredicate:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/elementMatchingType:identifier:</TokenIdentifier>
+			<Abstract type="html">Returns an element that matches the type and identifier.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElement *)elementMatchingType:(XCUIElementType)elementType identifier:(nullable NSString *)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/elementMatchingType:identifier:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/objectForKeyedSubscript:</TokenIdentifier>
+			<Abstract type="html">Keyed subscripting is implemented as a shortcut for matching an identifier only. For example, app.descendants[&quot;Foo&quot;] -&gt; XCUIElement.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElement *)objectForKeyedSubscript:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/objectForKeyedSubscript:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/setAllElementsBoundByAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html">Immediately evaluates the query and returns an array of elements bound to the resulting accessibility elements.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/allElementsBoundByAccessibilityElement</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/allElementsBoundByAccessibilityElement</TokenIdentifier>
+			<Abstract type="html">Immediately evaluates the query and returns an array of elements bound to the resulting accessibility elements.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/allElementsBoundByAccessibilityElement</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementQuery/allElementsBoundByAccessibilityElement</TokenIdentifier>
+			<Abstract type="html">Immediately evaluates the query and returns an array of elements bound to the resulting accessibility elements.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/allElementsBoundByAccessibilityElement</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/setAllElementsBoundByIndex:</TokenIdentifier>
+			<Abstract type="html">Immediately evaluates the query and returns an array of elements bound by the index of each result.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByIndex</Declaration>
+			
+			
+			<Anchor>//api/name/allElementsBoundByIndex</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/allElementsBoundByIndex</TokenIdentifier>
+			<Abstract type="html">Immediately evaluates the query and returns an array of elements bound by the index of each result.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByIndex</Declaration>
+			
+			
+			<Anchor>//api/name/allElementsBoundByIndex</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementQuery/allElementsBoundByIndex</TokenIdentifier>
+			<Abstract type="html">Immediately evaluates the query and returns an array of elements bound by the index of each result.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByIndex</Declaration>
+			
+			
+			<Anchor>//api/name/allElementsBoundByIndex</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/descendantsMatchingType:</TokenIdentifier>
+			<Abstract type="html">Returns a new query that finds the descendants of all the elements found by the receiver.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)descendantsMatchingType:(XCUIElementType)type</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsMatchingType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/childrenMatchingType:</TokenIdentifier>
+			<Abstract type="html">Returns a new query that finds the direct children of all the elements found by the receiver.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)childrenMatchingType:(XCUIElementType)type</Declaration>
+			
+			
+			<Anchor>//api/name/childrenMatchingType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/matchingPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns a new query that applies the specified attributes or predicate to the receiver.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)matchingPredicate:(NSPredicate *)predicate</Declaration>
+			
+			
+			<Anchor>//api/name/matchingPredicate:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/matchingType:identifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)matchingType:(XCUIElementType)elementType identifier:(nullable NSString *)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/matchingType:identifier:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/matchingIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)matchingIdentifier:(NSString *)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/matchingIdentifier:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/containingPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns a new query for finding elements that contain a descendant matching the specification.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)containingPredicate:(NSPredicate *)predicate</Declaration>
+			
+			
+			<Anchor>//api/name/containingPredicate:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/containingType:identifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)containingType:(XCUIElementType)elementType identifier:(nullable NSString *)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/containingType:identifier:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/setDebugDescription:</TokenIdentifier>
+			<Abstract type="html">@discussion
+Provides debugging information about the query. The data in the string will vary based on the time
+at which it is captured, but it may include any of the following as well as additional data:
+    • A description of each step of the query.
+    • Information about the inputs and matched outputs of each step of the query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementQuery/debugDescription</TokenIdentifier>
+			<Abstract type="html">@discussion
+Provides debugging information about the query. The data in the string will vary based on the time
+at which it is captured, but it may include any of the following as well as additional data:
+    • A description of each step of the query.
+    • Information about the inputs and matched outputs of each step of the query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementQuery/debugDescription</TokenIdentifier>
+			<Abstract type="html">@discussion
+Provides debugging information about the query. The data in the string will vary based on the time
+at which it is captured, but it may include any of the following as well as additional data:
+    • A description of each step of the query.
+    • Information about the inputs and matched outputs of each step of the query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</Abstract>
+			<DeclaredIn>XCUIElementQuery.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

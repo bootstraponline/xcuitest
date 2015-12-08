@@ -1,0 +1,2862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCUIElementTypeQueryProvider.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCUIElementTypeQueryProvider</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setGroups:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/groups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/groups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *groups</Declaration>
+			
+			
+			<Anchor>//api/name/groups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setWindows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *windows</Declaration>
+			
+			
+			<Anchor>//api/name/windows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/windows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *windows</Declaration>
+			
+			
+			<Anchor>//api/name/windows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/windows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *windows</Declaration>
+			
+			
+			<Anchor>//api/name/windows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSheets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *sheets</Declaration>
+			
+			
+			<Anchor>//api/name/sheets</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/sheets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *sheets</Declaration>
+			
+			
+			<Anchor>//api/name/sheets</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/sheets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *sheets</Declaration>
+			
+			
+			<Anchor>//api/name/sheets</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setDrawers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *drawers</Declaration>
+			
+			
+			<Anchor>//api/name/drawers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/drawers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *drawers</Declaration>
+			
+			
+			<Anchor>//api/name/drawers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/drawers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *drawers</Declaration>
+			
+			
+			<Anchor>//api/name/drawers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setAlerts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *alerts</Declaration>
+			
+			
+			<Anchor>//api/name/alerts</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/alerts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *alerts</Declaration>
+			
+			
+			<Anchor>//api/name/alerts</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/alerts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *alerts</Declaration>
+			
+			
+			<Anchor>//api/name/alerts</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setDialogs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *dialogs</Declaration>
+			
+			
+			<Anchor>//api/name/dialogs</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/dialogs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *dialogs</Declaration>
+			
+			
+			<Anchor>//api/name/dialogs</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/dialogs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *dialogs</Declaration>
+			
+			
+			<Anchor>//api/name/dialogs</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *buttons</Declaration>
+			
+			
+			<Anchor>//api/name/buttons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/buttons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *buttons</Declaration>
+			
+			
+			<Anchor>//api/name/buttons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/buttons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *buttons</Declaration>
+			
+			
+			<Anchor>//api/name/buttons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setRadioButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *radioButtons</Declaration>
+			
+			
+			<Anchor>//api/name/radioButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/radioButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *radioButtons</Declaration>
+			
+			
+			<Anchor>//api/name/radioButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/radioButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *radioButtons</Declaration>
+			
+			
+			<Anchor>//api/name/radioButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setRadioGroups:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *radioGroups</Declaration>
+			
+			
+			<Anchor>//api/name/radioGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/radioGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *radioGroups</Declaration>
+			
+			
+			<Anchor>//api/name/radioGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/radioGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *radioGroups</Declaration>
+			
+			
+			<Anchor>//api/name/radioGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setCheckBoxes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *checkBoxes</Declaration>
+			
+			
+			<Anchor>//api/name/checkBoxes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/checkBoxes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *checkBoxes</Declaration>
+			
+			
+			<Anchor>//api/name/checkBoxes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/checkBoxes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *checkBoxes</Declaration>
+			
+			
+			<Anchor>//api/name/checkBoxes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setDisclosureTriangles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *disclosureTriangles</Declaration>
+			
+			
+			<Anchor>//api/name/disclosureTriangles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/disclosureTriangles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *disclosureTriangles</Declaration>
+			
+			
+			<Anchor>//api/name/disclosureTriangles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/disclosureTriangles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *disclosureTriangles</Declaration>
+			
+			
+			<Anchor>//api/name/disclosureTriangles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setPopUpButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *popUpButtons</Declaration>
+			
+			
+			<Anchor>//api/name/popUpButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/popUpButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *popUpButtons</Declaration>
+			
+			
+			<Anchor>//api/name/popUpButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/popUpButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *popUpButtons</Declaration>
+			
+			
+			<Anchor>//api/name/popUpButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setComboBoxes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *comboBoxes</Declaration>
+			
+			
+			<Anchor>//api/name/comboBoxes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/comboBoxes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *comboBoxes</Declaration>
+			
+			
+			<Anchor>//api/name/comboBoxes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/comboBoxes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *comboBoxes</Declaration>
+			
+			
+			<Anchor>//api/name/comboBoxes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMenuButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/menuButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/menuButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/menuButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/menuButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuButtons</Declaration>
+			
+			
+			<Anchor>//api/name/menuButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setToolbarButtons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toolbarButtons</Declaration>
+			
+			
+			<Anchor>//api/name/toolbarButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/toolbarButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toolbarButtons</Declaration>
+			
+			
+			<Anchor>//api/name/toolbarButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/toolbarButtons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toolbarButtons</Declaration>
+			
+			
+			<Anchor>//api/name/toolbarButtons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setPopovers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *popovers</Declaration>
+			
+			
+			<Anchor>//api/name/popovers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/popovers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *popovers</Declaration>
+			
+			
+			<Anchor>//api/name/popovers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/popovers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *popovers</Declaration>
+			
+			
+			<Anchor>//api/name/popovers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setKeyboards:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *keyboards</Declaration>
+			
+			
+			<Anchor>//api/name/keyboards</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/keyboards</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *keyboards</Declaration>
+			
+			
+			<Anchor>//api/name/keyboards</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/keyboards</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *keyboards</Declaration>
+			
+			
+			<Anchor>//api/name/keyboards</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setKeys:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *keys</Declaration>
+			
+			
+			<Anchor>//api/name/keys</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/keys</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *keys</Declaration>
+			
+			
+			<Anchor>//api/name/keys</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/keys</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *keys</Declaration>
+			
+			
+			<Anchor>//api/name/keys</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setNavigationBars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *navigationBars</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/navigationBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *navigationBars</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/navigationBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *navigationBars</Declaration>
+			
+			
+			<Anchor>//api/name/navigationBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTabBars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabBars</Declaration>
+			
+			
+			<Anchor>//api/name/tabBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/tabBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabBars</Declaration>
+			
+			
+			<Anchor>//api/name/tabBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/tabBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabBars</Declaration>
+			
+			
+			<Anchor>//api/name/tabBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTabGroups:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabGroups</Declaration>
+			
+			
+			<Anchor>//api/name/tabGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/tabGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabGroups</Declaration>
+			
+			
+			<Anchor>//api/name/tabGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/tabGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabGroups</Declaration>
+			
+			
+			<Anchor>//api/name/tabGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setToolbars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toolbars</Declaration>
+			
+			
+			<Anchor>//api/name/toolbars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/toolbars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toolbars</Declaration>
+			
+			
+			<Anchor>//api/name/toolbars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/toolbars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toolbars</Declaration>
+			
+			
+			<Anchor>//api/name/toolbars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setStatusBars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *statusBars</Declaration>
+			
+			
+			<Anchor>//api/name/statusBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/statusBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *statusBars</Declaration>
+			
+			
+			<Anchor>//api/name/statusBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/statusBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *statusBars</Declaration>
+			
+			
+			<Anchor>//api/name/statusBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTables:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tables</Declaration>
+			
+			
+			<Anchor>//api/name/tables</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/tables</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tables</Declaration>
+			
+			
+			<Anchor>//api/name/tables</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/tables</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tables</Declaration>
+			
+			
+			<Anchor>//api/name/tables</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTableRows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tableRows</Declaration>
+			
+			
+			<Anchor>//api/name/tableRows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/tableRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tableRows</Declaration>
+			
+			
+			<Anchor>//api/name/tableRows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/tableRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tableRows</Declaration>
+			
+			
+			<Anchor>//api/name/tableRows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTableColumns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tableColumns</Declaration>
+			
+			
+			<Anchor>//api/name/tableColumns</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/tableColumns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tableColumns</Declaration>
+			
+			
+			<Anchor>//api/name/tableColumns</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/tableColumns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tableColumns</Declaration>
+			
+			
+			<Anchor>//api/name/tableColumns</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setOutlines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *outlines</Declaration>
+			
+			
+			<Anchor>//api/name/outlines</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/outlines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *outlines</Declaration>
+			
+			
+			<Anchor>//api/name/outlines</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/outlines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *outlines</Declaration>
+			
+			
+			<Anchor>//api/name/outlines</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setOutlineRows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *outlineRows</Declaration>
+			
+			
+			<Anchor>//api/name/outlineRows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/outlineRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *outlineRows</Declaration>
+			
+			
+			<Anchor>//api/name/outlineRows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/outlineRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *outlineRows</Declaration>
+			
+			
+			<Anchor>//api/name/outlineRows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setBrowsers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *browsers</Declaration>
+			
+			
+			<Anchor>//api/name/browsers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/browsers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *browsers</Declaration>
+			
+			
+			<Anchor>//api/name/browsers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/browsers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *browsers</Declaration>
+			
+			
+			<Anchor>//api/name/browsers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setCollectionViews:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *collectionViews</Declaration>
+			
+			
+			<Anchor>//api/name/collectionViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/collectionViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *collectionViews</Declaration>
+			
+			
+			<Anchor>//api/name/collectionViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/collectionViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *collectionViews</Declaration>
+			
+			
+			<Anchor>//api/name/collectionViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSliders:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *sliders</Declaration>
+			
+			
+			<Anchor>//api/name/sliders</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/sliders</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *sliders</Declaration>
+			
+			
+			<Anchor>//api/name/sliders</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/sliders</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *sliders</Declaration>
+			
+			
+			<Anchor>//api/name/sliders</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setPageIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pageIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/pageIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/pageIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pageIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/pageIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/pageIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pageIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/pageIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setProgressIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *progressIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/progressIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/progressIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *progressIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/progressIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/progressIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *progressIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/progressIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setActivityIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *activityIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/activityIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *activityIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/activityIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *activityIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSegmentedControls:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *segmentedControls</Declaration>
+			
+			
+			<Anchor>//api/name/segmentedControls</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/segmentedControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *segmentedControls</Declaration>
+			
+			
+			<Anchor>//api/name/segmentedControls</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/segmentedControls</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *segmentedControls</Declaration>
+			
+			
+			<Anchor>//api/name/segmentedControls</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setPickers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pickers</Declaration>
+			
+			
+			<Anchor>//api/name/pickers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/pickers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pickers</Declaration>
+			
+			
+			<Anchor>//api/name/pickers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/pickers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pickers</Declaration>
+			
+			
+			<Anchor>//api/name/pickers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setPickerWheels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pickerWheels</Declaration>
+			
+			
+			<Anchor>//api/name/pickerWheels</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/pickerWheels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pickerWheels</Declaration>
+			
+			
+			<Anchor>//api/name/pickerWheels</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/pickerWheels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *pickerWheels</Declaration>
+			
+			
+			<Anchor>//api/name/pickerWheels</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSwitches:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *switches</Declaration>
+			
+			
+			<Anchor>//api/name/switches</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/switches</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *switches</Declaration>
+			
+			
+			<Anchor>//api/name/switches</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/switches</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *switches</Declaration>
+			
+			
+			<Anchor>//api/name/switches</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setToggles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toggles</Declaration>
+			
+			
+			<Anchor>//api/name/toggles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/toggles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toggles</Declaration>
+			
+			
+			<Anchor>//api/name/toggles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/toggles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *toggles</Declaration>
+			
+			
+			<Anchor>//api/name/toggles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setLinks:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *links</Declaration>
+			
+			
+			<Anchor>//api/name/links</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/links</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *links</Declaration>
+			
+			
+			<Anchor>//api/name/links</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/links</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *links</Declaration>
+			
+			
+			<Anchor>//api/name/links</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setImages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *images</Declaration>
+			
+			
+			<Anchor>//api/name/images</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/images</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *images</Declaration>
+			
+			
+			<Anchor>//api/name/images</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/images</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *images</Declaration>
+			
+			
+			<Anchor>//api/name/images</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setIcons:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *icons</Declaration>
+			
+			
+			<Anchor>//api/name/icons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/icons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *icons</Declaration>
+			
+			
+			<Anchor>//api/name/icons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/icons</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *icons</Declaration>
+			
+			
+			<Anchor>//api/name/icons</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSearchFields:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *searchFields</Declaration>
+			
+			
+			<Anchor>//api/name/searchFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/searchFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *searchFields</Declaration>
+			
+			
+			<Anchor>//api/name/searchFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/searchFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *searchFields</Declaration>
+			
+			
+			<Anchor>//api/name/searchFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setScrollViews:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *scrollViews</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/scrollViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *scrollViews</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/scrollViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *scrollViews</Declaration>
+			
+			
+			<Anchor>//api/name/scrollViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setScrollBars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *scrollBars</Declaration>
+			
+			
+			<Anchor>//api/name/scrollBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/scrollBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *scrollBars</Declaration>
+			
+			
+			<Anchor>//api/name/scrollBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/scrollBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *scrollBars</Declaration>
+			
+			
+			<Anchor>//api/name/scrollBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setStaticTexts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *staticTexts</Declaration>
+			
+			
+			<Anchor>//api/name/staticTexts</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/staticTexts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *staticTexts</Declaration>
+			
+			
+			<Anchor>//api/name/staticTexts</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/staticTexts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *staticTexts</Declaration>
+			
+			
+			<Anchor>//api/name/staticTexts</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTextFields:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *textFields</Declaration>
+			
+			
+			<Anchor>//api/name/textFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/textFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *textFields</Declaration>
+			
+			
+			<Anchor>//api/name/textFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/textFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *textFields</Declaration>
+			
+			
+			<Anchor>//api/name/textFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSecureTextFields:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *secureTextFields</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/secureTextFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *secureTextFields</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/secureTextFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *secureTextFields</Declaration>
+			
+			
+			<Anchor>//api/name/secureTextFields</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setDatePickers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *datePickers</Declaration>
+			
+			
+			<Anchor>//api/name/datePickers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/datePickers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *datePickers</Declaration>
+			
+			
+			<Anchor>//api/name/datePickers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/datePickers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *datePickers</Declaration>
+			
+			
+			<Anchor>//api/name/datePickers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTextViews:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *textViews</Declaration>
+			
+			
+			<Anchor>//api/name/textViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/textViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *textViews</Declaration>
+			
+			
+			<Anchor>//api/name/textViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/textViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *textViews</Declaration>
+			
+			
+			<Anchor>//api/name/textViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMenus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menus</Declaration>
+			
+			
+			<Anchor>//api/name/menus</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/menus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menus</Declaration>
+			
+			
+			<Anchor>//api/name/menus</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/menus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menus</Declaration>
+			
+			
+			<Anchor>//api/name/menus</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMenuItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/menuItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/menuItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMenuBars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuBars</Declaration>
+			
+			
+			<Anchor>//api/name/menuBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/menuBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuBars</Declaration>
+			
+			
+			<Anchor>//api/name/menuBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/menuBars</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuBars</Declaration>
+			
+			
+			<Anchor>//api/name/menuBars</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMenuBarItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuBarItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuBarItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/menuBarItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuBarItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuBarItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/menuBarItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *menuBarItems</Declaration>
+			
+			
+			<Anchor>//api/name/menuBarItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMaps:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *maps</Declaration>
+			
+			
+			<Anchor>//api/name/maps</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/maps</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *maps</Declaration>
+			
+			
+			<Anchor>//api/name/maps</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/maps</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *maps</Declaration>
+			
+			
+			<Anchor>//api/name/maps</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setWebViews:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *webViews</Declaration>
+			
+			
+			<Anchor>//api/name/webViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/webViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *webViews</Declaration>
+			
+			
+			<Anchor>//api/name/webViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/webViews</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *webViews</Declaration>
+			
+			
+			<Anchor>//api/name/webViews</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSteppers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *steppers</Declaration>
+			
+			
+			<Anchor>//api/name/steppers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/steppers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *steppers</Declaration>
+			
+			
+			<Anchor>//api/name/steppers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/steppers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *steppers</Declaration>
+			
+			
+			<Anchor>//api/name/steppers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setIncrementArrows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *incrementArrows</Declaration>
+			
+			
+			<Anchor>//api/name/incrementArrows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/incrementArrows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *incrementArrows</Declaration>
+			
+			
+			<Anchor>//api/name/incrementArrows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/incrementArrows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *incrementArrows</Declaration>
+			
+			
+			<Anchor>//api/name/incrementArrows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setDecrementArrows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *decrementArrows</Declaration>
+			
+			
+			<Anchor>//api/name/decrementArrows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/decrementArrows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *decrementArrows</Declaration>
+			
+			
+			<Anchor>//api/name/decrementArrows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/decrementArrows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *decrementArrows</Declaration>
+			
+			
+			<Anchor>//api/name/decrementArrows</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTabs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabs</Declaration>
+			
+			
+			<Anchor>//api/name/tabs</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/tabs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabs</Declaration>
+			
+			
+			<Anchor>//api/name/tabs</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/tabs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *tabs</Declaration>
+			
+			
+			<Anchor>//api/name/tabs</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setTimelines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *timelines</Declaration>
+			
+			
+			<Anchor>//api/name/timelines</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/timelines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *timelines</Declaration>
+			
+			
+			<Anchor>//api/name/timelines</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/timelines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *timelines</Declaration>
+			
+			
+			<Anchor>//api/name/timelines</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setRatingIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *ratingIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/ratingIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/ratingIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *ratingIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/ratingIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/ratingIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *ratingIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/ratingIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setValueIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *valueIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/valueIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/valueIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *valueIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/valueIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/valueIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *valueIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/valueIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSplitGroups:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *splitGroups</Declaration>
+			
+			
+			<Anchor>//api/name/splitGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/splitGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *splitGroups</Declaration>
+			
+			
+			<Anchor>//api/name/splitGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/splitGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *splitGroups</Declaration>
+			
+			
+			<Anchor>//api/name/splitGroups</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setSplitters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *splitters</Declaration>
+			
+			
+			<Anchor>//api/name/splitters</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/splitters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *splitters</Declaration>
+			
+			
+			<Anchor>//api/name/splitters</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/splitters</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *splitters</Declaration>
+			
+			
+			<Anchor>//api/name/splitters</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setRelevanceIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *relevanceIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/relevanceIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/relevanceIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *relevanceIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/relevanceIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/relevanceIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *relevanceIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/relevanceIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setColorWells:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *colorWells</Declaration>
+			
+			
+			<Anchor>//api/name/colorWells</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/colorWells</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *colorWells</Declaration>
+			
+			
+			<Anchor>//api/name/colorWells</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/colorWells</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *colorWells</Declaration>
+			
+			
+			<Anchor>//api/name/colorWells</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setHelpTags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *helpTags</Declaration>
+			
+			
+			<Anchor>//api/name/helpTags</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/helpTags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *helpTags</Declaration>
+			
+			
+			<Anchor>//api/name/helpTags</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/helpTags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *helpTags</Declaration>
+			
+			
+			<Anchor>//api/name/helpTags</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setMattes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *mattes</Declaration>
+			
+			
+			<Anchor>//api/name/mattes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/mattes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *mattes</Declaration>
+			
+			
+			<Anchor>//api/name/mattes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/mattes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *mattes</Declaration>
+			
+			
+			<Anchor>//api/name/mattes</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setDockItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *dockItems</Declaration>
+			
+			
+			<Anchor>//api/name/dockItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/dockItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *dockItems</Declaration>
+			
+			
+			<Anchor>//api/name/dockItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/dockItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *dockItems</Declaration>
+			
+			
+			<Anchor>//api/name/dockItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setRulers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *rulers</Declaration>
+			
+			
+			<Anchor>//api/name/rulers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/rulers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *rulers</Declaration>
+			
+			
+			<Anchor>//api/name/rulers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/rulers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *rulers</Declaration>
+			
+			
+			<Anchor>//api/name/rulers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setRulerMarkers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *rulerMarkers</Declaration>
+			
+			
+			<Anchor>//api/name/rulerMarkers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/rulerMarkers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *rulerMarkers</Declaration>
+			
+			
+			<Anchor>//api/name/rulerMarkers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/rulerMarkers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *rulerMarkers</Declaration>
+			
+			
+			<Anchor>//api/name/rulerMarkers</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setGrids:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *grids</Declaration>
+			
+			
+			<Anchor>//api/name/grids</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/grids</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *grids</Declaration>
+			
+			
+			<Anchor>//api/name/grids</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/grids</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *grids</Declaration>
+			
+			
+			<Anchor>//api/name/grids</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setLevelIndicators:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *levelIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/levelIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/levelIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *levelIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/levelIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/levelIndicators</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *levelIndicators</Declaration>
+			
+			
+			<Anchor>//api/name/levelIndicators</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setCells:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *cells</Declaration>
+			
+			
+			<Anchor>//api/name/cells</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/cells</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *cells</Declaration>
+			
+			
+			<Anchor>//api/name/cells</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/cells</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *cells</Declaration>
+			
+			
+			<Anchor>//api/name/cells</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setLayoutAreas:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *layoutAreas</Declaration>
+			
+			
+			<Anchor>//api/name/layoutAreas</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/layoutAreas</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *layoutAreas</Declaration>
+			
+			
+			<Anchor>//api/name/layoutAreas</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/layoutAreas</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *layoutAreas</Declaration>
+			
+			
+			<Anchor>//api/name/layoutAreas</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setLayoutItems:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *layoutItems</Declaration>
+			
+			
+			<Anchor>//api/name/layoutItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/layoutItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *layoutItems</Declaration>
+			
+			
+			<Anchor>//api/name/layoutItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/layoutItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *layoutItems</Declaration>
+			
+			
+			<Anchor>//api/name/layoutItems</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setHandles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *handles</Declaration>
+			
+			
+			<Anchor>//api/name/handles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/handles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *handles</Declaration>
+			
+			
+			<Anchor>//api/name/handles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/handles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *handles</Declaration>
+			
+			
+			<Anchor>//api/name/handles</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/setOtherElements:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *otherElements</Declaration>
+			
+			
+			<Anchor>//api/name/otherElements</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementTypeQueryProvider/otherElements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *otherElements</Declaration>
+			
+			
+			<Anchor>//api/name/otherElements</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementTypeQueryProvider/otherElements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementTypeQueryProvider.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCUIElementQuery *otherElements</Declaration>
+			
+			
+			<Anchor>//api/name/otherElements</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

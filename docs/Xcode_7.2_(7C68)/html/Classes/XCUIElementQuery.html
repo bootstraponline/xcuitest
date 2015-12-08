@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCUIElementQuery Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/allElementsBoundByAccessibilityElement">allElementsBoundByAccessibilityElement</option>
+		
+		<option value="//api/name/allElementsBoundByIndex">allElementsBoundByIndex</option>
+		
+		<option value="//api/name/count">count</option>
+		
+		<option value="//api/name/debugDescription">debugDescription</option>
+		
+		<option value="//api/name/element">element</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/childrenMatchingType:">- childrenMatchingType:</option>
+		
+		<option value="//api/name/containingPredicate:">- containingPredicate:</option>
+		
+		<option value="//api/name/containingType:identifier:">- containingType:identifier:</option>
+		
+		<option value="//api/name/descendantsMatchingType:">- descendantsMatchingType:</option>
+		
+		<option value="//api/name/elementAtIndex:">- elementAtIndex:</option>
+		
+		<option value="//api/name/elementBoundByIndex:">- elementBoundByIndex:</option>
+		
+		<option value="//api/name/elementMatchingPredicate:">- elementMatchingPredicate:</option>
+		
+		<option value="//api/name/elementMatchingType:identifier:">- elementMatchingType:identifier:</option>
+		
+		<option value="//api/name/matchingIdentifier:">- matchingIdentifier:</option>
+		
+		<option value="//api/name/matchingPredicate:">- matchingPredicate:</option>
+		
+		<option value="//api/name/matchingType:identifier:">- matchingType:identifier:</option>
+		
+		<option value="//api/name/objectForKeyedSubscript:">- objectForKeyedSubscript:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCUIElementQuery Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td><a href="../Protocols/XCUIElementTypeQueryProvider.html">XCUIElementTypeQueryProvider</a></td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCUIElementQuery.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Object for locating elements that can be chained with other queries.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/element" title="element"></a>
+	<h3 class="method-title"><code><a href="#//api/name/element">&nbsp;&nbsp;element</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an element that will use the query for resolution.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) XCUIElement *element</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/count" title="count"></a>
+	<h3 class="method-title"><code><a href="#//api/name/count">&nbsp;&nbsp;count</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Evaluates the query at the time it is called and returns the number of matches found.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSUInteger count</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/elementAtIndex:" title="elementAtIndex:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/elementAtIndex:">&ndash;&nbsp;elementAtIndex:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an <a href="#//api/name/element">element</a> that will resolve to the index into the query&rsquo;s result set.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElement *)elementAtIndex:(NSUInteger)<em>index</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/elementBoundByIndex:" title="elementBoundByIndex:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/elementBoundByIndex:">&ndash;&nbsp;elementBoundByIndex:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an <a href="#//api/name/element">element</a> that will use the index into the query&rsquo;s results to determine which underlying accessibility <a href="#//api/name/element">element</a> it is matched with.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElement *)elementBoundByIndex:(NSUInteger)<em>index</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/elementMatchingPredicate:" title="elementMatchingPredicate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/elementMatchingPredicate:">&ndash;&nbsp;elementMatchingPredicate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an <a href="#//api/name/element">element</a> that matches the predicate.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElement *)elementMatchingPredicate:(NSPredicate *)<em>predicate</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/elementMatchingType:identifier:" title="elementMatchingType:identifier:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/elementMatchingType:identifier:">&ndash;&nbsp;elementMatchingType:identifier:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns an <a href="#//api/name/element">element</a> that matches the type and identifier.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElement *)elementMatchingType:(XCUIElementType)<em>elementType</em> identifier:(nullable NSString *)<em>identifier</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/objectForKeyedSubscript:" title="objectForKeyedSubscript:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/objectForKeyedSubscript:">&ndash;&nbsp;objectForKeyedSubscript:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Keyed subscripting is implemented as a shortcut for matching an identifier only. For example, app.descendants[&ldquo;Foo&rdquo;] -> <a href="../Classes/XCUIElement.html">XCUIElement</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElement *)objectForKeyedSubscript:(NSString *)<em>key</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/allElementsBoundByAccessibilityElement" title="allElementsBoundByAccessibilityElement"></a>
+	<h3 class="method-title"><code><a href="#//api/name/allElementsBoundByAccessibilityElement">&nbsp;&nbsp;allElementsBoundByAccessibilityElement</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Immediately evaluates the query and returns an array of elements bound to the resulting accessibility elements.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByAccessibilityElement</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/allElementsBoundByIndex" title="allElementsBoundByIndex"></a>
+	<h3 class="method-title"><code><a href="#//api/name/allElementsBoundByIndex">&nbsp;&nbsp;allElementsBoundByIndex</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Immediately evaluates the query and returns an array of elements bound by the index of each result.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSArray&lt;XCUIElement*&gt; *allElementsBoundByIndex</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsMatchingType:" title="descendantsMatchingType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsMatchingType:">&ndash;&nbsp;descendantsMatchingType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new query that finds the descendants of all the elements found by the receiver.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)descendantsMatchingType:(XCUIElementType)<em>type</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childrenMatchingType:" title="childrenMatchingType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childrenMatchingType:">&ndash;&nbsp;childrenMatchingType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new query that finds the direct children of all the elements found by the receiver.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)childrenMatchingType:(XCUIElementType)<em>type</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/matchingPredicate:" title="matchingPredicate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/matchingPredicate:">&ndash;&nbsp;matchingPredicate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new query that applies the specified attributes or predicate to the receiver.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)matchingPredicate:(NSPredicate *)<em>predicate</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/matchingType:identifier:" title="matchingType:identifier:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/matchingType:identifier:">&ndash;&nbsp;matchingType:identifier:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)matchingType:(XCUIElementType)<em>elementType</em> identifier:(nullable NSString *)<em>identifier</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/matchingIdentifier:" title="matchingIdentifier:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/matchingIdentifier:">&ndash;&nbsp;matchingIdentifier:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)matchingIdentifier:(NSString *)<em>identifier</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/containingPredicate:" title="containingPredicate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/containingPredicate:">&ndash;&nbsp;containingPredicate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a new query for finding elements that contain a descendant matching the specification.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)containingPredicate:(NSPredicate *)<em>predicate</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/containingType:identifier:" title="containingType:identifier:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/containingType:identifier:">&ndash;&nbsp;containingType:identifier:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (XCUIElementQuery *)containingType:(XCUIElementType)<em>elementType</em> identifier:(nullable NSString *)<em>identifier</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/debugDescription" title="debugDescription"></a>
+	<h3 class="method-title"><code><a href="#//api/name/debugDescription">&nbsp;&nbsp;debugDescription</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@discussion
+Provides debugging information about the query. The data in the string will vary based on the time
+at which it is captured, but it may include any of the following as well as additional data:
+    • A description of each step of the query.
+    • Information about the inputs and matched outputs of each step of the query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *debugDescription</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUIElementQuery.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

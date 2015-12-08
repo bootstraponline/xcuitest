@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUICoordinate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUICoordinate</TokenIdentifier>
+			<Abstract type="html">A coordinate represents a location on screen, relative to some element. Coordinates are dynamic, just like the elements to which they refer, and may compute different screen locations at different times, or be invalid if the referenced element does not exist.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/init</TokenIdentifier>
+			<Abstract type="html">Coordinates are never instantiated directly. Instead, they are created by elements or by other coordinates.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setReferencedElement:</TokenIdentifier>
+			<Abstract type="html">The element that the coordinate is based on, either directly or via the coordinate from which it was derived.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *referencedElement</Declaration>
+			
+			
+			<Anchor>//api/name/referencedElement</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/referencedElement</TokenIdentifier>
+			<Abstract type="html">The element that the coordinate is based on, either directly or via the coordinate from which it was derived.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *referencedElement</Declaration>
+			
+			
+			<Anchor>//api/name/referencedElement</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/referencedElement</TokenIdentifier>
+			<Abstract type="html">The element that the coordinate is based on, either directly or via the coordinate from which it was derived.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *referencedElement</Declaration>
+			
+			
+			<Anchor>//api/name/referencedElement</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setScreenPoint:</TokenIdentifier>
+			<Abstract type="html">The dynamically computed value of the coordinate&apos;s location on screen. Note that this value is dependent on the current frame of the referenced element; if the element&apos;s frame changes, so will the value returned by this property. If the referenced element does exist when this is called, it will fail the test; check the referenced element&apos;s exists property if the element may not be present.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGPoint screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/screenPoint</TokenIdentifier>
+			<Abstract type="html">The dynamically computed value of the coordinate&apos;s location on screen. Note that this value is dependent on the current frame of the referenced element; if the element&apos;s frame changes, so will the value returned by this property. If the referenced element does exist when this is called, it will fail the test; check the referenced element&apos;s exists property if the element may not be present.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGPoint screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/screenPoint</TokenIdentifier>
+			<Abstract type="html">The dynamically computed value of the coordinate&apos;s location on screen. Note that this value is dependent on the current frame of the referenced element; if the element&apos;s frame changes, so will the value returned by this property. If the referenced element does exist when this is called, it will fail the test; check the referenced element&apos;s exists property if the element may not be present.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGPoint screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/coordinateWithOffset:</TokenIdentifier>
+			<Abstract type="html">Creates a new coordinate with an absolute offset in points from the original coordinate.</Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (XCUICoordinate *)coordinateWithOffset:(CGVector)offsetVector</Declaration>
+			
+			
+			<Anchor>//api/name/coordinateWithOffset:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/tap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)tap</Declaration>
+			
+			
+			<Anchor>//api/name/tap</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/doubleTap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)doubleTap</Declaration>
+			
+			
+			<Anchor>//api/name/doubleTap</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/pressForDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)pressForDuration:(NSTimeInterval)duration</Declaration>
+			
+			
+			<Anchor>//api/name/pressForDuration:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/pressForDuration:thenDragToCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)pressForDuration:(NSTimeInterval)duration thenDragToCoordinate:(XCUICoordinate *)otherCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/pressForDuration:thenDragToCoordinate:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/hover</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)hover</Declaration>
+			
+			
+			<Anchor>//api/name/hover</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/click</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)click</Declaration>
+			
+			
+			<Anchor>//api/name/click</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/doubleClick</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)doubleClick</Declaration>
+			
+			
+			<Anchor>//api/name/doubleClick</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/rightClick</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)rightClick</Declaration>
+			
+			
+			<Anchor>//api/name/rightClick</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/clickForDuration:thenDragToCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)clickForDuration:(NSTimeInterval)duration thenDragToCoordinate:(XCUICoordinate *)otherCoordinate</Declaration>
+			
+			
+			<Anchor>//api/name/clickForDuration:thenDragToCoordinate:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/scrollByDeltaX:deltaY:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollByDeltaX:(CGFloat)deltaX deltaY:(CGFloat)deltaY</Declaration>
+			
+			
+			<Anchor>//api/name/scrollByDeltaX:deltaY:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

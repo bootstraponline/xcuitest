@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/XCUIKeyModifierFlags.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/XCUIKeyModifierFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierNone</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierNone</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierAlphaShift</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierAlphaShift</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierShift</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierShift</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierControl</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierControl</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierAlternate</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierAlternate</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierOption</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierOption</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIKeyModifierCommand</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIKeyModifierCommand</Declaration>
+            
+            <DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+            <NodeRef refid="25"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

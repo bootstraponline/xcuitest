@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    CFPropertyList (2.3.2)
+    safe_yaml (1.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  CFPropertyList (>= 2.3.2)
+  safe_yaml (>= 1.0.4)
+
+BUNDLED WITH
+   1.10.6

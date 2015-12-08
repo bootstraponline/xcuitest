@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/XCUIUserInterfaceSizeClass.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/XCUIUserInterfaceSizeClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIUserInterfaceSizeClassUnspecified</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIUserInterfaceSizeClassUnspecified</Declaration>
+            
+            <DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIUserInterfaceSizeClassCompact</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIUserInterfaceSizeClassCompact</Declaration>
+            
+            <DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIUserInterfaceSizeClassRegular</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIUserInterfaceSizeClassRegular</Declaration>
+            
+            <DeclaredIn>XCUIElementAttributes.h</DeclaredIn>
+            
+            <NodeRef refid="27"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

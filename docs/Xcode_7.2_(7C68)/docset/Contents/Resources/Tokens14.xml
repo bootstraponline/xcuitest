@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIDevice</TokenIdentifier>
+			<Abstract type="html">Represents a device, providing an interface for simulating events involving physical buttons and device state.</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIDevice/sharedDevice</TokenIdentifier>
+			<Abstract type="html">The current device.</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>+ (XCUIDevice *)sharedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/sharedDevice</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/setOrientation:</TokenIdentifier>
+			<Abstract type="html">The orientation of the device.</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIDeviceOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/orientation</TokenIdentifier>
+			<Abstract type="html">The orientation of the device.</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIDeviceOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIDevice/orientation</TokenIdentifier>
+			<Abstract type="html">The orientation of the device.</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIDeviceOrientation orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIDevice/pressButton:</TokenIdentifier>
+			<Abstract type="html">Simulates the user pressing a physical button.</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+			
+			<Declaration>- (void)pressButton:(XCUIDeviceButton)button</Declaration>
+			
+			
+			<Anchor>//api/name/pressButton:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

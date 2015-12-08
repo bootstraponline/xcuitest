@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIElement.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIElement</TokenIdentifier>
+			<Abstract type="html">@class XCUIElement (/seealso XCUIElementAttributes
+Elements are objects encapsulating the information needed to dynamically locate a user interface
+element in an application. Elements are described in terms of queries /seealso XCUIElementQuery.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/setExists:</TokenIdentifier>
+			<Abstract type="html">Test to determine if the element exists.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/exists</TokenIdentifier>
+			<Abstract type="html">Test to determine if the element exists.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElement/exists</TokenIdentifier>
+			<Abstract type="html">Test to determine if the element exists.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) BOOL exists</Declaration>
+			
+			
+			<Anchor>//api/name/exists</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/setHittable:</TokenIdentifier>
+			<Abstract type="html">Whether or not a hit point can be computed for the element for the purpose of synthesizing events.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isHittable) BOOL hittable</Declaration>
+			
+			
+			<Anchor>//api/name/hittable</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/isHittable</TokenIdentifier>
+			<Abstract type="html">Whether or not a hit point can be computed for the element for the purpose of synthesizing events.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isHittable) BOOL hittable</Declaration>
+			
+			
+			<Anchor>//api/name/hittable</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElement/hittable</TokenIdentifier>
+			<Abstract type="html">Whether or not a hit point can be computed for the element for the purpose of synthesizing events.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isHittable) BOOL hittable</Declaration>
+			
+			
+			<Anchor>//api/name/hittable</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/descendantsMatchingType:</TokenIdentifier>
+			<Abstract type="html">Returns a query for all descendants of the element matching the specified type.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)descendantsMatchingType:(XCUIElementType)type</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsMatchingType:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/childrenMatchingType:</TokenIdentifier>
+			<Abstract type="html">Returns a query for direct children of the element matching the specified type.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (XCUIElementQuery *)childrenMatchingType:(XCUIElementType)type</Declaration>
+			
+			
+			<Anchor>//api/name/childrenMatchingType:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/coordinateWithNormalizedOffset:</TokenIdentifier>
+			<Abstract type="html">Creates and returns a new coordinate that will compute its screen point by adding the offset multiplied by the size of the element’s frame to the origin of the element’s frame.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (XCUICoordinate *)coordinateWithNormalizedOffset:(CGVector)normalizedOffset</Declaration>
+			
+			
+			<Anchor>//api/name/coordinateWithNormalizedOffset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/setDebugDescription:</TokenIdentifier>
+			<Abstract type="html">@discussion
+Provides debugging information about the element. The data in the string will vary based on the
+time at which it is captured, but it may include any of the following as well as additional data:
+    • Values for the elements attributes.
+    • The entire tree of descendants rooted at the element.
+    • The element&apos;s query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/debugDescription</TokenIdentifier>
+			<Abstract type="html">@discussion
+Provides debugging information about the element. The data in the string will vary based on the
+time at which it is captured, but it may include any of the following as well as additional data:
+    • Values for the elements attributes.
+    • The entire tree of descendants rooted at the element.
+    • The element&apos;s query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElement/debugDescription</TokenIdentifier>
+			<Abstract type="html">@discussion
+Provides debugging information about the element. The data in the string will vary based on the
+time at which it is captured, but it may include any of the following as well as additional data:
+    • Values for the elements attributes.
+    • The entire tree of descendants rooted at the element.
+    • The element&apos;s query.
+This data should be used for debugging only - depending on any of the data as part of a test is unsupported.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *debugDescription</Declaration>
+			
+			
+			<Anchor>//api/name/debugDescription</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/adjustToNormalizedSliderPosition:</TokenIdentifier>
+			<Abstract type="html">Manipulates the UI to change the displayed value of the slider to one based on a normalized position. 0 corresponds to the minimum value of the slider, 1 corresponds to its maximum value. The adjustment is a &quot;best effort&quot; to move the indicator to the desired position; absolute fidelity is not guaranteed.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)adjustToNormalizedSliderPosition:(CGFloat)normalizedSliderPosition</Declaration>
+			
+			
+			<Anchor>//api/name/adjustToNormalizedSliderPosition:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/setNormalizedSliderPosition:</TokenIdentifier>
+			<Abstract type="html">Returns the position of the slider&apos;s indicator as a normalized value where 0 corresponds to the minimum value of the slider and 1 corresponds to its maximum value.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGFloat normalizedSliderPosition</Declaration>
+			
+			
+			<Anchor>//api/name/normalizedSliderPosition</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/normalizedSliderPosition</TokenIdentifier>
+			<Abstract type="html">Returns the position of the slider&apos;s indicator as a normalized value where 0 corresponds to the minimum value of the slider and 1 corresponds to its maximum value.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGFloat normalizedSliderPosition</Declaration>
+			
+			
+			<Anchor>//api/name/normalizedSliderPosition</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElement/normalizedSliderPosition</TokenIdentifier>
+			<Abstract type="html">Returns the position of the slider&apos;s indicator as a normalized value where 0 corresponds to the minimum value of the slider and 1 corresponds to its maximum value.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) CGFloat normalizedSliderPosition</Declaration>
+			
+			
+			<Anchor>//api/name/normalizedSliderPosition</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/adjustToPickerWheelValue:</TokenIdentifier>
+			<Abstract type="html">Changes the displayed value for the picker wheel. Will generate a test failure if the specified value is not available.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)adjustToPickerWheelValue:(NSString *)pickerWheelValue</Declaration>
+			
+			
+			<Anchor>//api/name/adjustToPickerWheelValue:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/typeText:</TokenIdentifier>
+			<Abstract type="html">Types a string into the element. The element or a descendant must have keyboard focus; otherwise an
+error is raised.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)typeText:(NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/typeText:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/tap</TokenIdentifier>
+			<Abstract type="html">Sends a tap event to a hittable point computed for the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)tap</Declaration>
+			
+			
+			<Anchor>//api/name/tap</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/doubleTap</TokenIdentifier>
+			<Abstract type="html">Sends a double tap event to a hittable point computed for the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)doubleTap</Declaration>
+			
+			
+			<Anchor>//api/name/doubleTap</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/twoFingerTap</TokenIdentifier>
+			<Abstract type="html">Sends a two finger tap event to a hittable point computed for the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)twoFingerTap</Declaration>
+			
+			
+			<Anchor>//api/name/twoFingerTap</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/tapWithNumberOfTaps:numberOfTouches:</TokenIdentifier>
+			<Abstract type="html">Sends one or more taps with one of more touch points.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)tapWithNumberOfTaps:(NSUInteger)numberOfTaps numberOfTouches:(NSUInteger)numberOfTouches</Declaration>
+			
+			
+			<Anchor>//api/name/tapWithNumberOfTaps:numberOfTouches:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/pressForDuration:</TokenIdentifier>
+			<Abstract type="html">Sends a long press gesture to a hittable point computed for the element, holding for the specified duration.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)pressForDuration:(NSTimeInterval)duration</Declaration>
+			
+			
+			<Anchor>//api/name/pressForDuration:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/pressForDuration:thenDragToElement:</TokenIdentifier>
+			<Abstract type="html">Initiates a press-and-hold gesture that then drags to another element, suitable for table cell reordering and similar operations.
+@param duration
+Duration of the initial press-and-hold.
+@param otherElement
+The element to finish the drag gesture over. In the example of table cell reordering, this would be the reorder element of the destination row.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)pressForDuration:(NSTimeInterval)duration thenDragToElement:(XCUIElement *)otherElement</Declaration>
+			
+			
+			<Anchor>//api/name/pressForDuration:thenDragToElement:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/swipeUp</TokenIdentifier>
+			<Abstract type="html">Sends a swipe-up gesture.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)swipeUp</Declaration>
+			
+			
+			<Anchor>//api/name/swipeUp</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/swipeDown</TokenIdentifier>
+			<Abstract type="html">Sends a swipe-down gesture.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)swipeDown</Declaration>
+			
+			
+			<Anchor>//api/name/swipeDown</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/swipeLeft</TokenIdentifier>
+			<Abstract type="html">Sends a swipe-left gesture.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)swipeLeft</Declaration>
+			
+			
+			<Anchor>//api/name/swipeLeft</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/swipeRight</TokenIdentifier>
+			<Abstract type="html">Sends a swipe-right gesture.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)swipeRight</Declaration>
+			
+			
+			<Anchor>//api/name/swipeRight</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/pinchWithScale:velocity:</TokenIdentifier>
+			<Abstract type="html">Sends a pinching gesture with two touches.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)pinchWithScale:(CGFloat)scale velocity:(CGFloat)velocity</Declaration>
+			
+			
+			<Anchor>//api/name/pinchWithScale:velocity:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/rotate:withVelocity:</TokenIdentifier>
+			<Abstract type="html">Sends a rotation gesture with two touches.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)rotate:(CGFloat)rotation withVelocity:(CGFloat)velocity</Declaration>
+			
+			
+			<Anchor>//api/name/rotate:withVelocity:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/hover</TokenIdentifier>
+			<Abstract type="html">Moves the cursor over the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)hover</Declaration>
+			
+			
+			<Anchor>//api/name/hover</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/click</TokenIdentifier>
+			<Abstract type="html">Sends a click event to a hittable point computed for the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)click</Declaration>
+			
+			
+			<Anchor>//api/name/click</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/doubleClick</TokenIdentifier>
+			<Abstract type="html">Sends a double click event to a hittable point computed for the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)doubleClick</Declaration>
+			
+			
+			<Anchor>//api/name/doubleClick</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/rightClick</TokenIdentifier>
+			<Abstract type="html">Sends a right click event to a hittable point computed for the element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)rightClick</Declaration>
+			
+			
+			<Anchor>//api/name/rightClick</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/clickForDuration:thenDragToElement:</TokenIdentifier>
+			<Abstract type="html">Clicks and holds for a specified duration (generally long enough to start a drag operation) then drags
+to the other element.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)clickForDuration:(NSTimeInterval)duration thenDragToElement:(XCUIElement *)otherElement</Declaration>
+			
+			
+			<Anchor>//api/name/clickForDuration:thenDragToElement:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIElement/performWithKeyModifiers:block:</TokenIdentifier>
+			<Abstract type="html">Hold modifier keys while the given block runs. This method pushes and pops the modifiers as global state
+without need for reference to a particular element. Inside the block, elements can be clicked on, dragged
+from, typed into, etc.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>+ (void)performWithKeyModifiers:(XCUIKeyModifierFlags)flags block:(void ( ^ ) ( void ))block</Declaration>
+			
+			
+			<Anchor>//api/name/performWithKeyModifiers:block:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/typeKey:modifierFlags:</TokenIdentifier>
+			<Abstract type="html">Types a single key with the specified modifier flags. Although key is a string, it must represent
+a single key on a physical keyboard; strings that resolve to multiple keys will raise an error at runtime.
+In addition to literal string key representations like &quot;a&quot;, &quot;6&quot;, and &quot;[&quot;, keys such as the arrow keys,
+command, control, option, and function keys can be typed using constants defined for them in XCUIKeyboardKeys.h</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)typeKey:(NSString *)key modifierFlags:(XCUIKeyModifierFlags)flags</Declaration>
+			
+			
+			<Anchor>//api/name/typeKey:modifierFlags:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElement/scrollByDeltaX:deltaY:</TokenIdentifier>
+			<Abstract type="html">Scroll the view the specified pixels, x and y.</Abstract>
+			<DeclaredIn>XCUIElement.h</DeclaredIn>
+			
+			<Declaration>- (void)scrollByDeltaX:(CGFloat)deltaX deltaY:(CGFloat)deltaY</Declaration>
+			
+			
+			<Anchor>//api/name/scrollByDeltaX:deltaY:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

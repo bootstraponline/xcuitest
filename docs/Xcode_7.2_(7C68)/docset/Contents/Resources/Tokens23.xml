@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/XCUIDeviceButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/XCUIDeviceButton</TokenIdentifier>
+			<Abstract type="html">@enum XCUIDeviceButton</Abstract>
+			<DeclaredIn>XCUIDevice.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIDeviceButtonHome</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIDeviceButtonHome</Declaration>
+            
+            <DeclaredIn>XCUIDevice.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIDeviceButtonVolumeUp</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIDeviceButtonVolumeUp</Declaration>
+            
+            <DeclaredIn>XCUIDevice.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCUIDeviceButtonVolumeDown</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCUIDeviceButtonVolumeDown</Declaration>
+            
+            <DeclaredIn>XCUIDevice.h</DeclaredIn>
+            
+            <NodeRef refid="23"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

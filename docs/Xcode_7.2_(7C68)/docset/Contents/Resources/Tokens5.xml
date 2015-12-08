@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestLog.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestLog</TokenIdentifier>
+			<Abstract type="html">XCTestLog is deprecated.</Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/setLogFileHandle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong) NSFileHandle *logFileHandle</Declaration>
+			
+			
+			<Anchor>//api/name/logFileHandle</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/logFileHandle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong) NSFileHandle *logFileHandle</Declaration>
+			
+			
+			<Anchor>//api/name/logFileHandle</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestLog/logFileHandle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, strong) NSFileHandle *logFileHandle</Declaration>
+			
+			
+			<Anchor>//api/name/logFileHandle</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testLogWithFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testLogWithFormat:(NSString *)format, ...</Declaration>
+			
+			
+			<Anchor>//api/name/testLogWithFormat:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testLogWithFormat:arguments:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testLogWithFormat:(NSString *)format arguments:(va_list)arguments</Declaration>
+			
+			
+			<Anchor>//api/name/testLogWithFormat:arguments:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

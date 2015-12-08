@@ -1,0 +1,76 @@
+
+=begin
+  backup old headers, replace with modified ones
+  new headers from:
+    - class-dump https://github.com/nygard/class-dump
+    -
+
+  must sudo chown the header files before making modifications.
+ `sudo chown $USER path/to/header.h
+
+
+  XCTest version.plist
+
+  /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Frameworks/XCTest.framework/version.plist
+  /Applications/Xcode-beta.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/Library/Frameworks/XCTest.framework/version.plist
+
+  Xcode Version 7.2 (7C62b) - Beta 4
+
+  {
+    "BuildVersion"=>"13",
+    "CFBundleShortVersionString"=>"7.2",
+    "CFBundleVersion"=>"9547",
+    "ProductBuildVersion"=>"7C62b",
+    "ProjectName"=>"IDEFrameworks",
+    "SourceVersion"=>"9547000000000000"
+  }
+
+  {
+    "BuildAliasOf"=> "XCTest"
+    "BuildVersion"=> "5"
+    "CFBundleShortVersionString"=> "1.0"
+    "CFBundleVersion"=> "9060"
+    "ProjectName"=> "XCTest_Ponderosa"
+    "SourceVersion"=> "9060000000000000"
+  }
+
+  Xcode Version 7.1.1 (7B1005)
+
+  {
+    "BuildVersion"=>"5",
+    "CFBundleShortVersionString"=>"7.1.1",
+    "CFBundleVersion"=>"9081",
+    "ProductBuildVersion"=>"7B1005",
+    "ProjectName"=>"IDEFrameworks",
+    "SourceVersion"=>"9081000000000000"
+  }
+
+  {
+    "BuildAliasOf"=> "XCTest"
+    "BuildVersion"=> "3"
+    "CFBundleShortVersionString"=> "1.0"
+    "CFBundleVersion"=> "9530"
+    "ProjectName"=> "XCTest_Ponderosa"
+    "SourceVersion"=> "9530000000000000"
+  }
+
+
+TODO: Generate apple doc.
+
+https://github.com/joemasilotti/XCTest-Documentation
+
+appledoc \
+--project-name "XCTest" \
+--project-company "Apple" \
+--company-id "com.apple" \
+--output "./docset" \
+--logformat xcode \
+--keep-undocumented-objects \
+--keep-undocumented-members \
+--keep-intermediate-files \
+--no-repeat-first-par \
+--no-warn-invalid-crossref \
+--install-docset \
+"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework"
+
+=end

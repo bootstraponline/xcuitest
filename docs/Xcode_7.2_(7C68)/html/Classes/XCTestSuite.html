@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCTestSuite Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/tests">tests</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/defaultTestSuite">+ defaultTestSuite</option>
+		
+		<option value="//api/name/testSuiteForBundlePath:">+ testSuiteForBundlePath:</option>
+		
+		<option value="//api/name/testSuiteForTestCaseClass:">+ testSuiteForTestCaseClass:</option>
+		
+		<option value="//api/name/testSuiteForTestCaseWithName:">+ testSuiteForTestCaseWithName:</option>
+		
+		<option value="//api/name/testSuiteWithName:">+ testSuiteWithName:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addTest:">- addTest:</option>
+		
+		<option value="//api/name/initWithName:">- initWithName:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCTestSuite Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td><a href="../Classes/XCTest.html">XCTest</a> : NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCTestSuite.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<ul>
+<li>@class XCTestSuite</li>
+<li>A concrete subclass of <a href="../Classes/XCTest.html">XCTest</a>, XCTestSuite is a collection of test cases. Suites</li>
+<li>are usually managed by the IDE, but XCTestSuite also provides API for dynamic test</li>
+<li><p>and suite management:</p>
+
+<p>  XCTestSuite *suite = [XCTestSuite testSuiteWithName:@&ldquo;My tests&rdquo;];
+  [suite addTest:[MathTest testCaseWithSelector:@selector(testAdd)]];
+  [suite addTest:[MathTest testCaseWithSelector:@selector(testDivideByZero)]];</p></li>
+<li><p>Alternatively, a test suite can extract the <a href="#//api/name/tests">tests</a> to be run automatically. To do so,</p></li>
+<li><p>pass the class of your test case class to the suite&rsquo;s constructor:</p>
+
+<p>  XCTestSuite *suite = [XCTestSuite testSuiteForTestCaseClass:[MathTest class]];</p></li>
+<li><p>This creates a suite with all the methods starting with &ldquo;test&rdquo; that take no arguments.</p></li>
+<li><p>Also, a test suite of all the test cases found in the runtime can be created automatically:</p>
+
+<p>  XCTestSuite *suite = <a href="#//api/name/defaultTestSuite">[XCTestSuite defaultTestSuite]</a>;</p></li>
+<li><p>This creates a suite of suites with all the <a href="../Classes/XCTestCase.html">XCTestCase</a> subclasses methods that start</p></li>
+<li>with &ldquo;test&rdquo; and take no arguments.</li>
+</ul>
+
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/defaultTestSuite" title="defaultTestSuite"></a>
+	<h3 class="method-title"><code><a href="#//api/name/defaultTestSuite">+&nbsp;defaultTestSuite</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)defaultTestSuite</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuiteForBundlePath:" title="testSuiteForBundlePath:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuiteForBundlePath:">+&nbsp;testSuiteForBundlePath:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)testSuiteForBundlePath:(NSString *)<em>bundlePath</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuiteForTestCaseWithName:" title="testSuiteForTestCaseWithName:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuiteForTestCaseWithName:">+&nbsp;testSuiteForTestCaseWithName:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)testSuiteForTestCaseWithName:(NSString *)<em>name</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuiteForTestCaseClass:" title="testSuiteForTestCaseClass:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuiteForTestCaseClass:">+&nbsp;testSuiteForTestCaseClass:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)testSuiteForTestCaseClass:(Class)<em>testCaseClass</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuiteWithName:" title="testSuiteWithName:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuiteWithName:">+&nbsp;testSuiteWithName:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)testSuiteWithName:(NSString *)<em>name</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithName:" title="initWithName:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithName:">&ndash;&nbsp;initWithName:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithName:(NSString *)<em>name</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addTest:" title="addTest:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addTest:">&ndash;&nbsp;addTest:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)addTest:(XCTest *)<em>test</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tests" title="tests"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tests">&nbsp;&nbsp;tests</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSArray&lt;__kindofXCTest*&gt; *tests</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
