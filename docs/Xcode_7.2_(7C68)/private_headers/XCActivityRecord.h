@@ -24,21 +24,21 @@
 }
 
 + (_Bool)supportsSecureCoding;
-@property(retain) XCSynthesizedEventRecord *synthesizedEvent; // @synthesize synthesizedEvent=_synthesizedEvent;
-@property(copy) NSArray *elementsOfInterest; // @synthesize elementsOfInterest=_elementsOfInterest;
-@property(retain) XCElementSnapshot *snapshot; // @synthesize snapshot=_snapshot;
-@property(copy) NSData *screenImageData; // @synthesize screenImageData=_screenImageData;
-@property _Bool hasSubactivities; // @synthesize hasSubactivities=_hasSubactivities;
-@property(copy) NSDate *start; // @synthesize start=_start;
-@property(copy) NSDate *finish; // @synthesize finish=_finish;
-@property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(readonly) double duration;
-- (id)description;
-- (void)encodeWithCoder:(id)arg1;
-- (id)initWithCoder:(id)arg1;
-- (id)init;
 - (void)dealloc;
+- (id)description;
+@property(readonly) double duration;
+@property(copy) NSArray *elementsOfInterest; // @synthesize elementsOfInterest=_elementsOfInterest;
+- (void)encodeWithCoder:(id)arg1;
+@property(copy) NSDate *finish; // @synthesize finish=_finish;
+@property _Bool hasSubactivities; // @synthesize hasSubactivities=_hasSubactivities;
+- (id)init;
+- (id)initWithCoder:(id)arg1;
+@property(copy) NSData *screenImageData; // @synthesize screenImageData=_screenImageData;
+@property(retain) XCElementSnapshot *snapshot; // @synthesize snapshot=_snapshot;
+@property(copy) NSDate *start; // @synthesize start=_start;
+@property(retain) XCSynthesizedEventRecord *synthesizedEvent; // @synthesize synthesizedEvent=_synthesizedEvent;
+@property(copy) NSString *title; // @synthesize title=_title;
+@property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -25,50 +25,50 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/setQueue:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/_beginMonitoringApplication:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
 			
-			<Declaration>@property NSObject&lt;OS_dispatch_queue&gt; *queue</Declaration>
+			<Declaration>- (void)_beginMonitoringApplication:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/queue</Anchor>
+			<Anchor>//api/name/_beginMonitoringApplication:</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/queue</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/applicationImplementationForApplicationAtPath:bundleID:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
 			
-			<Declaration>@property NSObject&lt;OS_dispatch_queue&gt; *queue</Declaration>
+			<Declaration>- (id)applicationImplementationForApplicationAtPath:(id)arg1 bundleID:(id)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/queue</Anchor>
+			<Anchor>//api/name/applicationImplementationForApplicationAtPath:bundleID:</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCApplicationMonitor/queue</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/applicationProcessWithPID:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
 			
-			<Declaration>@property NSObject&lt;OS_dispatch_queue&gt; *queue</Declaration>
+			<Declaration>- (id)applicationProcessWithPID:(int)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/queue</Anchor>
+			<Anchor>//api/name/applicationProcessWithPID:</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/terminateApplicationProcess:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/init</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
 			
-			<Declaration>- (void)terminateApplicationProcess:(id)arg1</Declaration>
+			<Declaration>- (id)init</Declaration>
 			
 			
-			<Anchor>//api/name/terminateApplicationProcess:</Anchor>
+			<Anchor>//api/name/init</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
@@ -81,18 +81,6 @@
 			
 			
 			<Anchor>//api/name/monitoredApplicationWithProcessIdentifier:</Anchor>
-            <NodeRef refid="4"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/_beginMonitoringApplication:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
-			
-			<Declaration>- (void)_beginMonitoringApplication:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/_beginMonitoringApplication:</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		
@@ -133,6 +121,42 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/setQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
+			
+			<Declaration>@property NSObject&lt;OS_dispatch_queue&gt; *queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/queue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
+			
+			<Declaration>@property NSObject&lt;OS_dispatch_queue&gt; *queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCApplicationMonitor/queue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
+			
+			<Declaration>@property NSObject&lt;OS_dispatch_queue&gt; *queue</Declaration>
+			
+			
+			<Anchor>//api/name/queue</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/setApplicationProcess:forPID:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
@@ -145,38 +169,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/applicationProcessWithPID:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/terminateApplicationProcess:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
 			
-			<Declaration>- (id)applicationProcessWithPID:(int)arg1</Declaration>
+			<Declaration>- (void)terminateApplicationProcess:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/applicationProcessWithPID:</Anchor>
-            <NodeRef refid="4"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/applicationImplementationForApplicationAtPath:bundleID:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
-			
-			<Declaration>- (id)applicationImplementationForApplicationAtPath:(id)arg1 bundleID:(id)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/applicationImplementationForApplicationAtPath:bundleID:</Anchor>
-            <NodeRef refid="4"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor/init</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCApplicationMonitor.h</DeclaredIn>
-			
-			<Declaration>- (id)init</Declaration>
-			
-			
-			<Anchor>//api/name/init</Anchor>
+			<Anchor>//api/name/terminateApplicationProcess:</Anchor>
             <NodeRef refid="4"/>
 		</Token>
 		

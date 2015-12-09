@@ -37,6 +37,18 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/setDuration:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
@@ -73,38 +85,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/setUsage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/encodeWithCoder:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
 			
-			<Declaration>@property unsigned int usage</Declaration>
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/usage</Anchor>
-            <NodeRef refid="7"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/usage</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
-			
-			<Declaration>@property unsigned int usage</Declaration>
-			
-			
-			<Anchor>//api/name/usage</Anchor>
-            <NodeRef refid="7"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCDeviceEvent/usage</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
-			
-			<Declaration>@property unsigned int usage</Declaration>
-			
-			
-			<Anchor>//api/name/usage</Anchor>
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		
@@ -145,30 +133,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/description</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
-			
-			<Declaration>- (id)description</Declaration>
-			
-			
-			<Anchor>//api/name/description</Anchor>
-            <NodeRef refid="7"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/encodeWithCoder:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
-			
-			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/encodeWithCoder:</Anchor>
-            <NodeRef refid="7"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/initWithCoder:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
@@ -177,6 +141,42 @@
 			
 			
 			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/setUsage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned int usage</Declaration>
+			
+			
+			<Anchor>//api/name/usage</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCDeviceEvent/usage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned int usage</Declaration>
+			
+			
+			<Anchor>//api/name/usage</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCDeviceEvent/usage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCDeviceEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned int usage</Declaration>
+			
+			
+			<Anchor>//api/name/usage</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		

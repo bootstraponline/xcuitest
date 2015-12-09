@@ -49,42 +49,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setApplicationMonitor:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property XCApplicationMonitor *applicationMonitor</Declaration>
-			
-			
-			<Anchor>//api/name/applicationMonitor</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/applicationMonitor</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property XCApplicationMonitor *applicationMonitor</Declaration>
-			
-			
-			<Anchor>//api/name/applicationMonitor</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/applicationMonitor</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property XCApplicationMonitor *applicationMonitor</Declaration>
-			
-			
-			<Anchor>//api/name/applicationMonitor</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setIDEProxy:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
@@ -117,330 +81,6 @@
 			
 			
 			<Anchor>//api/name/IDEProxy</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setApplicationImplementation:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property XCUIApplicationImpl *applicationImplementation</Declaration>
-			
-			
-			<Anchor>//api/name/applicationImplementation</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/applicationImplementation</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property XCUIApplicationImpl *applicationImplementation</Declaration>
-			
-			
-			<Anchor>//api/name/applicationImplementation</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/applicationImplementation</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property XCUIApplicationImpl *applicationImplementation</Declaration>
-			
-			
-			<Anchor>//api/name/applicationImplementation</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/terminate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>- (void)terminate</Declaration>
-			
-			
-			<Anchor>//api/name/terminate</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/waitForViewControllerViewDidDisappearWithTimeout:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/waitForViewControllerViewDidDisappearWithTimeout:</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/waitForQuiescence</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>- (void)waitForQuiescence</Declaration>
-			
-			
-			<Anchor>//api/name/waitForQuiescence</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setHasReceivedAnimationsHaveFinished:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasReceivedAnimationsHaveFinished</Declaration>
-			
-			
-			<Anchor>//api/name/hasReceivedAnimationsHaveFinished</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/hasReceivedAnimationsHaveFinished</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasReceivedAnimationsHaveFinished</Declaration>
-			
-			
-			<Anchor>//api/name/hasReceivedAnimationsHaveFinished</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/hasReceivedAnimationsHaveFinished</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasReceivedAnimationsHaveFinished</Declaration>
-			
-			
-			<Anchor>//api/name/hasReceivedAnimationsHaveFinished</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setAnimationsHaveFinished:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool animationsHaveFinished</Declaration>
-			
-			
-			<Anchor>//api/name/animationsHaveFinished</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/animationsHaveFinished</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool animationsHaveFinished</Declaration>
-			
-			
-			<Anchor>//api/name/animationsHaveFinished</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/animationsHaveFinished</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool animationsHaveFinished</Declaration>
-			
-			
-			<Anchor>//api/name/animationsHaveFinished</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setHasReceivedEventLoopHasIdled:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasReceivedEventLoopHasIdled</Declaration>
-			
-			
-			<Anchor>//api/name/hasReceivedEventLoopHasIdled</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/hasReceivedEventLoopHasIdled</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasReceivedEventLoopHasIdled</Declaration>
-			
-			
-			<Anchor>//api/name/hasReceivedEventLoopHasIdled</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/hasReceivedEventLoopHasIdled</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasReceivedEventLoopHasIdled</Declaration>
-			
-			
-			<Anchor>//api/name/hasReceivedEventLoopHasIdled</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setEventLoopHasIdled:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool eventLoopHasIdled</Declaration>
-			
-			
-			<Anchor>//api/name/eventLoopHasIdled</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/eventLoopHasIdled</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool eventLoopHasIdled</Declaration>
-			
-			
-			<Anchor>//api/name/eventLoopHasIdled</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/eventLoopHasIdled</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property _Bool eventLoopHasIdled</Declaration>
-			
-			
-			<Anchor>//api/name/eventLoopHasIdled</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setToken:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (retain) id token</Declaration>
-			
-			
-			<Anchor>//api/name/token</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/token</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (retain) id token</Declaration>
-			
-			
-			<Anchor>//api/name/token</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/token</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (retain) id token</Declaration>
-			
-			
-			<Anchor>//api/name/token</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setProcessID:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) int processID</Declaration>
-			
-			
-			<Anchor>//api/name/processID</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/processID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) int processID</Declaration>
-			
-			
-			<Anchor>//api/name/processID</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/processID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) int processID</Declaration>
-			
-			
-			<Anchor>//api/name/processID</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setApplicationState:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) unsigned long long applicationState</Declaration>
-			
-			
-			<Anchor>//api/name/applicationState</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/applicationState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) unsigned long long applicationState</Declaration>
-			
-			
-			<Anchor>//api/name/applicationState</Anchor>
-            <NodeRef refid="43"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/applicationState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) unsigned long long applicationState</Declaration>
-			
-			
-			<Anchor>//api/name/applicationState</Anchor>
             <NodeRef refid="43"/>
 		</Token>
 		
@@ -517,6 +157,162 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setAnimationsHaveFinished:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool animationsHaveFinished</Declaration>
+			
+			
+			<Anchor>//api/name/animationsHaveFinished</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/animationsHaveFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool animationsHaveFinished</Declaration>
+			
+			
+			<Anchor>//api/name/animationsHaveFinished</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/animationsHaveFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool animationsHaveFinished</Declaration>
+			
+			
+			<Anchor>//api/name/animationsHaveFinished</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setApplicationImplementation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property XCUIApplicationImpl *applicationImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/applicationImplementation</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/applicationImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property XCUIApplicationImpl *applicationImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/applicationImplementation</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/applicationImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property XCUIApplicationImpl *applicationImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/applicationImplementation</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setApplicationMonitor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property XCApplicationMonitor *applicationMonitor</Declaration>
+			
+			
+			<Anchor>//api/name/applicationMonitor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/applicationMonitor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property XCApplicationMonitor *applicationMonitor</Declaration>
+			
+			
+			<Anchor>//api/name/applicationMonitor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/applicationMonitor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property XCApplicationMonitor *applicationMonitor</Declaration>
+			
+			
+			<Anchor>//api/name/applicationMonitor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setApplicationState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long applicationState</Declaration>
+			
+			
+			<Anchor>//api/name/applicationState</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/applicationState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long applicationState</Declaration>
+			
+			
+			<Anchor>//api/name/applicationState</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/applicationState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long applicationState</Declaration>
+			
+			
+			<Anchor>//api/name/applicationState</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/description</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
@@ -525,6 +321,114 @@
 			
 			
 			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setEventLoopHasIdled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool eventLoopHasIdled</Declaration>
+			
+			
+			<Anchor>//api/name/eventLoopHasIdled</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/eventLoopHasIdled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool eventLoopHasIdled</Declaration>
+			
+			
+			<Anchor>//api/name/eventLoopHasIdled</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/eventLoopHasIdled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool eventLoopHasIdled</Declaration>
+			
+			
+			<Anchor>//api/name/eventLoopHasIdled</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setHasReceivedAnimationsHaveFinished:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasReceivedAnimationsHaveFinished</Declaration>
+			
+			
+			<Anchor>//api/name/hasReceivedAnimationsHaveFinished</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/hasReceivedAnimationsHaveFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasReceivedAnimationsHaveFinished</Declaration>
+			
+			
+			<Anchor>//api/name/hasReceivedAnimationsHaveFinished</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/hasReceivedAnimationsHaveFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasReceivedAnimationsHaveFinished</Declaration>
+			
+			
+			<Anchor>//api/name/hasReceivedAnimationsHaveFinished</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setHasReceivedEventLoopHasIdled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasReceivedEventLoopHasIdled</Declaration>
+			
+			
+			<Anchor>//api/name/hasReceivedEventLoopHasIdled</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/hasReceivedEventLoopHasIdled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasReceivedEventLoopHasIdled</Declaration>
+			
+			
+			<Anchor>//api/name/hasReceivedEventLoopHasIdled</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/hasReceivedEventLoopHasIdled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasReceivedEventLoopHasIdled</Declaration>
+			
+			
+			<Anchor>//api/name/hasReceivedEventLoopHasIdled</Anchor>
             <NodeRef refid="43"/>
 		</Token>
 		
@@ -553,14 +457,110 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setProcessID:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property (nonatomic) int processID</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/processID</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/processID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int processID</Declaration>
+			
+			
+			<Anchor>//api/name/processID</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/processID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int processID</Declaration>
+			
+			
+			<Anchor>//api/name/processID</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/setToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/token</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationProcess/token</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/terminate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>- (void)terminate</Declaration>
+			
+			
+			<Anchor>//api/name/terminate</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/waitForQuiescence</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>- (void)waitForQuiescence</Declaration>
+			
+			
+			<Anchor>//api/name/waitForQuiescence</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationProcess/waitForViewControllerViewDidDisappearWithTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationProcess.h</DeclaredIn>
+			
+			<Declaration>- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/waitForViewControllerViewDidDisappearWithTimeout:</Anchor>
             <NodeRef refid="43"/>
 		</Token>
 		

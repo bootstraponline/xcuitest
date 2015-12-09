@@ -13,30 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (id)_stringRepresentationsOfNodesAsSeparateLines:(id)arg1 language:(unsigned long long)arg2 options:(unsigned long long)arg3 error:(id *)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/stringRepresentationsOfNodesAsSeparateLines:language:error:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (id)stringRepresentationsOfNodesAsSeparateLines:(id)arg1 language:(unsigned long long)arg2 error:(id *)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/stringRepresentationsOfNodesAsSeparateLines:language:error:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_defaultOptions</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
@@ -49,62 +25,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/treeForStringRepresentation:range:error:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>+ (id)treeForStringRepresentation:(id)arg1 range:(struct _NSRange)arg2 error:(id *)arg3</Declaration>
+			<Declaration>+ (_Bool)_isContentEqualIgnoringSelection:(_Bool)arg1 childNodes:(id)arg2 childNodes:(id)arg3 toDistanceFromRoot:(long long)arg4</Declaration>
 			
 			
-			<Anchor>//api/name/treeForStringRepresentation:range:error:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (struct _NSRange)_rangeOfFirstSourceCodeTreeInString:(id)arg1 range:(struct _NSRange)arg2 compiledSourceCodeRange:(struct _NSRange *)arg3 jsonRange:(struct _NSRange *)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/rangeOfFirstSourceCodeTreeInString:range:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (struct _NSRange)rangeOfFirstSourceCodeTreeInString:(id)arg1 range:(struct _NSRange)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/rangeOfFirstSourceCodeTreeInString:range:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/supportsSecureCoding</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
-			
-			
-			<Anchor>//api/name/supportsSecureCoding</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_sourceCodeForNodes:error:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (id)_sourceCodeForNodes:(id)arg1 error:(id *)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/_sourceCodeForNodes:error:</Anchor>
+			<Anchor>//api/name/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -133,18 +61,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>+ (_Bool)_isContentEqualIgnoringSelection:(_Bool)arg1 childNodes:(id)arg2 childNodes:(id)arg3 toDistanceFromRoot:(long long)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_nodesByMergingSimilarNodes:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
@@ -153,6 +69,18 @@
 			
 			
 			<Anchor>//api/name/_nodesByMergingSimilarNodes:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>+ (struct _NSRange)_rangeOfFirstSourceCodeTreeInString:(id)arg1 range:(struct _NSRange)arg2 compiledSourceCodeRange:(struct _NSRange *)arg3 jsonRange:(struct _NSRange *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -169,38 +97,86 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setElementType:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_sourceCodeForNodes:error:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setElementType:) NSNumber *_elementType</Declaration>
+			<Declaration>+ (id)_sourceCodeForNodes:(id)arg1 error:(id *)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/_elementType</Anchor>
+			<Anchor>//api/name/_sourceCodeForNodes:error:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_elementType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setElementType:) NSNumber *_elementType</Declaration>
+			<Declaration>+ (id)_stringRepresentationsOfNodesAsSeparateLines:(id)arg1 language:(unsigned long long)arg2 options:(unsigned long long)arg3 error:(id *)arg4</Declaration>
 			
 			
-			<Anchor>//api/name/_elementType</Anchor>
+			<Anchor>//api/name/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_elementType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/rangeOfFirstSourceCodeTreeInString:range:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setElementType:) NSNumber *_elementType</Declaration>
+			<Declaration>+ (struct _NSRange)rangeOfFirstSourceCodeTreeInString:(id)arg1 range:(struct _NSRange)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/_elementType</Anchor>
+			<Anchor>//api/name/rangeOfFirstSourceCodeTreeInString:range:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/stringRepresentationsOfNodesAsSeparateLines:language:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)stringRepresentationsOfNodesAsSeparateLines:(id)arg1 language:(unsigned long long)arg2 error:(id *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/stringRepresentationsOfNodesAsSeparateLines:language:error:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSourceCodeTreeNode/treeForStringRepresentation:range:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)treeForStringRepresentation:(id)arg1 range:(struct _NSRange)arg2 error:(id *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/treeForStringRepresentation:range:error:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_absorbOnlyChildrenIntoParents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (void)_absorbOnlyChildrenIntoParents</Declaration>
+			
+			
+			<Anchor>//api/name/_absorbOnlyChildrenIntoParents</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -241,110 +217,134 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setReturnType:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_canHaveSiblingNode:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setReturnType:) NSNumber *_returnType</Declaration>
+			<Declaration>- (_Bool)_canHaveSiblingNode:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/_returnType</Anchor>
+			<Anchor>//api/name/_canHaveSiblingNode:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_returnType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_canPushPutSolitaryRootNodes</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setReturnType:) NSNumber *_returnType</Declaration>
+			<Declaration>- (_Bool)_canPushPutSolitaryRootNodes</Declaration>
 			
 			
-			<Anchor>//api/name/_returnType</Anchor>
+			<Anchor>//api/name/_canPushPutSolitaryRootNodes</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_returnType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setReturnType:) NSNumber *_returnType</Declaration>
+			<Declaration>- (id)_copyIncludingNodesWithDistanceFromRoot:(unsigned long long)arg1 descendantChildrenArrays:(id)arg2 selectedChildNodeIndexes:(id)arg3</Declaration>
 			
 			
-			<Anchor>//api/name/_returnType</Anchor>
+			<Anchor>//api/name/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setQueryType:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_copyIncludingNodesWithDistanceFromRoot:passingTest:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setQueryType:) NSString *_queryType</Declaration>
+			<Declaration>- (id)_copyIncludingNodesWithDistanceFromRoot:(long long)arg1 passingTest:(CDUnknownBlockType)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/_queryType</Anchor>
+			<Anchor>//api/name/_copyIncludingNodesWithDistanceFromRoot:passingTest:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_queryType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setQueryType:) NSString *_queryType</Declaration>
+			<Declaration>- (id)_copyIncludingNodesWithMinimumDistanceFromLeaf:(unsigned long long)arg1 descendantChildrenArrays:(id)arg2 selectedChildNodeIndexes:(id)arg3</Declaration>
 			
 			
-			<Anchor>//api/name/_queryType</Anchor>
+			<Anchor>//api/name/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_queryType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_depthStringWithDepth:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setQueryType:) NSString *_queryType</Declaration>
+			<Declaration>- (id)_depthStringWithDepth:(unsigned long long)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/_queryType</Anchor>
+			<Anchor>//api/name/_depthStringWithDepth:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setIndex:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_descendantCount</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setIndex:) NSNumber *_index</Declaration>
+			<Declaration>- (unsigned long long)_descendantCount</Declaration>
 			
 			
-			<Anchor>//api/name/_index</Anchor>
+			<Anchor>//api/name/_descendantCount</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_index</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_distanceFromRoot</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setIndex:) NSNumber *_index</Declaration>
+			<Declaration>- (unsigned long long)_distanceFromRoot</Declaration>
 			
 			
-			<Anchor>//api/name/_index</Anchor>
+			<Anchor>//api/name/_distanceFromRoot</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_index</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setElementType:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy, setter=_setIndex:) NSNumber *_index</Declaration>
+			<Declaration>@property (copy, setter=_setElementType:) NSNumber *_elementType</Declaration>
 			
 			
-			<Anchor>//api/name/_index</Anchor>
+			<Anchor>//api/name/_elementType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_elementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy, setter=_setElementType:) NSNumber *_elementType</Declaration>
+			
+			
+			<Anchor>//api/name/_elementType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_elementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy, setter=_setElementType:) NSNumber *_elementType</Declaration>
+			
+			
+			<Anchor>//api/name/_elementType</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -385,146 +385,50 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_absorbOnlyChildrenIntoParents</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setIndex:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (void)_absorbOnlyChildrenIntoParents</Declaration>
+			<Declaration>@property (copy, setter=_setIndex:) NSNumber *_index</Declaration>
 			
 			
-			<Anchor>//api/name/_absorbOnlyChildrenIntoParents</Anchor>
+			<Anchor>//api/name/_index</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_treeByPushingOutPrefix:error:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_index</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)_treeByPushingOutPrefix:(id *)arg1 error:(id *)arg2</Declaration>
+			<Declaration>@property (copy, setter=_setIndex:) NSNumber *_index</Declaration>
 			
 			
-			<Anchor>//api/name/_treeByPushingOutPrefix:error:</Anchor>
+			<Anchor>//api/name/_index</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/copy</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_index</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)copy</Declaration>
+			<Declaration>@property (copy, setter=_setIndex:) NSNumber *_index</Declaration>
 			
 			
-			<Anchor>//api/name/copy</Anchor>
+			<Anchor>//api/name/_index</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_copyIncludingNodesWithDistanceFromRoot:passingTest:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_isContentEqual:ignoringSelection:toDistanceFromRoot:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)_copyIncludingNodesWithDistanceFromRoot:(long long)arg1 passingTest:(CDUnknownBlockType)arg2</Declaration>
+			<Declaration>- (_Bool)_isContentEqual:(id)arg1 ignoringSelection:(_Bool)arg2 toDistanceFromRoot:(unsigned long long)arg3</Declaration>
 			
 			
-			<Anchor>//api/name/_copyIncludingNodesWithDistanceFromRoot:passingTest:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)_copyIncludingNodesWithDistanceFromRoot:(unsigned long long)arg1 descendantChildrenArrays:(id)arg2 selectedChildNodeIndexes:(id)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)_copyIncludingNodesWithMinimumDistanceFromLeaf:(unsigned long long)arg1 descendantChildrenArrays:(id)arg2 selectedChildNodeIndexes:(id)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_canPushPutSolitaryRootNodes</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (_Bool)_canPushPutSolitaryRootNodes</Declaration>
-			
-			
-			<Anchor>//api/name/_canPushPutSolitaryRootNodes</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_distanceFromRoot</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (unsigned long long)_distanceFromRoot</Declaration>
-			
-			
-			<Anchor>//api/name/_distanceFromRoot</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_minimumDistanceFromLeaf</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (unsigned long long)_minimumDistanceFromLeaf</Declaration>
-			
-			
-			<Anchor>//api/name/_minimumDistanceFromLeaf</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_maximumDistanceFromLeaf</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (unsigned long long)_maximumDistanceFromLeaf</Declaration>
-			
-			
-			<Anchor>//api/name/_maximumDistanceFromLeaf</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_stringRepresentationWithCompiledCodeRange:options:error:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)_stringRepresentationWithCompiledCodeRange:(struct _NSRange *)arg1 options:(unsigned long long)arg2 error:(id *)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/_stringRepresentationWithCompiledCodeRange:options:error:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_stringRepresentationWithOptions:error:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)_stringRepresentationWithOptions:(unsigned long long)arg1 error:(id *)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/_stringRepresentationWithOptions:error:</Anchor>
+			<Anchor>//api/name/_isContentEqual:ignoringSelection:toDistanceFromRoot:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -553,50 +457,122 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/stringRepresentationWithCompiledCodeRange:error:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_maximumDistanceFromLeaf</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)stringRepresentationWithCompiledCodeRange:(struct _NSRange *)arg1 error:(id *)arg2</Declaration>
+			<Declaration>- (unsigned long long)_maximumDistanceFromLeaf</Declaration>
 			
 			
-			<Anchor>//api/name/stringRepresentationWithCompiledCodeRange:error:</Anchor>
+			<Anchor>//api/name/_maximumDistanceFromLeaf</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/stringRepresentationWithError:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_minimumDistanceFromLeaf</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)stringRepresentationWithError:(id *)arg1</Declaration>
+			<Declaration>- (unsigned long long)_minimumDistanceFromLeaf</Declaration>
 			
 			
-			<Anchor>//api/name/stringRepresentationWithError:</Anchor>
+			<Anchor>//api/name/_minimumDistanceFromLeaf</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/initWithCoder:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setQueryType:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			<Declaration>@property (copy, setter=_setQueryType:) NSString *_queryType</Declaration>
 			
 			
-			<Anchor>//api/name/initWithCoder:</Anchor>
+			<Anchor>//api/name/_queryType</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/encodeWithCoder:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_queryType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			<Declaration>@property (copy, setter=_setQueryType:) NSString *_queryType</Declaration>
 			
 			
-			<Anchor>//api/name/encodeWithCoder:</Anchor>
+			<Anchor>//api/name/_queryType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_queryType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy, setter=_setQueryType:) NSString *_queryType</Declaration>
+			
+			
+			<Anchor>//api/name/_queryType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setReturnType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy, setter=_setReturnType:) NSNumber *_returnType</Declaration>
+			
+			
+			<Anchor>//api/name/_returnType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_returnType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy, setter=_setReturnType:) NSNumber *_returnType</Declaration>
+			
+			
+			<Anchor>//api/name/_returnType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/_returnType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy, setter=_setReturnType:) NSNumber *_returnType</Declaration>
+			
+			
+			<Anchor>//api/name/_returnType</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_stringRepresentationWithCompiledCodeRange:options:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)_stringRepresentationWithCompiledCodeRange:(struct _NSRange *)arg1 options:(unsigned long long)arg2 error:(id *)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_stringRepresentationWithCompiledCodeRange:options:error:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_stringRepresentationWithOptions:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)_stringRepresentationWithOptions:(unsigned long long)arg1 error:(id *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_stringRepresentationWithOptions:error:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -613,218 +589,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/description</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_treeByPushingOutPrefix:error:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)description</Declaration>
+			<Declaration>- (id)_treeByPushingOutPrefix:(id *)arg1 error:(id *)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/description</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/descriptionWithDepth:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)descriptionWithDepth:(unsigned long long)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/descriptionWithDepth:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_depthStringWithDepth:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)_depthStringWithDepth:(unsigned long long)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/_depthStringWithDepth:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/sourceCodeForAllDescendants</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)sourceCodeForAllDescendants</Declaration>
-			
-			
-			<Anchor>//api/name/sourceCodeForAllDescendants</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedDescendantsSourceCodeWithError:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)selectedDescendantsSourceCodeWithError:(id *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/selectedDescendantsSourceCodeWithError:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSelectedChildNode:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property (retain) XCSourceCodeTreeNode *selectedChildNode</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNode</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNode</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property (retain) XCSourceCodeTreeNode *selectedChildNode</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNode</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/selectedChildNode</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property (retain) XCSourceCodeTreeNode *selectedChildNode</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNode</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNodesIndexesWithError:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (id)selectedChildNodesIndexesWithError:(id *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodesIndexesWithError:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setChildrenOnAllLeafNodes:selectChildNodeIndex:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (void)setChildrenOnAllLeafNodes:(id)arg1 selectChildNodeIndex:(unsigned long long)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/setChildrenOnAllLeafNodes:selectChildNodeIndex:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_isContentEqual:ignoringSelection:toDistanceFromRoot:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (_Bool)_isContentEqual:(id)arg1 ignoringSelection:(_Bool)arg2 toDistanceFromRoot:(unsigned long long)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/_isContentEqual:ignoringSelection:toDistanceFromRoot:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_descendantCount</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>- (unsigned long long)_descendantCount</Declaration>
-			
-			
-			<Anchor>//api/name/_descendantCount</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSelectedChildNodeIndexPath:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodeIndexPath</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNodeIndexPath</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodeIndexPath</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/selectedChildNodeIndexPath</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodeIndexPath</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSelectedChildNodeIndex:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property unsigned long long selectedChildNodeIndex</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodeIndex</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNodeIndex</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property unsigned long long selectedChildNodeIndex</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodeIndex</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/selectedChildNodeIndex</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
-			
-			<Declaration>@property unsigned long long selectedChildNodeIndex</Declaration>
-			
-			
-			<Anchor>//api/name/selectedChildNodeIndex</Anchor>
+			<Anchor>//api/name/_treeByPushingOutPrefix:error:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -865,98 +637,134 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setChildNodes:error:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/copy</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (_Bool)setChildNodes:(id)arg1 error:(id *)arg2</Declaration>
+			<Declaration>- (id)copy</Declaration>
 			
 			
-			<Anchor>//api/name/setChildNodes:error:</Anchor>
+			<Anchor>//api/name/copy</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/_canHaveSiblingNode:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/dealloc</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (_Bool)_canHaveSiblingNode:(id)arg1</Declaration>
+			<Declaration>- (void)dealloc</Declaration>
 			
 			
-			<Anchor>//api/name/_canHaveSiblingNode:</Anchor>
+			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSourceCodeSuffix:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/description</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *sourceCodeSuffix</Declaration>
+			<Declaration>- (id)description</Declaration>
 			
 			
-			<Anchor>//api/name/sourceCodeSuffix</Anchor>
+			<Anchor>//api/name/description</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/sourceCodeSuffix</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/descriptionWithDepth:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *sourceCodeSuffix</Declaration>
+			<Declaration>- (id)descriptionWithDepth:(unsigned long long)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/sourceCodeSuffix</Anchor>
+			<Anchor>//api/name/descriptionWithDepth:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/sourceCodeSuffix</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setDisplayName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *sourceCodeSuffix</Declaration>
+			<Declaration>@property (readonly, copy) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/sourceCodeSuffix</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSourceCodePrefix:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/displayName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *sourceCodePrefix</Declaration>
+			<Declaration>@property (readonly, copy) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/sourceCodePrefix</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/sourceCodePrefix</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/displayName</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *sourceCodePrefix</Declaration>
+			<Declaration>@property (readonly, copy) NSString *displayName</Declaration>
 			
 			
-			<Anchor>//api/name/sourceCodePrefix</Anchor>
+			<Anchor>//api/name/displayName</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/sourceCodePrefix</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/encodeWithCoder:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *sourceCodePrefix</Declaration>
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/sourceCodePrefix</Anchor>
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/initWithSourceCodePrefix:sourceCodeSuffix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSourceCodePrefix:(id)arg1 sourceCodeSuffix:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSourceCodePrefix:sourceCodeSuffix:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
@@ -1033,74 +841,266 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setDisplayName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSelectedChildNode:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *displayName</Declaration>
+			<Declaration>@property (retain) XCSourceCodeTreeNode *selectedChildNode</Declaration>
 			
 			
-			<Anchor>//api/name/displayName</Anchor>
+			<Anchor>//api/name/selectedChildNode</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/displayName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNode</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *displayName</Declaration>
+			<Declaration>@property (retain) XCSourceCodeTreeNode *selectedChildNode</Declaration>
 			
 			
-			<Anchor>//api/name/displayName</Anchor>
+			<Anchor>//api/name/selectedChildNode</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/displayName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/selectedChildNode</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *displayName</Declaration>
+			<Declaration>@property (retain) XCSourceCodeTreeNode *selectedChildNode</Declaration>
 			
 			
-			<Anchor>//api/name/displayName</Anchor>
+			<Anchor>//api/name/selectedChildNode</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSelectedChildNodeIndex:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property unsigned long long selectedChildNodeIndex</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/selectedChildNodeIndex</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/initWithSourceCodePrefix:sourceCodeSuffix:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNodeIndex</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)initWithSourceCodePrefix:(id)arg1 sourceCodeSuffix:(id)arg2</Declaration>
+			<Declaration>@property unsigned long long selectedChildNodeIndex</Declaration>
 			
 			
-			<Anchor>//api/name/initWithSourceCodePrefix:sourceCodeSuffix:</Anchor>
+			<Anchor>//api/name/selectedChildNodeIndex</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/selectedChildNodeIndex</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
 			
-			<Declaration>- (id)init</Declaration>
+			<Declaration>@property unsigned long long selectedChildNodeIndex</Declaration>
 			
 			
-			<Anchor>//api/name/init</Anchor>
+			<Anchor>//api/name/selectedChildNodeIndex</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSelectedChildNodeIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</Declaration>
+			
+			
+			<Anchor>//api/name/selectedChildNodeIndexPath</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNodeIndexPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</Declaration>
+			
+			
+			<Anchor>//api/name/selectedChildNodeIndexPath</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/selectedChildNodeIndexPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</Declaration>
+			
+			
+			<Anchor>//api/name/selectedChildNodeIndexPath</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedChildNodesIndexesWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)selectedChildNodesIndexesWithError:(id *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/selectedChildNodesIndexesWithError:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/selectedDescendantsSourceCodeWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)selectedDescendantsSourceCodeWithError:(id *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/selectedDescendantsSourceCodeWithError:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setChildNodes:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)setChildNodes:(id)arg1 error:(id *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/setChildNodes:error:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setChildrenOnAllLeafNodes:selectChildNodeIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (void)setChildrenOnAllLeafNodes:(id)arg1 selectChildNodeIndex:(unsigned long long)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/setChildrenOnAllLeafNodes:selectChildNodeIndex:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSourceCodePrefix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *sourceCodePrefix</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodePrefix</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/sourceCodePrefix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *sourceCodePrefix</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodePrefix</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/sourceCodePrefix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *sourceCodePrefix</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodePrefix</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/setSourceCodeSuffix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *sourceCodeSuffix</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodeSuffix</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/sourceCodeSuffix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *sourceCodeSuffix</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodeSuffix</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSourceCodeTreeNode/sourceCodeSuffix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *sourceCodeSuffix</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodeSuffix</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/sourceCodeForAllDescendants</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)sourceCodeForAllDescendants</Declaration>
+			
+			
+			<Anchor>//api/name/sourceCodeForAllDescendants</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/stringRepresentationWithCompiledCodeRange:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)stringRepresentationWithCompiledCodeRange:(struct _NSRange *)arg1 error:(id *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/stringRepresentationWithCompiledCodeRange:error:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNode/stringRepresentationWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNode.h</DeclaredIn>
+			
+			<Declaration>- (id)stringRepresentationWithError:(id *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/stringRepresentationWithError:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		

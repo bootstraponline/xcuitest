@@ -17,15 +17,15 @@
 }
 
 + (id)sharedMonitor;
-@property NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-- (void)terminateApplicationProcess:(id)arg1;
-- (id)monitoredApplicationWithProcessIdentifier:(int)arg1;
 - (void)_beginMonitoringApplication:(id)arg1;
-@property(readonly, copy) NSArray *monitoredApplications;
-- (void)setApplicationProcess:(id)arg1 forPID:(int)arg2;
-- (id)applicationProcessWithPID:(int)arg1;
 - (id)applicationImplementationForApplicationAtPath:(id)arg1 bundleID:(id)arg2;
+- (id)applicationProcessWithPID:(int)arg1;
 - (id)init;
+- (id)monitoredApplicationWithProcessIdentifier:(int)arg1;
+@property(readonly, copy) NSArray *monitoredApplications;
+@property NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
+- (void)setApplicationProcess:(id)arg1 forPID:(int)arg2;
+- (void)terminateApplicationProcess:(id)arg1;
 
 @end
 

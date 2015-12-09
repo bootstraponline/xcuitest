@@ -172,8 +172,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/testContext" title="testContext"></a>
-	<h3 class="method-title"><code><a href="#//api/name/testContext">&nbsp;&nbsp;testContext</a></code>
+	<a name="//api/name/activePerformanceMetricIDs" title="activePerformanceMetricIDs"></a>
+	<h3 class="method-title"><code><a href="#//api/name/activePerformanceMetricIDs">&nbsp;&nbsp;activePerformanceMetricIDs</a></code>
 </h3>
 
 	<div class="method-info">
@@ -182,7 +182,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property (readonly) XCTestContext *testContext</code></div>
+			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *activePerformanceMetricIDs</code></div>
 
 		    
 		</div>
@@ -204,8 +204,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/shouldIgnoreSubsequentFailures" title="shouldIgnoreSubsequentFailures"></a>
-	<h3 class="method-title"><code><a href="#//api/name/shouldIgnoreSubsequentFailures">&nbsp;&nbsp;shouldIgnoreSubsequentFailures</a></code>
+	<a name="//api/name/addExpectation:" title="addExpectation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addExpectation:">&ndash;&nbsp;addExpectation:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -214,87 +214,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property _Bool shouldIgnoreSubsequentFailures</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/shouldHaltWhenReceivesControl" title="shouldHaltWhenReceivesControl"></a>
-	<h3 class="method-title"><code><a href="#//api/name/shouldHaltWhenReceivesControl">&nbsp;&nbsp;shouldHaltWhenReceivesControl</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property _Bool shouldHaltWhenReceivesControl</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/failureRecords" title="failureRecords"></a>
-	<h3 class="method-title"><code><a href="#//api/name/failureRecords">&nbsp;&nbsp;failureRecords</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (retain, nonatomic) NSMutableArray *failureRecords</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/runLoopNestingCount" title="runLoopNestingCount"></a>
-	<h3 class="method-title"><code><a href="#//api/name/runLoopNestingCount">&nbsp;&nbsp;runLoopNestingCount</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property long long runLoopNestingCount</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/timeoutSource" title="timeoutSource"></a>
-	<h3 class="method-title"><code><a href="#//api/name/timeoutSource">&nbsp;&nbsp;timeoutSource</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSObject&lt;OS_dispatch_source&gt; *timeoutSource</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/callAddressesForLastCreatedExpectation" title="callAddressesForLastCreatedExpectation"></a>
-	<h3 class="method-title"><code><a href="#//api/name/callAddressesForLastCreatedExpectation">&nbsp;&nbsp;callAddressesForLastCreatedExpectation</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *callAddressesForLastCreatedExpectation</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)addExpectation:(id)<em>arg1</em></code></div>
 
 		    
 		</div>
@@ -316,8 +236,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/lineNumberForUnexpectedFailure" title="lineNumberForUnexpectedFailure"></a>
-	<h3 class="method-title"><code><a href="#//api/name/lineNumberForUnexpectedFailure">&nbsp;&nbsp;lineNumberForUnexpectedFailure</a></code>
+	<a name="//api/name/callAddressesForLastCreatedExpectation" title="callAddressesForLastCreatedExpectation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/callAddressesForLastCreatedExpectation">&nbsp;&nbsp;callAddressesForLastCreatedExpectation</a></code>
 </h3>
 
 	<div class="method-info">
@@ -326,23 +246,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property unsigned long long lineNumberForUnexpectedFailure</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/filePathForUnexpectedFailure" title="filePathForUnexpectedFailure"></a>
-	<h3 class="method-title"><code><a href="#//api/name/filePathForUnexpectedFailure">&nbsp;&nbsp;filePathForUnexpectedFailure</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (copy) NSString *filePathForUnexpectedFailure</code></div>
+			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *callAddressesForLastCreatedExpectation</code></div>
 
 		    
 		</div>
@@ -364,8 +268,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/timeoutDuration" title="timeoutDuration"></a>
-	<h3 class="method-title"><code><a href="#//api/name/timeoutDuration">&nbsp;&nbsp;timeoutDuration</a></code>
+	<a name="//api/name/continueAfterFailure" title="continueAfterFailure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/continueAfterFailure">&nbsp;&nbsp;continueAfterFailure</a></code>
 </h3>
 
 	<div class="method-info">
@@ -374,14 +278,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property double timeoutDuration</code></div>
+			<div class="method-subsection method-declaration"><code>@property _Bool continueAfterFailure</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/waiting" title="waiting"></a>
-	<h3 class="method-title"><code><a href="#//api/name/waiting">&nbsp;&nbsp;waiting</a></code>
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
 </h3>
 
 	<div class="method-info">
@@ -390,71 +294,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property _Bool waiting</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/fulfillments" title="fulfillments"></a>
-	<h3 class="method-title"><code><a href="#//api/name/fulfillments">&nbsp;&nbsp;fulfillments</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (retain, nonatomic) NSMutableArray *fulfillments</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/expectations" title="expectations"></a>
-	<h3 class="method-title"><code><a href="#//api/name/expectations">&nbsp;&nbsp;expectations</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (retain, nonatomic) NSMutableSet *expectations</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/didStopMeasuring" title="didStopMeasuring"></a>
-	<h3 class="method-title"><code><a href="#//api/name/didStopMeasuring">&nbsp;&nbsp;didStopMeasuring</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property _Bool didStopMeasuring</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/didStartMeasuring" title="didStartMeasuring"></a>
-	<h3 class="method-title"><code><a href="#//api/name/didStartMeasuring">&nbsp;&nbsp;didStartMeasuring</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property _Bool didStartMeasuring</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
 
 		    
 		</div>
@@ -476,8 +316,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/isMeasuringMetrics" title="isMeasuringMetrics"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isMeasuringMetrics">&nbsp;&nbsp;isMeasuringMetrics</a></code>
+	<a name="//api/name/didStartMeasuring" title="didStartMeasuring"></a>
+	<h3 class="method-title"><code><a href="#//api/name/didStartMeasuring">&nbsp;&nbsp;didStartMeasuring</a></code>
 </h3>
 
 	<div class="method-info">
@@ -486,14 +326,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property _Bool isMeasuringMetrics</code></div>
+			<div class="method-subsection method-declaration"><code>@property _Bool didStartMeasuring</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/measuringIteration" title="measuringIteration"></a>
-	<h3 class="method-title"><code><a href="#//api/name/measuringIteration">&nbsp;&nbsp;measuringIteration</a></code>
+	<a name="//api/name/didStopMeasuring" title="didStopMeasuring"></a>
+	<h3 class="method-title"><code><a href="#//api/name/didStopMeasuring">&nbsp;&nbsp;didStopMeasuring</a></code>
 </h3>
 
 	<div class="method-info">
@@ -502,14 +342,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property unsigned long long measuringIteration</code></div>
+			<div class="method-subsection method-declaration"><code>@property _Bool didStopMeasuring</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/startUserTime" title="startUserTime"></a>
-	<h3 class="method-title"><code><a href="#//api/name/startUserTime">&nbsp;&nbsp;startUserTime</a></code>
+	<a name="//api/name/expectations" title="expectations"></a>
+	<h3 class="method-title"><code><a href="#//api/name/expectations">&nbsp;&nbsp;expectations</a></code>
 </h3>
 
 	<div class="method-info">
@@ -518,14 +358,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property struct time_value startUserTime</code></div>
+			<div class="method-subsection method-declaration"><code>@property (retain, nonatomic) NSMutableSet *expectations</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/startSystemTime" title="startSystemTime"></a>
-	<h3 class="method-title"><code><a href="#//api/name/startSystemTime">&nbsp;&nbsp;startSystemTime</a></code>
+	<a name="//api/name/failureRecords" title="failureRecords"></a>
+	<h3 class="method-title"><code><a href="#//api/name/failureRecords">&nbsp;&nbsp;failureRecords</a></code>
 </h3>
 
 	<div class="method-info">
@@ -534,14 +374,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property struct time_value startSystemTime</code></div>
+			<div class="method-subsection method-declaration"><code>@property (retain, nonatomic) NSMutableArray *failureRecords</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/startWallClockTime" title="startWallClockTime"></a>
-	<h3 class="method-title"><code><a href="#//api/name/startWallClockTime">&nbsp;&nbsp;startWallClockTime</a></code>
+	<a name="//api/name/filePathForUnexpectedFailure" title="filePathForUnexpectedFailure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/filePathForUnexpectedFailure">&nbsp;&nbsp;filePathForUnexpectedFailure</a></code>
 </h3>
 
 	<div class="method-info">
@@ -550,14 +390,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property unsigned long long startWallClockTime</code></div>
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *filePathForUnexpectedFailure</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/perfMetricDataForID" title="perfMetricDataForID"></a>
-	<h3 class="method-title"><code><a href="#//api/name/perfMetricDataForID">&nbsp;&nbsp;perfMetricDataForID</a></code>
+	<a name="//api/name/fulfillments" title="fulfillments"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fulfillments">&nbsp;&nbsp;fulfillments</a></code>
 </h3>
 
 	<div class="method-info">
@@ -566,119 +406,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property (retain) NSMutableDictionary *perfMetricDataForID</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/activePerformanceMetricIDs" title="activePerformanceMetricIDs"></a>
-	<h3 class="method-title"><code><a href="#//api/name/activePerformanceMetricIDs">&nbsp;&nbsp;activePerformanceMetricIDs</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *activePerformanceMetricIDs</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/performanceMetricIDs" title="performanceMetricIDs"></a>
-	<h3 class="method-title"><code><a href="#//api/name/performanceMetricIDs">&nbsp;&nbsp;performanceMetricIDs</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *performanceMetricIDs</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/continueAfterFailure" title="continueAfterFailure"></a>
-	<h3 class="method-title"><code><a href="#//api/name/continueAfterFailure">&nbsp;&nbsp;continueAfterFailure</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property _Bool continueAfterFailure</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/testCaseRun" title="testCaseRun"></a>
-	<h3 class="method-title"><code><a href="#//api/name/testCaseRun">&nbsp;&nbsp;testCaseRun</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (retain) XCTestCaseRun *testCaseRun</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/invocation" title="invocation"></a>
-	<h3 class="method-title"><code><a href="#//api/name/invocation">&nbsp;&nbsp;invocation</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (retain) NSInvocation *invocation</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/resetExpectations" title="resetExpectations"></a>
-	<h3 class="method-title"><code><a href="#//api/name/resetExpectations">&ndash;&nbsp;resetExpectations</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)resetExpectations</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/addExpectation:" title="addExpectation:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/addExpectation:">&ndash;&nbsp;addExpectation:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)addExpectation:(id)<em>arg1</em></code></div>
+			<div class="method-subsection method-declaration"><code>@property (retain, nonatomic) NSMutableArray *fulfillments</code></div>
 
 		    
 		</div>
@@ -700,8 +428,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/dealloc" title="dealloc"></a>
-	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+	<a name="//api/name/invocation" title="invocation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/invocation">&nbsp;&nbsp;invocation</a></code>
 </h3>
 
 	<div class="method-info">
@@ -710,7 +438,279 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+			<div class="method-subsection method-declaration"><code>@property (retain) NSInvocation *invocation</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isMeasuringMetrics" title="isMeasuringMetrics"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isMeasuringMetrics">&nbsp;&nbsp;isMeasuringMetrics</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool isMeasuringMetrics</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/lineNumberForUnexpectedFailure" title="lineNumberForUnexpectedFailure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/lineNumberForUnexpectedFailure">&nbsp;&nbsp;lineNumberForUnexpectedFailure</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long lineNumberForUnexpectedFailure</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/measuringIteration" title="measuringIteration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/measuringIteration">&nbsp;&nbsp;measuringIteration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long measuringIteration</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/perfMetricDataForID" title="perfMetricDataForID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/perfMetricDataForID">&nbsp;&nbsp;perfMetricDataForID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) NSMutableDictionary *perfMetricDataForID</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performanceMetricIDs" title="performanceMetricIDs"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performanceMetricIDs">&nbsp;&nbsp;performanceMetricIDs</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *performanceMetricIDs</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resetExpectations" title="resetExpectations"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resetExpectations">&ndash;&nbsp;resetExpectations</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)resetExpectations</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/runLoopNestingCount" title="runLoopNestingCount"></a>
+	<h3 class="method-title"><code><a href="#//api/name/runLoopNestingCount">&nbsp;&nbsp;runLoopNestingCount</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property long long runLoopNestingCount</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/shouldHaltWhenReceivesControl" title="shouldHaltWhenReceivesControl"></a>
+	<h3 class="method-title"><code><a href="#//api/name/shouldHaltWhenReceivesControl">&nbsp;&nbsp;shouldHaltWhenReceivesControl</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool shouldHaltWhenReceivesControl</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/shouldIgnoreSubsequentFailures" title="shouldIgnoreSubsequentFailures"></a>
+	<h3 class="method-title"><code><a href="#//api/name/shouldIgnoreSubsequentFailures">&nbsp;&nbsp;shouldIgnoreSubsequentFailures</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool shouldIgnoreSubsequentFailures</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startSystemTime" title="startSystemTime"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startSystemTime">&nbsp;&nbsp;startSystemTime</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property struct time_value startSystemTime</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startUserTime" title="startUserTime"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startUserTime">&nbsp;&nbsp;startUserTime</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property struct time_value startUserTime</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startWallClockTime" title="startWallClockTime"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startWallClockTime">&nbsp;&nbsp;startWallClockTime</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long startWallClockTime</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testCaseRun" title="testCaseRun"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testCaseRun">&nbsp;&nbsp;testCaseRun</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) XCTestCaseRun *testCaseRun</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/timeoutDuration" title="timeoutDuration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/timeoutDuration">&nbsp;&nbsp;timeoutDuration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property double timeoutDuration</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/timeoutSource" title="timeoutSource"></a>
+	<h3 class="method-title"><code><a href="#//api/name/timeoutSource">&nbsp;&nbsp;timeoutSource</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSObject&lt;OS_dispatch_source&gt; *timeoutSource</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/waiting" title="waiting"></a>
+	<h3 class="method-title"><code><a href="#//api/name/waiting">&nbsp;&nbsp;waiting</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool waiting</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testContext" title="testContext"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testContext">&nbsp;&nbsp;testContext</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) XCTestContext *testContext</code></div>
 
 		    
 		</div>
@@ -730,7 +730,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

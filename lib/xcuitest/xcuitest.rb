@@ -43,7 +43,8 @@ class XCUITest
       apple_doc join(xcode_folder, 'public_docs'), xctest_framework
 
       # save public headers
-      FileUtils.cp_r join(xctest, 'Headers'), join(xcode_folder, 'public_headers')
+      FileUtils.cp_r join(xctest, 'Headers'), join(xcode_folder)
+      FileUtils.mv join(xcode_folder, 'Headers'), join(xcode_folder, 'public_headers')
 
       # generate private headers
       private_headers = join(xcode_folder, 'private_headers')
@@ -93,5 +94,4 @@ class XCUITest
   end
 end
 
-# Uncomment to run
-# XCUITest.new.write_docs
+XCUITest.new.write_docs

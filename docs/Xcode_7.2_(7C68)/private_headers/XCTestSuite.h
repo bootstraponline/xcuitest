@@ -14,33 +14,33 @@
     NSMutableArray *_tests;
 }
 
-+ (id)testSuiteForTestConfiguration:(id)arg1;
-+ (id)defaultTestSuite;
++ (id)_suiteForBundleCache;
 + (id)allTests;
++ (id)defaultTestSuite;
++ (id)emptyTestSuiteNamedFromPath:(id)arg1;
++ (void)invalidateCache;
++ (id)suiteForBundleCache;
++ (id)testCaseNamesForScopeNames:(id)arg1;
++ (id)testSuiteForBundlePath:(id)arg1;
 + (id)testSuiteForTestCaseClass:(Class)arg1;
 + (id)testSuiteForTestCaseWithName:(id)arg1;
-+ (id)testSuiteForBundlePath:(id)arg1;
-+ (id)suiteForBundleCache;
-+ (void)invalidateCache;
-+ (id)_suiteForBundleCache;
-+ (id)emptyTestSuiteNamedFromPath:(id)arg1;
++ (id)testSuiteForTestConfiguration:(id)arg1;
 + (id)testSuiteWithName:(id)arg1;
-+ (id)testCaseNamesForScopeNames:(id)arg1;
 - (id)_initWithTestConfiguration:(id)arg1;
-- (void)_sortTestsUsingComparator:(CDUnknownBlockType)arg1;
-- (void)performTest:(id)arg1;
 - (void)_recordUnexpectedFailureForTestRun:(id)arg1 description:(id)arg2 exception:(id)arg3;
-- (Class)testRunClass;
 - (Class)_requiredTestRunBaseClass;
-- (_Bool)isEqual:(id)arg1;
-- (unsigned long long)testCaseCount;
-@property(readonly, copy) NSArray *tests;
+- (void)_sortTestsUsingComparator:(CDUnknownBlockType)arg1;
 - (void)addTest:(id)arg1;
-- (id)description;
-@property(copy) NSString *name;
 - (void)dealloc;
+- (id)description;
 - (id)initWithName:(id)arg1;
+- (_Bool)isEqual:(id)arg1;
+@property(copy) NSString *name;
+- (void)performTest:(id)arg1;
 - (void)removeTestsWithNames:(id)arg1;
+- (unsigned long long)testCaseCount;
+- (Class)testRunClass;
+@property(readonly, copy) NSArray *tests;
 
 @end
 

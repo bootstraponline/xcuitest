@@ -13,110 +13,74 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setSelected:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setElementType:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, getter=isSelected) _Bool selected</Declaration>
+			<Declaration>@property (readonly) unsigned long long elementType</Declaration>
 			
 			
-			<Anchor>//api/name/selected</Anchor>
+			<Anchor>//api/name/elementType</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/isSelected</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/elementType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, getter=isSelected) _Bool selected</Declaration>
+			<Declaration>@property (readonly) unsigned long long elementType</Declaration>
 			
 			
-			<Anchor>//api/name/selected</Anchor>
+			<Anchor>//api/name/elementType</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/selected</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/elementType</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, getter=isSelected) _Bool selected</Declaration>
+			<Declaration>@property (readonly) unsigned long long elementType</Declaration>
 			
 			
-			<Anchor>//api/name/selected</Anchor>
+			<Anchor>//api/name/elementType</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setPlaceholderValue:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setFrame:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) NSString *placeholderValue</Declaration>
+			<Declaration>@property (readonly) struct CGRect frame</Declaration>
 			
 			
-			<Anchor>//api/name/placeholderValue</Anchor>
+			<Anchor>//api/name/frame</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/placeholderValue</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/frame</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) NSString *placeholderValue</Declaration>
+			<Declaration>@property (readonly) struct CGRect frame</Declaration>
 			
 			
-			<Anchor>//api/name/placeholderValue</Anchor>
+			<Anchor>//api/name/frame</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/placeholderValue</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/frame</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) NSString *placeholderValue</Declaration>
+			<Declaration>@property (readonly) struct CGRect frame</Declaration>
 			
 			
-			<Anchor>//api/name/placeholderValue</Anchor>
-            <NodeRef refid="84"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setVerticalSizeClass:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) long long verticalSizeClass</Declaration>
-			
-			
-			<Anchor>//api/name/verticalSizeClass</Anchor>
-            <NodeRef refid="84"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/verticalSizeClass</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) long long verticalSizeClass</Declaration>
-			
-			
-			<Anchor>//api/name/verticalSizeClass</Anchor>
-            <NodeRef refid="84"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/verticalSizeClass</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) long long verticalSizeClass</Declaration>
-			
-			
-			<Anchor>//api/name/verticalSizeClass</Anchor>
+			<Anchor>//api/name/frame</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
@@ -157,6 +121,42 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setEnabled:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
@@ -193,38 +193,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setElementType:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setSelected:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) unsigned long long elementType</Declaration>
+			<Declaration>@property (readonly, getter=isSelected) _Bool selected</Declaration>
 			
 			
-			<Anchor>//api/name/elementType</Anchor>
+			<Anchor>//api/name/selected</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/elementType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/isSelected</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) unsigned long long elementType</Declaration>
+			<Declaration>@property (readonly, getter=isSelected) _Bool selected</Declaration>
 			
 			
-			<Anchor>//api/name/elementType</Anchor>
+			<Anchor>//api/name/selected</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/elementType</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/selected</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) unsigned long long elementType</Declaration>
+			<Declaration>@property (readonly, getter=isSelected) _Bool selected</Declaration>
 			
 			
-			<Anchor>//api/name/elementType</Anchor>
+			<Anchor>//api/name/selected</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
@@ -261,6 +261,42 @@
 			
 			
 			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setPlaceholderValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/placeholderValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/placeholderValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
@@ -337,74 +373,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setFrame:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setVerticalSizeClass:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) struct CGRect frame</Declaration>
+			<Declaration>@property (readonly) long long verticalSizeClass</Declaration>
 			
 			
-			<Anchor>//api/name/frame</Anchor>
+			<Anchor>//api/name/verticalSizeClass</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/frame</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/verticalSizeClass</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) struct CGRect frame</Declaration>
+			<Declaration>@property (readonly) long long verticalSizeClass</Declaration>
 			
 			
-			<Anchor>//api/name/frame</Anchor>
+			<Anchor>//api/name/verticalSizeClass</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/frame</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/verticalSizeClass</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) struct CGRect frame</Declaration>
+			<Declaration>@property (readonly) long long verticalSizeClass</Declaration>
 			
 			
-			<Anchor>//api/name/frame</Anchor>
-            <NodeRef refid="84"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/setIdentifier:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) NSString *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="84"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCUIElementAttributes/identifier</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) NSString *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="84"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfp/XCUIElementAttributes/identifier</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAttributes-Protocol.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) NSString *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
+			<Anchor>//api/name/verticalSizeClass</Anchor>
             <NodeRef refid="84"/>
 		</Token>
 		

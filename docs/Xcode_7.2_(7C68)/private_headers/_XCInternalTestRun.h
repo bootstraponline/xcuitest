@@ -20,21 +20,21 @@
     _Bool _hasStopped;
 }
 
-@property(readonly) _Bool hasStopped; // @synthesize hasStopped=_hasStopped;
-@property(readonly) XCTest *test; // @synthesize test=_test;
-- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4;
-@property(readonly) unsigned long long testCaseCount;
-@property(readonly) unsigned long long unexpectedExceptionCount;
-@property(readonly) unsigned long long failureCount;
+- (void)dealloc;
 @property(readonly) unsigned long long executionCount;
-- (void)stop;
+@property(readonly) unsigned long long failureCount;
+@property(readonly) _Bool hasStopped; // @synthesize hasStopped=_hasStopped;
+- (id)initWithTest:(id)arg1;
+- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4;
 - (void)start;
-@property(readonly, copy) NSDate *stopDate;
 @property(readonly, copy) NSDate *startDate;
+- (void)stop;
+@property(readonly, copy) NSDate *stopDate;
+@property(readonly) XCTest *test; // @synthesize test=_test;
+@property(readonly) unsigned long long testCaseCount;
 @property(readonly) double testDuration;
 @property(readonly) double totalDuration;
-- (id)initWithTest:(id)arg1;
-- (void)dealloc;
+@property(readonly) unsigned long long unexpectedExceptionCount;
 
 @end
 

@@ -14,11 +14,11 @@
     XCElementSnapshot *_lastSnapshot;
 }
 
+- (id)application;
+- (void)dealloc;
+- (id)initWithApplication:(id)arg1;
 @property(retain) XCElementSnapshot *lastSnapshot; // @synthesize lastSnapshot=_lastSnapshot;
 - (id)matchingSnapshotsWithError:(id *)arg1;
-- (id)application;
-- (id)initWithApplication:(id)arg1;
-- (void)dealloc;
 
 @end
 

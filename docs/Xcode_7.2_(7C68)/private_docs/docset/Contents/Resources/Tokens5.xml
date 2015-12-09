@@ -13,30 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/terminateApplicationProcess:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)terminateApplicationProcess:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/terminateApplicationProcess:</Anchor>
-            <NodeRef refid="5"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/monitoredApplicationWithProcessIdentifier:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
-			
-			<Declaration>- (id)monitoredApplicationWithProcessIdentifier:(int)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/monitoredApplicationWithProcessIdentifier:</Anchor>
-            <NodeRef refid="5"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/_beginMonitoringApplication:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
@@ -57,6 +33,30 @@
 			
 			
 			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/monitoredApplicationWithProcessIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)monitoredApplicationWithProcessIdentifier:(int)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/monitoredApplicationWithProcessIdentifier:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/terminateApplicationProcess:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)terminateApplicationProcess:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/terminateApplicationProcess:</Anchor>
             <NodeRef refid="5"/>
 		</Token>
 		

@@ -13,18 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTouchEvent/touchEventWithType:coordinate:offset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
-			
-			<Declaration>+ (id)touchEventWithType:(unsigned long long)arg1 coordinate:(struct CGPoint)arg2 offset:(double)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/touchEventWithType:coordinate:offset:</Anchor>
-            <NodeRef refid="38"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/XCTouchEvent/supportsSecureCoding</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
@@ -37,38 +25,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setOffset:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTouchEvent/touchEventWithType:coordinate:offset:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
 			
-			<Declaration>@property double offset</Declaration>
+			<Declaration>+ (id)touchEventWithType:(unsigned long long)arg1 coordinate:(struct CGPoint)arg2 offset:(double)arg3</Declaration>
 			
 			
-			<Anchor>//api/name/offset</Anchor>
-            <NodeRef refid="38"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/offset</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
-			
-			<Declaration>@property double offset</Declaration>
-			
-			
-			<Anchor>//api/name/offset</Anchor>
-            <NodeRef refid="38"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/offset</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
-			
-			<Declaration>@property double offset</Declaration>
-			
-			
-			<Anchor>//api/name/offset</Anchor>
+			<Anchor>//api/name/touchEventWithType:coordinate:offset:</Anchor>
             <NodeRef refid="38"/>
 		</Token>
 		
@@ -109,42 +73,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setTouchEventType:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
-			
-			<Declaration>@property unsigned long long touchEventType</Declaration>
-			
-			
-			<Anchor>//api/name/touchEventType</Anchor>
-            <NodeRef refid="38"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/touchEventType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
-			
-			<Declaration>@property unsigned long long touchEventType</Declaration>
-			
-			
-			<Anchor>//api/name/touchEventType</Anchor>
-            <NodeRef refid="38"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/touchEventType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
-			
-			<Declaration>@property unsigned long long touchEventType</Declaration>
-			
-			
-			<Anchor>//api/name/touchEventType</Anchor>
-            <NodeRef refid="38"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/description</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
@@ -177,6 +105,78 @@
 			
 			
 			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setTouchEventType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long touchEventType</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventType</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/touchEventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long touchEventType</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventType</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/touchEventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long touchEventType</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventType</Anchor>
             <NodeRef refid="38"/>
 		</Token>
 		

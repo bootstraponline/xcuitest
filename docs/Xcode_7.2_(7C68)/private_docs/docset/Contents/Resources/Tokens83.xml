@@ -13,78 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCaseDidFinish:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)testCaseDidFinish:(XCTestCase *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/testCaseDidFinish:</Anchor>
-            <NodeRef refid="83"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCase:didFailWithDescription:inFile:atLine:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)testCase:(XCTestCase *)arg1 didFailWithDescription:(NSString *)arg2 inFile:(NSString *)arg3 atLine:(unsigned long long)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/testCase:didFailWithDescription:inFile:atLine:</Anchor>
-            <NodeRef refid="83"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCaseWillStart:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)testCaseWillStart:(XCTestCase *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/testCaseWillStart:</Anchor>
-            <NodeRef refid="83"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuiteDidFinish:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)testSuiteDidFinish:(XCTestSuite *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/testSuiteDidFinish:</Anchor>
-            <NodeRef refid="83"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuite:didFailWithDescription:inFile:atLine:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)testSuite:(XCTestSuite *)arg1 didFailWithDescription:(NSString *)arg2 inFile:(NSString *)arg3 atLine:(unsigned long long)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/testSuite:didFailWithDescription:inFile:atLine:</Anchor>
-            <NodeRef refid="83"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuiteWillStart:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)testSuiteWillStart:(XCTestSuite *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/testSuiteWillStart:</Anchor>
-            <NodeRef refid="83"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testBundleDidFinish:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
@@ -105,6 +33,78 @@
 			
 			
 			<Anchor>//api/name/testBundleWillStart:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCase:didFailWithDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)testCase:(XCTestCase *)arg1 didFailWithDescription:(NSString *)arg2 inFile:(NSString *)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testCase:didFailWithDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCaseDidFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidFinish:(XCTestCase *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidFinish:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCaseWillStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseWillStart:(XCTestCase *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseWillStart:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuite:didFailWithDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuite:(XCTestSuite *)arg1 didFailWithDescription:(NSString *)arg2 inFile:(NSString *)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testSuite:didFailWithDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuiteDidFinish:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidFinish:(XCTestSuite *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidFinish:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuiteWillStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObservation-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteWillStart:(XCTestSuite *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteWillStart:</Anchor>
             <NodeRef refid="83"/>
 		</Token>
 		

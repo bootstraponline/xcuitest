@@ -13,8 +13,8 @@
     NSMutableArray *_remainingNodes;
 }
 
-- (id)nextObject;
 - (id)initWithNode:(id)arg1;
+- (id)nextObject;
 
 @end
 

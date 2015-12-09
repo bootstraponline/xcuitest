@@ -13,162 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setCurrentProcess:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (retain, nonatomic) XCUIApplicationProcess *currentProcess</Declaration>
-			
-			
-			<Anchor>//api/name/currentProcess</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/currentProcess</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (retain, nonatomic) XCUIApplicationProcess *currentProcess</Declaration>
-			
-			
-			<Anchor>//api/name/currentProcess</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/currentProcess</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (retain, nonatomic) XCUIApplicationProcess *currentProcess</Declaration>
-			
-			
-			<Anchor>//api/name/currentProcess</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setBundleID:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *bundleID</Declaration>
-			
-			
-			<Anchor>//api/name/bundleID</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/bundleID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *bundleID</Declaration>
-			
-			
-			<Anchor>//api/name/bundleID</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/bundleID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *bundleID</Declaration>
-			
-			
-			<Anchor>//api/name/bundleID</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setPath:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *path</Declaration>
-			
-			
-			<Anchor>//api/name/path</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/path</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *path</Declaration>
-			
-			
-			<Anchor>//api/name/path</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/path</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *path</Declaration>
-			
-			
-			<Anchor>//api/name/path</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/waitForViewControllerViewDidDisappearWithTimeout:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/waitForViewControllerViewDidDisappearWithTimeout:</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/waitForQuiescence</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>- (void)waitForQuiescence</Declaration>
-			
-			
-			<Anchor>//api/name/waitForQuiescence</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/terminate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>- (void)terminate</Declaration>
-			
-			
-			<Anchor>//api/name/terminate</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/launchWithArguments:environment:usingXcode:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>- (void)launchWithArguments:(id)arg1 environment:(id)arg2 usingXcode:(_Bool)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/launchWithArguments:environment:usingXcode:</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/_waitForLaunchProgressViaProxy:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
@@ -189,78 +33,6 @@
 			
 			
 			<Anchor>//api/name/_waitForLaunchTokenFromReceipt:</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setState:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) unsigned long long state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/state</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) unsigned long long state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/state</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) unsigned long long state</Declaration>
-			
-			
-			<Anchor>//api/name/state</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setProcessID:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) int processID</Declaration>
-			
-			
-			<Anchor>//api/name/processID</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/processID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) int processID</Declaration>
-			
-			
-			<Anchor>//api/name/processID</Anchor>
-            <NodeRef refid="42"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/processID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
-			
-			<Declaration>@property (nonatomic) int processID</Declaration>
-			
-			
-			<Anchor>//api/name/processID</Anchor>
             <NodeRef refid="42"/>
 		</Token>
 		
@@ -301,6 +73,78 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setBundleID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *bundleID</Declaration>
+			
+			
+			<Anchor>//api/name/bundleID</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/bundleID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *bundleID</Declaration>
+			
+			
+			<Anchor>//api/name/bundleID</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/bundleID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *bundleID</Declaration>
+			
+			
+			<Anchor>//api/name/bundleID</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setCurrentProcess:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) XCUIApplicationProcess *currentProcess</Declaration>
+			
+			
+			<Anchor>//api/name/currentProcess</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/currentProcess</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) XCUIApplicationProcess *currentProcess</Declaration>
+			
+			
+			<Anchor>//api/name/currentProcess</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/currentProcess</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) XCUIApplicationProcess *currentProcess</Declaration>
+			
+			
+			<Anchor>//api/name/currentProcess</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/dealloc</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
@@ -321,6 +165,162 @@
 			
 			
 			<Anchor>//api/name/initWithPath:bundleID:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/launchWithArguments:environment:usingXcode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>- (void)launchWithArguments:(id)arg1 environment:(id)arg2 usingXcode:(_Bool)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/launchWithArguments:environment:usingXcode:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/path</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/path</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *path</Declaration>
+			
+			
+			<Anchor>//api/name/path</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setProcessID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int processID</Declaration>
+			
+			
+			<Anchor>//api/name/processID</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/processID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int processID</Declaration>
+			
+			
+			<Anchor>//api/name/processID</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/processID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int processID</Declaration>
+			
+			
+			<Anchor>//api/name/processID</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/setState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIApplicationImpl/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/terminate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>- (void)terminate</Declaration>
+			
+			
+			<Anchor>//api/name/terminate</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/waitForQuiescence</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>- (void)waitForQuiescence</Declaration>
+			
+			
+			<Anchor>//api/name/waitForQuiescence</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIApplicationImpl/waitForViewControllerViewDidDisappearWithTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIApplicationImpl.h</DeclaredIn>
+			
+			<Declaration>- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/waitForViewControllerViewDidDisappearWithTimeout:</Anchor>
             <NodeRef refid="42"/>
 		</Token>
 		

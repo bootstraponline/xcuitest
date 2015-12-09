@@ -15,10 +15,10 @@
     NSUUID *_identifier;
 }
 
-@property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *handlerDescription; // @synthesize handlerDescription=_handlerDescription;
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
 - (void)dealloc;
+@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
+@property(copy) NSString *handlerDescription; // @synthesize handlerDescription=_handlerDescription;
+@property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
 
 @end
 

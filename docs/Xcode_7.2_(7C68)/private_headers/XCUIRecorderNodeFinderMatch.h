@@ -16,14 +16,14 @@
     NSMutableArray *_descendantFinders;
 }
 
-@property(retain) NSMutableArray *descendantFinders; // @synthesize descendantFinders=_descendantFinders;
 @property(retain) XCUIRecorderNodeFinder *ancestorFinder; // @synthesize ancestorFinder=_ancestorFinder;
-@property(retain) XCSourceCodeTreeNode *node; // @synthesize node=_node;
-@property(copy) NSSet *matchingSnapshots; // @synthesize matchingSnapshots=_matchingSnapshots;
-- (void)invalidate;
-- (id)nodeIncludingDescendants;
+@property(retain) NSMutableArray *descendantFinders; // @synthesize descendantFinders=_descendantFinders;
 - (id)description;
 - (id)initWithNode:(id)arg1 matchingSnapshots:(id)arg2 ancestorFinder:(id)arg3;
+- (void)invalidate;
+@property(copy) NSSet *matchingSnapshots; // @synthesize matchingSnapshots=_matchingSnapshots;
+@property(retain) XCSourceCodeTreeNode *node; // @synthesize node=_node;
+- (id)nodeIncludingDescendants;
 
 @end
 

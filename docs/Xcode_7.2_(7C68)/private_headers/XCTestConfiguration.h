@@ -28,32 +28,32 @@
     _Bool _testsMustRunOnMainThread;
 }
 
-+ (id)configurationWithContentsOfFile:(id)arg1;
 + (id)activeTestConfiguration;
++ (id)configurationWithContentsOfFile:(id)arg1;
 + (void)setActiveTestConfiguration:(id)arg1;
 + (_Bool)supportsSecureCoding;
-@property _Bool testsMustRunOnMainThread; // @synthesize testsMustRunOnMainThread=_testsMustRunOnMainThread;
-@property _Bool reportActivities; // @synthesize reportActivities=_reportActivities;
+@property(copy) NSURL *baselineFileURL; // @synthesize baselineFileURL=_baselineFileURL;
+- (void)dealloc;
+- (id)description;
+@property _Bool disablePerformanceMetrics; // @synthesize disablePerformanceMetrics=_disablePerformanceMetrics;
+- (void)encodeWithCoder:(id)arg1;
+- (unsigned long long)hash;
+- (id)init;
+- (id)initWithCoder:(id)arg1;
+- (_Bool)isEqual:(id)arg1;
+@property(copy) NSString *pathToXcodeReportingSocket; // @synthesize pathToXcodeReportingSocket=_pathToXcodeReportingSocket;
 @property(copy) NSString *productModuleName; // @synthesize productModuleName=_productModuleName;
+@property _Bool reportActivities; // @synthesize reportActivities=_reportActivities;
+@property _Bool reportResultsToIDE; // @synthesize reportResultsToIDE=_reportResultsToIDE;
+@property(copy) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 @property(copy) NSString *targetApplicationBundleID; // @synthesize targetApplicationBundleID=_targetApplicationBundleID;
 @property(copy) NSString *targetApplicationPath; // @synthesize targetApplicationPath=_targetApplicationPath;
-@property _Bool treatMissingBaselinesAsFailures; // @synthesize treatMissingBaselinesAsFailures=_treatMissingBaselinesAsFailures;
-@property _Bool disablePerformanceMetrics; // @synthesize disablePerformanceMetrics=_disablePerformanceMetrics;
-@property _Bool reportResultsToIDE; // @synthesize reportResultsToIDE=_reportResultsToIDE;
-@property(copy) NSURL *baselineFileURL; // @synthesize baselineFileURL=_baselineFileURL;
-@property(copy) NSString *pathToXcodeReportingSocket; // @synthesize pathToXcodeReportingSocket=_pathToXcodeReportingSocket;
-@property(copy) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(copy) NSSet *testsToSkip; // @synthesize testsToSkip=_testsToSkip;
-@property(copy) NSSet *testsToRun; // @synthesize testsToRun=_testsToRun;
 @property(copy) NSURL *testBundleURL; // @synthesize testBundleURL=_testBundleURL;
-- (_Bool)isEqual:(id)arg1;
-- (unsigned long long)hash;
-- (id)description;
+@property _Bool testsMustRunOnMainThread; // @synthesize testsMustRunOnMainThread=_testsMustRunOnMainThread;
+@property(copy) NSSet *testsToRun; // @synthesize testsToRun=_testsToRun;
+@property(copy) NSSet *testsToSkip; // @synthesize testsToSkip=_testsToSkip;
+@property _Bool treatMissingBaselinesAsFailures; // @synthesize treatMissingBaselinesAsFailures=_treatMissingBaselinesAsFailures;
 - (_Bool)writeToFile:(id)arg1;
-- (void)encodeWithCoder:(id)arg1;
-- (id)initWithCoder:(id)arg1;
-- (id)init;
-- (void)dealloc;
 
 @end
 

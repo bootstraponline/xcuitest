@@ -17,12 +17,12 @@
 
 + (id)deviceEventWithPage:(unsigned int)arg1 usage:(unsigned int)arg2 duration:(double)arg3;
 + (_Bool)supportsSecureCoding;
-@property double duration; // @synthesize duration=_duration;
-@property unsigned int usage; // @synthesize usage=_usage;
-@property unsigned int eventPage; // @synthesize eventPage=_eventPage;
 - (id)description;
+@property double duration; // @synthesize duration=_duration;
 - (void)encodeWithCoder:(id)arg1;
+@property unsigned int eventPage; // @synthesize eventPage=_eventPage;
 - (id)initWithCoder:(id)arg1;
+@property unsigned int usage; // @synthesize usage=_usage;
 
 @end
 

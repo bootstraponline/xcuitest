@@ -7,25 +7,25 @@
 @class NSString, Protocol;
 
 @protocol NSObject
-@property(readonly, copy) NSString *description;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long hash;
-- (struct _NSZone *)zone;
-- (unsigned long long)retainCount;
 - (id)autorelease;
-- (oneway void)release;
-- (id)retain;
-- (_Bool)respondsToSelector:(SEL)arg1;
-- (_Bool)conformsToProtocol:(Protocol *)arg1;
-- (_Bool)isMemberOfClass:(Class)arg1;
-- (_Bool)isKindOfClass:(Class)arg1;
-- (_Bool)isProxy;
-- (id)performSelector:(SEL)arg1 withObject:(id)arg2 withObject:(id)arg3;
-- (id)performSelector:(SEL)arg1 withObject:(id)arg2;
-- (id)performSelector:(SEL)arg1;
-- (id)self;
 - (Class)class;
+- (_Bool)conformsToProtocol:(Protocol *)arg1;
+@property(readonly, copy) NSString *description;
+@property(readonly) unsigned long long hash;
 - (_Bool)isEqual:(id)arg1;
+- (_Bool)isKindOfClass:(Class)arg1;
+- (_Bool)isMemberOfClass:(Class)arg1;
+- (_Bool)isProxy;
+- (id)performSelector:(SEL)arg1;
+- (id)performSelector:(SEL)arg1 withObject:(id)arg2;
+- (id)performSelector:(SEL)arg1 withObject:(id)arg2 withObject:(id)arg3;
+- (oneway void)release;
+- (_Bool)respondsToSelector:(SEL)arg1;
+- (id)retain;
+- (unsigned long long)retainCount;
+- (id)self;
+@property(readonly) Class superclass;
+- (struct _NSZone *)zone;
 
 @optional
 @property(readonly, copy) NSString *debugDescription;

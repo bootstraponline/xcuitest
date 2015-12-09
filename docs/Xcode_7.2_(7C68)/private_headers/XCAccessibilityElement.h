@@ -19,26 +19,26 @@
     struct __AXUIElement *_axElement;
 }
 
-+ (_Bool)supportsSecureCoding;
++ (id)deviceElement;
 + (id)elementWithAXUIElement:(struct __AXUIElement *)arg1;
 + (id)elementWithProcessIdentifier:(int)arg1;
-+ (id)deviceElement;
-+ (id)mockElementWithProcessIdentifier:(int)arg1 payload:(id)arg2;
 + (id)mockElementWithProcessIdentifier:(int)arg1;
++ (id)mockElementWithProcessIdentifier:(int)arg1 payload:(id)arg2;
++ (_Bool)supportsSecureCoding;
+@property(readonly) const struct __AXUIElement *AXUIElement; // @synthesize AXUIElement=_axElement;
+- (id)copyWithZone:(struct _NSZone *)arg1;
+- (void)dealloc;
+- (id)description;
+- (void)encodeWithCoder:(id)arg1;
+- (unsigned long long)hash;
+- (id)init;
+- (id)initWithAXUIElement:(struct __AXUIElement *)arg1;
+- (id)initWithCoder:(id)arg1;
+- (id)initWithMockProcessIdentifier:(int)arg1 payload:(id)arg2;
+- (_Bool)isEqual:(id)arg1;
+@property(readonly, getter=isNative) _Bool native;
 @property(readonly) id payload; // @synthesize payload=_payload;
 @property(readonly) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly) const struct __AXUIElement *AXUIElement; // @synthesize AXUIElement=_axElement;
-- (void)encodeWithCoder:(id)arg1;
-- (id)initWithCoder:(id)arg1;
-- (id)copyWithZone:(struct _NSZone *)arg1;
-- (_Bool)isEqual:(id)arg1;
-- (unsigned long long)hash;
-- (id)description;
-@property(readonly, getter=isNative) _Bool native;
-- (void)dealloc;
-- (id)initWithMockProcessIdentifier:(int)arg1 payload:(id)arg2;
-- (id)initWithAXUIElement:(struct __AXUIElement *)arg1;
-- (id)init;
 
 @end
 

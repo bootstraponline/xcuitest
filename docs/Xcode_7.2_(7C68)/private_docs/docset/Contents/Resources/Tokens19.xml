@@ -13,42 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/symbolicationRecordFromRemoteServiceForAddress:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
-			
-			<Declaration>+ (id)symbolicationRecordFromRemoteServiceForAddress:(unsigned long long)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/symbolicationRecordFromRemoteServiceForAddress:</Anchor>
-            <NodeRef refid="19"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/symbolicationRecordForTask:address:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
-			
-			<Declaration>+ (id)symbolicationRecordForTask:(unsigned int)arg1 address:(unsigned long long)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/symbolicationRecordForTask:address:</Anchor>
-            <NodeRef refid="19"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/symbolicationRecordForAddress:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
-			
-			<Declaration>+ (id)symbolicationRecordForAddress:(unsigned long long)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/symbolicationRecordForAddress:</Anchor>
-            <NodeRef refid="19"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/_setCurrentProcessIsRemoteService</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
@@ -97,74 +61,50 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/setSymbolOwner:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/symbolicationRecordForAddress:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *symbolOwner</Declaration>
+			<Declaration>+ (id)symbolicationRecordForAddress:(unsigned long long)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/symbolOwner</Anchor>
+			<Anchor>//api/name/symbolicationRecordForAddress:</Anchor>
             <NodeRef refid="19"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/symbolOwner</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/symbolicationRecordForTask:address:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *symbolOwner</Declaration>
+			<Declaration>+ (id)symbolicationRecordForTask:(unsigned int)arg1 address:(unsigned long long)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/symbolOwner</Anchor>
+			<Anchor>//api/name/symbolicationRecordForTask:address:</Anchor>
             <NodeRef refid="19"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSymbolicationRecord/symbolOwner</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCSymbolicationRecord/symbolicationRecordFromRemoteServiceForAddress:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *symbolOwner</Declaration>
+			<Declaration>+ (id)symbolicationRecordFromRemoteServiceForAddress:(unsigned long long)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/symbolOwner</Anchor>
+			<Anchor>//api/name/symbolicationRecordFromRemoteServiceForAddress:</Anchor>
             <NodeRef refid="19"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/setSymbolName:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/dealloc</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSString *symbolName</Declaration>
+			<Declaration>- (void)dealloc</Declaration>
 			
 			
-			<Anchor>//api/name/symbolName</Anchor>
-            <NodeRef refid="19"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/symbolName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSString *symbolName</Declaration>
-			
-			
-			<Anchor>//api/name/symbolName</Anchor>
-            <NodeRef refid="19"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSymbolicationRecord/symbolName</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSString *symbolName</Declaration>
-			
-			
-			<Anchor>//api/name/symbolName</Anchor>
+			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="19"/>
 		</Token>
 		
@@ -241,14 +181,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/setSymbolName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property (copy) NSString *symbolName</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/symbolName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/symbolName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *symbolName</Declaration>
+			
+			
+			<Anchor>//api/name/symbolName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSymbolicationRecord/symbolName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *symbolName</Declaration>
+			
+			
+			<Anchor>//api/name/symbolName</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/setSymbolOwner:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *symbolOwner</Declaration>
+			
+			
+			<Anchor>//api/name/symbolOwner</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSymbolicationRecord/symbolOwner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *symbolOwner</Declaration>
+			
+			
+			<Anchor>//api/name/symbolOwner</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSymbolicationRecord/symbolOwner</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSymbolicationRecord.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *symbolOwner</Declaration>
+			
+			
+			<Anchor>//api/name/symbolOwner</Anchor>
             <NodeRef refid="19"/>
 		</Token>
 		

@@ -18,18 +18,18 @@
 }
 
 + (_Bool)supportsSecureCoding;
-@property _Bool immutable; // @synthesize immutable=_immutable;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-- (id)description;
-@property(readonly) double maximumOffset;
-- (void)makeImmutable;
 - (void)addTouchPath:(id)arg1;
-@property(readonly) NSArray *touchPaths;
+- (void)dealloc;
+- (id)description;
 - (void)encodeWithCoder:(id)arg1;
+@property _Bool immutable; // @synthesize immutable=_immutable;
+- (id)init;
 - (id)initWithCoder:(id)arg1;
 - (id)initWithName:(id)arg1;
-- (id)init;
-- (void)dealloc;
+- (void)makeImmutable;
+@property(readonly) double maximumOffset;
+@property(readonly, copy) NSString *name; // @synthesize name=_name;
+@property(readonly) NSArray *touchPaths;
 
 @end
 

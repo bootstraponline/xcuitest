@@ -15,20 +15,20 @@
     XCUIApplicationProcess *_currentProcess;
 }
 
-@property(retain, nonatomic) XCUIApplicationProcess *currentProcess; // @synthesize currentProcess=_currentProcess;
-@property(readonly, copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *path; // @synthesize path=_path;
-- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1;
-- (void)waitForQuiescence;
-- (void)terminate;
-- (void)launchWithArguments:(id)arg1 environment:(id)arg2 usingXcode:(_Bool)arg3;
 - (void)_waitForLaunchProgressViaProxy:(id)arg1;
 - (void)_waitForLaunchTokenFromReceipt:(id)arg1;
-@property(nonatomic) unsigned long long state;
-@property(nonatomic) int processID;
 @property(readonly) XCAccessibilityElement *accessibilityElement;
+@property(readonly, copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
+@property(retain, nonatomic) XCUIApplicationProcess *currentProcess; // @synthesize currentProcess=_currentProcess;
 - (void)dealloc;
 - (id)initWithPath:(id)arg1 bundleID:(id)arg2;
+- (void)launchWithArguments:(id)arg1 environment:(id)arg2 usingXcode:(_Bool)arg3;
+@property(readonly, copy) NSString *path; // @synthesize path=_path;
+@property(nonatomic) int processID;
+@property(nonatomic) unsigned long long state;
+- (void)terminate;
+- (void)waitForQuiescence;
+- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1;
 
 @end
 

@@ -13,8 +13,8 @@
     XCTestRun *_testRun;
 }
 
-@property(retain) XCTestRun *testRun; // @synthesize testRun=_testRun;
 - (void)dealloc;
+@property(retain) XCTestRun *testRun; // @synthesize testRun=_testRun;
 
 @end
 

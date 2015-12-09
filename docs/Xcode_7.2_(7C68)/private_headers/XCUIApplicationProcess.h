@@ -27,25 +27,25 @@
 }
 
 @property XCAXClient_iOS *AXClient_iOS; // @synthesize AXClient_iOS=_AXClient_iOS;
-@property XCApplicationMonitor *applicationMonitor; // @synthesize applicationMonitor=_applicationMonitor;
 @property id <XCTestManager_IDEInterface> IDEProxy; // @synthesize IDEProxy=_IDEProxy;
-@property XCUIApplicationImpl *applicationImplementation; // @synthesize applicationImplementation=_applicationImplementation;
-- (void)terminate;
-- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1;
-- (void)waitForQuiescence;
-@property _Bool hasReceivedAnimationsHaveFinished;
-@property _Bool animationsHaveFinished;
-@property _Bool hasReceivedEventLoopHasIdled;
-@property _Bool eventLoopHasIdled;
-@property(retain) id token;
-@property(nonatomic) int processID;
-@property(nonatomic) unsigned long long applicationState;
 @property(nonatomic) _Bool accessibilityActive;
 @property(readonly, copy) XCAccessibilityElement *accessibilityElement;
+@property _Bool animationsHaveFinished;
+@property XCUIApplicationImpl *applicationImplementation; // @synthesize applicationImplementation=_applicationImplementation;
+@property XCApplicationMonitor *applicationMonitor; // @synthesize applicationMonitor=_applicationMonitor;
+@property(nonatomic) unsigned long long applicationState;
+- (void)dealloc;
 - (id)description;
+@property _Bool eventLoopHasIdled;
+@property _Bool hasReceivedAnimationsHaveFinished;
+@property _Bool hasReceivedEventLoopHasIdled;
 - (id)init;
 - (id)initWithApplicationMonitor:(id)arg1 AXInterface:(id)arg2 IDEProxy:(id)arg3;
-- (void)dealloc;
+@property(nonatomic) int processID;
+@property(retain) id token;
+- (void)terminate;
+- (void)waitForQuiescence;
+- (void)waitForViewControllerViewDidDisappearWithTimeout:(double)arg1;
 
 @end
 

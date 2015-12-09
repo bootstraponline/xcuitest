@@ -13,6 +13,42 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/cleanup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/fulfill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)fulfill</Declaration>
+			
+			
+			<Anchor>//api/name/fulfill</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/setNotificationName:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
@@ -49,30 +85,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/cleanup</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)cleanup</Declaration>
-			
-			
-			<Anchor>//api/name/cleanup</Anchor>
-            <NodeRef refid="54"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/fulfill</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)fulfill</Declaration>
-			
-			
-			<Anchor>//api/name/fulfill</Anchor>
-            <NodeRef refid="54"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/startObserving</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
@@ -81,18 +93,6 @@
 			
 			
 			<Anchor>//api/name/startObserving</Anchor>
-            <NodeRef refid="54"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/dealloc</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)dealloc</Declaration>
-			
-			
-			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="54"/>
 		</Token>
 		

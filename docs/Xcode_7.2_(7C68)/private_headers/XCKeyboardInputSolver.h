@@ -23,25 +23,25 @@
     NSMutableDictionary *_solvingPaths;
 }
 
-@property(readonly) NSArray *solvedInputs; // @synthesize solvedInputs=_solvedInputs;
-@property(readonly) struct _NSRange unsolvedRange; // @synthesize unsolvedRange=_unsolvedRange;
-@property _Bool includeModifierKeys; // @synthesize includeModifierKeys=_includeModifierKeys;
-@property unsigned long long currentFlags; // @synthesize currentFlags=_currentFlags;
-@property unsigned long long excludedFlags; // @synthesize excludedFlags=_excludedFlags;
-@property unsigned long long requiredFlags; // @synthesize requiredFlags=_requiredFlags;
-@property(readonly, copy) NSString *string; // @synthesize string=_string;
-@property(readonly) XCKeyboardKeyMap *keyMap; // @synthesize keyMap=_keyMap;
 - (id)_solve;
+- (void)advancePath:(id)arg1 range:(id)arg2;
+- (unsigned long long)advancePaths;
+- (id)copyWithZone:(struct _NSZone *)arg1;
+@property unsigned long long currentFlags; // @synthesize currentFlags=_currentFlags;
+- (void)dealloc;
+@property unsigned long long excludedFlags; // @synthesize excludedFlags=_excludedFlags;
+- (id)extractCompletePathsWithSolutionRange:(struct _NSRange)arg1;
+@property _Bool includeModifierKeys; // @synthesize includeModifierKeys=_includeModifierKeys;
+- (id)init;
+- (id)initWithKeyMap:(id)arg1 string:(id)arg2;
+@property(readonly, getter=isComplete) _Bool complete;
+@property(readonly) XCKeyboardKeyMap *keyMap; // @synthesize keyMap=_keyMap;
+@property unsigned long long requiredFlags; // @synthesize requiredFlags=_requiredFlags;
 - (id)solve;
 - (void)solveWithSolutionRange:(struct _NSRange)arg1 results:(id)arg2;
-- (id)extractCompletePathsWithSolutionRange:(struct _NSRange)arg1;
-- (unsigned long long)advancePaths;
-- (void)advancePath:(id)arg1 range:(id)arg2;
-@property(readonly, getter=isComplete) _Bool complete;
-- (id)copyWithZone:(struct _NSZone *)arg1;
-- (void)dealloc;
-- (id)initWithKeyMap:(id)arg1 string:(id)arg2;
-- (id)init;
+@property(readonly) NSArray *solvedInputs; // @synthesize solvedInputs=_solvedInputs;
+@property(readonly, copy) NSString *string; // @synthesize string=_string;
+@property(readonly) struct _NSRange unsolvedRange; // @synthesize unsolvedRange=_unsolvedRange;
 
 @end
 

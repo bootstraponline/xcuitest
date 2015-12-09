@@ -13,18 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCKeyMappingPath/pathWithKeyState:next:inputs:output:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>+ (id)pathWithKeyState:(unsigned long long)arg1 next:(id)arg2 inputs:(id)arg3 output:(id)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/pathWithKeyState:next:inputs:output:</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/XCKeyMappingPath/emptyPath</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
@@ -37,110 +25,98 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setProducedString:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCKeyMappingPath/pathWithKeyState:next:inputs:output:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *producedString</Declaration>
+			<Declaration>+ (id)pathWithKeyState:(unsigned long long)arg1 next:(id)arg2 inputs:(id)arg3 output:(id)arg4</Declaration>
 			
 			
-			<Anchor>//api/name/producedString</Anchor>
+			<Anchor>//api/name/pathWithKeyState:next:inputs:output:</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/producedString</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/copyWithZone:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *producedString</Declaration>
+			<Declaration>- (id)copyWithZone:(struct _NSZone *)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/producedString</Anchor>
+			<Anchor>//api/name/copyWithZone:</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/producedString</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/dealloc</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *producedString</Declaration>
+			<Declaration>- (void)dealloc</Declaration>
 			
 			
-			<Anchor>//api/name/producedString</Anchor>
+			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setLength:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/hash</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) unsigned long long length</Declaration>
+			<Declaration>- (unsigned long long)hash</Declaration>
 			
 			
-			<Anchor>//api/name/length</Anchor>
+			<Anchor>//api/name/hash</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/length</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/init</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) unsigned long long length</Declaration>
+			<Declaration>- (id)init</Declaration>
 			
 			
-			<Anchor>//api/name/length</Anchor>
+			<Anchor>//api/name/init</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/length</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/initWithKeyState:next:inputs:output:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) unsigned long long length</Declaration>
+			<Declaration>- (id)initWithKeyState:(unsigned long long)arg1 next:(id)arg2 inputs:(id)arg3 output:(id)arg4</Declaration>
 			
 			
-			<Anchor>//api/name/length</Anchor>
+			<Anchor>//api/name/initWithKeyState:next:inputs:output:</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setOutput:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/inputSequenceWithRequiredFlags:excludedFlags:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *output</Declaration>
+			<Declaration>- (id)inputSequenceWithRequiredFlags:(unsigned long long)arg1 excludedFlags:(unsigned long long)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/output</Anchor>
+			<Anchor>//api/name/inputSequenceWithRequiredFlags:excludedFlags:</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/output</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/inputWithRequiredFlags:excludedFlags:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) NSString *output</Declaration>
+			<Declaration>- (id)inputWithRequiredFlags:(unsigned long long)arg1 excludedFlags:(unsigned long long)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/output</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/output</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *output</Declaration>
-			
-			
-			<Anchor>//api/name/output</Anchor>
+			<Anchor>//api/name/inputWithRequiredFlags:excludedFlags:</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
@@ -181,134 +157,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setNext:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setComplete:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) XCKeyMappingPath *next</Declaration>
+			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
 			
 			
-			<Anchor>//api/name/next</Anchor>
+			<Anchor>//api/name/complete</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/next</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/isComplete</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) XCKeyMappingPath *next</Declaration>
+			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
 			
 			
-			<Anchor>//api/name/next</Anchor>
+			<Anchor>//api/name/complete</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/next</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/complete</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, copy) XCKeyMappingPath *next</Declaration>
+			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
 			
 			
-			<Anchor>//api/name/next</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setKeyState:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) unsigned long long keyState</Declaration>
-			
-			
-			<Anchor>//api/name/keyState</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/keyState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) unsigned long long keyState</Declaration>
-			
-			
-			<Anchor>//api/name/keyState</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/keyState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) unsigned long long keyState</Declaration>
-			
-			
-			<Anchor>//api/name/keyState</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/copyWithZone:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>- (id)copyWithZone:(struct _NSZone *)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/copyWithZone:</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/isEqual:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/isEqual:</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/hash</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>- (unsigned long long)hash</Declaration>
-			
-			
-			<Anchor>//api/name/hash</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/inputSequenceWithRequiredFlags:excludedFlags:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>- (id)inputSequenceWithRequiredFlags:(unsigned long long)arg1 excludedFlags:(unsigned long long)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/inputSequenceWithRequiredFlags:excludedFlags:</Anchor>
-            <NodeRef refid="10"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/inputWithRequiredFlags:excludedFlags:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
-			
-			<Declaration>- (id)inputWithRequiredFlags:(unsigned long long)arg1 excludedFlags:(unsigned long long)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/inputWithRequiredFlags:excludedFlags:</Anchor>
+			<Anchor>//api/name/complete</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
@@ -349,74 +229,194 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setComplete:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/isEqual:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
+			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/complete</Anchor>
+			<Anchor>//api/name/isEqual:</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/isComplete</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setKeyState:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
+			<Declaration>@property (readonly) unsigned long long keyState</Declaration>
 			
 			
-			<Anchor>//api/name/complete</Anchor>
+			<Anchor>//api/name/keyState</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/complete</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/keyState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
+			<Declaration>@property (readonly) unsigned long long keyState</Declaration>
 			
 			
-			<Anchor>//api/name/complete</Anchor>
+			<Anchor>//api/name/keyState</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/keyState</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property (readonly) unsigned long long keyState</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/keyState</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/initWithKeyState:next:inputs:output:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setLength:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>- (id)initWithKeyState:(unsigned long long)arg1 next:(id)arg2 inputs:(id)arg3 output:(id)arg4</Declaration>
+			<Declaration>@property (readonly) unsigned long long length</Declaration>
 			
 			
-			<Anchor>//api/name/initWithKeyState:next:inputs:output:</Anchor>
+			<Anchor>//api/name/length</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/length</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
 			
-			<Declaration>- (id)init</Declaration>
+			<Declaration>@property (readonly) unsigned long long length</Declaration>
 			
 			
-			<Anchor>//api/name/init</Anchor>
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setNext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCKeyMappingPath *next</Declaration>
+			
+			
+			<Anchor>//api/name/next</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/next</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCKeyMappingPath *next</Declaration>
+			
+			
+			<Anchor>//api/name/next</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/next</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) XCKeyMappingPath *next</Declaration>
+			
+			
+			<Anchor>//api/name/next</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setOutput:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/output</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/output</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *output</Declaration>
+			
+			
+			<Anchor>//api/name/output</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/setProducedString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *producedString</Declaration>
+			
+			
+			<Anchor>//api/name/producedString</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyMappingPath/producedString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *producedString</Declaration>
+			
+			
+			<Anchor>//api/name/producedString</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyMappingPath/producedString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyMappingPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *producedString</Declaration>
+			
+			
+			<Anchor>//api/name/producedString</Anchor>
             <NodeRef refid="10"/>
 		</Token>
 		

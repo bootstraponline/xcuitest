@@ -13,74 +13,14 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/setIdentifier:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/dealloc</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
 			
-			<Declaration>@property (copy) NSUUID *identifier</Declaration>
+			<Declaration>- (void)dealloc</Declaration>
 			
 			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="47"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/identifier</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSUUID *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="47"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementAsynchronousHandlerWrapper/identifier</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSUUID *identifier</Declaration>
-			
-			
-			<Anchor>//api/name/identifier</Anchor>
-            <NodeRef refid="47"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/setHandlerDescription:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSString *handlerDescription</Declaration>
-			
-			
-			<Anchor>//api/name/handlerDescription</Anchor>
-            <NodeRef refid="47"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/handlerDescription</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSString *handlerDescription</Declaration>
-			
-			
-			<Anchor>//api/name/handlerDescription</Anchor>
-            <NodeRef refid="47"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementAsynchronousHandlerWrapper/handlerDescription</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSString *handlerDescription</Declaration>
-			
-			
-			<Anchor>//api/name/handlerDescription</Anchor>
+			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="47"/>
 		</Token>
 		
@@ -121,14 +61,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/setHandlerDescription:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property (copy) NSString *handlerDescription</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/handlerDescription</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/handlerDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *handlerDescription</Declaration>
+			
+			
+			<Anchor>//api/name/handlerDescription</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementAsynchronousHandlerWrapper/handlerDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *handlerDescription</Declaration>
+			
+			
+			<Anchor>//api/name/handlerDescription</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIElementAsynchronousHandlerWrapper/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIElementAsynchronousHandlerWrapper/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIElementAsynchronousHandlerWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
             <NodeRef refid="47"/>
 		</Token>
 		

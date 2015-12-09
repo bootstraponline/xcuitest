@@ -7,16 +7,16 @@
 @class NSString;
 
 @protocol XCUIElementAttributes
-@property(readonly, getter=isSelected) _Bool selected;
-@property(readonly) NSString *placeholderValue;
-@property(readonly) long long verticalSizeClass;
-@property(readonly) long long horizontalSizeClass;
-@property(readonly, getter=isEnabled) _Bool enabled;
 @property(readonly) unsigned long long elementType;
+@property(readonly) struct CGRect frame;
+@property(readonly) long long horizontalSizeClass;
+@property(readonly) NSString *identifier;
+@property(readonly, getter=isEnabled) _Bool enabled;
+@property(readonly, getter=isSelected) _Bool selected;
 @property(readonly, copy) NSString *label;
+@property(readonly) NSString *placeholderValue;
 @property(readonly, copy) NSString *title;
 @property(readonly) id value;
-@property(readonly) struct CGRect frame;
-@property(readonly) NSString *identifier;
+@property(readonly) long long verticalSizeClass;
 @end
 

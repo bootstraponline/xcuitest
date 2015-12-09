@@ -25,38 +25,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/setDidHandleUIInterruption:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/addUIInterruptionMonitorWithDescription:handler:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestContext.h</DeclaredIn>
 			
-			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			<Declaration>- (id)addUIInterruptionMonitorWithDescription:(id)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/didHandleUIInterruption</Anchor>
-            <NodeRef refid="27"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/didHandleUIInterruption</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContext.h</DeclaredIn>
-			
-			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
-			
-			
-			<Anchor>//api/name/didHandleUIInterruption</Anchor>
-            <NodeRef refid="27"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestContext/didHandleUIInterruption</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContext.h</DeclaredIn>
-			
-			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
-			
-			
-			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+			<Anchor>//api/name/addUIInterruptionMonitorWithDescription:handler:</Anchor>
             <NodeRef refid="27"/>
 		</Token>
 		
@@ -97,6 +73,54 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/setDidHandleUIInterruption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			
+			
+			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/didHandleUIInterruption</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			
+			
+			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestContext/didHandleUIInterruption</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			
+			
+			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/handleAsynchronousUIElement:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestContext.h</DeclaredIn>
@@ -105,42 +129,6 @@
 			
 			
 			<Anchor>//api/name/handleAsynchronousUIElement:</Anchor>
-            <NodeRef refid="27"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/removeUIInterruptionMonitor:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContext.h</DeclaredIn>
-			
-			<Declaration>- (void)removeUIInterruptionMonitor:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/removeUIInterruptionMonitor:</Anchor>
-            <NodeRef refid="27"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/addUIInterruptionMonitorWithDescription:handler:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContext.h</DeclaredIn>
-			
-			<Declaration>- (id)addUIInterruptionMonitorWithDescription:(id)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/addUIInterruptionMonitorWithDescription:handler:</Anchor>
-            <NodeRef refid="27"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/performInScope:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContext.h</DeclaredIn>
-			
-			<Declaration>- (void)performInScope:(CDUnknownBlockType)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/performInScope:</Anchor>
             <NodeRef refid="27"/>
 		</Token>
 		
@@ -193,14 +181,26 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/performInScope:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestContext.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>- (void)performInScope:(CDUnknownBlockType)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/performInScope:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/removeUIInterruptionMonitor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (void)removeUIInterruptionMonitor:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/removeUIInterruptionMonitor:</Anchor>
             <NodeRef refid="27"/>
 		</Token>
 		

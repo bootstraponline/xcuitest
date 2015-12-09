@@ -25,18 +25,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseRun/recordFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestCaseRun.h</DeclaredIn>
-			
-			<Declaration>- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/recordFailureWithDescription:inFile:atLine:expected:</Anchor>
-            <NodeRef refid="24"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseRun/recordFailureInTest:withDescription:inFile:atLine:expected:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestCaseRun.h</DeclaredIn>
@@ -49,14 +37,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseRun/stop</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseRun/recordFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestCaseRun.h</DeclaredIn>
 			
-			<Declaration>- (void)stop</Declaration>
+			<Declaration>- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4</Declaration>
 			
 			
-			<Anchor>//api/name/stop</Anchor>
+			<Anchor>//api/name/recordFailureWithDescription:inFile:atLine:expected:</Anchor>
             <NodeRef refid="24"/>
 		</Token>
 		
@@ -69,6 +57,18 @@
 			
 			
 			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseRun/stop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCaseRun.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
             <NodeRef refid="24"/>
 		</Token>
 		

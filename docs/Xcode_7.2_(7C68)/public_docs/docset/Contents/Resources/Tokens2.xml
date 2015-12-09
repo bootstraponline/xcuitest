@@ -323,6 +323,45 @@ Measurement of metrics will stop at this point.</Abstract>
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/defaultTestSuite</TokenIdentifier>
+			<Abstract type="html">@method +defaultTestSuite
+Returns a test suite containing test cases for all of the tests in the class.</Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (XCTestSuite *)defaultTestSuite</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTestSuite</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/setUp</TokenIdentifier>
+			<Abstract type="html">@method +setUp
+Setup method called before the invocation of any test method in the class.</Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (void)setUp</Declaration>
+			
+			
+			<Anchor>//api/name/setUp</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/tearDown</TokenIdentifier>
+			<Abstract type="html">@method +testDown
+Teardown method called after the invocation of every test method in the class.</Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (void)tearDown</Declaration>
+			
+			
+			<Anchor>//api/name/tearDown</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/expectationWithDescription:</TokenIdentifier>
 			<Abstract type="html">@method +expectationWithDescription:</Abstract>
 			<DeclaredIn>XCTestCase+AsynchronousTesting.h</DeclaredIn>
@@ -394,45 +433,6 @@ events to optimistically re-evaluate.</Abstract>
 			
 			
 			<Anchor>//api/name/expectationForPredicate:evaluatedWithObject:handler:</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/defaultTestSuite</TokenIdentifier>
-			<Abstract type="html">@method +defaultTestSuite
-Returns a test suite containing test cases for all of the tests in the class.</Abstract>
-			<DeclaredIn>XCTestCase.h</DeclaredIn>
-			
-			<Declaration>+ (XCTestSuite *)defaultTestSuite</Declaration>
-			
-			
-			<Anchor>//api/name/defaultTestSuite</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/setUp</TokenIdentifier>
-			<Abstract type="html">@method +setUp
-Setup method called before the invocation of any test method in the class.</Abstract>
-			<DeclaredIn>XCTestCase.h</DeclaredIn>
-			
-			<Declaration>+ (void)setUp</Declaration>
-			
-			
-			<Anchor>//api/name/setUp</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/tearDown</TokenIdentifier>
-			<Abstract type="html">@method +testDown
-Teardown method called after the invocation of every test method in the class.</Abstract>
-			<DeclaredIn>XCTestCase.h</DeclaredIn>
-			
-			<Declaration>+ (void)tearDown</Declaration>
-			
-			
-			<Anchor>//api/name/tearDown</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		

@@ -13,6 +13,18 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContextScope/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContextScope.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestContextScope/setHandlers:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestContextScope.h</DeclaredIn>
@@ -49,6 +61,18 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContextScope/initWithParentScope:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContextScope.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithParentScope:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithParentScope:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestContextScope/setParentScope:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestContextScope.h</DeclaredIn>
@@ -81,30 +105,6 @@
 			
 			
 			<Anchor>//api/name/parentScope</Anchor>
-            <NodeRef refid="28"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContextScope/initWithParentScope:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContextScope.h</DeclaredIn>
-			
-			<Declaration>- (id)initWithParentScope:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/initWithParentScope:</Anchor>
-            <NodeRef refid="28"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestContextScope/dealloc</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestContextScope.h</DeclaredIn>
-			
-			<Declaration>- (void)dealloc</Declaration>
-			
-			
-			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="28"/>
 		</Token>
 		

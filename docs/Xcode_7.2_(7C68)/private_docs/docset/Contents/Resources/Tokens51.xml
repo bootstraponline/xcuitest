@@ -13,42 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/setDescendantFinders:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
-			
-			<Declaration>@property (retain) NSMutableArray *descendantFinders</Declaration>
-			
-			
-			<Anchor>//api/name/descendantFinders</Anchor>
-            <NodeRef refid="51"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/descendantFinders</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
-			
-			<Declaration>@property (retain) NSMutableArray *descendantFinders</Declaration>
-			
-			
-			<Anchor>//api/name/descendantFinders</Anchor>
-            <NodeRef refid="51"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinderMatch/descendantFinders</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
-			
-			<Declaration>@property (retain) NSMutableArray *descendantFinders</Declaration>
-			
-			
-			<Anchor>//api/name/descendantFinders</Anchor>
-            <NodeRef refid="51"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/setAncestorFinder:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
@@ -85,38 +49,74 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/setNode:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/setDescendantFinders:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
 			
-			<Declaration>@property (retain) XCSourceCodeTreeNode *node</Declaration>
+			<Declaration>@property (retain) NSMutableArray *descendantFinders</Declaration>
 			
 			
-			<Anchor>//api/name/node</Anchor>
+			<Anchor>//api/name/descendantFinders</Anchor>
             <NodeRef refid="51"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/node</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/descendantFinders</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
 			
-			<Declaration>@property (retain) XCSourceCodeTreeNode *node</Declaration>
+			<Declaration>@property (retain) NSMutableArray *descendantFinders</Declaration>
 			
 			
-			<Anchor>//api/name/node</Anchor>
+			<Anchor>//api/name/descendantFinders</Anchor>
             <NodeRef refid="51"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinderMatch/node</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinderMatch/descendantFinders</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
 			
-			<Declaration>@property (retain) XCSourceCodeTreeNode *node</Declaration>
+			<Declaration>@property (retain) NSMutableArray *descendantFinders</Declaration>
 			
 			
-			<Anchor>//api/name/node</Anchor>
+			<Anchor>//api/name/descendantFinders</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/initWithNode:matchingSnapshots:ancestorFinder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithNode:(id)arg1 matchingSnapshots:(id)arg2 ancestorFinder:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNode:matchingSnapshots:ancestorFinder:</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/invalidate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
+			
+			<Declaration>- (void)invalidate</Declaration>
+			
+			
+			<Anchor>//api/name/invalidate</Anchor>
             <NodeRef refid="51"/>
 		</Token>
 		
@@ -157,14 +157,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/invalidate</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/setNode:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
 			
-			<Declaration>- (void)invalidate</Declaration>
+			<Declaration>@property (retain) XCSourceCodeTreeNode *node</Declaration>
 			
 			
-			<Anchor>//api/name/invalidate</Anchor>
+			<Anchor>//api/name/node</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/node</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCSourceCodeTreeNode *node</Declaration>
+			
+			
+			<Anchor>//api/name/node</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinderMatch/node</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCSourceCodeTreeNode *node</Declaration>
+			
+			
+			<Anchor>//api/name/node</Anchor>
             <NodeRef refid="51"/>
 		</Token>
 		
@@ -177,30 +201,6 @@
 			
 			
 			<Anchor>//api/name/nodeIncludingDescendants</Anchor>
-            <NodeRef refid="51"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/description</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
-			
-			<Declaration>- (id)description</Declaration>
-			
-			
-			<Anchor>//api/name/description</Anchor>
-            <NodeRef refid="51"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinderMatch/initWithNode:matchingSnapshots:ancestorFinder:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCUIRecorderNodeFinderMatch.h</DeclaredIn>
-			
-			<Declaration>- (id)initWithNode:(id)arg1 matchingSnapshots:(id)arg2 ancestorFinder:(id)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/initWithNode:matchingSnapshots:ancestorFinder:</Anchor>
             <NodeRef refid="51"/>
 		</Token>
 		

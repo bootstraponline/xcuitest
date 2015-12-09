@@ -19,22 +19,22 @@
 }
 
 + (_Bool)supportsSecureCoding;
-@property(readonly) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property unsigned long long index; // @synthesize index=_index;
-@property _Bool immutable; // @synthesize immutable=_immutable;
-- (id)description;
-- (id)firstEventAfterOffset:(double)arg1;
-- (id)lastEventBeforeOffset:(double)arg1;
-@property(readonly) _Bool complete;
 - (void)_addTouchEvent:(id)arg1;
+@property(readonly) _Bool complete;
+- (void)dealloc;
+- (id)description;
+- (void)encodeWithCoder:(id)arg1;
+- (id)firstEventAfterOffset:(double)arg1;
+@property _Bool immutable; // @synthesize immutable=_immutable;
+@property unsigned long long index; // @synthesize index=_index;
+- (id)init;
+- (id)initWithCoder:(id)arg1;
+- (id)initWithTouchDown:(struct CGPoint)arg1 orientation:(long long)arg2 offset:(double)arg3;
+@property(readonly) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
+- (id)lastEventBeforeOffset:(double)arg1;
 - (void)liftUpAtPoint:(struct CGPoint)arg1 offset:(double)arg2;
 - (void)moveToPoint:(struct CGPoint)arg1 atOffset:(double)arg2;
 @property(readonly) NSArray *touchEvents;
-- (void)encodeWithCoder:(id)arg1;
-- (id)initWithCoder:(id)arg1;
-- (id)initWithTouchDown:(struct CGPoint)arg1 orientation:(long long)arg2 offset:(double)arg3;
-- (id)init;
-- (void)dealloc;
 
 @end
 

@@ -13,6 +13,18 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/setExpectationDescription:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
@@ -45,42 +57,6 @@
 			
 			
 			<Anchor>//api/name/expectationDescription</Anchor>
-            <NodeRef refid="62"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/setTestCase:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
-			
-			<Declaration>@property XCTestCase *testCase</Declaration>
-			
-			
-			<Anchor>//api/name/testCase</Anchor>
-            <NodeRef refid="62"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/testCase</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
-			
-			<Declaration>@property XCTestCase *testCase</Declaration>
-			
-			
-			<Anchor>//api/name/testCase</Anchor>
-            <NodeRef refid="62"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/_XCTestExpectationImplementation/testCase</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
-			
-			<Declaration>@property XCTestCase *testCase</Declaration>
-			
-			
-			<Anchor>//api/name/testCase</Anchor>
             <NodeRef refid="62"/>
 		</Token>
 		
@@ -121,14 +97,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/setTestCase:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property XCTestCase *testCase</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/testCase</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/testCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property XCTestCase *testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestExpectationImplementation/testCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property XCTestCase *testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
             <NodeRef refid="62"/>
 		</Token>
 		

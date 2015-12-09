@@ -15,10 +15,10 @@
     NSString *_expectationDescription;
 }
 
-@property(copy) NSString *expectationDescription; // @synthesize expectationDescription=_expectationDescription;
-@property XCTestCase *testCase; // @synthesize testCase=_testCase;
-@property _Bool hasCompleted; // @synthesize hasCompleted=_hasCompleted;
 - (void)dealloc;
+@property(copy) NSString *expectationDescription; // @synthesize expectationDescription=_expectationDescription;
+@property _Bool hasCompleted; // @synthesize hasCompleted=_hasCompleted;
+@property XCTestCase *testCase; // @synthesize testCase=_testCase;
 
 @end
 

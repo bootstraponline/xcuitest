@@ -16,19 +16,19 @@
 }
 
 + (id)sharedGenerator;
-@property unsigned long long generation; // @synthesize generation=_generation;
+- (void)_scheduleCallback:(CDUnknownBlockType)arg1 afterInterval:(double)arg2;
+- (void)_startEventSequenceWithSteppingCallback:(CDUnknownBlockType)arg1;
+- (double)doubleTapAtPoint:(struct CGPoint)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3;
 @property(readonly) NSObject<OS_dispatch_queue> *eventQueue; // @synthesize eventQueue=_eventQueue;
-- (double)rotateInRect:(struct CGRect)arg1 withRotation:(double)arg2 velocity:(double)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5;
+@property unsigned long long generation; // @synthesize generation=_generation;
+- (id)init;
 - (double)pinchInRect:(struct CGRect)arg1 withScale:(double)arg2 velocity:(double)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5;
 - (double)pressAtPoint:(struct CGPoint)arg1 forDuration:(double)arg2 liftAtPoint:(struct CGPoint)arg3 velocity:(double)arg4 orientation:(long long)arg5 name:(id)arg6 handler:(CDUnknownBlockType)arg7;
 - (double)pressAtPoint:(struct CGPoint)arg1 forDuration:(double)arg2 orientation:(long long)arg3 handler:(CDUnknownBlockType)arg4;
+- (double)rotateInRect:(struct CGRect)arg1 withRotation:(double)arg2 velocity:(double)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5;
+- (double)tapAtPoint:(struct CGPoint)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3;
 - (double)tapWithNumberOfTaps:(unsigned long long)arg1 numberOfTouches:(unsigned long long)arg2 inRect:(struct CGRect)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5;
 - (double)twoFingerTapInRect:(struct CGRect)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3;
-- (double)doubleTapAtPoint:(struct CGPoint)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3;
-- (double)tapAtPoint:(struct CGPoint)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3;
-- (void)_startEventSequenceWithSteppingCallback:(CDUnknownBlockType)arg1;
-- (void)_scheduleCallback:(CDUnknownBlockType)arg1 afterInterval:(double)arg2;
-- (id)init;
 
 @end
 

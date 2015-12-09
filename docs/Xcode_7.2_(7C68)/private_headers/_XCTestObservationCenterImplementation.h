@@ -14,9 +14,9 @@
     _Bool _suspended;
 }
 
-@property _Bool suspended; // @synthesize suspended=_suspended;
-@property(retain) NSMutableSet *observers; // @synthesize observers=_observers;
 - (id)init;
+@property(retain) NSMutableSet *observers; // @synthesize observers=_observers;
+@property _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

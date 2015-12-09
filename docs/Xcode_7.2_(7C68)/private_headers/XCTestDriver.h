@@ -36,31 +36,31 @@
 }
 
 + (id)sharedTestDriver;
-@property unsigned long long daemonProtocolVersion; // @synthesize daemonProtocolVersion=_daemonProtocolVersion;
-@property _Bool hasIDEConnection; // @synthesize hasIDEConnection=_hasIDEConnection;
-@property _Bool waitingToStart; // @synthesize waitingToStart=_waitingToStart;
+@property(retain) DTXConnection *IDEConnection; // @synthesize IDEConnection=_IDEConnection;
 @property long long IDEProtocolVersion; // @synthesize IDEProtocolVersion=_IDEProtocolVersion;
 @property(readonly) id <XCTestManager_IDEInterface> IDEProxy; // @synthesize IDEProxy=_IDEProxy;
-@property(retain) DTXConnection *IDEConnection; // @synthesize IDEConnection=_IDEConnection;
-@property(retain) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property XCTestSuite *currentTestSuite; // @synthesize currentTestSuite=_currentTestSuite;
-- (void)_XCT_receivedAccessibilityNotification:(int)arg1 withPayload:(id)arg2;
-- (void)_XCT_applicationWithBundleID:(id)arg1 didUpdatePID:(int)arg2 andState:(unsigned long long)arg3;
 - (id)_IDE_startExecutingTestPlanWithProtocolVersion:(id)arg1;
+- (void)_XCT_applicationWithBundleID:(id)arg1 didUpdatePID:(int)arg2 andState:(unsigned long long)arg3;
+- (void)_XCT_receivedAccessibilityNotification:(int)arg1 withPayload:(id)arg2;
+- (void)_checkForTestManager;
+- (void)_checkManagerDaemonStateAndConnectIfAvailable;
+- (void)_connectToIDEWithTransport:(id)arg1;
+- (void)_connectToTestManager;
+- (void)_resetManagerConnection;
+- (void)_runSuite;
+- (void)_softlinkDTXConnectionServices;
+@property XCTestSuite *currentTestSuite; // @synthesize currentTestSuite=_currentTestSuite;
+@property unsigned long long daemonProtocolVersion; // @synthesize daemonProtocolVersion=_daemonProtocolVersion;
+@property _Bool hasIDEConnection; // @synthesize hasIDEConnection=_hasIDEConnection;
+- (id)init;
+- (void)logDebugMessage:(id)arg1;
+@property(readonly) id <XCTestManager_ManagerInterface> managerProxy;
+- (void)resumeAppSleep:(id)arg1;
 - (void)runTestConfiguration:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
 - (void)runTestSuite:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
-- (void)_checkForTestManager;
-- (void)_connectToTestManager;
-- (void)_checkManagerDaemonStateAndConnectIfAvailable;
-- (void)_resetManagerConnection;
-- (void)_connectToIDEWithTransport:(id)arg1;
-- (void)_runSuite;
-- (void)resumeAppSleep:(id)arg1;
+@property(retain) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
+@property _Bool waitingToStart; // @synthesize waitingToStart=_waitingToStart;
 - (id)suspendAppSleep;
-@property(readonly) id <XCTestManager_ManagerInterface> managerProxy;
-- (void)_softlinkDTXConnectionServices;
-- (void)logDebugMessage:(id)arg1;
-- (id)init;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

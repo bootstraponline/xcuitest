@@ -14,11 +14,11 @@
     int _notifyToken;
 }
 
-@property(copy) NSString *notificationName; // @synthesize notificationName=_notificationName;
 - (void)cleanup;
-- (void)fulfill;
-- (void)startObserving;
 - (void)dealloc;
+- (void)fulfill;
+@property(copy) NSString *notificationName; // @synthesize notificationName=_notificationName;
+- (void)startObserving;
 
 @end
 

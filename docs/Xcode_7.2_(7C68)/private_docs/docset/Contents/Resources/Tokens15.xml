@@ -25,6 +25,66 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/_addPointerEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (void)_addPointerEvent:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_addPointerEvent:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/firstEventAfterOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)firstEventAfterOffset:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/firstEventAfterOffset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/setImmutable:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
@@ -97,6 +157,90 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/initForMouseAtPoint:offset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)initForMouseAtPoint:(struct CGPoint)arg1 offset:(double)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initForMouseAtPoint:offset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/initForTouchAtPoint:offset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)initForTouchAtPoint:(struct CGPoint)arg1 offset:(double)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initForTouchAtPoint:offset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/lastEventBeforeOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (id)lastEventBeforeOffset:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/lastEventBeforeOffset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/liftUpAtOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (void)liftUpAtOffset:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/liftUpAtOffset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/moveToPoint:atOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
+			
+			<Declaration>- (void)moveToPoint:(struct CGPoint)arg1 atOffset:(double)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/moveToPoint:atOffset:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/setPathType:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
@@ -129,114 +273,6 @@
 			
 			
 			<Anchor>//api/name/pathType</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/description</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (id)description</Declaration>
-			
-			
-			<Anchor>//api/name/description</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/firstEventAfterOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (id)firstEventAfterOffset:(double)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/firstEventAfterOffset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/lastEventBeforeOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (id)lastEventBeforeOffset:(double)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/lastEventBeforeOffset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/_addPointerEvent:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)_addPointerEvent:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/_addPointerEvent:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/releaseButton:atOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)releaseButton:(unsigned long long)arg1 atOffset:(double)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/releaseButton:atOffset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/pressButton:atOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)pressButton:(unsigned long long)arg1 atOffset:(double)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/pressButton:atOffset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/liftUpAtOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)liftUpAtOffset:(double)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/liftUpAtOffset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/moveToPoint:atOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)moveToPoint:(struct CGPoint)arg1 atOffset:(double)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/moveToPoint:atOffset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/pressDownAtOffset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)pressDownAtOffset:(double)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/pressDownAtOffset:</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
@@ -277,74 +313,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/encodeWithCoder:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/pressButton:atOffset:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
 			
-			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			<Declaration>- (void)pressButton:(unsigned long long)arg1 atOffset:(double)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/encodeWithCoder:</Anchor>
+			<Anchor>//api/name/pressButton:atOffset:</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/initWithCoder:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/pressDownAtOffset:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
 			
-			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			<Declaration>- (void)pressDownAtOffset:(double)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/initWithCoder:</Anchor>
+			<Anchor>//api/name/pressDownAtOffset:</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/initForMouseAtPoint:offset:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/releaseButton:atOffset:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
 			
-			<Declaration>- (id)initForMouseAtPoint:(struct CGPoint)arg1 offset:(double)arg2</Declaration>
+			<Declaration>- (void)releaseButton:(unsigned long long)arg1 atOffset:(double)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/initForMouseAtPoint:offset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/initForTouchAtPoint:offset:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (id)initForTouchAtPoint:(struct CGPoint)arg1 offset:(double)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/initForTouchAtPoint:offset:</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/init</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (id)init</Declaration>
-			
-			
-			<Anchor>//api/name/init</Anchor>
-            <NodeRef refid="15"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEventPath/dealloc</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCPointerEventPath.h</DeclaredIn>
-			
-			<Declaration>- (void)dealloc</Declaration>
-			
-			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/releaseButton:atOffset:</Anchor>
             <NodeRef refid="15"/>
 		</Token>
 		

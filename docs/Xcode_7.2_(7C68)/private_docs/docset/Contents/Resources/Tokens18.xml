@@ -13,18 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNodeEnumerator/nextObject</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSourceCodeTreeNodeEnumerator.h</DeclaredIn>
-			
-			<Declaration>- (id)nextObject</Declaration>
-			
-			
-			<Anchor>//api/name/nextObject</Anchor>
-            <NodeRef refid="18"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNodeEnumerator/initWithNode:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSourceCodeTreeNodeEnumerator.h</DeclaredIn>
@@ -33,6 +21,18 @@
 			
 			
 			<Anchor>//api/name/initWithNode:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNodeEnumerator/nextObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNodeEnumerator.h</DeclaredIn>
+			
+			<Declaration>- (id)nextObject</Declaration>
+			
+			
+			<Anchor>//api/name/nextObject</Anchor>
             <NodeRef refid="18"/>
 		</Token>
 		

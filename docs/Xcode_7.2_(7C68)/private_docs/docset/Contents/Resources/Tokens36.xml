@@ -13,14 +13,26 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestConfiguration:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/_suiteForBundleCache</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
 			
-			<Declaration>+ (id)testSuiteForTestConfiguration:(id)arg1</Declaration>
+			<Declaration>+ (id)_suiteForBundleCache</Declaration>
 			
 			
-			<Anchor>//api/name/testSuiteForTestConfiguration:</Anchor>
+			<Anchor>//api/name/_suiteForBundleCache</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/allTests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)allTests</Declaration>
+			
+			
+			<Anchor>//api/name/allTests</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -37,14 +49,62 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/allTests</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/emptyTestSuiteNamedFromPath:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
 			
-			<Declaration>+ (id)allTests</Declaration>
+			<Declaration>+ (id)emptyTestSuiteNamedFromPath:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/allTests</Anchor>
+			<Anchor>//api/name/emptyTestSuiteNamedFromPath:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/invalidateCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (void)invalidateCache</Declaration>
+			
+			
+			<Anchor>//api/name/invalidateCache</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/suiteForBundleCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)suiteForBundleCache</Declaration>
+			
+			
+			<Anchor>//api/name/suiteForBundleCache</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testCaseNamesForScopeNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testCaseNamesForScopeNames:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseNamesForScopeNames:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForBundlePath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)testSuiteForBundlePath:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteForBundlePath:</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -73,62 +133,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForBundlePath:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testSuiteForTestConfiguration:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
 			
-			<Declaration>+ (id)testSuiteForBundlePath:(id)arg1</Declaration>
+			<Declaration>+ (id)testSuiteForTestConfiguration:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/testSuiteForBundlePath:</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/suiteForBundleCache</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>+ (id)suiteForBundleCache</Declaration>
-			
-			
-			<Anchor>//api/name/suiteForBundleCache</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/invalidateCache</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>+ (void)invalidateCache</Declaration>
-			
-			
-			<Anchor>//api/name/invalidateCache</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/_suiteForBundleCache</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>+ (id)_suiteForBundleCache</Declaration>
-			
-			
-			<Anchor>//api/name/_suiteForBundleCache</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/emptyTestSuiteNamedFromPath:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>+ (id)emptyTestSuiteNamedFromPath:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/emptyTestSuiteNamedFromPath:</Anchor>
+			<Anchor>//api/name/testSuiteForTestConfiguration:</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -145,18 +157,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/XCTestSuite/testCaseNamesForScopeNames:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>+ (id)testCaseNamesForScopeNames:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/testCaseNamesForScopeNames:</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_initWithTestConfiguration:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
@@ -165,30 +165,6 @@
 			
 			
 			<Anchor>//api/name/_initWithTestConfiguration:</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_sortTestsUsingComparator:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>- (void)_sortTestsUsingComparator:(CDUnknownBlockType)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/_sortTestsUsingComparator:</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/performTest:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>- (void)performTest:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/performTest:</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -205,18 +181,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/testRunClass</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>- (Class)testRunClass</Declaration>
-			
-			
-			<Anchor>//api/name/testRunClass</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_requiredTestRunBaseClass</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
@@ -229,62 +193,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/isEqual:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/_sortTestsUsingComparator:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
 			
-			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
+			<Declaration>- (void)_sortTestsUsingComparator:(CDUnknownBlockType)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/isEqual:</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/testCaseCount</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>- (unsigned long long)testCaseCount</Declaration>
-			
-			
-			<Anchor>//api/name/testCaseCount</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/setTests:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
-			
-			
-			<Anchor>//api/name/tests</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/tests</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
-			
-			
-			<Anchor>//api/name/tests</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuite/tests</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
-			
-			
-			<Anchor>//api/name/tests</Anchor>
+			<Anchor>//api/name/_sortTestsUsingComparator:</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -301,6 +217,18 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/description</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
@@ -309,6 +237,30 @@
 			
 			
 			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/initWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithName:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/isEqual:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/isEqual:</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -349,26 +301,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/performTest:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestSuite.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>- (void)performTest:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
-            <NodeRef refid="36"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/initWithName:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestSuite.h</DeclaredIn>
-			
-			<Declaration>- (id)initWithName:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/initWithName:</Anchor>
+			<Anchor>//api/name/performTest:</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		
@@ -381,6 +321,66 @@
 			
 			
 			<Anchor>//api/name/removeTestsWithNames:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/testRunClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>- (Class)testRunClass</Declaration>
+			
+			
+			<Anchor>//api/name/testRunClass</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/setTests:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuite/tests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuite/tests</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuite.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *tests</Declaration>
+			
+			
+			<Anchor>//api/name/tests</Anchor>
             <NodeRef refid="36"/>
 		</Token>
 		

@@ -14,10 +14,10 @@
     NSMutableArray *_handlers;
 }
 
-@property(copy) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(readonly) XCTestContextScope *parentScope; // @synthesize parentScope=_parentScope;
-- (id)initWithParentScope:(id)arg1;
 - (void)dealloc;
+@property(copy) NSMutableArray *handlers; // @synthesize handlers=_handlers;
+- (id)initWithParentScope:(id)arg1;
+@property(readonly) XCTestContextScope *parentScope; // @synthesize parentScope=_parentScope;
 
 @end
 

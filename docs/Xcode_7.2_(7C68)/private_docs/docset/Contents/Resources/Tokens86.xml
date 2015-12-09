@@ -13,18 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/__ARCLiteKeyedSubscripting__/setObject:forKeyedSubscript:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>__ARCLiteKeyedSubscripting__-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)setObject:(id)arg1 forKeyedSubscript:(id)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/setObject:forKeyedSubscript:</Anchor>
-            <NodeRef refid="86"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/__ARCLiteKeyedSubscripting__/objectForKeyedSubscript:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>__ARCLiteKeyedSubscripting__-Protocol.h</DeclaredIn>
@@ -33,6 +21,18 @@
 			
 			
 			<Anchor>//api/name/objectForKeyedSubscript:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/__ARCLiteKeyedSubscripting__/setObject:forKeyedSubscript:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>__ARCLiteKeyedSubscripting__-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)setObject:(id)arg1 forKeyedSubscript:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/setObject:forKeyedSubscript:</Anchor>
             <NodeRef refid="86"/>
 		</Token>
 		

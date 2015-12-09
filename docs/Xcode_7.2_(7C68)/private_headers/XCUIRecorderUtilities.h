@@ -19,29 +19,29 @@
 
 + (id)applicationNodeForLanguage:(unsigned long long)arg1;
 + (unsigned long long)currentPlatform;
-@property(retain) NSMutableString *previousTyping; // @synthesize previousTyping=_previousTyping;
-@property(retain) XCAccessibilityElement *previousFocusedAccessibilityElement; // @synthesize previousFocusedAccessibilityElement=_previousFocusedAccessibilityElement;
 @property unsigned long long _compareSnapshotsLikePlatform; // @synthesize _compareSnapshotsLikePlatform;
-@property unsigned long long language; // @synthesize language=_language;
-- (id)performWithKeyModifiersAndBlockNodeForModifierFlags:(unsigned long long)arg1;
-- (id)gestureNodesForKeyDownEventWithCharacters:(id)arg1 charactersIgnoringModifiers:(id)arg2 modifierFlags:(unsigned long long)arg3 focusedAccessibilityElement:(id)arg4 didAppendToPreviousString:(_Bool *)arg5;
+- (id)_snapshotInTreeStartingWithSnapshot:(id)arg1 passingPredicateBlock:(CDUnknownBlockType)arg2;
 - (id)_stringConstantForString:(id)arg1;
+- (id)applicationNode;
+- (id)assertHasFocusNode;
 - (void)clearPreviousTyping;
+- (id)commentNodeWithString:(id)arg1;
+- (id)focusedAccessibilityElementForApplicationSnapshot:(id)arg1;
+- (id)gestureNodesForKeyDownEventWithCharacters:(id)arg1 charactersIgnoringModifiers:(id)arg2 modifierFlags:(unsigned long long)arg3 focusedAccessibilityElement:(id)arg4 didAppendToPreviousString:(_Bool *)arg5;
+@property unsigned long long language; // @synthesize language=_language;
+- (id)nodeForOrientationChangeWithSymbolName:(id)arg1;
 - (id)nodeToFindElementForSnapshots:(id)arg1;
+- (id)performWithKeyModifiersAndBlockNodeForModifierFlags:(unsigned long long)arg1;
+@property unsigned long long platform; // @synthesize platform=_platform;
+@property(retain) XCAccessibilityElement *previousFocusedAccessibilityElement; // @synthesize previousFocusedAccessibilityElement=_previousFocusedAccessibilityElement;
+@property(retain) NSMutableString *previousTyping; // @synthesize previousTyping=_previousTyping;
+- (id)remoteNodeWithButtonSymbolName:(id)arg1;
+- (id)simpleGestureNodeForMethodName:(id)arg1;
+- (id)snapshotInTreeStartingWithSnapshot:(id)arg1 forElement:(id)arg2;
+- (id)snapshotsForAccessibilityElement:(id)arg1 applicationSnapshot:(id)arg2;
+- (id)stringForKeyModifierFlags:(unsigned long long)arg1;
 - (id)typeKeyNodeForKey:(id)arg1 modifierFlags:(unsigned long long)arg2;
 - (id)typeStringNodeForString:(id)arg1;
-- (id)stringForKeyModifierFlags:(unsigned long long)arg1;
-- (id)simpleGestureNodeForMethodName:(id)arg1;
-- (id)assertHasFocusNode;
-- (id)remoteNodeWithButtonSymbolName:(id)arg1;
-- (id)commentNodeWithString:(id)arg1;
-- (id)applicationNode;
-- (id)focusedAccessibilityElementForApplicationSnapshot:(id)arg1;
-- (id)snapshotsForAccessibilityElement:(id)arg1 applicationSnapshot:(id)arg2;
-- (id)snapshotInTreeStartingWithSnapshot:(id)arg1 forElement:(id)arg2;
-- (id)_snapshotInTreeStartingWithSnapshot:(id)arg1 passingPredicateBlock:(CDUnknownBlockType)arg2;
-- (id)nodeForOrientationChangeWithSymbolName:(id)arg1;
-@property unsigned long long platform; // @synthesize platform=_platform;
 
 @end
 

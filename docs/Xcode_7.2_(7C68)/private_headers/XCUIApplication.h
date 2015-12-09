@@ -19,37 +19,37 @@
     unsigned long long _generation;
 }
 
-+ (id)keyPathsForValuesAffectingRunning;
 + (id)appWithPID:(int)arg1;
-@property unsigned long long generation; // @synthesize generation=_generation;
-@property(retain) XCApplicationQuery *applicationQuery; // @synthesize applicationQuery=_applicationQuery;
-@property(readonly) XCUIApplicationImpl *applicationImpl; // @synthesize applicationImpl=_applicationImpl;
-@property _Bool ancillary; // @synthesize ancillary=_ancillary;
-@property(copy, nonatomic) NSDictionary *launchEnvironment; // @synthesize launchEnvironment=_launchEnvironment;
-@property(copy, nonatomic) NSArray *launchArguments; // @synthesize launchArguments=_launchArguments;
-- (void)dismissKeyboard;
-@property(readonly) XCUIElement *keyboard; // @synthesize keyboard=_keyboard;
-@property(readonly, nonatomic) long long interfaceOrientation;
-- (void)_waitForViewControllerViewDidDisappearWithTimeout:(double)arg1;
-- (void)_waitForQuiescence;
-- (void)terminate;
++ (id)keyPathsForValuesAffectingRunning;
 - (void)_launchUsingXcode:(_Bool)arg1;
-- (void)launch;
-- (id)application;
-@property(readonly, nonatomic) _Bool running;
-@property(nonatomic) int processID;
-@property(nonatomic) unsigned long long state;
-- (id)description;
-- (id)lastSnapshot;
-- (id)query;
-- (void)clearQuery;
+- (void)_waitForQuiescence;
+- (void)_waitForViewControllerViewDidDisappearWithTimeout:(double)arg1;
 @property(readonly) XCAccessibilityElement *accessibilityElement;
-- (unsigned long long)elementType;
+@property _Bool ancillary; // @synthesize ancillary=_ancillary;
+- (id)application;
+@property(readonly) XCUIApplicationImpl *applicationImpl; // @synthesize applicationImpl=_applicationImpl;
+@property(retain) XCApplicationQuery *applicationQuery; // @synthesize applicationQuery=_applicationQuery;
 @property(readonly) NSString *bundleID;
-@property(readonly) NSString *path;
-- (id)initPrivateWithPath:(id)arg1 bundleID:(id)arg2;
-- (id)init;
+- (void)clearQuery;
 - (void)dealloc;
+- (id)description;
+- (void)dismissKeyboard;
+- (unsigned long long)elementType;
+@property unsigned long long generation; // @synthesize generation=_generation;
+- (id)init;
+- (id)initPrivateWithPath:(id)arg1 bundleID:(id)arg2;
+@property(readonly, nonatomic) long long interfaceOrientation;
+@property(readonly) XCUIElement *keyboard; // @synthesize keyboard=_keyboard;
+- (id)lastSnapshot;
+- (void)launch;
+@property(copy, nonatomic) NSArray *launchArguments; // @synthesize launchArguments=_launchArguments;
+@property(copy, nonatomic) NSDictionary *launchEnvironment; // @synthesize launchEnvironment=_launchEnvironment;
+@property(readonly) NSString *path;
+@property(nonatomic) int processID;
+- (id)query;
+@property(readonly, nonatomic) _Bool running;
+@property(nonatomic) unsigned long long state;
+- (void)terminate;
 
 @end
 

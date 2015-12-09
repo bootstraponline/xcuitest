@@ -13,18 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_TestsInterface/_XCT_receivedAccessibilityNotification:withPayload:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestManager_TestsInterface-Protocol.h</DeclaredIn>
-			
-			<Declaration>- (void)_XCT_receivedAccessibilityNotification:(int)arg1 withPayload:(NSData *)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/_XCT_receivedAccessibilityNotification:withPayload:</Anchor>
-            <NodeRef refid="82"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_TestsInterface/_XCT_applicationWithBundleID:didUpdatePID:andState:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestManager_TestsInterface-Protocol.h</DeclaredIn>
@@ -33,6 +21,18 @@
 			
 			
 			<Anchor>//api/name/_XCT_applicationWithBundleID:didUpdatePID:andState:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_TestsInterface/_XCT_receivedAccessibilityNotification:withPayload:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_TestsInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_receivedAccessibilityNotification:(int)arg1 withPayload:(NSData *)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_receivedAccessibilityNotification:withPayload:</Anchor>
             <NodeRef refid="82"/>
 		</Token>
 		

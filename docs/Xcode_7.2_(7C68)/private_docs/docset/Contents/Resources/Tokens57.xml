@@ -13,6 +13,42 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/_observeExpectedNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)_observeExpectedNotification:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_observeExpectedNotification:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/cleanup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/setHandler:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
@@ -121,30 +157,6 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/_observeExpectedNotification:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)_observeExpectedNotification:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/_observeExpectedNotification:</Anchor>
-            <NodeRef refid="57"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/cleanup</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)cleanup</Declaration>
-			
-			
-			<Anchor>//api/name/cleanup</Anchor>
-            <NodeRef refid="57"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/startObserving</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
@@ -153,18 +165,6 @@
 			
 			
 			<Anchor>//api/name/startObserving</Anchor>
-            <NodeRef refid="57"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCNotificationExpectation/dealloc</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCNotificationExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)dealloc</Declaration>
-			
-			
-			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="57"/>
 		</Token>
 		

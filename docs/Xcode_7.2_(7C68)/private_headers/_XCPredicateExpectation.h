@@ -16,12 +16,12 @@
     NSTimer *_timer;
 }
 
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain) id object; // @synthesize object=_object;
 - (void)_considerFulfilling;
-- (void)startObserving;
 - (void)dealloc;
+@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
+@property(retain) id object; // @synthesize object=_object;
+@property(copy) NSPredicate *predicate; // @synthesize predicate=_predicate;
+- (void)startObserving;
 
 @end
 

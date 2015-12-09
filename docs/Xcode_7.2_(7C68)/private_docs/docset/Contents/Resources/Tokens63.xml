@@ -13,6 +13,18 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestImplementation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestImplementation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="63"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCTestImplementation/setTestRun:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCTestImplementation.h</DeclaredIn>
@@ -45,18 +57,6 @@
 			
 			
 			<Anchor>//api/name/testRun</Anchor>
-            <NodeRef refid="63"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCTestImplementation/dealloc</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCTestImplementation.h</DeclaredIn>
-			
-			<Declaration>- (void)dealloc</Declaration>
-			
-			
-			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="63"/>
 		</Token>
 		

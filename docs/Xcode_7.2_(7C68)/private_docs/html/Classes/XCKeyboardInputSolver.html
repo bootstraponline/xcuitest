@@ -145,8 +145,8 @@
 
 						<div class="task-list">
 							<div class="section-method">
-	<a name="//api/name/solvedInputs" title="solvedInputs"></a>
-	<h3 class="method-title"><code><a href="#//api/name/solvedInputs">&nbsp;&nbsp;solvedInputs</a></code>
+	<a name="//api/name/_solve" title="_solve"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_solve">&ndash;&nbsp;_solve</a></code>
 </h3>
 
 	<div class="method-info">
@@ -155,14 +155,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property (readonly) NSArray *solvedInputs</code></div>
+			<div class="method-subsection method-declaration"><code>- (id)_solve</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/unsolvedRange" title="unsolvedRange"></a>
-	<h3 class="method-title"><code><a href="#//api/name/unsolvedRange">&nbsp;&nbsp;unsolvedRange</a></code>
+	<a name="//api/name/advancePath:range:" title="advancePath:range:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/advancePath:range:">&ndash;&nbsp;advancePath:range:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -171,14 +171,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property (readonly) struct _NSRange unsolvedRange</code></div>
+			<div class="method-subsection method-declaration"><code>- (void)advancePath:(id)<em>arg1</em> range:(id)<em>arg2</em></code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/includeModifierKeys" title="includeModifierKeys"></a>
-	<h3 class="method-title"><code><a href="#//api/name/includeModifierKeys">&nbsp;&nbsp;includeModifierKeys</a></code>
+	<a name="//api/name/advancePaths" title="advancePaths"></a>
+	<h3 class="method-title"><code><a href="#//api/name/advancePaths">&ndash;&nbsp;advancePaths</a></code>
 </h3>
 
 	<div class="method-info">
@@ -187,7 +187,23 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property _Bool includeModifierKeys</code></div>
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)advancePaths</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/copyWithZone:" title="copyWithZone:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/copyWithZone:">&ndash;&nbsp;copyWithZone:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)copyWithZone:(struct _NSZone *)<em>arg1</em></code></div>
 
 		    
 		</div>
@@ -209,6 +225,22 @@
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/excludedFlags" title="excludedFlags"></a>
 	<h3 class="method-title"><code><a href="#//api/name/excludedFlags">&nbsp;&nbsp;excludedFlags</a></code>
 </h3>
@@ -225,8 +257,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/requiredFlags" title="requiredFlags"></a>
-	<h3 class="method-title"><code><a href="#//api/name/requiredFlags">&nbsp;&nbsp;requiredFlags</a></code>
+	<a name="//api/name/extractCompletePathsWithSolutionRange:" title="extractCompletePathsWithSolutionRange:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/extractCompletePathsWithSolutionRange:">&ndash;&nbsp;extractCompletePathsWithSolutionRange:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -235,14 +267,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property unsigned long long requiredFlags</code></div>
+			<div class="method-subsection method-declaration"><code>- (id)extractCompletePathsWithSolutionRange:(struct _NSRange)<em>arg1</em></code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/string" title="string"></a>
-	<h3 class="method-title"><code><a href="#//api/name/string">&nbsp;&nbsp;string</a></code>
+	<a name="//api/name/includeModifierKeys" title="includeModifierKeys"></a>
+	<h3 class="method-title"><code><a href="#//api/name/includeModifierKeys">&nbsp;&nbsp;includeModifierKeys</a></code>
 </h3>
 
 	<div class="method-info">
@@ -251,7 +283,55 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *string</code></div>
+			<div class="method-subsection method-declaration"><code>@property _Bool includeModifierKeys</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithKeyMap:string:" title="initWithKeyMap:string:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithKeyMap:string:">&ndash;&nbsp;initWithKeyMap:string:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithKeyMap:(id)<em>arg1</em> string:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/complete" title="complete"></a>
+	<h3 class="method-title"><code><a href="#//api/name/complete">&nbsp;&nbsp;complete</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, getter=isComplete) _Bool complete</code></div>
 
 		    
 		</div>
@@ -273,8 +353,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/_solve" title="_solve"></a>
-	<h3 class="method-title"><code><a href="#//api/name/_solve">&ndash;&nbsp;_solve</a></code>
+	<a name="//api/name/requiredFlags" title="requiredFlags"></a>
+	<h3 class="method-title"><code><a href="#//api/name/requiredFlags">&nbsp;&nbsp;requiredFlags</a></code>
 </h3>
 
 	<div class="method-info">
@@ -283,7 +363,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>- (id)_solve</code></div>
+			<div class="method-subsection method-declaration"><code>@property unsigned long long requiredFlags</code></div>
 
 		    
 		</div>
@@ -321,8 +401,8 @@
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/extractCompletePathsWithSolutionRange:" title="extractCompletePathsWithSolutionRange:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/extractCompletePathsWithSolutionRange:">&ndash;&nbsp;extractCompletePathsWithSolutionRange:</a></code>
+	<a name="//api/name/solvedInputs" title="solvedInputs"></a>
+	<h3 class="method-title"><code><a href="#//api/name/solvedInputs">&nbsp;&nbsp;solvedInputs</a></code>
 </h3>
 
 	<div class="method-info">
@@ -331,14 +411,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>- (id)extractCompletePathsWithSolutionRange:(struct _NSRange)<em>arg1</em></code></div>
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSArray *solvedInputs</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/advancePaths" title="advancePaths"></a>
-	<h3 class="method-title"><code><a href="#//api/name/advancePaths">&ndash;&nbsp;advancePaths</a></code>
+	<a name="//api/name/string" title="string"></a>
+	<h3 class="method-title"><code><a href="#//api/name/string">&nbsp;&nbsp;string</a></code>
 </h3>
 
 	<div class="method-info">
@@ -347,14 +427,14 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>- (unsigned long long)advancePaths</code></div>
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *string</code></div>
 
 		    
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/advancePath:range:" title="advancePath:range:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/advancePath:range:">&ndash;&nbsp;advancePath:range:</a></code>
+	<a name="//api/name/unsolvedRange" title="unsolvedRange"></a>
+	<h3 class="method-title"><code><a href="#//api/name/unsolvedRange">&nbsp;&nbsp;unsolvedRange</a></code>
 </h3>
 
 	<div class="method-info">
@@ -363,87 +443,7 @@
 		<div class="method-info-container">
 			
 
-			<div class="method-subsection method-declaration"><code>- (void)advancePath:(id)<em>arg1</em> range:(id)<em>arg2</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/complete" title="complete"></a>
-	<h3 class="method-title"><code><a href="#//api/name/complete">&nbsp;&nbsp;complete</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>@property (readonly, getter=isComplete) _Bool complete</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/copyWithZone:" title="copyWithZone:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/copyWithZone:">&ndash;&nbsp;copyWithZone:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (id)copyWithZone:(struct _NSZone *)<em>arg1</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/dealloc" title="dealloc"></a>
-	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/initWithKeyMap:string:" title="initWithKeyMap:string:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/initWithKeyMap:string:">&ndash;&nbsp;initWithKeyMap:string:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (id)initWithKeyMap:(id)<em>arg1</em> string:(id)<em>arg2</em></code></div>
-
-		    
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/init" title="init"></a>
-	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-
-			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+			<div class="method-subsection method-declaration"><code>@property (readonly) struct _NSRange unsolvedRange</code></div>
 
 		    
 		</div>
@@ -463,7 +463,7 @@
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-08</p>
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>

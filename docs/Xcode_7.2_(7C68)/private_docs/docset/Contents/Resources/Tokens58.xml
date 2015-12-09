@@ -13,6 +13,30 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/_considerFulfilling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)_considerFulfilling</Declaration>
+			
+			
+			<Anchor>//api/name/_considerFulfilling</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/setHandler:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
@@ -45,42 +69,6 @@
 			
 			
 			<Anchor>//api/name/handler</Anchor>
-            <NodeRef refid="58"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/setPredicate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
-			
-			
-			<Anchor>//api/name/predicate</Anchor>
-            <NodeRef refid="58"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/predicate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
-			
-			
-			<Anchor>//api/name/predicate</Anchor>
-            <NodeRef refid="58"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/_XCPredicateExpectation/predicate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
-			
-			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
-			
-			
-			<Anchor>//api/name/predicate</Anchor>
             <NodeRef refid="58"/>
 		</Token>
 		
@@ -121,14 +109,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/_considerFulfilling</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/setPredicate:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
 			
-			<Declaration>- (void)_considerFulfilling</Declaration>
+			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
 			
 			
-			<Anchor>//api/name/_considerFulfilling</Anchor>
+			<Anchor>//api/name/predicate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/predicate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
+			
+			
+			<Anchor>//api/name/predicate</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCPredicateExpectation/predicate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSPredicate *predicate</Declaration>
+			
+			
+			<Anchor>//api/name/predicate</Anchor>
             <NodeRef refid="58"/>
 		</Token>
 		
@@ -141,18 +153,6 @@
 			
 			
 			<Anchor>//api/name/startObserving</Anchor>
-            <NodeRef refid="58"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/_XCPredicateExpectation/dealloc</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>_XCPredicateExpectation.h</DeclaredIn>
-			
-			<Declaration>- (void)dealloc</Declaration>
-			
-			
-			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="58"/>
 		</Token>
 		

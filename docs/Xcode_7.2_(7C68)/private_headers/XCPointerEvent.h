@@ -19,14 +19,14 @@
 + (CDUnknownBlockType)offsetComparator;
 + (id)pointerEventWithType:(unsigned long long)arg1 buttonType:(unsigned long long)arg2 coordinate:(struct CGPoint)arg3 offset:(double)arg4;
 + (_Bool)supportsSecureCoding;
-@property double offset; // @synthesize offset=_offset;
-@property struct CGPoint coordinate; // @synthesize coordinate=_coordinate;
 @property unsigned long long buttonType; // @synthesize buttonType=_buttonType;
-@property unsigned long long eventType; // @synthesize eventType=_eventType;
+@property struct CGPoint coordinate; // @synthesize coordinate=_coordinate;
 - (id)description;
 - (void)encodeWithCoder:(id)arg1;
-- (id)initWithCoder:(id)arg1;
+@property unsigned long long eventType; // @synthesize eventType=_eventType;
 - (id)init;
+- (id)initWithCoder:(id)arg1;
+@property double offset; // @synthesize offset=_offset;
 
 @end
 

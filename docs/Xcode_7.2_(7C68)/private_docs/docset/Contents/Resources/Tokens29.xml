@@ -25,110 +25,38 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setDaemonProtocolVersion:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setIDEConnection:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property unsigned long long daemonProtocolVersion</Declaration>
+			<Declaration>@property (retain) DTXConnection *IDEConnection</Declaration>
 			
 			
-			<Anchor>//api/name/daemonProtocolVersion</Anchor>
+			<Anchor>//api/name/IDEConnection</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/daemonProtocolVersion</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/IDEConnection</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property unsigned long long daemonProtocolVersion</Declaration>
+			<Declaration>@property (retain) DTXConnection *IDEConnection</Declaration>
 			
 			
-			<Anchor>//api/name/daemonProtocolVersion</Anchor>
+			<Anchor>//api/name/IDEConnection</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/daemonProtocolVersion</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/IDEConnection</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property unsigned long long daemonProtocolVersion</Declaration>
+			<Declaration>@property (retain) DTXConnection *IDEConnection</Declaration>
 			
 			
-			<Anchor>//api/name/daemonProtocolVersion</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setHasIDEConnection:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasIDEConnection</Declaration>
-			
-			
-			<Anchor>//api/name/hasIDEConnection</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/hasIDEConnection</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasIDEConnection</Declaration>
-			
-			
-			<Anchor>//api/name/hasIDEConnection</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/hasIDEConnection</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>@property _Bool hasIDEConnection</Declaration>
-			
-			
-			<Anchor>//api/name/hasIDEConnection</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setWaitingToStart:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>@property _Bool waitingToStart</Declaration>
-			
-			
-			<Anchor>//api/name/waitingToStart</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/waitingToStart</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>@property _Bool waitingToStart</Declaration>
-			
-			
-			<Anchor>//api/name/waitingToStart</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/waitingToStart</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>@property _Bool waitingToStart</Declaration>
-			
-			
-			<Anchor>//api/name/waitingToStart</Anchor>
+			<Anchor>//api/name/IDEConnection</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
@@ -205,74 +133,122 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setIDEConnection:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_IDE_startExecutingTestPlanWithProtocolVersion:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property (retain) DTXConnection *IDEConnection</Declaration>
+			<Declaration>- (id)_IDE_startExecutingTestPlanWithProtocolVersion:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/IDEConnection</Anchor>
+			<Anchor>//api/name/_IDE_startExecutingTestPlanWithProtocolVersion:</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/IDEConnection</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_XCT_applicationWithBundleID:didUpdatePID:andState:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property (retain) DTXConnection *IDEConnection</Declaration>
+			<Declaration>- (void)_XCT_applicationWithBundleID:(id)arg1 didUpdatePID:(int)arg2 andState:(unsigned long long)arg3</Declaration>
 			
 			
-			<Anchor>//api/name/IDEConnection</Anchor>
+			<Anchor>//api/name/_XCT_applicationWithBundleID:didUpdatePID:andState:</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/IDEConnection</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_XCT_receivedAccessibilityNotification:withPayload:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property (retain) DTXConnection *IDEConnection</Declaration>
+			<Declaration>- (void)_XCT_receivedAccessibilityNotification:(int)arg1 withPayload:(id)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/IDEConnection</Anchor>
+			<Anchor>//api/name/_XCT_receivedAccessibilityNotification:withPayload:</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setSessionIdentifier:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_checkForTestManager</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property (retain) NSUUID *sessionIdentifier</Declaration>
+			<Declaration>- (void)_checkForTestManager</Declaration>
 			
 			
-			<Anchor>//api/name/sessionIdentifier</Anchor>
+			<Anchor>//api/name/_checkForTestManager</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/sessionIdentifier</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_checkManagerDaemonStateAndConnectIfAvailable</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property (retain) NSUUID *sessionIdentifier</Declaration>
+			<Declaration>- (void)_checkManagerDaemonStateAndConnectIfAvailable</Declaration>
 			
 			
-			<Anchor>//api/name/sessionIdentifier</Anchor>
+			<Anchor>//api/name/_checkManagerDaemonStateAndConnectIfAvailable</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/sessionIdentifier</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_connectToIDEWithTransport:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>@property (retain) NSUUID *sessionIdentifier</Declaration>
+			<Declaration>- (void)_connectToIDEWithTransport:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/sessionIdentifier</Anchor>
+			<Anchor>//api/name/_connectToIDEWithTransport:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_connectToTestManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>- (void)_connectToTestManager</Declaration>
+			
+			
+			<Anchor>//api/name/_connectToTestManager</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_resetManagerConnection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>- (void)_resetManagerConnection</Declaration>
+			
+			
+			<Anchor>//api/name/_resetManagerConnection</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_runSuite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>- (void)_runSuite</Declaration>
+			
+			
+			<Anchor>//api/name/_runSuite</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_softlinkDTXConnectionServices</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>- (void)_softlinkDTXConnectionServices</Declaration>
+			
+			
+			<Anchor>//api/name/_softlinkDTXConnectionServices</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
@@ -313,158 +289,98 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_XCT_receivedAccessibilityNotification:withPayload:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setDaemonProtocolVersion:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)_XCT_receivedAccessibilityNotification:(int)arg1 withPayload:(id)arg2</Declaration>
+			<Declaration>@property unsigned long long daemonProtocolVersion</Declaration>
 			
 			
-			<Anchor>//api/name/_XCT_receivedAccessibilityNotification:withPayload:</Anchor>
+			<Anchor>//api/name/daemonProtocolVersion</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_XCT_applicationWithBundleID:didUpdatePID:andState:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/daemonProtocolVersion</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)_XCT_applicationWithBundleID:(id)arg1 didUpdatePID:(int)arg2 andState:(unsigned long long)arg3</Declaration>
+			<Declaration>@property unsigned long long daemonProtocolVersion</Declaration>
 			
 			
-			<Anchor>//api/name/_XCT_applicationWithBundleID:didUpdatePID:andState:</Anchor>
+			<Anchor>//api/name/daemonProtocolVersion</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_IDE_startExecutingTestPlanWithProtocolVersion:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/daemonProtocolVersion</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (id)_IDE_startExecutingTestPlanWithProtocolVersion:(id)arg1</Declaration>
+			<Declaration>@property unsigned long long daemonProtocolVersion</Declaration>
 			
 			
-			<Anchor>//api/name/_IDE_startExecutingTestPlanWithProtocolVersion:</Anchor>
+			<Anchor>//api/name/daemonProtocolVersion</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/runTestConfiguration:completionHandler:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setHasIDEConnection:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)runTestConfiguration:(id)arg1 completionHandler:(CDUnknownBlockType)arg2</Declaration>
+			<Declaration>@property _Bool hasIDEConnection</Declaration>
 			
 			
-			<Anchor>//api/name/runTestConfiguration:completionHandler:</Anchor>
+			<Anchor>//api/name/hasIDEConnection</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/runTestSuite:completionHandler:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/hasIDEConnection</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)runTestSuite:(id)arg1 completionHandler:(CDUnknownBlockType)arg2</Declaration>
+			<Declaration>@property _Bool hasIDEConnection</Declaration>
 			
 			
-			<Anchor>//api/name/runTestSuite:completionHandler:</Anchor>
+			<Anchor>//api/name/hasIDEConnection</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_checkForTestManager</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/hasIDEConnection</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)_checkForTestManager</Declaration>
+			<Declaration>@property _Bool hasIDEConnection</Declaration>
 			
 			
-			<Anchor>//api/name/_checkForTestManager</Anchor>
+			<Anchor>//api/name/hasIDEConnection</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_connectToTestManager</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/init</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)_connectToTestManager</Declaration>
+			<Declaration>- (id)init</Declaration>
 			
 			
-			<Anchor>//api/name/_connectToTestManager</Anchor>
+			<Anchor>//api/name/init</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_checkManagerDaemonStateAndConnectIfAvailable</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/logDebugMessage:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)_checkManagerDaemonStateAndConnectIfAvailable</Declaration>
+			<Declaration>- (void)logDebugMessage:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/_checkManagerDaemonStateAndConnectIfAvailable</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_resetManagerConnection</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>- (void)_resetManagerConnection</Declaration>
-			
-			
-			<Anchor>//api/name/_resetManagerConnection</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_connectToIDEWithTransport:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>- (void)_connectToIDEWithTransport:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/_connectToIDEWithTransport:</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_runSuite</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>- (void)_runSuite</Declaration>
-			
-			
-			<Anchor>//api/name/_runSuite</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/resumeAppSleep:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>- (void)resumeAppSleep:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/resumeAppSleep:</Anchor>
-            <NodeRef refid="29"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/suspendAppSleep</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCTestDriver.h</DeclaredIn>
-			
-			<Declaration>- (id)suspendAppSleep</Declaration>
-			
-			
-			<Anchor>//api/name/suspendAppSleep</Anchor>
+			<Anchor>//api/name/logDebugMessage:</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
@@ -505,38 +421,122 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/_softlinkDTXConnectionServices</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/resumeAppSleep:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)_softlinkDTXConnectionServices</Declaration>
+			<Declaration>- (void)resumeAppSleep:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/_softlinkDTXConnectionServices</Anchor>
+			<Anchor>//api/name/resumeAppSleep:</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/logDebugMessage:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/runTestConfiguration:completionHandler:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (void)logDebugMessage:(id)arg1</Declaration>
+			<Declaration>- (void)runTestConfiguration:(id)arg1 completionHandler:(CDUnknownBlockType)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/logDebugMessage:</Anchor>
+			<Anchor>//api/name/runTestConfiguration:completionHandler:</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/runTestSuite:completionHandler:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestDriver.h</DeclaredIn>
 			
-			<Declaration>- (id)init</Declaration>
+			<Declaration>- (void)runTestSuite:(id)arg1 completionHandler:(CDUnknownBlockType)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/init</Anchor>
+			<Anchor>//api/name/runTestSuite:completionHandler:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setSessionIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSUUID *sessionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/sessionIdentifier</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/sessionIdentifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSUUID *sessionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/sessionIdentifier</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/sessionIdentifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSUUID *sessionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/sessionIdentifier</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/setWaitingToStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>@property _Bool waitingToStart</Declaration>
+			
+			
+			<Anchor>//api/name/waitingToStart</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/waitingToStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>@property _Bool waitingToStart</Declaration>
+			
+			
+			<Anchor>//api/name/waitingToStart</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestDriver/waitingToStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>@property _Bool waitingToStart</Declaration>
+			
+			
+			<Anchor>//api/name/waitingToStart</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestDriver/suspendAppSleep</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestDriver.h</DeclaredIn>
+			
+			<Declaration>- (id)suspendAppSleep</Declaration>
+			
+			
+			<Anchor>//api/name/suspendAppSleep</Anchor>
             <NodeRef refid="29"/>
 		</Token>
 		

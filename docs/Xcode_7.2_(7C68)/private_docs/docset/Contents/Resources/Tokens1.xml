@@ -25,38 +25,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/screenshotData</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/activeApplications</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
 			
-			<Declaration>- (id)screenshotData</Declaration>
+			<Declaration>- (id)activeApplications</Declaration>
 			
 			
-			<Anchor>//api/name/screenshotData</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/performAction:onElement:value:error:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (_Bool)performAction:(int)arg1 onElement:(id)arg2 value:(id)arg3 error:(id *)arg4</Declaration>
-			
-			
-			<Anchor>//api/name/performAction:onElement:value:error:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/parameterizedAttributeForElement:attribute:parameter:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (id)parameterizedAttributeForElement:(id)arg1 attribute:(id)arg2 parameter:(id)arg3</Declaration>
-			
-			
-			<Anchor>//api/name/parameterizedAttributeForElement:attribute:parameter:</Anchor>
+			<Anchor>//api/name/activeApplications</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
@@ -85,26 +61,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/snapshotForApplication:attributeList:parameters:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/cachedAccessibilityLoadedValueForPID:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
 			
-			<Declaration>- (id)snapshotForApplication:(id)arg1 attributeList:(id)arg2 parameters:(id)arg3</Declaration>
+			<Declaration>- (_Bool)cachedAccessibilityLoadedValueForPID:(int)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/snapshotForApplication:attributeList:parameters:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/defaultParameters</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (id)defaultParameters</Declaration>
-			
-			
-			<Anchor>//api/name/defaultParameters</Anchor>
+			<Anchor>//api/name/cachedAccessibilityLoadedValueForPID:</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
@@ -121,98 +85,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenViewControllerViewDidDisappearReply:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/defaultParameters</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
 			
-			<Declaration>- (void)notifyWhenViewControllerViewDidDisappearReply:(CDUnknownBlockType)arg1</Declaration>
+			<Declaration>- (id)defaultParameters</Declaration>
 			
 			
-			<Anchor>//api/name/notifyWhenViewControllerViewDidDisappearReply:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenViewControllerViewDidAppearReply:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)notifyWhenViewControllerViewDidAppearReply:(CDUnknownBlockType)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/notifyWhenViewControllerViewDidAppearReply:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenNoAnimationsAreActiveForApplication:reply:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)notifyWhenNoAnimationsAreActiveForApplication:(id)arg1 reply:(CDUnknownBlockType)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/notifyWhenNoAnimationsAreActiveForApplication:reply:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenEventLoopIsIdleForApplication:reply:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)notifyWhenEventLoopIsIdleForApplication:(id)arg1 reply:(CDUnknownBlockType)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/notifyWhenEventLoopIsIdleForApplication:reply:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/interruptingUIElementAffectingSnapshot:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (id)interruptingUIElementAffectingSnapshot:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/interruptingUIElementAffectingSnapshot:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/handleAccessibilityNotification:withPayload:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)handleAccessibilityNotification:(int)arg1 withPayload:(id)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/handleAccessibilityNotification:withPayload:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyOnNextOccurrenceOfUserTestingEvent:handler:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)notifyOnNextOccurrenceOfUserTestingEvent:(id)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
-			
-			
-			<Anchor>//api/name/notifyOnNextOccurrenceOfUserTestingEvent:handler:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/handleUserTestingNotification:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (void)handleUserTestingNotification:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/handleUserTestingNotification:</Anchor>
+			<Anchor>//api/name/defaultParameters</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
@@ -229,38 +109,26 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/cachedAccessibilityLoadedValueForPID:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/handleAccessibilityNotification:withPayload:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
 			
-			<Declaration>- (_Bool)cachedAccessibilityLoadedValueForPID:(int)arg1</Declaration>
+			<Declaration>- (void)handleAccessibilityNotification:(int)arg1 withPayload:(id)arg2</Declaration>
 			
 			
-			<Anchor>//api/name/cachedAccessibilityLoadedValueForPID:</Anchor>
+			<Anchor>//api/name/handleAccessibilityNotification:withPayload:</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/activeApplications</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/handleUserTestingNotification:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
 			
-			<Declaration>- (id)activeApplications</Declaration>
+			<Declaration>- (void)handleUserTestingNotification:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/activeApplications</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/systemApplication</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
-			
-			<Declaration>- (id)systemApplication</Declaration>
-			
-			
-			<Anchor>//api/name/systemApplication</Anchor>
+			<Anchor>//api/name/handleUserTestingNotification:</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
@@ -273,6 +141,138 @@
 			
 			
 			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/interruptingUIElementAffectingSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)interruptingUIElementAffectingSnapshot:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/interruptingUIElementAffectingSnapshot:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyOnNextOccurrenceOfUserTestingEvent:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)notifyOnNextOccurrenceOfUserTestingEvent:(id)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/notifyOnNextOccurrenceOfUserTestingEvent:handler:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenEventLoopIsIdleForApplication:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)notifyWhenEventLoopIsIdleForApplication:(id)arg1 reply:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/notifyWhenEventLoopIsIdleForApplication:reply:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenNoAnimationsAreActiveForApplication:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)notifyWhenNoAnimationsAreActiveForApplication:(id)arg1 reply:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/notifyWhenNoAnimationsAreActiveForApplication:reply:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenViewControllerViewDidAppearReply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)notifyWhenViewControllerViewDidAppearReply:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/notifyWhenViewControllerViewDidAppearReply:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/notifyWhenViewControllerViewDidDisappearReply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)notifyWhenViewControllerViewDidDisappearReply:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/notifyWhenViewControllerViewDidDisappearReply:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/parameterizedAttributeForElement:attribute:parameter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)parameterizedAttributeForElement:(id)arg1 attribute:(id)arg2 parameter:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/parameterizedAttributeForElement:attribute:parameter:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/performAction:onElement:value:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)performAction:(int)arg1 onElement:(id)arg2 value:(id)arg3 error:(id *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/performAction:onElement:value:error:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/screenshotData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)screenshotData</Declaration>
+			
+			
+			<Anchor>//api/name/screenshotData</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/snapshotForApplication:attributeList:parameters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)snapshotForApplication:(id)arg1 attributeList:(id)arg2 parameters:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/snapshotForApplication:attributeList:parameters:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCAXClient_iOS/systemApplication</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCAXClient_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)systemApplication</Declaration>
+			
+			
+			<Anchor>//api/name/systemApplication</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		

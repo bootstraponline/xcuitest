@@ -18,17 +18,17 @@
 }
 
 + (_Bool)supportsSecureCoding;
-@property(readonly) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-- (id)description;
-@property(readonly) double maximumOffset;
 - (void)addPointerEventPath:(id)arg1;
-@property(readonly) NSArray *eventPaths;
+- (void)dealloc;
+- (id)description;
 - (void)encodeWithCoder:(id)arg1;
+@property(readonly) NSArray *eventPaths;
+- (id)init;
 - (id)initWithCoder:(id)arg1;
 - (id)initWithName:(id)arg1 interfaceOrientation:(long long)arg2;
-- (id)init;
-- (void)dealloc;
+@property(readonly) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
+@property(readonly) double maximumOffset;
+@property(readonly, copy) NSString *name; // @synthesize name=_name;
 
 @end
 

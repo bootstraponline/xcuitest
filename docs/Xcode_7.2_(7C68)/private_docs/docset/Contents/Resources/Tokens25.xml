@@ -25,14 +25,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/tearDown</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/initWithTestCaseClass:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
 			
-			<Declaration>- (void)tearDown</Declaration>
+			<Declaration>- (id)initWithTestCaseClass:(Class)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/tearDown</Anchor>
+			<Anchor>//api/name/initWithTestCaseClass:</Anchor>
             <NodeRef refid="25"/>
 		</Token>
 		
@@ -49,14 +49,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/initWithTestCaseClass:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/tearDown</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
 			
-			<Declaration>- (id)initWithTestCaseClass:(Class)arg1</Declaration>
+			<Declaration>- (void)tearDown</Declaration>
 			
 			
-			<Anchor>//api/name/initWithTestCaseClass:</Anchor>
+			<Anchor>//api/name/tearDown</Anchor>
             <NodeRef refid="25"/>
 		</Token>
 		

@@ -11,10 +11,10 @@
 }
 
 - (id)description;
-- (struct CGPoint)screenPoint;
 - (id)initWithCoordinate:(id)arg1 pointsOffset:(struct CGVector)arg2;
-- (id)initWithElement:(id)arg1 normalizedOffset:(struct CGVector)arg2;
 - (id)initWithElement:(id)arg1;
+- (id)initWithElement:(id)arg1 normalizedOffset:(struct CGVector)arg2;
+- (struct CGPoint)screenPoint;
 
 @end
 

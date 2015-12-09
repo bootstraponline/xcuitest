@@ -14,24 +14,24 @@
 }
 
 + (id)languageAgnosticTestClassNameForTestClass:(Class)arg1;
-@property(readonly) NSString *nameForLegacyLogging;
-@property(readonly) NSString *languageAgnosticTestMethodName;
+@property(readonly) NSString *_classNameForReporting;
+@property(readonly) NSString *_methodNameForReporting;
+@property(readonly) Class _requiredTestRunBaseClass;
+- (void)dealloc;
+- (id)init;
 @property(readonly) NSString *languageAgnosticTestClassName;
-- (void)tearDown;
-- (void)setUp;
-- (void)runTest;
-- (id)run;
+@property(readonly) NSString *languageAgnosticTestMethodName;
+@property(readonly, copy) NSString *name;
+@property(readonly) NSString *nameForLegacyLogging;
 - (void)performTest:(id)arg1;
+- (void)removeTestsWithNames:(id)arg1;
+- (id)run;
+- (void)runTest;
+- (void)setUp;
+- (void)tearDown;
+@property(readonly) unsigned long long testCaseCount;
 @property(readonly) XCTestRun *testRun;
 @property(readonly) Class testRunClass;
-@property(readonly) Class _requiredTestRunBaseClass;
-@property(readonly, copy) NSString *name;
-@property(readonly) unsigned long long testCaseCount;
-- (id)init;
-- (void)dealloc;
-@property(readonly) NSString *_methodNameForReporting;
-@property(readonly) NSString *_classNameForReporting;
-- (void)removeTestsWithNames:(id)arg1;
 
 @end
 

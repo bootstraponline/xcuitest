@@ -25,74 +25,26 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/setInterfaceOrientation:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/addPointerEventPath:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
+			<Declaration>- (void)addPointerEventPath:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/interfaceOrientation</Anchor>
+			<Anchor>//api/name/addPointerEventPath:</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/interfaceOrientation</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/dealloc</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
+			<Declaration>- (void)dealloc</Declaration>
 			
 			
-			<Anchor>//api/name/interfaceOrientation</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSynthesizedEventRecord/interfaceOrientation</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
-			
-			
-			<Anchor>//api/name/interfaceOrientation</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/setName:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *name</Declaration>
-			
-			
-			<Anchor>//api/name/name</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/name</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *name</Declaration>
-			
-			
-			<Anchor>//api/name/name</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSynthesizedEventRecord/name</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>@property (readonly, copy) NSString *name</Declaration>
-			
-			
-			<Anchor>//api/name/name</Anchor>
+			<Anchor>//api/name/dealloc</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
@@ -109,50 +61,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/setMaximumOffset:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/encodeWithCoder:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
 			
-			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
 			
 			
-			<Anchor>//api/name/maximumOffset</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/maximumOffset</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) double maximumOffset</Declaration>
-			
-			
-			<Anchor>//api/name/maximumOffset</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/XCSynthesizedEventRecord/maximumOffset</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>@property (readonly) double maximumOffset</Declaration>
-			
-			
-			<Anchor>//api/name/maximumOffset</Anchor>
-            <NodeRef refid="21"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/addPointerEventPath:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
-			
-			<Declaration>- (void)addPointerEventPath:(id)arg1</Declaration>
-			
-			
-			<Anchor>//api/name/addPointerEventPath:</Anchor>
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
@@ -193,14 +109,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/encodeWithCoder:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/init</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
 			
-			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			<Declaration>- (id)init</Declaration>
 			
 			
-			<Anchor>//api/name/encodeWithCoder:</Anchor>
+			<Anchor>//api/name/init</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
@@ -229,26 +145,110 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/init</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/setInterfaceOrientation:</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
 			
-			<Declaration>- (id)init</Declaration>
+			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
 			
 			
-			<Anchor>//api/name/init</Anchor>
+			<Anchor>//api/name/interfaceOrientation</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/dealloc</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/interfaceOrientation</TokenIdentifier>
 			<Abstract type="html"></Abstract>
 			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
 			
-			<Declaration>- (void)dealloc</Declaration>
+			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
 			
 			
-			<Anchor>//api/name/dealloc</Anchor>
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSynthesizedEventRecord/interfaceOrientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/setMaximumOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOffset</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/maximumOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOffset</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSynthesizedEventRecord/maximumOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOffset</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSynthesizedEventRecord/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCSynthesizedEventRecord/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSynthesizedEventRecord.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
             <NodeRef refid="21"/>
 		</Token>
 		
