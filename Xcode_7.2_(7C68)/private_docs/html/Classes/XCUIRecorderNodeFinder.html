@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCUIRecorderNodeFinder Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/allowElementQueries">allowElementQueries</option>
+		
+		<option value="//api/name/ancestorNodeFinderMatch">ancestorNodeFinderMatch</option>
+		
+		<option value="//api/name/excludeUnlessNecessary">excludeUnlessNecessary</option>
+		
+		<option value="//api/name/language">language</option>
+		
+		<option value="//api/name/mutableFoundNodeMatches">mutableFoundNodeMatches</option>
+		
+		<option value="//api/name/platform">platform</option>
+		
+		<option value="//api/name/targetSnapshot">targetSnapshot</option>
+		
+		<option value="//api/name/targetSnapshotIndex">targetSnapshotIndex</option>
+		
+		<option value="//api/name/unprocessedContainsMatches">unprocessedContainsMatches</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/_excludeUnlessNecessaryElementTypesForPlatform:">+ _excludeUnlessNecessaryElementTypesForPlatform:</option>
+		
+		<option value="//api/name/_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:">+ _nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:</option>
+		
+		<option value="//api/name/_stopCombinatorialExpansionElementTypesForPlatform:">+ _stopCombinatorialExpansionElementTypesForPlatform:</option>
+		
+		<option value="//api/name/nodeToFindElementForSnapshots:language:platform:">+ nodeToFindElementForSnapshots:language:platform:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_stringConstantForString:">- _stringConstantForString:</option>
+		
+		<option value="//api/name/childAtIndexNodeWithTargetElementType">- childAtIndexNodeWithTargetElementType</option>
+		
+		<option value="//api/name/childAtIndexNodeWithTargetElementTypeAndIdentifierValue:">- childAtIndexNodeWithTargetElementTypeAndIdentifierValue:</option>
+		
+		<option value="//api/name/childrenQueryNodeWithTargetElementTypeAndIdentifierValue:">- childrenQueryNodeWithTargetElementTypeAndIdentifierValue:</option>
+		
+		<option value="//api/name/childrenWithTargetElementType">- childrenWithTargetElementType</option>
+		
+		<option value="//api/name/childrenWithTargetElementTypeAndIdentifierValue:">- childrenWithTargetElementTypeAndIdentifierValue:</option>
+		
+		<option value="//api/name/descendantsQueryNodeWithElementType:">- descendantsQueryNodeWithElementType:</option>
+		
+		<option value="//api/name/descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:">- descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:</option>
+		
+		<option value="//api/name/descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:">- descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:</option>
+		
+		<option value="//api/name/descendantsWithTargetElementType">- descendantsWithTargetElementType</option>
+		
+		<option value="//api/name/descendantsWithTargetElementTypeAndIdentifierValue:">- descendantsWithTargetElementTypeAndIdentifierValue:</option>
+		
+		<option value="//api/name/descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:">- descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:</option>
+		
+		<option value="//api/name/description">- description</option>
+		
+		<option value="//api/name/initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:">- initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:</option>
+		
+		<option value="//api/name/invalidate">- invalidate</option>
+		
+		<option value="//api/name/nextNodeFinderMatch">- nextNodeFinderMatch</option>
+		
+		<option value="//api/name/removeFromAncestorNodeFinderMatch">- removeFromAncestorNodeFinderMatch</option>
+		
+		<option value="//api/name/uniqueChildNodeWithTargetElementType">- uniqueChildNodeWithTargetElementType</option>
+		
+		<option value="//api/name/uniqueChildNodeWithTargetElementTypeAndIdentifierValue:">- uniqueChildNodeWithTargetElementTypeAndIdentifierValue:</option>
+		
+		<option value="//api/name/uniqueDescendantNodeWithTargetElementType">- uniqueDescendantNodeWithTargetElementType</option>
+		
+		<option value="//api/name/uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:">- uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCUIRecorderNodeFinder Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCUIRecorderNodeFinder.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/_excludeUnlessNecessaryElementTypesForPlatform:" title="_excludeUnlessNecessaryElementTypesForPlatform:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_excludeUnlessNecessaryElementTypesForPlatform:">+&nbsp;_excludeUnlessNecessaryElementTypesForPlatform:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)_excludeUnlessNecessaryElementTypesForPlatform:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:" title="_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:">+&nbsp;_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)_nodeFindersForSnapshots:(id)<em>arg1</em> ancestorMatch:(id)<em>arg2</em> ancestorIndex:(unsigned long long)<em>arg3</em> stopCombinatorialExpansionIndexes:(id)<em>arg4</em> excludeUnlessNecessaryElementTypes:(id)<em>arg5</em> language:(unsigned long long)<em>arg6</em> platform:(unsigned long long)<em>arg7</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_stopCombinatorialExpansionElementTypesForPlatform:" title="_stopCombinatorialExpansionElementTypesForPlatform:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_stopCombinatorialExpansionElementTypesForPlatform:">+&nbsp;_stopCombinatorialExpansionElementTypesForPlatform:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)_stopCombinatorialExpansionElementTypesForPlatform:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/nodeToFindElementForSnapshots:language:platform:" title="nodeToFindElementForSnapshots:language:platform:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/nodeToFindElementForSnapshots:language:platform:">+&nbsp;nodeToFindElementForSnapshots:language:platform:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)nodeToFindElementForSnapshots:(id)<em>arg1</em> language:(unsigned long long)<em>arg2</em> platform:(unsigned long long)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_stringConstantForString:" title="_stringConstantForString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_stringConstantForString:">&ndash;&nbsp;_stringConstantForString:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_stringConstantForString:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/allowElementQueries" title="allowElementQueries"></a>
+	<h3 class="method-title"><code><a href="#//api/name/allowElementQueries">&nbsp;&nbsp;allowElementQueries</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool allowElementQueries</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ancestorNodeFinderMatch" title="ancestorNodeFinderMatch"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ancestorNodeFinderMatch">&nbsp;&nbsp;ancestorNodeFinderMatch</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) XCUIRecorderNodeFinderMatch *ancestorNodeFinderMatch</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childAtIndexNodeWithTargetElementType" title="childAtIndexNodeWithTargetElementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childAtIndexNodeWithTargetElementType">&ndash;&nbsp;childAtIndexNodeWithTargetElementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)childAtIndexNodeWithTargetElementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childAtIndexNodeWithTargetElementTypeAndIdentifierValue:" title="childAtIndexNodeWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childAtIndexNodeWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;childAtIndexNodeWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)childAtIndexNodeWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childrenQueryNodeWithTargetElementTypeAndIdentifierValue:" title="childrenQueryNodeWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childrenQueryNodeWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;childrenQueryNodeWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)childrenQueryNodeWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childrenWithTargetElementType" title="childrenWithTargetElementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childrenWithTargetElementType">&ndash;&nbsp;childrenWithTargetElementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)childrenWithTargetElementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childrenWithTargetElementTypeAndIdentifierValue:" title="childrenWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childrenWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;childrenWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)childrenWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsQueryNodeWithElementType:" title="descendantsQueryNodeWithElementType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsQueryNodeWithElementType:">&ndash;&nbsp;descendantsQueryNodeWithElementType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsQueryNodeWithElementType:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:" title="descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:" title="descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:">&ndash;&nbsp;descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:(unsigned long long)<em>arg1</em> identifierValue:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsWithTargetElementType" title="descendantsWithTargetElementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsWithTargetElementType">&ndash;&nbsp;descendantsWithTargetElementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsWithTargetElementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsWithTargetElementTypeAndIdentifierValue:" title="descendantsWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;descendantsWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:" title="descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:">&ndash;&nbsp;descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsWithTargetElementTypeContainingDescendantElementsWithType:(unsigned long long)<em>arg1</em> identifierValue:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="method-title"><code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)description</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/excludeUnlessNecessary" title="excludeUnlessNecessary"></a>
+	<h3 class="method-title"><code><a href="#//api/name/excludeUnlessNecessary">&nbsp;&nbsp;excludeUnlessNecessary</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool excludeUnlessNecessary</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:" title="initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:">&ndash;&nbsp;initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithTargetSnapshot:(id)<em>arg1</em> targetSnapshotIndex:(unsigned long long)<em>arg2</em> ancestorMatch:(id)<em>arg3</em> allowElementQueries:(_Bool)<em>arg4</em> excludeUnlessNecessary:(_Bool)<em>arg5</em> language:(unsigned long long)<em>arg6</em> platform:(unsigned long long)<em>arg7</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/invalidate" title="invalidate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/invalidate">&ndash;&nbsp;invalidate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)invalidate</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/language" title="language"></a>
+	<h3 class="method-title"><code><a href="#//api/name/language">&nbsp;&nbsp;language</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long language</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mutableFoundNodeMatches" title="mutableFoundNodeMatches"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mutableFoundNodeMatches">&nbsp;&nbsp;mutableFoundNodeMatches</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) NSMutableArray *mutableFoundNodeMatches</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/nextNodeFinderMatch" title="nextNodeFinderMatch"></a>
+	<h3 class="method-title"><code><a href="#//api/name/nextNodeFinderMatch">&ndash;&nbsp;nextNodeFinderMatch</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)nextNodeFinderMatch</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/platform" title="platform"></a>
+	<h3 class="method-title"><code><a href="#//api/name/platform">&nbsp;&nbsp;platform</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long platform</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeFromAncestorNodeFinderMatch" title="removeFromAncestorNodeFinderMatch"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeFromAncestorNodeFinderMatch">&ndash;&nbsp;removeFromAncestorNodeFinderMatch</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)removeFromAncestorNodeFinderMatch</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/targetSnapshot" title="targetSnapshot"></a>
+	<h3 class="method-title"><code><a href="#//api/name/targetSnapshot">&nbsp;&nbsp;targetSnapshot</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) XCElementSnapshot *targetSnapshot</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/targetSnapshotIndex" title="targetSnapshotIndex"></a>
+	<h3 class="method-title"><code><a href="#//api/name/targetSnapshotIndex">&nbsp;&nbsp;targetSnapshotIndex</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long targetSnapshotIndex</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/unprocessedContainsMatches" title="unprocessedContainsMatches"></a>
+	<h3 class="method-title"><code><a href="#//api/name/unprocessedContainsMatches">&nbsp;&nbsp;unprocessedContainsMatches</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) NSMutableArray *unprocessedContainsMatches</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uniqueChildNodeWithTargetElementType" title="uniqueChildNodeWithTargetElementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uniqueChildNodeWithTargetElementType">&ndash;&nbsp;uniqueChildNodeWithTargetElementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)uniqueChildNodeWithTargetElementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uniqueChildNodeWithTargetElementTypeAndIdentifierValue:" title="uniqueChildNodeWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uniqueChildNodeWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;uniqueChildNodeWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)uniqueChildNodeWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uniqueDescendantNodeWithTargetElementType" title="uniqueDescendantNodeWithTargetElementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uniqueDescendantNodeWithTargetElementType">&ndash;&nbsp;uniqueDescendantNodeWithTargetElementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)uniqueDescendantNodeWithTargetElementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:" title="uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:">&ndash;&nbsp;uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

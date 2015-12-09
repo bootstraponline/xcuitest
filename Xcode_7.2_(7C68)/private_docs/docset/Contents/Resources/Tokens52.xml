@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIRecorderTimingMessage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIRecorderTimingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderTimingMessage/descriptionForTimingMessages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>+ (id)descriptionForTimingMessages:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionForTimingMessages:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderTimingMessage/messageWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>+ (id)messageWithString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/messageWithString:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderTimingMessage/setMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderTimingMessage/message</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderTimingMessage/message</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderTimingMessage/setStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>@property double start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderTimingMessage/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>@property double start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderTimingMessage/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderTimingMessage.h</DeclaredIn>
+			
+			<Declaration>@property double start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

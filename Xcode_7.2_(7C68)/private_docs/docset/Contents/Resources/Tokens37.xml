@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestSuiteRun.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestSuiteRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+            
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/addTestRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (void)addTestRun:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/addTestRun:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/executionCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/failureCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/initWithTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTest:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTest:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/recordFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/recordFailureWithDescription:inFile:atLine:expected:</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/stop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/testDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (double)testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/setTestRuns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *testRuns</Declaration>
+			
+			
+			<Anchor>//api/name/testRuns</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/testRuns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *testRuns</Declaration>
+			
+			
+			<Anchor>//api/name/testRuns</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuiteRun/testRuns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *testRuns</Declaration>
+			
+			
+			<Anchor>//api/name/testRuns</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/unexpectedExceptionCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

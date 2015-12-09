@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCElementAttributesPrivate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCElementAttributesPrivate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementAttributesPrivate-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

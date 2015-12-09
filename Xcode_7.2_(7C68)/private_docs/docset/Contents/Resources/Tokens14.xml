@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCPointerEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCPointerEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCPointerEvent/offsetComparator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>+ (CDUnknownBlockType)offsetComparator</Declaration>
+			
+			
+			<Anchor>//api/name/offsetComparator</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCPointerEvent/pointerEventWithType:buttonType:coordinate:offset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>+ (id)pointerEventWithType:(unsigned long long)arg1 buttonType:(unsigned long long)arg2 coordinate:(struct CGPoint)arg3 offset:(double)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/pointerEventWithType:buttonType:coordinate:offset:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCPointerEvent/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/setButtonType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long buttonType</Declaration>
+			
+			
+			<Anchor>//api/name/buttonType</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/buttonType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long buttonType</Declaration>
+			
+			
+			<Anchor>//api/name/buttonType</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCPointerEvent/buttonType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long buttonType</Declaration>
+			
+			
+			<Anchor>//api/name/buttonType</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property struct CGPoint coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property struct CGPoint coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCPointerEvent/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property struct CGPoint coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/setEventType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/eventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCPointerEvent/eventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long eventType</Declaration>
+			
+			
+			<Anchor>//api/name/eventType</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/setOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCPointerEvent/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCPointerEvent/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCPointerEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

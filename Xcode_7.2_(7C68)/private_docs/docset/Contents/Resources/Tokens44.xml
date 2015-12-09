@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUICoordinate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUICoordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUICoordinate *coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUICoordinate *coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUICoordinate *coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/coordinateWithOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)coordinateWithOffset:(struct CGVector)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/coordinateWithOffset:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/copyWithZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(struct _NSZone *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/doubleTap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)doubleTap</Declaration>
+			
+			
+			<Anchor>//api/name/doubleTap</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *element</Declaration>
+			
+			
+			<Anchor>//api/name/element</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/element</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *element</Declaration>
+			
+			
+			<Anchor>//api/name/element</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/element</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *element</Declaration>
+			
+			
+			<Anchor>//api/name/element</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/initWithCoordinate:pointsOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoordinate:(id)arg1 pointsOffset:(struct CGVector)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoordinate:pointsOffset:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/initWithElement:normalizedOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithElement:(id)arg1 normalizedOffset:(struct CGVector)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initWithElement:normalizedOffset:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setNormalizedOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGVector normalizedOffset</Declaration>
+			
+			
+			<Anchor>//api/name/normalizedOffset</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/normalizedOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGVector normalizedOffset</Declaration>
+			
+			
+			<Anchor>//api/name/normalizedOffset</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/normalizedOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGVector normalizedOffset</Declaration>
+			
+			
+			<Anchor>//api/name/normalizedOffset</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setPointsOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGVector pointsOffset</Declaration>
+			
+			
+			<Anchor>//api/name/pointsOffset</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/pointsOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGVector pointsOffset</Declaration>
+			
+			
+			<Anchor>//api/name/pointsOffset</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/pointsOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGVector pointsOffset</Declaration>
+			
+			
+			<Anchor>//api/name/pointsOffset</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/pressForDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)pressForDuration:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/pressForDuration:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/pressForDuration:thenDragToCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)pressForDuration:(double)arg1 thenDragToCoordinate:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/pressForDuration:thenDragToCoordinate:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setReferencedElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *referencedElement</Declaration>
+			
+			
+			<Anchor>//api/name/referencedElement</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/referencedElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *referencedElement</Declaration>
+			
+			
+			<Anchor>//api/name/referencedElement</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/referencedElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCUIElement *referencedElement</Declaration>
+			
+			
+			<Anchor>//api/name/referencedElement</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/setScreenPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/screenPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUICoordinate/screenPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint screenPoint</Declaration>
+			
+			
+			<Anchor>//api/name/screenPoint</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUICoordinate/tap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUICoordinate.h</DeclaredIn>
+			
+			<Declaration>- (void)tap</Declaration>
+			
+			
+			<Anchor>//api/name/tap</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

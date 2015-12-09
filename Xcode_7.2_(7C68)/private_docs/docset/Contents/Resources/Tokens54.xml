@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCDarwinNotificationExpectation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCDarwinNotificationExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/cleanup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/fulfill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)fulfill</Declaration>
+			
+			
+			<Anchor>//api/name/fulfill</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/setNotificationName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/notificationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCDarwinNotificationExpectation/notificationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *notificationName</Declaration>
+			
+			
+			<Anchor>//api/name/notificationName</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCDarwinNotificationExpectation/startObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCDarwinNotificationExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)startObserving</Declaration>
+			
+			
+			<Anchor>//api/name/startObserving</Anchor>
+            <NodeRef refid="54"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

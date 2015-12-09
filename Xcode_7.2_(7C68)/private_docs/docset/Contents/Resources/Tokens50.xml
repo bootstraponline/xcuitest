@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIRecorderNodeFinder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIRecorderNodeFinder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderNodeFinder/_excludeUnlessNecessaryElementTypesForPlatform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>+ (id)_excludeUnlessNecessaryElementTypesForPlatform:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_excludeUnlessNecessaryElementTypesForPlatform:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderNodeFinder/_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>+ (id)_nodeFindersForSnapshots:(id)arg1 ancestorMatch:(id)arg2 ancestorIndex:(unsigned long long)arg3 stopCombinatorialExpansionIndexes:(id)arg4 excludeUnlessNecessaryElementTypes:(id)arg5 language:(unsigned long long)arg6 platform:(unsigned long long)arg7</Declaration>
+			
+			
+			<Anchor>//api/name/_nodeFindersForSnapshots:ancestorMatch:ancestorIndex:stopCombinatorialExpansionIndexes:excludeUnlessNecessaryElementTypes:language:platform:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderNodeFinder/_stopCombinatorialExpansionElementTypesForPlatform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>+ (id)_stopCombinatorialExpansionElementTypesForPlatform:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_stopCombinatorialExpansionElementTypesForPlatform:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRecorderNodeFinder/nodeToFindElementForSnapshots:language:platform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>+ (id)nodeToFindElementForSnapshots:(id)arg1 language:(unsigned long long)arg2 platform:(unsigned long long)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/nodeToFindElementForSnapshots:language:platform:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/_stringConstantForString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)_stringConstantForString:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_stringConstantForString:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setAllowElementQueries:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property _Bool allowElementQueries</Declaration>
+			
+			
+			<Anchor>//api/name/allowElementQueries</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/allowElementQueries</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property _Bool allowElementQueries</Declaration>
+			
+			
+			<Anchor>//api/name/allowElementQueries</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/allowElementQueries</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property _Bool allowElementQueries</Declaration>
+			
+			
+			<Anchor>//api/name/allowElementQueries</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setAncestorNodeFinderMatch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCUIRecorderNodeFinderMatch *ancestorNodeFinderMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ancestorNodeFinderMatch</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/ancestorNodeFinderMatch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCUIRecorderNodeFinderMatch *ancestorNodeFinderMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ancestorNodeFinderMatch</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/ancestorNodeFinderMatch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCUIRecorderNodeFinderMatch *ancestorNodeFinderMatch</Declaration>
+			
+			
+			<Anchor>//api/name/ancestorNodeFinderMatch</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/childAtIndexNodeWithTargetElementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)childAtIndexNodeWithTargetElementType</Declaration>
+			
+			
+			<Anchor>//api/name/childAtIndexNodeWithTargetElementType</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/childAtIndexNodeWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)childAtIndexNodeWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/childAtIndexNodeWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/childrenQueryNodeWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)childrenQueryNodeWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/childrenQueryNodeWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/childrenWithTargetElementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)childrenWithTargetElementType</Declaration>
+			
+			
+			<Anchor>//api/name/childrenWithTargetElementType</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/childrenWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)childrenWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/childrenWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/descendantsQueryNodeWithElementType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsQueryNodeWithElementType:(unsigned long long)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsQueryNodeWithElementType:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsQueryNodeWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:(unsigned long long)arg1 identifierValue:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsQueryNodeWithTargetElementTypeContainingElementsOfType:identifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/descendantsWithTargetElementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsWithTargetElementType</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsWithTargetElementType</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/descendantsWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsWithTargetElementTypeContainingDescendantElementsWithType:(unsigned long long)arg1 identifierValue:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsWithTargetElementTypeContainingDescendantElementsWithType:identifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setExcludeUnlessNecessary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property _Bool excludeUnlessNecessary</Declaration>
+			
+			
+			<Anchor>//api/name/excludeUnlessNecessary</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/excludeUnlessNecessary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property _Bool excludeUnlessNecessary</Declaration>
+			
+			
+			<Anchor>//api/name/excludeUnlessNecessary</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/excludeUnlessNecessary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property _Bool excludeUnlessNecessary</Declaration>
+			
+			
+			<Anchor>//api/name/excludeUnlessNecessary</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTargetSnapshot:(id)arg1 targetSnapshotIndex:(unsigned long long)arg2 ancestorMatch:(id)arg3 allowElementQueries:(_Bool)arg4 excludeUnlessNecessary:(_Bool)arg5 language:(unsigned long long)arg6 platform:(unsigned long long)arg7</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTargetSnapshot:targetSnapshotIndex:ancestorMatch:allowElementQueries:excludeUnlessNecessary:language:platform:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/invalidate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (void)invalidate</Declaration>
+			
+			
+			<Anchor>//api/name/invalidate</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setLanguage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/language</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long language</Declaration>
+			
+			
+			<Anchor>//api/name/language</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setMutableFoundNodeMatches:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableArray *mutableFoundNodeMatches</Declaration>
+			
+			
+			<Anchor>//api/name/mutableFoundNodeMatches</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/mutableFoundNodeMatches</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableArray *mutableFoundNodeMatches</Declaration>
+			
+			
+			<Anchor>//api/name/mutableFoundNodeMatches</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/mutableFoundNodeMatches</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableArray *mutableFoundNodeMatches</Declaration>
+			
+			
+			<Anchor>//api/name/mutableFoundNodeMatches</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/nextNodeFinderMatch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)nextNodeFinderMatch</Declaration>
+			
+			
+			<Anchor>//api/name/nextNodeFinderMatch</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setPlatform:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/platform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/platform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long platform</Declaration>
+			
+			
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/removeFromAncestorNodeFinderMatch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (void)removeFromAncestorNodeFinderMatch</Declaration>
+			
+			
+			<Anchor>//api/name/removeFromAncestorNodeFinderMatch</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setTargetSnapshot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCElementSnapshot *targetSnapshot</Declaration>
+			
+			
+			<Anchor>//api/name/targetSnapshot</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/targetSnapshot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCElementSnapshot *targetSnapshot</Declaration>
+			
+			
+			<Anchor>//api/name/targetSnapshot</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/targetSnapshot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCElementSnapshot *targetSnapshot</Declaration>
+			
+			
+			<Anchor>//api/name/targetSnapshot</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setTargetSnapshotIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long targetSnapshotIndex</Declaration>
+			
+			
+			<Anchor>//api/name/targetSnapshotIndex</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/targetSnapshotIndex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long targetSnapshotIndex</Declaration>
+			
+			
+			<Anchor>//api/name/targetSnapshotIndex</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/targetSnapshotIndex</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long targetSnapshotIndex</Declaration>
+			
+			
+			<Anchor>//api/name/targetSnapshotIndex</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/setUnprocessedContainsMatches:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableArray *unprocessedContainsMatches</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedContainsMatches</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/unprocessedContainsMatches</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableArray *unprocessedContainsMatches</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedContainsMatches</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCUIRecorderNodeFinder/unprocessedContainsMatches</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableArray *unprocessedContainsMatches</Declaration>
+			
+			
+			<Anchor>//api/name/unprocessedContainsMatches</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/uniqueChildNodeWithTargetElementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)uniqueChildNodeWithTargetElementType</Declaration>
+			
+			
+			<Anchor>//api/name/uniqueChildNodeWithTargetElementType</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/uniqueChildNodeWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)uniqueChildNodeWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/uniqueChildNodeWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/uniqueDescendantNodeWithTargetElementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)uniqueDescendantNodeWithTargetElementType</Declaration>
+			
+			
+			<Anchor>//api/name/uniqueDescendantNodeWithTargetElementType</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRecorderNodeFinder/uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCUIRecorderNodeFinder.h</DeclaredIn>
+			
+			<Declaration>- (id)uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/uniqueDescendantNodeWithTargetElementTypeAndIdentifierValue:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

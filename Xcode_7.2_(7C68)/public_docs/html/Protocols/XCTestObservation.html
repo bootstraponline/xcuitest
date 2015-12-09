@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCTestObservation Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/testBundleDidFinish:">- testBundleDidFinish:</option>
+		
+		<option value="//api/name/testBundleWillStart:">- testBundleWillStart:</option>
+		
+		<option value="//api/name/testCase:didFailWithDescription:inFile:atLine:">- testCase:didFailWithDescription:inFile:atLine:</option>
+		
+		<option value="//api/name/testCaseDidFinish:">- testCaseDidFinish:</option>
+		
+		<option value="//api/name/testCaseWillStart:">- testCaseWillStart:</option>
+		
+		<option value="//api/name/testSuite:didFailWithDescription:inFile:atLine:">- testSuite:didFailWithDescription:inFile:atLine:</option>
+		
+		<option value="//api/name/testSuiteDidFinish:">- testSuiteDidFinish:</option>
+		
+		<option value="//api/name/testSuiteWillStart:">- testSuiteWillStart:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCTestObservation Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCTestObservation.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@protocol XCTestObservation</p>
+
+<p>Objects conforming to XCTestObservation can register to be notified of the progress of test runs. See <a href="../Classes/XCTestObservationCenter.html">XCTestObservationCenter</a>
+for details on registration.</p>
+
+<p>Progress events are delivered in the following sequence:</p>
+
+<p><a href="#//api/name/testBundleWillStart:">testBundleWillStart:</a>                            // exactly once per test bundle
+<a href="#//api/name/testSuiteWillStart:">testSuiteWillStart:</a>                        // exactly once per test suite
+<a href="#//api/name/testCaseWillStart:">testCaseWillStart:</a>                     // exactly once per test case
+-testCase:didFailWithDescription:&hellip;    // zero or more times per test case, any time between test case start and finish
+<a href="#//api/name/testCaseDidFinish:">testCaseDidFinish:</a>                     // exactly once per test case
+-testSuite:didFailWithDescription:&hellip;       // zero or more times per test suite, any time between test suite start and finish
+<a href="#//api/name/testSuiteDidFinish:">testSuiteDidFinish:</a>                        // exactly once per test suite
+<a href="#//api/name/testBundleDidFinish:">testBundleDidFinish:</a>                            // exactly once per test bundle</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/testBundleWillStart:" title="testBundleWillStart:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testBundleWillStart:">&ndash;&nbsp;testBundleWillStart:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testBundleWillStart:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testBundleWillStart:(NSBundle *)<em>testBundle</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testBundle</code></th>
+						<td><p>The bundle containing the tests that were executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent immediately before tests begin as a hook for any pre-testing setup.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testBundleDidFinish:" title="testBundleDidFinish:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testBundleDidFinish:">&ndash;&nbsp;testBundleDidFinish:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testBundleDidFinish:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testBundleDidFinish:(NSBundle *)<em>testBundle</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testBundle</code></th>
+						<td><p>The bundle containing the tests that were executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent immediately after all tests have finished as a hook for any post-testing activity. The test process will generally
+exit after this method returns, so if there is long running and/or asynchronous work to be done after testing, be sure
+to implement this method in a way that it blocks until all such activity is complete.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuiteWillStart:" title="testSuiteWillStart:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuiteWillStart:">&ndash;&nbsp;testSuiteWillStart:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testSuiteWillStart:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testSuiteWillStart:(XCTestSuite *)<em>testSuite</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testSuite</code></th>
+						<td><p>The test suite that started. Additional information can be retrieved from the associated <a href="../Classes/XCTestRun.html">XCTestRun</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent when a test suite starts executing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuite:didFailWithDescription:inFile:atLine:" title="testSuite:didFailWithDescription:inFile:atLine:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuite:didFailWithDescription:inFile:atLine:">&ndash;&nbsp;testSuite:didFailWithDescription:inFile:atLine:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testSuiteDidFail:withDescription:inFile:atLine:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testSuite:(XCTestSuite *)<em>testSuite</em> didFailWithDescription:(NSString *)<em>description</em> inFile:(nullable NSString *)<em>filePath</em> atLine:(NSUInteger)<em>lineNumber</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testSuite</code></th>
+						<td><p>The test suite that failed. Additional information can be retrieved from the associated <a href="../Classes/XCTestRun.html">XCTestRun</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>description</code></th>
+						<td><p>A textual description of the failure.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>filePath</code></th>
+						<td><p>The path of file where the failure occurred, nil if unknown.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>lineNumber</code></th>
+						<td><p>The line where the failure was reported.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent when a test suite reports a failure. Suite failures are most commonly reported during suite-level setup and teardown
+whereas failures during tests are reported for the test case alone and are not reported as suite failures.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testSuiteDidFinish:" title="testSuiteDidFinish:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testSuiteDidFinish:">&ndash;&nbsp;testSuiteDidFinish:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testSuiteDidFinish:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testSuiteDidFinish:(XCTestSuite *)<em>testSuite</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testSuite</code></th>
+						<td><p>The test suite that finished. Additional information can be retrieved from the associated <a href="../Classes/XCTestRun.html">XCTestRun</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent when a test suite finishes executing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testCaseWillStart:" title="testCaseWillStart:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testCaseWillStart:">&ndash;&nbsp;testCaseWillStart:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testCaseWillStart:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testCaseWillStart:(XCTestCase *)<em>testCase</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testCase</code></th>
+						<td><p>The test case that started. Additional information can be retrieved from the associated <a href="../Classes/XCTestRun.html">XCTestRun</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent when a test case starts executing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testCase:didFailWithDescription:inFile:atLine:" title="testCase:didFailWithDescription:inFile:atLine:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testCase:didFailWithDescription:inFile:atLine:">&ndash;&nbsp;testCase:didFailWithDescription:inFile:atLine:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testCaseDidFail:withDescription:inFile:atLine:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testCase:(XCTestCase *)<em>testCase</em> didFailWithDescription:(NSString *)<em>description</em> inFile:(nullable NSString *)<em>filePath</em> atLine:(NSUInteger)<em>lineNumber</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testCase</code></th>
+						<td><p>The test case that failed. Additional information can be retrieved from the associated <a href="../Classes/XCTestRun.html">XCTestRun</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>description</code></th>
+						<td><p>A textual description of the failure.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>filePath</code></th>
+						<td><p>The path of file where the failure occurred, nil if unknown.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>lineNumber</code></th>
+						<td><p>The line where the failure was reported.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent when a test case reports a failure.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/testCaseDidFinish:" title="testCaseDidFinish:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/testCaseDidFinish:">&ndash;&nbsp;testCaseDidFinish:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>@method -testCaseDidFinish:</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)testCaseDidFinish:(XCTestCase *)<em>testCase</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>testCase</code></th>
+						<td><p>The test case that finished. Additional information can be retrieved from the associated <a href="../Classes/XCTestRun.html">XCTestRun</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sent when a test case finishes executing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCTestObservation.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

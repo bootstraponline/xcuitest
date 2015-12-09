@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestCaseSuite.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestCaseSuite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCaseSuite/emptyTestSuiteForTestCaseClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
+			
+			<Declaration>+ (id)emptyTestSuiteForTestCaseClass:(Class)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/emptyTestSuiteForTestCaseClass:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/initWithTestCaseClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTestCaseClass:(Class)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTestCaseClass:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/setUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)setUp</Declaration>
+			
+			
+			<Anchor>//api/name/setUp</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCaseSuite/tearDown</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCaseSuite.h</DeclaredIn>
+			
+			<Declaration>- (void)tearDown</Declaration>
+			
+			
+			<Anchor>//api/name/tearDown</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

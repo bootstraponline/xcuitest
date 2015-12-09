@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTouchPath.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTouchPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTouchPath/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/_addTouchEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (void)_addTouchEvent:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_addTouchEvent:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/setComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/complete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchPath/complete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/firstEventAfterOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (id)firstEventAfterOffset:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/firstEventAfterOffset:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/setImmutable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property _Bool immutable</Declaration>
+			
+			
+			<Anchor>//api/name/immutable</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/immutable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property _Bool immutable</Declaration>
+			
+			
+			<Anchor>//api/name/immutable</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchPath/immutable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property _Bool immutable</Declaration>
+			
+			
+			<Anchor>//api/name/immutable</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/setIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long index</Declaration>
+			
+			
+			<Anchor>//api/name/index</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/index</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long index</Declaration>
+			
+			
+			<Anchor>//api/name/index</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchPath/index</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long index</Declaration>
+			
+			
+			<Anchor>//api/name/index</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/initWithTouchDown:orientation:offset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTouchDown:(struct CGPoint)arg1 orientation:(long long)arg2 offset:(double)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTouchDown:orientation:offset:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/setInterfaceOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/interfaceOrientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchPath/interfaceOrientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) long long interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/lastEventBeforeOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (id)lastEventBeforeOffset:(double)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/lastEventBeforeOffset:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/liftUpAtPoint:offset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (void)liftUpAtPoint:(struct CGPoint)arg1 offset:(double)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/liftUpAtPoint:offset:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/moveToPoint:atOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>- (void)moveToPoint:(struct CGPoint)arg1 atOffset:(double)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/moveToPoint:atOffset:</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/setTouchEvents:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *touchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/touchEvents</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchPath/touchEvents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *touchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/touchEvents</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchPath/touchEvents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchPath.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *touchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/touchEvents</Anchor>
+            <NodeRef refid="40"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

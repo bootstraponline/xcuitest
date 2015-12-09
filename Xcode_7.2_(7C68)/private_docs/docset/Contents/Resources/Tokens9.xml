@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCEventGenerator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCEventGenerator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCEventGenerator/sharedGenerator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>+ (id)sharedGenerator</Declaration>
+			
+			
+			<Anchor>//api/name/sharedGenerator</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/_scheduleCallback:afterInterval:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (void)_scheduleCallback:(CDUnknownBlockType)arg1 afterInterval:(double)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_scheduleCallback:afterInterval:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/_startEventSequenceWithSteppingCallback:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (void)_startEventSequenceWithSteppingCallback:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_startEventSequenceWithSteppingCallback:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/doubleTapAtPoint:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)doubleTapAtPoint:(struct CGPoint)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/doubleTapAtPoint:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/setEventQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSObject&lt;OS_dispatch_queue&gt; *eventQueue</Declaration>
+			
+			
+			<Anchor>//api/name/eventQueue</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/eventQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSObject&lt;OS_dispatch_queue&gt; *eventQueue</Declaration>
+			
+			
+			<Anchor>//api/name/eventQueue</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCEventGenerator/eventQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSObject&lt;OS_dispatch_queue&gt; *eventQueue</Declaration>
+			
+			
+			<Anchor>//api/name/eventQueue</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/setGeneration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long generation</Declaration>
+			
+			
+			<Anchor>//api/name/generation</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/generation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long generation</Declaration>
+			
+			
+			<Anchor>//api/name/generation</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCEventGenerator/generation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long generation</Declaration>
+			
+			
+			<Anchor>//api/name/generation</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/pinchInRect:withScale:velocity:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)pinchInRect:(struct CGRect)arg1 withScale:(double)arg2 velocity:(double)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5</Declaration>
+			
+			
+			<Anchor>//api/name/pinchInRect:withScale:velocity:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/pressAtPoint:forDuration:liftAtPoint:velocity:orientation:name:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)pressAtPoint:(struct CGPoint)arg1 forDuration:(double)arg2 liftAtPoint:(struct CGPoint)arg3 velocity:(double)arg4 orientation:(long long)arg5 name:(id)arg6 handler:(CDUnknownBlockType)arg7</Declaration>
+			
+			
+			<Anchor>//api/name/pressAtPoint:forDuration:liftAtPoint:velocity:orientation:name:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/pressAtPoint:forDuration:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)pressAtPoint:(struct CGPoint)arg1 forDuration:(double)arg2 orientation:(long long)arg3 handler:(CDUnknownBlockType)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/pressAtPoint:forDuration:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/rotateInRect:withRotation:velocity:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)rotateInRect:(struct CGRect)arg1 withRotation:(double)arg2 velocity:(double)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5</Declaration>
+			
+			
+			<Anchor>//api/name/rotateInRect:withRotation:velocity:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/tapAtPoint:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)tapAtPoint:(struct CGPoint)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/tapAtPoint:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/tapWithNumberOfTaps:numberOfTouches:inRect:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)tapWithNumberOfTaps:(unsigned long long)arg1 numberOfTouches:(unsigned long long)arg2 inRect:(struct CGRect)arg3 orientation:(long long)arg4 handler:(CDUnknownBlockType)arg5</Declaration>
+			
+			
+			<Anchor>//api/name/tapWithNumberOfTaps:numberOfTouches:inRect:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCEventGenerator/twoFingerTapInRect:orientation:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCEventGenerator.h</DeclaredIn>
+			
+			<Declaration>- (double)twoFingerTapInRect:(struct CGRect)arg1 orientation:(long long)arg2 handler:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/twoFingerTapInRect:orientation:handler:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

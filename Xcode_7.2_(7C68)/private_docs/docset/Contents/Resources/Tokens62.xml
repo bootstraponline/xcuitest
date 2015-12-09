@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCTestExpectationImplementation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCTestExpectationImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/setExpectationDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *expectationDescription</Declaration>
+			
+			
+			<Anchor>//api/name/expectationDescription</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/expectationDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *expectationDescription</Declaration>
+			
+			
+			<Anchor>//api/name/expectationDescription</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestExpectationImplementation/expectationDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *expectationDescription</Declaration>
+			
+			
+			<Anchor>//api/name/expectationDescription</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/setHasCompleted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasCompleted</Declaration>
+			
+			
+			<Anchor>//api/name/hasCompleted</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/hasCompleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasCompleted</Declaration>
+			
+			
+			<Anchor>//api/name/hasCompleted</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestExpectationImplementation/hasCompleted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasCompleted</Declaration>
+			
+			
+			<Anchor>//api/name/hasCompleted</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/setTestCase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property XCTestCase *testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestExpectationImplementation/testCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property XCTestCase *testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestExpectationImplementation/testCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestExpectationImplementation.h</DeclaredIn>
+			
+			<Declaration>@property XCTestCase *testCase</Declaration>
+			
+			
+			<Anchor>//api/name/testCase</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

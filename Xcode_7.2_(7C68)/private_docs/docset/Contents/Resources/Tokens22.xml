@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTest/languageAgnosticTestClassNameForTestClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>+ (id)languageAgnosticTestClassNameForTestClass:(Class)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestClassNameForTestClass:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/set_classNameForReporting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *_classNameForReporting</Declaration>
+			
+			
+			<Anchor>//api/name/_classNameForReporting</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/_classNameForReporting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *_classNameForReporting</Declaration>
+			
+			
+			<Anchor>//api/name/_classNameForReporting</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/_classNameForReporting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *_classNameForReporting</Declaration>
+			
+			
+			<Anchor>//api/name/_classNameForReporting</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/set_methodNameForReporting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *_methodNameForReporting</Declaration>
+			
+			
+			<Anchor>//api/name/_methodNameForReporting</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/_methodNameForReporting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *_methodNameForReporting</Declaration>
+			
+			
+			<Anchor>//api/name/_methodNameForReporting</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/_methodNameForReporting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *_methodNameForReporting</Declaration>
+			
+			
+			<Anchor>//api/name/_methodNameForReporting</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/set_requiredTestRunBaseClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class _requiredTestRunBaseClass</Declaration>
+			
+			
+			<Anchor>//api/name/_requiredTestRunBaseClass</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/_requiredTestRunBaseClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class _requiredTestRunBaseClass</Declaration>
+			
+			
+			<Anchor>//api/name/_requiredTestRunBaseClass</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/_requiredTestRunBaseClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class _requiredTestRunBaseClass</Declaration>
+			
+			
+			<Anchor>//api/name/_requiredTestRunBaseClass</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setLanguageAgnosticTestClassName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *languageAgnosticTestClassName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestClassName</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/languageAgnosticTestClassName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *languageAgnosticTestClassName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestClassName</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/languageAgnosticTestClassName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *languageAgnosticTestClassName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestClassName</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setLanguageAgnosticTestMethodName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *languageAgnosticTestMethodName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestMethodName</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/languageAgnosticTestMethodName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *languageAgnosticTestMethodName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestMethodName</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/languageAgnosticTestMethodName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *languageAgnosticTestMethodName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestMethodName</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setNameForLegacyLogging:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *nameForLegacyLogging</Declaration>
+			
+			
+			<Anchor>//api/name/nameForLegacyLogging</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/nameForLegacyLogging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *nameForLegacyLogging</Declaration>
+			
+			
+			<Anchor>//api/name/nameForLegacyLogging</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/nameForLegacyLogging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *nameForLegacyLogging</Declaration>
+			
+			
+			<Anchor>//api/name/nameForLegacyLogging</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/performTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (void)performTest:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/performTest:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/removeTestsWithNames:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (void)removeTestsWithNames:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/removeTestsWithNames:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/run</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (id)run</Declaration>
+			
+			
+			<Anchor>//api/name/run</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/runTest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (void)runTest</Declaration>
+			
+			
+			<Anchor>//api/name/runTest</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (void)setUp</Declaration>
+			
+			
+			<Anchor>//api/name/setUp</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/tearDown</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>- (void)tearDown</Declaration>
+			
+			
+			<Anchor>//api/name/tearDown</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setTestCaseCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setTestRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestRun *testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testRun</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/testRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestRun *testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testRun</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/testRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestRun *testRun</Declaration>
+			
+			
+			<Anchor>//api/name/testRun</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/setTestRunClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class testRunClass</Declaration>
+			
+			
+			<Anchor>//api/name/testRunClass</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTest/testRunClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class testRunClass</Declaration>
+			
+			
+			<Anchor>//api/name/testRunClass</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTest/testRunClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) Class testRunClass</Declaration>
+			
+			
+			<Anchor>//api/name/testRunClass</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

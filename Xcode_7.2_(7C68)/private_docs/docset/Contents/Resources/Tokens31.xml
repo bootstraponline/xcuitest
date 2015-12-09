@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestLog.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestLog/_messageForTest:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>+ (id)_messageForTest:(id)arg1 didMeasureValues:(id)arg2 forPerformanceMetricID:(id)arg3 name:(id)arg4 unitsOfMeasurement:(id)arg5 baselineName:(id)arg6 baselineAverage:(id)arg7 maxPercentRegression:(id)arg8 maxPercentRelativeStandardDeviation:(id)arg9 maxRegression:(id)arg10 maxStandardDeviation:(id)arg11 file:(id)arg12 line:(unsigned long long)arg13</Declaration>
+			
+			
+			<Anchor>//api/name/_messageForTest:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/_testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)_testCase:(id)arg1 didMeasureValues:(id)arg2 forPerformanceMetricID:(id)arg3 name:(id)arg4 unitsOfMeasurement:(id)arg5 baselineName:(id)arg6 baselineAverage:(id)arg7 maxPercentRegression:(id)arg8 maxPercentRelativeStandardDeviation:(id)arg9 maxRegression:(id)arg10 maxStandardDeviation:(id)arg11 file:(id)arg12 line:(unsigned long long)arg13</Declaration>
+			
+			
+			<Anchor>//api/name/_testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/_testDidFail:withDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)_testDidFail:(id)arg1 withDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_testDidFail:withDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/dateFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (id)dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/setLogFileHandle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSFileHandle *logFileHandle</Declaration>
+			
+			
+			<Anchor>//api/name/logFileHandle</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/logFileHandle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSFileHandle *logFileHandle</Declaration>
+			
+			
+			<Anchor>//api/name/logFileHandle</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestLog/logFileHandle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSFileHandle *logFileHandle</Declaration>
+			
+			
+			<Anchor>//api/name/logFileHandle</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testCaseDidFail:withDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidFail:(id)arg1 withDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidFail:withDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testCaseDidStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidStart:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testCaseDidStop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidStop:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidStop:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testLogWithFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testLogWithFormat:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testLogWithFormat:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testLogWithFormat:arguments:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testLogWithFormat:(id)arg1 arguments:(struct __va_list_tag [ 1 ])arg2</Declaration>
+			
+			
+			<Anchor>//api/name/testLogWithFormat:arguments:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testSuiteDidFail:withDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidFail:(id)arg1 withDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidFail:withDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testSuiteDidStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidStart:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestLog/testSuiteDidStop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestLog.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidStop:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidStop:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

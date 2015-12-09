@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestProbe.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestProbe</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestProbe.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestProbe/isTesting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestProbe.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)isTesting</Declaration>
+			
+			
+			<Anchor>//api/name/isTesting</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

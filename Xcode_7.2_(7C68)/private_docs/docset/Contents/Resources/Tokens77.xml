@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCDebugLogDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCDebugLogDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCDebugLogDelegate-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="77"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCDebugLogDelegate/logDebugMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCDebugLogDelegate-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)logDebugMessage:(NSString *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/logDebugMessage:</Anchor>
+            <NodeRef refid="77"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

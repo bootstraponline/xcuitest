@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestObserver.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestObserver</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+            
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/startObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)startObserving</Declaration>
+			
+			
+			<Anchor>//api/name/startObserving</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/stopObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)stopObserving</Declaration>
+			
+			
+			<Anchor>//api/name/stopObserving</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testCaseDidFail:withDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidFail:(id)arg1 withDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidFail:withDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testCaseDidStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidStart:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testCaseDidStop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidStop:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseDidStop:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testSuiteDidFail:withDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidFail:(id)arg1 withDescription:(id)arg2 inFile:(id)arg3 atLine:(unsigned long long)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidFail:withDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testSuiteDidStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidStart:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidStart:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObserver/testSuiteDidStop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestObserver.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidStop:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testSuiteDidStop:</Anchor>
+            <NodeRef refid="33"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

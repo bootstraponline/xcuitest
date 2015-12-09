@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTouchGesture.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTouchGesture</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTouchGesture/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/addTouchPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (void)addTouchPath:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/addTouchPath:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/setImmutable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property _Bool immutable</Declaration>
+			
+			
+			<Anchor>//api/name/immutable</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/immutable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property _Bool immutable</Declaration>
+			
+			
+			<Anchor>//api/name/immutable</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchGesture/immutable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property _Bool immutable</Declaration>
+			
+			
+			<Anchor>//api/name/immutable</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/initWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithName:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithName:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/makeImmutable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>- (void)makeImmutable</Declaration>
+			
+			
+			<Anchor>//api/name/makeImmutable</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/setMaximumOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOffset</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/maximumOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOffset</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchGesture/maximumOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double maximumOffset</Declaration>
+			
+			
+			<Anchor>//api/name/maximumOffset</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchGesture/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/setTouchPaths:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *touchPaths</Declaration>
+			
+			
+			<Anchor>//api/name/touchPaths</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchGesture/touchPaths</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *touchPaths</Declaration>
+			
+			
+			<Anchor>//api/name/touchPaths</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchGesture/touchPaths</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchGesture.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *touchPaths</Declaration>
+			
+			
+			<Anchor>//api/name/touchPaths</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCUICoordinate Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/referencedElement">referencedElement</option>
+		
+		<option value="//api/name/screenPoint">screenPoint</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/click">- click</option>
+		
+		<option value="//api/name/clickForDuration:thenDragToCoordinate:">- clickForDuration:thenDragToCoordinate:</option>
+		
+		<option value="//api/name/coordinateWithOffset:">- coordinateWithOffset:</option>
+		
+		<option value="//api/name/doubleClick">- doubleClick</option>
+		
+		<option value="//api/name/doubleTap">- doubleTap</option>
+		
+		<option value="//api/name/hover">- hover</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/pressForDuration:">- pressForDuration:</option>
+		
+		<option value="//api/name/pressForDuration:thenDragToCoordinate:">- pressForDuration:thenDragToCoordinate:</option>
+		
+		<option value="//api/name/rightClick">- rightClick</option>
+		
+		<option value="//api/name/scrollByDeltaX:deltaY:">- scrollByDeltaX:deltaY:</option>
+		
+		<option value="//api/name/tap">- tap</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCUICoordinate Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td>NSCopying</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCUICoordinate.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A coordinate represents a location on screen, relative to some element. Coordinates are dynamic, just like the elements to which they refer, and may compute different screen locations at different times, or be invalid if the referenced element does not exist.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Coordinates are never instantiated directly. Instead, they are created by elements or by other coordinates.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)init</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUICoordinate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/referencedElement" title="referencedElement"></a>
+	<h3 class="method-title"><code><a href="#//api/name/referencedElement">&nbsp;&nbsp;referencedElement</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The element that the coordinate is based on, either directly or via the coordinate from which it was derived.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) XCUIElement *referencedElement</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUICoordinate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/screenPoint" title="screenPoint"></a>
+	<h3 class="method-title"><code><a href="#//api/name/screenPoint">&nbsp;&nbsp;screenPoint</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The dynamically computed value of the coordinate&rsquo;s location on screen. Note that this value is dependent on the current frame of the referenced element; if the element&rsquo;s frame changes, so will the value returned by this property. If the referenced element does exist when this is called, it will fail the test; check the referenced element&rsquo;s exists property if the element may not be present.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) CGPoint screenPoint</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUICoordinate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/coordinateWithOffset:" title="coordinateWithOffset:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/coordinateWithOffset:">&ndash;&nbsp;coordinateWithOffset:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates a new coordinate with an absolute offset in points from the original coordinate.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (XCUICoordinate *)coordinateWithOffset:(CGVector)<em>offsetVector</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">XCUICoordinate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tap" title="tap"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tap">&ndash;&nbsp;tap</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)tap</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/doubleTap" title="doubleTap"></a>
+	<h3 class="method-title"><code><a href="#//api/name/doubleTap">&ndash;&nbsp;doubleTap</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)doubleTap</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pressForDuration:" title="pressForDuration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pressForDuration:">&ndash;&nbsp;pressForDuration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)pressForDuration:(NSTimeInterval)<em>duration</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pressForDuration:thenDragToCoordinate:" title="pressForDuration:thenDragToCoordinate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pressForDuration:thenDragToCoordinate:">&ndash;&nbsp;pressForDuration:thenDragToCoordinate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)pressForDuration:(NSTimeInterval)<em>duration</em> thenDragToCoordinate:(XCUICoordinate *)<em>otherCoordinate</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hover" title="hover"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hover">&ndash;&nbsp;hover</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)hover</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/click" title="click"></a>
+	<h3 class="method-title"><code><a href="#//api/name/click">&ndash;&nbsp;click</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)click</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/doubleClick" title="doubleClick"></a>
+	<h3 class="method-title"><code><a href="#//api/name/doubleClick">&ndash;&nbsp;doubleClick</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)doubleClick</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rightClick" title="rightClick"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rightClick">&ndash;&nbsp;rightClick</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)rightClick</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clickForDuration:thenDragToCoordinate:" title="clickForDuration:thenDragToCoordinate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clickForDuration:thenDragToCoordinate:">&ndash;&nbsp;clickForDuration:thenDragToCoordinate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)clickForDuration:(NSTimeInterval)<em>duration</em> thenDragToCoordinate:(XCUICoordinate *)<em>otherCoordinate</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/scrollByDeltaX:deltaY:" title="scrollByDeltaX:deltaY:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scrollByDeltaX:deltaY:">&ndash;&nbsp;scrollByDeltaX:deltaY:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)scrollByDeltaX:(CGFloat)<em>deltaX</em> deltaY:(CGFloat)<em>deltaY</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

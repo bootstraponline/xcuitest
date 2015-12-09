@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCTestObservationCenterImplementation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCTestObservationCenterImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestObservationCenterImplementation/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestObservationCenterImplementation/setObservers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableSet *observers</Declaration>
+			
+			
+			<Anchor>//api/name/observers</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestObservationCenterImplementation/observers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableSet *observers</Declaration>
+			
+			
+			<Anchor>//api/name/observers</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestObservationCenterImplementation/observers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSMutableSet *observers</Declaration>
+			
+			
+			<Anchor>//api/name/observers</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestObservationCenterImplementation/setSuspended:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCTestObservationCenterImplementation/suspended</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCTestObservationCenterImplementation/suspended</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCTestObservationCenterImplementation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool suspended</Declaration>
+			
+			
+			<Anchor>//api/name/suspended</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

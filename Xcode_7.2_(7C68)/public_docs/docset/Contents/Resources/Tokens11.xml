@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestSuiteRun.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestSuiteRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/setTestRuns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCTestRun*&gt; *testRuns</Declaration>
+			
+			
+			<Anchor>//api/name/testRuns</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/testRuns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCTestRun*&gt; *testRuns</Declaration>
+			
+			
+			<Anchor>//api/name/testRuns</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestSuiteRun/testRuns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray&lt;XCTestRun*&gt; *testRuns</Declaration>
+			
+			
+			<Anchor>//api/name/testRuns</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestSuiteRun/addTestRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestSuiteRun.h</DeclaredIn>
+			
+			<Declaration>- (void)addTestRun:(XCTestRun *)testRun</Declaration>
+			
+			
+			<Anchor>//api/name/addTestRun:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

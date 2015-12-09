@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCApplicationMonitor_iOS.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCApplicationMonitor_iOS</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/_beginMonitoringApplication:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)_beginMonitoringApplication:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_beginMonitoringApplication:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/monitoredApplicationWithProcessIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+			
+			<Declaration>- (id)monitoredApplicationWithProcessIdentifier:(int)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/monitoredApplicationWithProcessIdentifier:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCApplicationMonitor_iOS/terminateApplicationProcess:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCApplicationMonitor_iOS.h</DeclaredIn>
+			
+			<Declaration>- (void)terminateApplicationProcess:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/terminateApplicationProcess:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

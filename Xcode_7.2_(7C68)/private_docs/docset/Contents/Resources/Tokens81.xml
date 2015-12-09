@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCTestManager_ManagerInterface.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCTestManager_ManagerInterface</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_exchangeProtocolVersion:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_exchangeProtocolVersion:(unsigned long long)arg1 reply:(void ( ^ ) ( unsigned long long ))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_exchangeProtocolVersion:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_fetchAttributesForElement:attributes:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_fetchAttributesForElement:(XCAccessibilityElement *)arg1 attributes:(NSArray *)arg2 reply:(void ( ^ ) ( NSDictionary *, NSError *))arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_fetchAttributesForElement:attributes:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_fetchParameterizedAttributeForElement:(XCAccessibilityElement *)arg1 attributes:(NSNumber *)arg2 parameter:(id)arg3 reply:(void ( ^ ) ( id , NSError *))arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_fetchParameterizedAttributeForElement:attributes:parameter:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_launchApplicationWithBundleID:arguments:environment:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_launchApplicationWithBundleID:(NSString *)arg1 arguments:(NSArray *)arg2 environment:(NSDictionary *)arg3 completion:(void ( ^ ) ( NSError *))arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_launchApplicationWithBundleID:arguments:environment:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_performAccessibilityAction:onElement:withValue:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_performAccessibilityAction:(int)arg1 onElement:(XCAccessibilityElement *)arg2 withValue:(id)arg3 reply:(void ( ^ ) ( NSError *))arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_performAccessibilityAction:onElement:withValue:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_performDeviceEvent:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_performDeviceEvent:(XCDeviceEvent *)arg1 completion:(void ( ^ ) ( NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_performDeviceEvent:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_performTouchGesture:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_performTouchGesture:(XCTouchGesture *)arg1 completion:(void ( ^ ) ( NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_performTouchGesture:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_registerForAccessibilityNotification:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_registerForAccessibilityNotification:(int)arg1 reply:(void ( ^ ) ( NSNumber *, NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_registerForAccessibilityNotification:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_requestBackgroundAssertionWithReply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_requestBackgroundAssertionWithReply:(void ( ^ ) ( void ))arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_requestBackgroundAssertionWithReply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_requestElementAtPoint:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_requestElementAtPoint:(struct CGPoint)arg1 reply:(void ( ^ ) ( XCAccessibilityElement *, NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_requestElementAtPoint:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_requestScreenshotWithReply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_requestScreenshotWithReply:(void ( ^ ) ( NSData *, NSError *))arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_requestScreenshotWithReply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_requestSocketForSessionIdentifier:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_requestSocketForSessionIdentifier:(NSUUID *)arg1 reply:(void ( ^ ) ( NSFileHandle *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_requestSocketForSessionIdentifier:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_sendString:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_sendString:(NSString *)arg1 completion:(void ( ^ ) ( NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_sendString:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_sendString:maximumFrequency:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_sendString:(NSString *)arg1 maximumFrequency:(unsigned long long)arg2 completion:(void ( ^ ) ( NSError *))arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_sendString:maximumFrequency:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_snapshotForElement:attributes:parameters:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_snapshotForElement:(XCAccessibilityElement *)arg1 attributes:(NSArray *)arg2 parameters:(NSDictionary *)arg3 reply:(void ( ^ ) ( XCElementSnapshot *, NSError *))arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_snapshotForElement:attributes:parameters:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_startMonitoringApplicationWithBundleID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_startMonitoringApplicationWithBundleID:(NSString *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_startMonitoringApplicationWithBundleID:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_synthesizeEvent:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_synthesizeEvent:(XCSynthesizedEventRecord *)arg1 completion:(void ( ^ ) ( NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_synthesizeEvent:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_terminateApplicationWithBundleID:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_terminateApplicationWithBundleID:(NSString *)arg1 completion:(void ( ^ ) ( NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_terminateApplicationWithBundleID:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_unregisterForAccessibilityNotification:(int)arg1 withRegistrationToken:(NSNumber *)arg2 reply:(void ( ^ ) ( NSError *))arg3</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_unregisterForAccessibilityNotification:withRegistrationToken:reply:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestManager_ManagerInterface/_XCT_updateDeviceOrientation:completion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestManager_ManagerInterface-Protocol.h</DeclaredIn>
+			
+			<Declaration>- (void)_XCT_updateDeviceOrientation:(long long)arg1 completion:(void ( ^ ) ( NSError *))arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_XCT_updateDeviceOrientation:completion:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

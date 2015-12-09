@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestExpectation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestExpectation</TokenIdentifier>
+			<Abstract type="html">@class XCTestExpectation</Abstract>
+			<DeclaredIn>XCTestCase+AsynchronousTesting.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/fulfill</TokenIdentifier>
+			<Abstract type="html">@method -fulfill</Abstract>
+			<DeclaredIn>XCTestCase+AsynchronousTesting.h</DeclaredIn>
+			
+			<Declaration>- (void)fulfill</Declaration>
+			
+			
+			<Anchor>//api/name/fulfill</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

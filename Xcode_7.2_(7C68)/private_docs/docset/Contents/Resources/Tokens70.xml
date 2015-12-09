@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIPinchGestureRecognizer+RecordingAdditions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIPinchGestureRecognizer(RecordingAdditions)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIPinchGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIPinchGestureRecognizer/_automationName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UIPinchGestureRecognizer-RecordingAdditions.h</DeclaredIn>
+			
+			<Declaration>- (id)_automationName</Declaration>
+			
+			
+			<Anchor>//api/name/_automationName</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

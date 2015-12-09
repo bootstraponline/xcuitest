@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestExpectation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestExpectation/expectationForTestCase:withDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>+ (id)expectationForTestCase:(id)arg1 withDescription:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/expectationForTestCase:withDescription:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/_initForTestCase:withDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>- (id)_initForTestCase:(id)arg1 withDescription:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_initForTestCase:withDescription:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/cleanup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/fulfill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)fulfill</Declaration>
+			
+			
+			<Anchor>//api/name/fulfill</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/setInternalImplementation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _XCTestExpectationImplementation *internalImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/internalImplementation</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestExpectation/internalImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _XCTestExpectationImplementation *internalImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/internalImplementation</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestExpectation/internalImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _XCTestExpectationImplementation *internalImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/internalImplementation</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

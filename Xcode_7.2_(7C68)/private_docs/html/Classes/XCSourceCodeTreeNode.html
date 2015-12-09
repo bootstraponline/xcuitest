@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCSourceCodeTreeNode Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/_calleeType">_calleeType</option>
+		
+		<option value="//api/name/_elementType">_elementType</option>
+		
+		<option value="//api/name/_identifierValues">_identifierValues</option>
+		
+		<option value="//api/name/_index">_index</option>
+		
+		<option value="//api/name/_queryType">_queryType</option>
+		
+		<option value="//api/name/_returnType">_returnType</option>
+		
+		<option value="//api/name/childNodes">childNodes</option>
+		
+		<option value="//api/name/displayName">displayName</option>
+		
+		<option value="//api/name/parentNode">parentNode</option>
+		
+		<option value="//api/name/rootNode">rootNode</option>
+		
+		<option value="//api/name/selectedChildNode">selectedChildNode</option>
+		
+		<option value="//api/name/selectedChildNodeIndex">selectedChildNodeIndex</option>
+		
+		<option value="//api/name/selectedChildNodeIndexPath">selectedChildNodeIndexPath</option>
+		
+		<option value="//api/name/sourceCodePrefix">sourceCodePrefix</option>
+		
+		<option value="//api/name/sourceCodeSuffix">sourceCodeSuffix</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/_defaultOptions">+ _defaultOptions</option>
+		
+		<option value="//api/name/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:">+ _isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:</option>
+		
+		<option value="//api/name/_isContentOfNodesArraysEqual:ignoringSelection:toDistanceFromRoot:">+ _isContentOfNodesArraysEqual:ignoringSelection:toDistanceFromRoot:</option>
+		
+		<option value="//api/name/_isContentOfNodesEqual:ignoringSelection:toDistanceFromRoot:">+ _isContentOfNodesEqual:ignoringSelection:toDistanceFromRoot:</option>
+		
+		<option value="//api/name/_nodesByMergingSimilarNodes:">+ _nodesByMergingSimilarNodes:</option>
+		
+		<option value="//api/name/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:">+ _rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:</option>
+		
+		<option value="//api/name/_shareSourceCodeStringsForNodes:">+ _shareSourceCodeStringsForNodes:</option>
+		
+		<option value="//api/name/_sourceCodeForNodes:error:">+ _sourceCodeForNodes:error:</option>
+		
+		<option value="//api/name/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:">+ _stringRepresentationsOfNodesAsSeparateLines:language:options:error:</option>
+		
+		<option value="//api/name/rangeOfFirstSourceCodeTreeInString:range:">+ rangeOfFirstSourceCodeTreeInString:range:</option>
+		
+		<option value="//api/name/stringRepresentationsOfNodesAsSeparateLines:language:error:">+ stringRepresentationsOfNodesAsSeparateLines:language:error:</option>
+		
+		<option value="//api/name/supportsSecureCoding">+ supportsSecureCoding</option>
+		
+		<option value="//api/name/treeForStringRepresentation:range:error:">+ treeForStringRepresentation:range:error:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_absorbOnlyChildrenIntoParents">- _absorbOnlyChildrenIntoParents</option>
+		
+		<option value="//api/name/_canHaveSiblingNode:">- _canHaveSiblingNode:</option>
+		
+		<option value="//api/name/_canPushPutSolitaryRootNodes">- _canPushPutSolitaryRootNodes</option>
+		
+		<option value="//api/name/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:">- _copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:</option>
+		
+		<option value="//api/name/_copyIncludingNodesWithDistanceFromRoot:passingTest:">- _copyIncludingNodesWithDistanceFromRoot:passingTest:</option>
+		
+		<option value="//api/name/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:">- _copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:</option>
+		
+		<option value="//api/name/_depthStringWithDepth:">- _depthStringWithDepth:</option>
+		
+		<option value="//api/name/_descendantCount">- _descendantCount</option>
+		
+		<option value="//api/name/_distanceFromRoot">- _distanceFromRoot</option>
+		
+		<option value="//api/name/_isContentEqual:ignoringSelection:toDistanceFromRoot:">- _isContentEqual:ignoringSelection:toDistanceFromRoot:</option>
+		
+		<option value="//api/name/_leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:suffix:">- _leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:suffix:</option>
+		
+		<option value="//api/name/_leavesHaveSameAccumulatedPrefix:">- _leavesHaveSameAccumulatedPrefix:</option>
+		
+		<option value="//api/name/_maximumDistanceFromLeaf">- _maximumDistanceFromLeaf</option>
+		
+		<option value="//api/name/_minimumDistanceFromLeaf">- _minimumDistanceFromLeaf</option>
+		
+		<option value="//api/name/_stringRepresentationWithCompiledCodeRange:options:error:">- _stringRepresentationWithCompiledCodeRange:options:error:</option>
+		
+		<option value="//api/name/_stringRepresentationWithOptions:error:">- _stringRepresentationWithOptions:error:</option>
+		
+		<option value="//api/name/_treeAsJSONWithError:">- _treeAsJSONWithError:</option>
+		
+		<option value="//api/name/_treeByPushingOutPrefix:error:">- _treeByPushingOutPrefix:error:</option>
+		
+		<option value="//api/name/copy">- copy</option>
+		
+		<option value="//api/name/dealloc">- dealloc</option>
+		
+		<option value="//api/name/description">- description</option>
+		
+		<option value="//api/name/descriptionWithDepth:">- descriptionWithDepth:</option>
+		
+		<option value="//api/name/encodeWithCoder:">- encodeWithCoder:</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/initWithCoder:">- initWithCoder:</option>
+		
+		<option value="//api/name/initWithSourceCodePrefix:sourceCodeSuffix:">- initWithSourceCodePrefix:sourceCodeSuffix:</option>
+		
+		<option value="//api/name/selectedChildNodesIndexesWithError:">- selectedChildNodesIndexesWithError:</option>
+		
+		<option value="//api/name/selectedDescendantsSourceCodeWithError:">- selectedDescendantsSourceCodeWithError:</option>
+		
+		<option value="//api/name/setChildNodes:error:">- setChildNodes:error:</option>
+		
+		<option value="//api/name/setChildrenOnAllLeafNodes:selectChildNodeIndex:">- setChildrenOnAllLeafNodes:selectChildNodeIndex:</option>
+		
+		<option value="//api/name/sourceCodeForAllDescendants">- sourceCodeForAllDescendants</option>
+		
+		<option value="//api/name/stringRepresentationWithCompiledCodeRange:error:">- stringRepresentationWithCompiledCodeRange:error:</option>
+		
+		<option value="//api/name/stringRepresentationWithError:">- stringRepresentationWithError:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCSourceCodeTreeNode Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td><a href="../Protocols/NSSecureCoding.html">NSSecureCoding</a></td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCSourceCodeTreeNode.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/_defaultOptions" title="_defaultOptions"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_defaultOptions">+&nbsp;_defaultOptions</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (unsigned long long)_defaultOptions</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:" title="_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:">+&nbsp;_isContentEqualIgnoringSelection:childNodes:childNodes:toDistanceFromRoot:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (_Bool)_isContentEqualIgnoringSelection:(_Bool)<em>arg1</em> childNodes:(id)<em>arg2</em> childNodes:(id)<em>arg3</em> toDistanceFromRoot:(long long)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_isContentOfNodesArraysEqual:ignoringSelection:toDistanceFromRoot:" title="_isContentOfNodesArraysEqual:ignoringSelection:toDistanceFromRoot:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_isContentOfNodesArraysEqual:ignoringSelection:toDistanceFromRoot:">+&nbsp;_isContentOfNodesArraysEqual:ignoringSelection:toDistanceFromRoot:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (_Bool)_isContentOfNodesArraysEqual:(id)<em>arg1</em> ignoringSelection:(_Bool)<em>arg2</em> toDistanceFromRoot:(long long)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_isContentOfNodesEqual:ignoringSelection:toDistanceFromRoot:" title="_isContentOfNodesEqual:ignoringSelection:toDistanceFromRoot:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_isContentOfNodesEqual:ignoringSelection:toDistanceFromRoot:">+&nbsp;_isContentOfNodesEqual:ignoringSelection:toDistanceFromRoot:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (_Bool)_isContentOfNodesEqual:(id)<em>arg1</em> ignoringSelection:(_Bool)<em>arg2</em> toDistanceFromRoot:(long long)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_nodesByMergingSimilarNodes:" title="_nodesByMergingSimilarNodes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_nodesByMergingSimilarNodes:">+&nbsp;_nodesByMergingSimilarNodes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)_nodesByMergingSimilarNodes:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:" title="_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:">+&nbsp;_rangeOfFirstSourceCodeTreeInString:range:compiledSourceCodeRange:jsonRange:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (struct _NSRange)_rangeOfFirstSourceCodeTreeInString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em> compiledSourceCodeRange:(struct _NSRange *)<em>arg3</em> jsonRange:(struct _NSRange *)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_shareSourceCodeStringsForNodes:" title="_shareSourceCodeStringsForNodes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_shareSourceCodeStringsForNodes:">+&nbsp;_shareSourceCodeStringsForNodes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (void)_shareSourceCodeStringsForNodes:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_sourceCodeForNodes:error:" title="_sourceCodeForNodes:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_sourceCodeForNodes:error:">+&nbsp;_sourceCodeForNodes:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)_sourceCodeForNodes:(id)<em>arg1</em> error:(id *)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:" title="_stringRepresentationsOfNodesAsSeparateLines:language:options:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_stringRepresentationsOfNodesAsSeparateLines:language:options:error:">+&nbsp;_stringRepresentationsOfNodesAsSeparateLines:language:options:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)_stringRepresentationsOfNodesAsSeparateLines:(id)<em>arg1</em> language:(unsigned long long)<em>arg2</em> options:(unsigned long long)<em>arg3</em> error:(id *)<em>arg4</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rangeOfFirstSourceCodeTreeInString:range:" title="rangeOfFirstSourceCodeTreeInString:range:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rangeOfFirstSourceCodeTreeInString:range:">+&nbsp;rangeOfFirstSourceCodeTreeInString:range:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (struct _NSRange)rangeOfFirstSourceCodeTreeInString:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringRepresentationsOfNodesAsSeparateLines:language:error:" title="stringRepresentationsOfNodesAsSeparateLines:language:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringRepresentationsOfNodesAsSeparateLines:language:error:">+&nbsp;stringRepresentationsOfNodesAsSeparateLines:language:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)stringRepresentationsOfNodesAsSeparateLines:(id)<em>arg1</em> language:(unsigned long long)<em>arg2</em> error:(id *)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/supportsSecureCoding" title="supportsSecureCoding"></a>
+	<h3 class="method-title"><code><a href="#//api/name/supportsSecureCoding">+&nbsp;supportsSecureCoding</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (_Bool)supportsSecureCoding</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/treeForStringRepresentation:range:error:" title="treeForStringRepresentation:range:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/treeForStringRepresentation:range:error:">+&nbsp;treeForStringRepresentation:range:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (id)treeForStringRepresentation:(id)<em>arg1</em> range:(struct _NSRange)<em>arg2</em> error:(id *)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_absorbOnlyChildrenIntoParents" title="_absorbOnlyChildrenIntoParents"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_absorbOnlyChildrenIntoParents">&ndash;&nbsp;_absorbOnlyChildrenIntoParents</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)_absorbOnlyChildrenIntoParents</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_calleeType" title="_calleeType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_calleeType">&nbsp;&nbsp;_calleeType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy, setter=_setCalleeType:) NSNumber *_calleeType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_canHaveSiblingNode:" title="_canHaveSiblingNode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_canHaveSiblingNode:">&ndash;&nbsp;_canHaveSiblingNode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_canHaveSiblingNode:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_canPushPutSolitaryRootNodes" title="_canPushPutSolitaryRootNodes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_canPushPutSolitaryRootNodes">&ndash;&nbsp;_canPushPutSolitaryRootNodes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_canPushPutSolitaryRootNodes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:" title="_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:">&ndash;&nbsp;_copyIncludingNodesWithDistanceFromRoot:descendantChildrenArrays:selectedChildNodeIndexes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_copyIncludingNodesWithDistanceFromRoot:(unsigned long long)<em>arg1</em> descendantChildrenArrays:(id)<em>arg2</em> selectedChildNodeIndexes:(id)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_copyIncludingNodesWithDistanceFromRoot:passingTest:" title="_copyIncludingNodesWithDistanceFromRoot:passingTest:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_copyIncludingNodesWithDistanceFromRoot:passingTest:">&ndash;&nbsp;_copyIncludingNodesWithDistanceFromRoot:passingTest:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_copyIncludingNodesWithDistanceFromRoot:(long long)<em>arg1</em> passingTest:(CDUnknownBlockType)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:" title="_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:">&ndash;&nbsp;_copyIncludingNodesWithMinimumDistanceFromLeaf:descendantChildrenArrays:selectedChildNodeIndexes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_copyIncludingNodesWithMinimumDistanceFromLeaf:(unsigned long long)<em>arg1</em> descendantChildrenArrays:(id)<em>arg2</em> selectedChildNodeIndexes:(id)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_depthStringWithDepth:" title="_depthStringWithDepth:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_depthStringWithDepth:">&ndash;&nbsp;_depthStringWithDepth:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_depthStringWithDepth:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_descendantCount" title="_descendantCount"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_descendantCount">&ndash;&nbsp;_descendantCount</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)_descendantCount</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_distanceFromRoot" title="_distanceFromRoot"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_distanceFromRoot">&ndash;&nbsp;_distanceFromRoot</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)_distanceFromRoot</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_elementType" title="_elementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_elementType">&nbsp;&nbsp;_elementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy, setter=_setElementType:) NSNumber *_elementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_identifierValues" title="_identifierValues"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_identifierValues">&nbsp;&nbsp;_identifierValues</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy, setter=_setIdentifierValues:) NSSet *_identifierValues</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_index" title="_index"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_index">&nbsp;&nbsp;_index</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy, setter=_setIndex:) NSNumber *_index</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_isContentEqual:ignoringSelection:toDistanceFromRoot:" title="_isContentEqual:ignoringSelection:toDistanceFromRoot:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_isContentEqual:ignoringSelection:toDistanceFromRoot:">&ndash;&nbsp;_isContentEqual:ignoringSelection:toDistanceFromRoot:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_isContentEqual:(id)<em>arg1</em> ignoringSelection:(_Bool)<em>arg2</em> toDistanceFromRoot:(unsigned long long)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:suffix:" title="_leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:suffix:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:suffix:">&ndash;&nbsp;_leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:suffix:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_leavesHaveNoNonLeafSiblingsAndHaveSamePrefix:(id *)<em>arg1</em> suffix:(id *)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_leavesHaveSameAccumulatedPrefix:" title="_leavesHaveSameAccumulatedPrefix:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_leavesHaveSameAccumulatedPrefix:">&ndash;&nbsp;_leavesHaveSameAccumulatedPrefix:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_leavesHaveSameAccumulatedPrefix:(id *)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_maximumDistanceFromLeaf" title="_maximumDistanceFromLeaf"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_maximumDistanceFromLeaf">&ndash;&nbsp;_maximumDistanceFromLeaf</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)_maximumDistanceFromLeaf</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_minimumDistanceFromLeaf" title="_minimumDistanceFromLeaf"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_minimumDistanceFromLeaf">&ndash;&nbsp;_minimumDistanceFromLeaf</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (unsigned long long)_minimumDistanceFromLeaf</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_queryType" title="_queryType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_queryType">&nbsp;&nbsp;_queryType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy, setter=_setQueryType:) NSString *_queryType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_returnType" title="_returnType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_returnType">&nbsp;&nbsp;_returnType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy, setter=_setReturnType:) NSNumber *_returnType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_stringRepresentationWithCompiledCodeRange:options:error:" title="_stringRepresentationWithCompiledCodeRange:options:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_stringRepresentationWithCompiledCodeRange:options:error:">&ndash;&nbsp;_stringRepresentationWithCompiledCodeRange:options:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_stringRepresentationWithCompiledCodeRange:(struct _NSRange *)<em>arg1</em> options:(unsigned long long)<em>arg2</em> error:(id *)<em>arg3</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_stringRepresentationWithOptions:error:" title="_stringRepresentationWithOptions:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_stringRepresentationWithOptions:error:">&ndash;&nbsp;_stringRepresentationWithOptions:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_stringRepresentationWithOptions:(unsigned long long)<em>arg1</em> error:(id *)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_treeAsJSONWithError:" title="_treeAsJSONWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_treeAsJSONWithError:">&ndash;&nbsp;_treeAsJSONWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_treeAsJSONWithError:(id *)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_treeByPushingOutPrefix:error:" title="_treeByPushingOutPrefix:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_treeByPushingOutPrefix:error:">&ndash;&nbsp;_treeByPushingOutPrefix:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_treeByPushingOutPrefix:(id *)<em>arg1</em> error:(id *)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/childNodes" title="childNodes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/childNodes">&nbsp;&nbsp;childNodes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) NSArray *childNodes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/copy" title="copy"></a>
+	<h3 class="method-title"><code><a href="#//api/name/copy">&ndash;&nbsp;copy</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)copy</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="method-title"><code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)description</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descriptionWithDepth:" title="descriptionWithDepth:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descriptionWithDepth:">&ndash;&nbsp;descriptionWithDepth:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descriptionWithDepth:(unsigned long long)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/displayName" title="displayName"></a>
+	<h3 class="method-title"><code><a href="#//api/name/displayName">&nbsp;&nbsp;displayName</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *displayName</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/encodeWithCoder:" title="encodeWithCoder:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/encodeWithCoder:">&ndash;&nbsp;encodeWithCoder:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)encodeWithCoder:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithCoder:" title="initWithCoder:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithCoder:">&ndash;&nbsp;initWithCoder:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithCoder:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithSourceCodePrefix:sourceCodeSuffix:" title="initWithSourceCodePrefix:sourceCodeSuffix:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithSourceCodePrefix:sourceCodeSuffix:">&ndash;&nbsp;initWithSourceCodePrefix:sourceCodeSuffix:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithSourceCodePrefix:(id)<em>arg1</em> sourceCodeSuffix:(id)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/parentNode" title="parentNode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/parentNode">&nbsp;&nbsp;parentNode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property __weak XCSourceCodeTreeNode *parentNode</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rootNode" title="rootNode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rootNode">&nbsp;&nbsp;rootNode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) XCSourceCodeTreeNode *rootNode</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/selectedChildNode" title="selectedChildNode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selectedChildNode">&nbsp;&nbsp;selectedChildNode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) XCSourceCodeTreeNode *selectedChildNode</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/selectedChildNodeIndex" title="selectedChildNodeIndex"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selectedChildNodeIndex">&nbsp;&nbsp;selectedChildNodeIndex</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long selectedChildNodeIndex</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/selectedChildNodeIndexPath" title="selectedChildNodeIndexPath"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selectedChildNodeIndexPath">&nbsp;&nbsp;selectedChildNodeIndexPath</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSIndexPath *selectedChildNodeIndexPath</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/selectedChildNodesIndexesWithError:" title="selectedChildNodesIndexesWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selectedChildNodesIndexesWithError:">&ndash;&nbsp;selectedChildNodesIndexesWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)selectedChildNodesIndexesWithError:(id *)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/selectedDescendantsSourceCodeWithError:" title="selectedDescendantsSourceCodeWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selectedDescendantsSourceCodeWithError:">&ndash;&nbsp;selectedDescendantsSourceCodeWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)selectedDescendantsSourceCodeWithError:(id *)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setChildNodes:error:" title="setChildNodes:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setChildNodes:error:">&ndash;&nbsp;setChildNodes:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)setChildNodes:(id)<em>arg1</em> error:(id *)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setChildrenOnAllLeafNodes:selectChildNodeIndex:" title="setChildrenOnAllLeafNodes:selectChildNodeIndex:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setChildrenOnAllLeafNodes:selectChildNodeIndex:">&ndash;&nbsp;setChildrenOnAllLeafNodes:selectChildNodeIndex:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)setChildrenOnAllLeafNodes:(id)<em>arg1</em> selectChildNodeIndex:(unsigned long long)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sourceCodePrefix" title="sourceCodePrefix"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sourceCodePrefix">&nbsp;&nbsp;sourceCodePrefix</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *sourceCodePrefix</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sourceCodeSuffix" title="sourceCodeSuffix"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sourceCodeSuffix">&nbsp;&nbsp;sourceCodeSuffix</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *sourceCodeSuffix</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sourceCodeForAllDescendants" title="sourceCodeForAllDescendants"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sourceCodeForAllDescendants">&ndash;&nbsp;sourceCodeForAllDescendants</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)sourceCodeForAllDescendants</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringRepresentationWithCompiledCodeRange:error:" title="stringRepresentationWithCompiledCodeRange:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringRepresentationWithCompiledCodeRange:error:">&ndash;&nbsp;stringRepresentationWithCompiledCodeRange:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)stringRepresentationWithCompiledCodeRange:(struct _NSRange *)<em>arg1</em> error:(id *)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stringRepresentationWithError:" title="stringRepresentationWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stringRepresentationWithError:">&ndash;&nbsp;stringRepresentationWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)stringRepresentationWithError:(id *)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

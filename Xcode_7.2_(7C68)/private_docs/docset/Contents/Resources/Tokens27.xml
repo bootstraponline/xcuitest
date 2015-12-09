@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestContext.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestContext/defaultAsynchronousUIElementHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>+ (CDUnknownBlockType)defaultAsynchronousUIElementHandler</Declaration>
+			
+			
+			<Anchor>//api/name/defaultAsynchronousUIElementHandler</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/addUIInterruptionMonitorWithDescription:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (id)addUIInterruptionMonitorWithDescription:(id)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/addUIInterruptionMonitorWithDescription:handler:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/setCurrentScope:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) XCTestContextScope *currentScope</Declaration>
+			
+			
+			<Anchor>//api/name/currentScope</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/currentScope</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) XCTestContextScope *currentScope</Declaration>
+			
+			
+			<Anchor>//api/name/currentScope</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestContext/currentScope</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property (retain, nonatomic) XCTestContextScope *currentScope</Declaration>
+			
+			
+			<Anchor>//api/name/currentScope</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/setDidHandleUIInterruption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			
+			
+			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/didHandleUIInterruption</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			
+			
+			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestContext/didHandleUIInterruption</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property _Bool didHandleUIInterruption</Declaration>
+			
+			
+			<Anchor>//api/name/didHandleUIInterruption</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/handleAsynchronousUIElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)handleAsynchronousUIElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/handleAsynchronousUIElement:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/setHandlers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *handlers</Declaration>
+			
+			
+			<Anchor>//api/name/handlers</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/handlers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *handlers</Declaration>
+			
+			
+			<Anchor>//api/name/handlers</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestContext/handlers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *handlers</Declaration>
+			
+			
+			<Anchor>//api/name/handlers</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/performInScope:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (void)performInScope:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/performInScope:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestContext/removeUIInterruptionMonitor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestContext.h</DeclaredIn>
+			
+			<Declaration>- (void)removeUIInterruptionMonitor:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/removeUIInterruptionMonitor:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

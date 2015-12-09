@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCSourceCodeTreeNodeEnumerator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCSourceCodeTreeNodeEnumerator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNodeEnumerator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNodeEnumerator/initWithNode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNodeEnumerator.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithNode:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNode:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCSourceCodeTreeNodeEnumerator/nextObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCSourceCodeTreeNodeEnumerator.h</DeclaredIn>
+			
+			<Declaration>- (id)nextObject</Declaration>
+			
+			
+			<Anchor>//api/name/nextObject</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/XCTestErrorCode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/XCTestErrorCode</TokenIdentifier>
+			<Abstract type="html">@typedef XCTestErrorCode
+Error codes used with errors in the XCTestErrorDomain.</Abstract>
+			<DeclaredIn>XCTestErrors.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCTestErrorCodeTimeoutWhileWaiting</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCTestErrorCodeTimeoutWhileWaiting</Declaration>
+            
+            <DeclaredIn>XCTestErrors.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/XCTestErrorCodeFailureWhileWaiting</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>XCTestErrorCodeFailureWhileWaiting</Declaration>
+            
+            <DeclaredIn>XCTestErrors.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestConfiguration/activeTestConfiguration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (id)activeTestConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/activeTestConfiguration</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestConfiguration/configurationWithContentsOfFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (id)configurationWithContentsOfFile:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/configurationWithContentsOfFile:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestConfiguration/setActiveTestConfiguration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (void)setActiveTestConfiguration:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/setActiveTestConfiguration:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestConfiguration/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setBaselineFileURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSURL *baselineFileURL</Declaration>
+			
+			
+			<Anchor>//api/name/baselineFileURL</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/baselineFileURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSURL *baselineFileURL</Declaration>
+			
+			
+			<Anchor>//api/name/baselineFileURL</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/baselineFileURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSURL *baselineFileURL</Declaration>
+			
+			
+			<Anchor>//api/name/baselineFileURL</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setDisablePerformanceMetrics:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool disablePerformanceMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/disablePerformanceMetrics</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/disablePerformanceMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool disablePerformanceMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/disablePerformanceMetrics</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/disablePerformanceMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool disablePerformanceMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/disablePerformanceMetrics</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/hash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)hash</Declaration>
+			
+			
+			<Anchor>//api/name/hash</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/isEqual:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setPathToXcodeReportingSocket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *pathToXcodeReportingSocket</Declaration>
+			
+			
+			<Anchor>//api/name/pathToXcodeReportingSocket</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/pathToXcodeReportingSocket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *pathToXcodeReportingSocket</Declaration>
+			
+			
+			<Anchor>//api/name/pathToXcodeReportingSocket</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/pathToXcodeReportingSocket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *pathToXcodeReportingSocket</Declaration>
+			
+			
+			<Anchor>//api/name/pathToXcodeReportingSocket</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setProductModuleName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *productModuleName</Declaration>
+			
+			
+			<Anchor>//api/name/productModuleName</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/productModuleName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *productModuleName</Declaration>
+			
+			
+			<Anchor>//api/name/productModuleName</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/productModuleName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *productModuleName</Declaration>
+			
+			
+			<Anchor>//api/name/productModuleName</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setReportActivities:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool reportActivities</Declaration>
+			
+			
+			<Anchor>//api/name/reportActivities</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/reportActivities</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool reportActivities</Declaration>
+			
+			
+			<Anchor>//api/name/reportActivities</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/reportActivities</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool reportActivities</Declaration>
+			
+			
+			<Anchor>//api/name/reportActivities</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setReportResultsToIDE:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool reportResultsToIDE</Declaration>
+			
+			
+			<Anchor>//api/name/reportResultsToIDE</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/reportResultsToIDE</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool reportResultsToIDE</Declaration>
+			
+			
+			<Anchor>//api/name/reportResultsToIDE</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/reportResultsToIDE</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool reportResultsToIDE</Declaration>
+			
+			
+			<Anchor>//api/name/reportResultsToIDE</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setSessionIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *sessionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/sessionIdentifier</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/sessionIdentifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *sessionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/sessionIdentifier</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/sessionIdentifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSUUID *sessionIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/sessionIdentifier</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTargetApplicationBundleID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *targetApplicationBundleID</Declaration>
+			
+			
+			<Anchor>//api/name/targetApplicationBundleID</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/targetApplicationBundleID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *targetApplicationBundleID</Declaration>
+			
+			
+			<Anchor>//api/name/targetApplicationBundleID</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/targetApplicationBundleID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *targetApplicationBundleID</Declaration>
+			
+			
+			<Anchor>//api/name/targetApplicationBundleID</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTargetApplicationPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *targetApplicationPath</Declaration>
+			
+			
+			<Anchor>//api/name/targetApplicationPath</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/targetApplicationPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *targetApplicationPath</Declaration>
+			
+			
+			<Anchor>//api/name/targetApplicationPath</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/targetApplicationPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *targetApplicationPath</Declaration>
+			
+			
+			<Anchor>//api/name/targetApplicationPath</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTestBundleURL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSURL *testBundleURL</Declaration>
+			
+			
+			<Anchor>//api/name/testBundleURL</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/testBundleURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSURL *testBundleURL</Declaration>
+			
+			
+			<Anchor>//api/name/testBundleURL</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/testBundleURL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSURL *testBundleURL</Declaration>
+			
+			
+			<Anchor>//api/name/testBundleURL</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTestsMustRunOnMainThread:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool testsMustRunOnMainThread</Declaration>
+			
+			
+			<Anchor>//api/name/testsMustRunOnMainThread</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/testsMustRunOnMainThread</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool testsMustRunOnMainThread</Declaration>
+			
+			
+			<Anchor>//api/name/testsMustRunOnMainThread</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/testsMustRunOnMainThread</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool testsMustRunOnMainThread</Declaration>
+			
+			
+			<Anchor>//api/name/testsMustRunOnMainThread</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTestsToRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSSet *testsToRun</Declaration>
+			
+			
+			<Anchor>//api/name/testsToRun</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/testsToRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSSet *testsToRun</Declaration>
+			
+			
+			<Anchor>//api/name/testsToRun</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/testsToRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSSet *testsToRun</Declaration>
+			
+			
+			<Anchor>//api/name/testsToRun</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTestsToSkip:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSSet *testsToSkip</Declaration>
+			
+			
+			<Anchor>//api/name/testsToSkip</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/testsToSkip</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSSet *testsToSkip</Declaration>
+			
+			
+			<Anchor>//api/name/testsToSkip</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/testsToSkip</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSSet *testsToSkip</Declaration>
+			
+			
+			<Anchor>//api/name/testsToSkip</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/setTreatMissingBaselinesAsFailures:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool treatMissingBaselinesAsFailures</Declaration>
+			
+			
+			<Anchor>//api/name/treatMissingBaselinesAsFailures</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/treatMissingBaselinesAsFailures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool treatMissingBaselinesAsFailures</Declaration>
+			
+			
+			<Anchor>//api/name/treatMissingBaselinesAsFailures</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestConfiguration/treatMissingBaselinesAsFailures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property _Bool treatMissingBaselinesAsFailures</Declaration>
+			
+			
+			<Anchor>//api/name/treatMissingBaselinesAsFailures</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestConfiguration/writeToFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)writeToFile:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/writeToFile:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

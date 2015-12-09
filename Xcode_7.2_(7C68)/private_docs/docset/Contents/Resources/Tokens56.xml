@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCKVOExpectation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCKVOExpectation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/_initForTestCase:withDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>- (id)_initForTestCase:(id)arg1 withDescription:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_initForTestCase:withDescription:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/_safelyUnregister</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)_safelyUnregister</Declaration>
+			
+			
+			<Anchor>//api/name/_safelyUnregister</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/cleanup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/setExpectedValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id expectedValue</Declaration>
+			
+			
+			<Anchor>//api/name/expectedValue</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/expectedValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id expectedValue</Declaration>
+			
+			
+			<Anchor>//api/name/expectedValue</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCKVOExpectation/expectedValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id expectedValue</Declaration>
+			
+			
+			<Anchor>//api/name/expectedValue</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/setHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/handler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCKVOExpectation/handler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) CDUnknownBlockType handler</Declaration>
+			
+			
+			<Anchor>//api/name/handler</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/setHasUnregistered:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasUnregistered</Declaration>
+			
+			
+			<Anchor>//api/name/hasUnregistered</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/hasUnregistered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasUnregistered</Declaration>
+			
+			
+			<Anchor>//api/name/hasUnregistered</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCKVOExpectation/hasUnregistered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasUnregistered</Declaration>
+			
+			
+			<Anchor>//api/name/hasUnregistered</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/setKeyPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *keyPath</Declaration>
+			
+			
+			<Anchor>//api/name/keyPath</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/keyPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *keyPath</Declaration>
+			
+			
+			<Anchor>//api/name/keyPath</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCKVOExpectation/keyPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *keyPath</Declaration>
+			
+			
+			<Anchor>//api/name/keyPath</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/observeValueForKeyPath:ofObject:change:context:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)observeValueForKeyPath:(id)arg1 ofObject:(id)arg2 change:(id)arg3 context:(void *)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/observeValueForKeyPath:ofObject:change:context:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/setObservedObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id observedObject</Declaration>
+			
+			
+			<Anchor>//api/name/observedObject</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/observedObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id observedObject</Declaration>
+			
+			
+			<Anchor>//api/name/observedObject</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCKVOExpectation/observedObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>@property (retain) id observedObject</Declaration>
+			
+			
+			<Anchor>//api/name/observedObject</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCKVOExpectation/startObserving</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCKVOExpectation.h</DeclaredIn>
+			
+			<Declaration>- (void)startObserving</Declaration>
+			
+			
+			<Anchor>//api/name/startObserving</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

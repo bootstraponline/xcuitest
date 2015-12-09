@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestObservationCenter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestObservationCenter</TokenIdentifier>
+			<Abstract type="html">@class XCTestObservationCenter</Abstract>
+			<DeclaredIn>XCTestObservationCenter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestObservationCenter/sharedTestObservationCenter</TokenIdentifier>
+			<Abstract type="html">@method +sharedTestObservationCenter</Abstract>
+			<DeclaredIn>XCTestObservationCenter.h</DeclaredIn>
+			
+			<Declaration>+ (XCTestObservationCenter *)sharedTestObservationCenter</Declaration>
+			
+			<ReturnValue><Abstract type="html">The shared XCTestObservationCenter singleton instance.</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedTestObservationCenter</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObservationCenter/addTestObserver:</TokenIdentifier>
+			<Abstract type="html">@method -addTestObserver:</Abstract>
+			<DeclaredIn>XCTestObservationCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)addTestObserver:(id&lt;XCTestObservation&gt;)testObserver</Declaration>
+			
+			
+			<Anchor>//api/name/addTestObserver:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestObservationCenter/removeTestObserver:</TokenIdentifier>
+			<Abstract type="html">@method -removeTestObserver:</Abstract>
+			<DeclaredIn>XCTestObservationCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)removeTestObserver:(id&lt;XCTestObservation&gt;)testObserver</Declaration>
+			
+			
+			<Anchor>//api/name/removeTestObserver:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

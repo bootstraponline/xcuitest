@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCKeyboardInputSolver.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCKeyboardInputSolver</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/_solve</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (id)_solve</Declaration>
+			
+			
+			<Anchor>//api/name/_solve</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/advancePath:range:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (void)advancePath:(id)arg1 range:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/advancePath:range:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/advancePaths</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)advancePaths</Declaration>
+			
+			
+			<Anchor>//api/name/advancePaths</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/copyWithZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(struct _NSZone *)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setCurrentFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long currentFlags</Declaration>
+			
+			
+			<Anchor>//api/name/currentFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/currentFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long currentFlags</Declaration>
+			
+			
+			<Anchor>//api/name/currentFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/currentFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long currentFlags</Declaration>
+			
+			
+			<Anchor>//api/name/currentFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setExcludedFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long excludedFlags</Declaration>
+			
+			
+			<Anchor>//api/name/excludedFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/excludedFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long excludedFlags</Declaration>
+			
+			
+			<Anchor>//api/name/excludedFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/excludedFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long excludedFlags</Declaration>
+			
+			
+			<Anchor>//api/name/excludedFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/extractCompletePathsWithSolutionRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (id)extractCompletePathsWithSolutionRange:(struct _NSRange)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/extractCompletePathsWithSolutionRange:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setIncludeModifierKeys:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property _Bool includeModifierKeys</Declaration>
+			
+			
+			<Anchor>//api/name/includeModifierKeys</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/includeModifierKeys</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property _Bool includeModifierKeys</Declaration>
+			
+			
+			<Anchor>//api/name/includeModifierKeys</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/includeModifierKeys</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property _Bool includeModifierKeys</Declaration>
+			
+			
+			<Anchor>//api/name/includeModifierKeys</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/initWithKeyMap:string:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithKeyMap:(id)arg1 string:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/initWithKeyMap:string:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/isComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/complete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isComplete) _Bool complete</Declaration>
+			
+			
+			<Anchor>//api/name/complete</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setKeyMap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCKeyboardKeyMap *keyMap</Declaration>
+			
+			
+			<Anchor>//api/name/keyMap</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/keyMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCKeyboardKeyMap *keyMap</Declaration>
+			
+			
+			<Anchor>//api/name/keyMap</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/keyMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCKeyboardKeyMap *keyMap</Declaration>
+			
+			
+			<Anchor>//api/name/keyMap</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setRequiredFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long requiredFlags</Declaration>
+			
+			
+			<Anchor>//api/name/requiredFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/requiredFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long requiredFlags</Declaration>
+			
+			
+			<Anchor>//api/name/requiredFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/requiredFlags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long requiredFlags</Declaration>
+			
+			
+			<Anchor>//api/name/requiredFlags</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/solve</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (id)solve</Declaration>
+			
+			
+			<Anchor>//api/name/solve</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/solveWithSolutionRange:results:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>- (void)solveWithSolutionRange:(struct _NSRange)arg1 results:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/solveWithSolutionRange:results:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setSolvedInputs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *solvedInputs</Declaration>
+			
+			
+			<Anchor>//api/name/solvedInputs</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/solvedInputs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *solvedInputs</Declaration>
+			
+			
+			<Anchor>//api/name/solvedInputs</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/solvedInputs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *solvedInputs</Declaration>
+			
+			
+			<Anchor>//api/name/solvedInputs</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/string</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/string</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/setUnsolvedRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct _NSRange unsolvedRange</Declaration>
+			
+			
+			<Anchor>//api/name/unsolvedRange</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCKeyboardInputSolver/unsolvedRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct _NSRange unsolvedRange</Declaration>
+			
+			
+			<Anchor>//api/name/unsolvedRange</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCKeyboardInputSolver/unsolvedRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCKeyboardInputSolver.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct _NSRange unsolvedRange</Declaration>
+			
+			
+			<Anchor>//api/name/unsolvedRange</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

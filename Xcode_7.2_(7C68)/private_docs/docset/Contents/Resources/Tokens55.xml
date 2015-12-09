@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_XCInternalTestRun.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_XCInternalTestRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+            
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setExecutionCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/executionCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/executionCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long executionCount</Declaration>
+			
+			
+			<Anchor>//api/name/executionCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setFailureCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/failureCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/failureCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long failureCount</Declaration>
+			
+			
+			<Anchor>//api/name/failureCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setHasStopped:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool hasStopped</Declaration>
+			
+			
+			<Anchor>//api/name/hasStopped</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/hasStopped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool hasStopped</Declaration>
+			
+			
+			<Anchor>//api/name/hasStopped</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/hasStopped</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) _Bool hasStopped</Declaration>
+			
+			
+			<Anchor>//api/name/hasStopped</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/initWithTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTest:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTest:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/recordFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/recordFailureWithDescription:inFile:atLine:expected:</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/start</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)start</Declaration>
+			
+			
+			<Anchor>//api/name/start</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setStartDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/startDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/startDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSDate *startDate</Declaration>
+			
+			
+			<Anchor>//api/name/startDate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/stop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setStopDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSDate *stopDate</Declaration>
+			
+			
+			<Anchor>//api/name/stopDate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/stopDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSDate *stopDate</Declaration>
+			
+			
+			<Anchor>//api/name/stopDate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/stopDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSDate *stopDate</Declaration>
+			
+			
+			<Anchor>//api/name/stopDate</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTest *test</Declaration>
+			
+			
+			<Anchor>//api/name/test</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/test</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTest *test</Declaration>
+			
+			
+			<Anchor>//api/name/test</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/test</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTest *test</Declaration>
+			
+			
+			<Anchor>//api/name/test</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setTestCaseCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setTestDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/testDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/testDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double testDuration</Declaration>
+			
+			
+			<Anchor>//api/name/testDuration</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setTotalDuration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double totalDuration</Declaration>
+			
+			
+			<Anchor>//api/name/totalDuration</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/totalDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double totalDuration</Declaration>
+			
+			
+			<Anchor>//api/name/totalDuration</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/totalDuration</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) double totalDuration</Declaration>
+			
+			
+			<Anchor>//api/name/totalDuration</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/setUnexpectedExceptionCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_XCInternalTestRun/unexpectedExceptionCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/_XCInternalTestRun/unexpectedExceptionCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_XCInternalTestRun.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long unexpectedExceptionCount</Declaration>
+			
+			
+			<Anchor>//api/name/unexpectedExceptionCount</Anchor>
+            <NodeRef refid="55"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,7 @@
+---
+BuildAliasOf: XCTest
+BuildVersion: '2'
+CFBundleShortVersionString: '1.0'
+CFBundleVersion: '9530'
+ProjectName: XCTest_Sim
+SourceVersion: '9530000000000000'

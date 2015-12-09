@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCUIRemote.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCUIRemote</TokenIdentifier>
+			<Abstract type="html">@class XCUIRemote</Abstract>
+			<DeclaredIn>XCUIRemote.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCUIRemote/sharedRemote</TokenIdentifier>
+			<Abstract type="html">The simulated physical remote control.</Abstract>
+			<DeclaredIn>XCUIRemote.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)sharedRemote</Declaration>
+			
+			
+			<Anchor>//api/name/sharedRemote</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRemote/pressButton:</TokenIdentifier>
+			<Abstract type="html">Sends a momentary press of a button on a physical remote control.</Abstract>
+			<DeclaredIn>XCUIRemote.h</DeclaredIn>
+			
+			<Declaration>- (void)pressButton:(XCUIRemoteButton)remoteButton</Declaration>
+			
+			
+			<Anchor>//api/name/pressButton:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCUIRemote/pressButton:forDuration:</TokenIdentifier>
+			<Abstract type="html">Sends a press and hold of a button on a physical remote control, holding for the specified duration.</Abstract>
+			<DeclaredIn>XCUIRemote.h</DeclaredIn>
+			
+			<Declaration>- (void)pressButton:(XCUIRemoteButton)remoteButton forDuration:(NSTimeInterval)duration</Declaration>
+			
+			
+			<Anchor>//api/name/pressButton:forDuration:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

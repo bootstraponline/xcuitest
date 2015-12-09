@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>XCElementSnapshot Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">XCTest </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Apple</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/accessibilityElement">accessibilityElement</option>
+		
+		<option value="//api/name/additionalAttributes">additionalAttributes</option>
+		
+		<option value="//api/name/application">application</option>
+		
+		<option value="//api/name/children">children</option>
+		
+		<option value="//api/name/compactDescription">compactDescription</option>
+		
+		<option value="//api/name/elementType">elementType</option>
+		
+		<option value="//api/name/enabled">enabled</option>
+		
+		<option value="//api/name/frame">frame</option>
+		
+		<option value="//api/name/generation">generation</option>
+		
+		<option value="//api/name/hasFocus">hasFocus</option>
+		
+		<option value="//api/name/hasKeyboardFocus">hasKeyboardFocus</option>
+		
+		<option value="//api/name/hitPoint">hitPoint</option>
+		
+		<option value="//api/name/hitPointForScrolling">hitPointForScrolling</option>
+		
+		<option value="//api/name/horizontalSizeClass">horizontalSizeClass</option>
+		
+		<option value="//api/name/identifier">identifier</option>
+		
+		<option value="//api/name/identifiers">identifiers</option>
+		
+		<option value="//api/name/isMainWindow">isMainWindow</option>
+		
+		<option value="//api/name/label">label</option>
+		
+		<option value="//api/name/parent">parent</option>
+		
+		<option value="//api/name/parentAccessibilityElement">parentAccessibilityElement</option>
+		
+		<option value="//api/name/pathDescription">pathDescription</option>
+		
+		<option value="//api/name/placeholderValue">placeholderValue</option>
+		
+		<option value="//api/name/recursiveDescription">recursiveDescription</option>
+		
+		<option value="//api/name/recursiveDescriptionIncludingAccessibilityElement">recursiveDescriptionIncludingAccessibilityElement</option>
+		
+		<option value="//api/name/scrollView">scrollView</option>
+		
+		<option value="//api/name/selected">selected</option>
+		
+		<option value="//api/name/suggestedHitpoints">suggestedHitpoints</option>
+		
+		<option value="//api/name/title">title</option>
+		
+		<option value="//api/name/traits">traits</option>
+		
+		<option value="//api/name/truncatedValueString">truncatedValueString</option>
+		
+		<option value="//api/name/userTestingAttributes">userTestingAttributes</option>
+		
+		<option value="//api/name/value">value</option>
+		
+		<option value="//api/name/verticalSizeClass">verticalSizeClass</option>
+		
+		<option value="//api/name/visibleFrame">visibleFrame</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/supportsSecureCoding">+ supportsSecureCoding</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/_allDescendants">- _allDescendants</option>
+		
+		<option value="//api/name/_frameFuzzyMatchesElement:">- _frameFuzzyMatchesElement:</option>
+		
+		<option value="//api/name/_fuzzyMatchesElement:">- _fuzzyMatchesElement:</option>
+		
+		<option value="//api/name/_isAncestorOfElement:">- _isAncestorOfElement:</option>
+		
+		<option value="//api/name/_isDescendantOfElement:">- _isDescendantOfElement:</option>
+		
+		<option value="//api/name/_matchesElement:">- _matchesElement:</option>
+		
+		<option value="//api/name/_rootElement">- _rootElement</option>
+		
+		<option value="//api/name/_uniquelyIdentifyingObjectiveCCode">- _uniquelyIdentifyingObjectiveCCode</option>
+		
+		<option value="//api/name/_uniquelyIdentifyingSwiftCode">- _uniquelyIdentifyingSwiftCode</option>
+		
+		<option value="//api/name/dealloc">- dealloc</option>
+		
+		<option value="//api/name/descendantsByFilteringWithBlock:">- descendantsByFilteringWithBlock:</option>
+		
+		<option value="//api/name/description">- description</option>
+		
+		<option value="//api/name/elementSnapshotMatchingAccessibilityElement:">- elementSnapshotMatchingAccessibilityElement:</option>
+		
+		<option value="//api/name/encodeWithCoder:">- encodeWithCoder:</option>
+		
+		<option value="//api/name/enumerateDescendantsUsingBlock:">- enumerateDescendantsUsingBlock:</option>
+		
+		<option value="//api/name/hasDescendantMatchingFilter:">- hasDescendantMatchingFilter:</option>
+		
+		<option value="//api/name/hitTest:">- hitTest:</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/initWithCoder:">- initWithCoder:</option>
+		
+		<option value="//api/name/recursiveDescriptionWithIndent:includeAccessibilityElement:">- recursiveDescriptionWithIndent:includeAccessibilityElement:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">XCElementSnapshot Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Conforms to</th>
+	<td><a href="../Protocols/NSSecureCoding.html">NSSecureCoding</a><br /><a href="../Protocols/XCElementAttributesPrivate.html">XCElementAttributesPrivate</a></td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>XCElementSnapshot.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/supportsSecureCoding" title="supportsSecureCoding"></a>
+	<h3 class="method-title"><code><a href="#//api/name/supportsSecureCoding">+&nbsp;supportsSecureCoding</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>+ (_Bool)supportsSecureCoding</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_allDescendants" title="_allDescendants"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_allDescendants">&ndash;&nbsp;_allDescendants</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_allDescendants</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_frameFuzzyMatchesElement:" title="_frameFuzzyMatchesElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_frameFuzzyMatchesElement:">&ndash;&nbsp;_frameFuzzyMatchesElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_frameFuzzyMatchesElement:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_fuzzyMatchesElement:" title="_fuzzyMatchesElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_fuzzyMatchesElement:">&ndash;&nbsp;_fuzzyMatchesElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_fuzzyMatchesElement:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_isAncestorOfElement:" title="_isAncestorOfElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_isAncestorOfElement:">&ndash;&nbsp;_isAncestorOfElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_isAncestorOfElement:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_isDescendantOfElement:" title="_isDescendantOfElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_isDescendantOfElement:">&ndash;&nbsp;_isDescendantOfElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_isDescendantOfElement:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_matchesElement:" title="_matchesElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_matchesElement:">&ndash;&nbsp;_matchesElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)_matchesElement:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_rootElement" title="_rootElement"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_rootElement">&ndash;&nbsp;_rootElement</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_rootElement</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_uniquelyIdentifyingObjectiveCCode" title="_uniquelyIdentifyingObjectiveCCode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_uniquelyIdentifyingObjectiveCCode">&ndash;&nbsp;_uniquelyIdentifyingObjectiveCCode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_uniquelyIdentifyingObjectiveCCode</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_uniquelyIdentifyingSwiftCode" title="_uniquelyIdentifyingSwiftCode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_uniquelyIdentifyingSwiftCode">&ndash;&nbsp;_uniquelyIdentifyingSwiftCode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)_uniquelyIdentifyingSwiftCode</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/accessibilityElement" title="accessibilityElement"></a>
+	<h3 class="method-title"><code><a href="#//api/name/accessibilityElement">&nbsp;&nbsp;accessibilityElement</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) XCAccessibilityElement *accessibilityElement</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/additionalAttributes" title="additionalAttributes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/additionalAttributes">&nbsp;&nbsp;additionalAttributes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSDictionary *additionalAttributes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/application" title="application"></a>
+	<h3 class="method-title"><code><a href="#//api/name/application">&nbsp;&nbsp;application</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) XCUIApplication *application</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/children" title="children"></a>
+	<h3 class="method-title"><code><a href="#//api/name/children">&nbsp;&nbsp;children</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *children</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/compactDescription" title="compactDescription"></a>
+	<h3 class="method-title"><code><a href="#//api/name/compactDescription">&nbsp;&nbsp;compactDescription</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *compactDescription</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/descendantsByFilteringWithBlock:" title="descendantsByFilteringWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/descendantsByFilteringWithBlock:">&ndash;&nbsp;descendantsByFilteringWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)descendantsByFilteringWithBlock:(CDUnknownBlockType)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/description" title="description"></a>
+	<h3 class="method-title"><code><a href="#//api/name/description">&ndash;&nbsp;description</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)description</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/elementSnapshotMatchingAccessibilityElement:" title="elementSnapshotMatchingAccessibilityElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/elementSnapshotMatchingAccessibilityElement:">&ndash;&nbsp;elementSnapshotMatchingAccessibilityElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)elementSnapshotMatchingAccessibilityElement:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/elementType" title="elementType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/elementType">&nbsp;&nbsp;elementType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long elementType</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/encodeWithCoder:" title="encodeWithCoder:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/encodeWithCoder:">&ndash;&nbsp;encodeWithCoder:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)encodeWithCoder:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enumerateDescendantsUsingBlock:" title="enumerateDescendantsUsingBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enumerateDescendantsUsingBlock:">&ndash;&nbsp;enumerateDescendantsUsingBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)enumerateDescendantsUsingBlock:(CDUnknownBlockType)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/frame" title="frame"></a>
+	<h3 class="method-title"><code><a href="#//api/name/frame">&nbsp;&nbsp;frame</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property struct CGRect frame</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/generation" title="generation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/generation">&nbsp;&nbsp;generation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) unsigned long long generation</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hasDescendantMatchingFilter:" title="hasDescendantMatchingFilter:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hasDescendantMatchingFilter:">&ndash;&nbsp;hasDescendantMatchingFilter:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (_Bool)hasDescendantMatchingFilter:(CDUnknownBlockType)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hasFocus" title="hasFocus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hasFocus">&nbsp;&nbsp;hasFocus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool hasFocus</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hasKeyboardFocus" title="hasKeyboardFocus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hasKeyboardFocus">&nbsp;&nbsp;hasKeyboardFocus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool hasKeyboardFocus</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hitPoint" title="hitPoint"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hitPoint">&nbsp;&nbsp;hitPoint</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) struct CGPoint hitPoint</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hitPointForScrolling" title="hitPointForScrolling"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hitPointForScrolling">&nbsp;&nbsp;hitPointForScrolling</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) struct CGPoint hitPointForScrolling</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hitTest:" title="hitTest:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hitTest:">&ndash;&nbsp;hitTest:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)hitTest:(struct CGPoint)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/horizontalSizeClass" title="horizontalSizeClass"></a>
+	<h3 class="method-title"><code><a href="#//api/name/horizontalSizeClass">&nbsp;&nbsp;horizontalSizeClass</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property long long horizontalSizeClass</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/identifier" title="identifier"></a>
+	<h3 class="method-title"><code><a href="#//api/name/identifier">&nbsp;&nbsp;identifier</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *identifier</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/identifiers" title="identifiers"></a>
+	<h3 class="method-title"><code><a href="#//api/name/identifiers">&nbsp;&nbsp;identifiers</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSArray *identifiers</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithCoder:" title="initWithCoder:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithCoder:">&ndash;&nbsp;initWithCoder:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithCoder:(id)<em>arg1</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enabled" title="enabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enabled">&nbsp;&nbsp;enabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (getter=isEnabled) _Bool enabled</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isMainWindow" title="isMainWindow"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isMainWindow">&nbsp;&nbsp;isMainWindow</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property _Bool isMainWindow</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/selected" title="selected"></a>
+	<h3 class="method-title"><code><a href="#//api/name/selected">&nbsp;&nbsp;selected</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (getter=isSelected) _Bool selected</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/label" title="label"></a>
+	<h3 class="method-title"><code><a href="#//api/name/label">&nbsp;&nbsp;label</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *label</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/parent" title="parent"></a>
+	<h3 class="method-title"><code><a href="#//api/name/parent">&nbsp;&nbsp;parent</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property XCElementSnapshot *parent</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/parentAccessibilityElement" title="parentAccessibilityElement"></a>
+	<h3 class="method-title"><code><a href="#//api/name/parentAccessibilityElement">&nbsp;&nbsp;parentAccessibilityElement</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (retain) XCAccessibilityElement *parentAccessibilityElement</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pathDescription" title="pathDescription"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pathDescription">&nbsp;&nbsp;pathDescription</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *pathDescription</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/placeholderValue" title="placeholderValue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/placeholderValue">&nbsp;&nbsp;placeholderValue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *placeholderValue</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/recursiveDescription" title="recursiveDescription"></a>
+	<h3 class="method-title"><code><a href="#//api/name/recursiveDescription">&nbsp;&nbsp;recursiveDescription</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSString *recursiveDescription</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/recursiveDescriptionIncludingAccessibilityElement" title="recursiveDescriptionIncludingAccessibilityElement"></a>
+	<h3 class="method-title"><code><a href="#//api/name/recursiveDescriptionIncludingAccessibilityElement">&nbsp;&nbsp;recursiveDescriptionIncludingAccessibilityElement</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSString *recursiveDescriptionIncludingAccessibilityElement</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/recursiveDescriptionWithIndent:includeAccessibilityElement:" title="recursiveDescriptionWithIndent:includeAccessibilityElement:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/recursiveDescriptionWithIndent:includeAccessibilityElement:">&ndash;&nbsp;recursiveDescriptionWithIndent:includeAccessibilityElement:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)recursiveDescriptionWithIndent:(id)<em>arg1</em> includeAccessibilityElement:(_Bool)<em>arg2</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/scrollView" title="scrollView"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scrollView">&nbsp;&nbsp;scrollView</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) XCElementSnapshot *scrollView</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="method-title"><code><a href="#//api/name/title">&nbsp;&nbsp;title</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSString *title</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/traits" title="traits"></a>
+	<h3 class="method-title"><code><a href="#//api/name/traits">&nbsp;&nbsp;traits</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property unsigned long long traits</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userTestingAttributes" title="userTestingAttributes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userTestingAttributes">&nbsp;&nbsp;userTestingAttributes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) NSArray *userTestingAttributes</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/value" title="value"></a>
+	<h3 class="method-title"><code><a href="#//api/name/value">&nbsp;&nbsp;value</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (copy) id value</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/verticalSizeClass" title="verticalSizeClass"></a>
+	<h3 class="method-title"><code><a href="#//api/name/verticalSizeClass">&nbsp;&nbsp;verticalSizeClass</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property long long verticalSizeClass</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/suggestedHitpoints" title="suggestedHitpoints"></a>
+	<h3 class="method-title"><code><a href="#//api/name/suggestedHitpoints">&nbsp;&nbsp;suggestedHitpoints</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) NSArray *suggestedHitpoints</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/truncatedValueString" title="truncatedValueString"></a>
+	<h3 class="method-title"><code><a href="#//api/name/truncatedValueString">&nbsp;&nbsp;truncatedValueString</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly, copy) NSString *truncatedValueString</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/visibleFrame" title="visibleFrame"></a>
+	<h3 class="method-title"><code><a href="#//api/name/visibleFrame">&nbsp;&nbsp;visibleFrame</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>@property (readonly) struct CGRect visibleFrame</code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Apple. All rights reserved. Updated: 2015-12-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

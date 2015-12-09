@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTestCase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTestCase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/_allTestMethodInvocations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (void)_allTestMethodInvocations:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_allTestMethodInvocations:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/_baselineDictionary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)_baselineDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/_baselineDictionary</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/_enableSymbolication</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)_enableSymbolication</Declaration>
+			
+			
+			<Anchor>//api/name/_enableSymbolication</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/_reportPerformanceFailuresForLargeImprovements</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)_reportPerformanceFailuresForLargeImprovements</Declaration>
+			
+			
+			<Anchor>//api/name/_reportPerformanceFailuresForLargeImprovements</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/_treatMissingBaselinesAsTestFailures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)_treatMissingBaselinesAsTestFailures</Declaration>
+			
+			
+			<Anchor>//api/name/_treatMissingBaselinesAsTestFailures</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/allSubclasses</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)allSubclasses</Declaration>
+			
+			
+			<Anchor>//api/name/allSubclasses</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/allTestMethodInvocations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)allTestMethodInvocations</Declaration>
+			
+			
+			<Anchor>//api/name/allTestMethodInvocations</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/defaultPerformanceMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)defaultPerformanceMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPerformanceMetrics</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/defaultTestSuite</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)defaultTestSuite</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTestSuite</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/isInheritingTestCases</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)isInheritingTestCases</Declaration>
+			
+			
+			<Anchor>//api/name/isInheritingTestCases</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/setUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (void)setUp</Declaration>
+			
+			
+			<Anchor>//api/name/setUp</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/tearDown</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (void)tearDown</Declaration>
+			
+			
+			<Anchor>//api/name/tearDown</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/testCaseWithInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)testCaseWithInvocation:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseWithInvocation:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/testCaseWithSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)testCaseWithSelector:(SEL)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseWithSelector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/testInvocations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)testInvocations</Declaration>
+			
+			
+			<Anchor>//api/name/testInvocations</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTestCase/testMethodInvocations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>+ (id)testMethodInvocations</Declaration>
+			
+			
+			<Anchor>//api/name/testMethodInvocations</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_completeWithResult:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_completeWithResult:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_completeWithResult:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_configureTimeoutForInterval:forWaitAtAddress:testClassName:testMethodName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_configureTimeoutForInterval:(double)arg1 forWaitAtAddress:(unsigned long long)arg2 testClassName:(id)arg3 testMethodName:(id)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_configureTimeoutForInterval:forWaitAtAddress:testClassName:testMethodName:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_dequeueFailures</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_dequeueFailures</Declaration>
+			
+			
+			<Anchor>//api/name/_dequeueFailures</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_didMeasureMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_didMeasureMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/_didMeasureMetrics</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_didStartMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_didStartMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/_didStartMeasuring</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_didStopMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_didStopMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/_didStopMeasuring</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_enqueueFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_enqueueFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_enqueueFailureWithDescription:inFile:atLine:expected:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_expectationForDarwinNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)_expectationForDarwinNotification:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_expectationForDarwinNotification:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_expectationsHaveBeenFulfilled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_expectationsHaveBeenFulfilled</Declaration>
+			
+			
+			<Anchor>//api/name/_expectationsHaveBeenFulfilled</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_fulfillExpectation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_fulfillExpectation:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_fulfillExpectation:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_interruptTest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_interruptTest</Declaration>
+			
+			
+			<Anchor>//api/name/_interruptTest</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_isMeasuringMetrics</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_isMeasuringMetrics</Declaration>
+			
+			
+			<Anchor>//api/name/_isMeasuringMetrics</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_logAndReportPerformanceMetrics:perfMetricResultsForIDs:withBaselinesForTest:defaultBaselinesForPerfMetricID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_logAndReportPerformanceMetrics:(id)arg1 perfMetricResultsForIDs:(id)arg2 withBaselinesForTest:(id)arg3 defaultBaselinesForPerfMetricID:(id)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/_logAndReportPerformanceMetrics:perfMetricResultsForIDs:withBaselinesForTest:defaultBaselinesForPerfMetricID:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_perfMetricDataForID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)_perfMetricDataForID</Declaration>
+			
+			
+			<Anchor>//api/name/_perfMetricDataForID</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_recordUnexpectedFailureWithDescription:exception:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_recordUnexpectedFailureWithDescription:(id)arg1 exception:(id)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/_recordUnexpectedFailureWithDescription:exception:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_recordValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)_recordValues:(id)arg1 forPerformanceMetricID:(id)arg2 name:(id)arg3 unitsOfMeasurement:(id)arg4 baselineName:(id)arg5 baselineAverage:(id)arg6 maxPercentRegression:(id)arg7 maxPercentRelativeStandardDeviation:(id)arg8 maxRegression:(id)arg9 maxStandardDeviation:(id)arg10 file:(id)arg11 line:(unsigned long long)arg12</Declaration>
+			
+			
+			<Anchor>//api/name/_recordValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_requiredTestRunBaseClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (Class)_requiredTestRunBaseClass</Declaration>
+			
+			
+			<Anchor>//api/name/_requiredTestRunBaseClass</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/_symbolicationRecordForTestCodeInAddressStack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)_symbolicationRecordForTestCodeInAddressStack:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_symbolicationRecordForTestCodeInAddressStack:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setActivityRecordStackDepth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long activityRecordStackDepth</Declaration>
+			
+			
+			<Anchor>//api/name/activityRecordStackDepth</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/activityRecordStackDepth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long activityRecordStackDepth</Declaration>
+			
+			
+			<Anchor>//api/name/activityRecordStackDepth</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/activityRecordStackDepth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) unsigned long long activityRecordStackDepth</Declaration>
+			
+			
+			<Anchor>//api/name/activityRecordStackDepth</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/addUIInterruptionMonitorWithDescription:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)addUIInterruptionMonitorWithDescription:(id)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/addUIInterruptionMonitorWithDescription:handler:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/afterTestIteration:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)afterTestIteration:(unsigned long long)arg1 selector:(SEL)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/afterTestIteration:selector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/beforeTestIteration:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)beforeTestIteration:(unsigned long long)arg1 selector:(SEL)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/beforeTestIteration:selector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setContinueAfterFailure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property _Bool continueAfterFailure</Declaration>
+			
+			
+			<Anchor>//api/name/continueAfterFailure</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/continueAfterFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property _Bool continueAfterFailure</Declaration>
+			
+			
+			<Anchor>//api/name/continueAfterFailure</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/continueAfterFailure</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property _Bool continueAfterFailure</Declaration>
+			
+			
+			<Anchor>//api/name/continueAfterFailure</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/expectationForNotification:object:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)expectationForNotification:(id)arg1 object:(id)arg2 handler:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/expectationForNotification:object:handler:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/expectationForPredicate:evaluatedWithObject:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)expectationForPredicate:(id)arg1 evaluatedWithObject:(id)arg2 handler:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/expectationForPredicate:evaluatedWithObject:handler:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/expectationWithDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)expectationWithDescription:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/expectationWithDescription:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/initWithInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithInvocation:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithInvocation:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/initWithSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSelector:(SEL)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSelector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setInternalImplementation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) _XCTestCaseImplementation *internalImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/internalImplementation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/internalImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) _XCTestCaseImplementation *internalImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/internalImplementation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/internalImplementation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) _XCTestCaseImplementation *internalImplementation</Declaration>
+			
+			
+			<Anchor>//api/name/internalImplementation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setInvocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSInvocation *invocation</Declaration>
+			
+			
+			<Anchor>//api/name/invocation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/invocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSInvocation *invocation</Declaration>
+			
+			
+			<Anchor>//api/name/invocation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/invocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) NSInvocation *invocation</Declaration>
+			
+			
+			<Anchor>//api/name/invocation</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/invokeTest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)invokeTest</Declaration>
+			
+			
+			<Anchor>//api/name/invokeTest</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/isEqual:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)isEqual:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/isEqual:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/keyValueObservingExpectationForObject:keyPath:expectedValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)keyValueObservingExpectationForObject:(id)arg1 keyPath:(id)arg2 expectedValue:(id)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/keyValueObservingExpectationForObject:keyPath:expectedValue:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/keyValueObservingExpectationForObject:keyPath:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)keyValueObservingExpectationForObject:(id)arg1 keyPath:(id)arg2 handler:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/keyValueObservingExpectationForObject:keyPath:handler:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/languageAgnosticTestMethodName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)languageAgnosticTestMethodName</Declaration>
+			
+			
+			<Anchor>//api/name/languageAgnosticTestMethodName</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/measureBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)measureBlock:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/measureBlock:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/measureMetrics:automaticallyStartMeasuring:forBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)measureMetrics:(id)arg1 automaticallyStartMeasuring:(_Bool)arg2 forBlock:(CDUnknownBlockType)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/measureMetrics:automaticallyStartMeasuring:forBlock:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/nameForLegacyLogging</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (id)nameForLegacyLogging</Declaration>
+			
+			
+			<Anchor>//api/name/nameForLegacyLogging</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/numberOfTestIterationsForTestWithSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)numberOfTestIterationsForTestWithSelector:(SEL)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfTestIterationsForTestWithSelector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/performTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)performTest:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/performTest:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/recordFailureWithDescription:inFile:atLine:expected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)recordFailureWithDescription:(id)arg1 inFile:(id)arg2 atLine:(unsigned long long)arg3 expected:(_Bool)arg4</Declaration>
+			
+			
+			<Anchor>//api/name/recordFailureWithDescription:inFile:atLine:expected:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/removeUIInterruptionMonitor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)removeUIInterruptionMonitor:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/removeUIInterruptionMonitor:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setShouldHaltWhenReceivesControl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) _Bool shouldHaltWhenReceivesControl</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHaltWhenReceivesControl</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/shouldHaltWhenReceivesControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) _Bool shouldHaltWhenReceivesControl</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHaltWhenReceivesControl</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/shouldHaltWhenReceivesControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) _Bool shouldHaltWhenReceivesControl</Declaration>
+			
+			
+			<Anchor>//api/name/shouldHaltWhenReceivesControl</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setTestCaseRun:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCTestCaseRun *testCaseRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseRun</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/testCaseRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCTestCaseRun *testCaseRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseRun</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/testCaseRun</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCTestCaseRun *testCaseRun</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseRun</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setUpTestWithSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)setUpTestWithSelector:(SEL)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/setUpTestWithSelector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/startActivityWithTitle:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)startActivityWithTitle:(id)arg1 block:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/startActivityWithTitle:block:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/startMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)startMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/startMeasuring</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/stopMeasuring</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)stopMeasuring</Declaration>
+			
+			
+			<Anchor>//api/name/stopMeasuring</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/tearDownTestWithSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)tearDownTestWithSelector:(SEL)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/tearDownTestWithSelector:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/testCaseCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (unsigned long long)testCaseCount</Declaration>
+			
+			
+			<Anchor>//api/name/testCaseCount</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/setTestContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestContext *testContext</Declaration>
+			
+			
+			<Anchor>//api/name/testContext</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/testContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestContext *testContext</Declaration>
+			
+			
+			<Anchor>//api/name/testContext</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTestCase/testContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCTestContext *testContext</Declaration>
+			
+			
+			<Anchor>//api/name/testContext</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/testRunClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (Class)testRunClass</Declaration>
+			
+			
+			<Anchor>//api/name/testRunClass</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTestCase/waitForExpectationsWithTimeout:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTestCase.h</DeclaredIn>
+			
+			<Declaration>- (void)waitForExpectationsWithTimeout:(double)arg1 handler:(CDUnknownBlockType)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/waitForExpectationsWithTimeout:handler:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

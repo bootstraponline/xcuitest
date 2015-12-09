@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCTouchEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCTouchEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTouchEvent/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCTouchEvent/touchEventWithType:coordinate:offset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>+ (id)touchEventWithType:(unsigned long long)arg1 coordinate:(struct CGPoint)arg2 offset:(double)arg3</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventWithType:coordinate:offset:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property struct CGPoint coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property struct CGPoint coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property struct CGPoint coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property double offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/setTouchEventType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long touchEventType</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventType</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCTouchEvent/touchEventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long touchEventType</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventType</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCTouchEvent/touchEventType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCTouchEvent.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long touchEventType</Declaration>
+			
+			
+			<Anchor>//api/name/touchEventType</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

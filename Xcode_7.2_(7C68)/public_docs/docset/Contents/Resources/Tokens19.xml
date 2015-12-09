@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/XCTestObservation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/XCTestObservation</TokenIdentifier>
+			<Abstract type="html">@protocol XCTestObservation</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testBundleWillStart:</TokenIdentifier>
+			<Abstract type="html">@method -testBundleWillStart:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testBundleWillStart:(NSBundle *)testBundle</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testBundle</Name>
+					<Abstract type="html">The bundle containing the tests that were executed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testBundleWillStart:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testBundleDidFinish:</TokenIdentifier>
+			<Abstract type="html">@method -testBundleDidFinish:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testBundleDidFinish:(NSBundle *)testBundle</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testBundle</Name>
+					<Abstract type="html">The bundle containing the tests that were executed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testBundleDidFinish:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuiteWillStart:</TokenIdentifier>
+			<Abstract type="html">@method -testSuiteWillStart:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteWillStart:(XCTestSuite *)testSuite</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testSuite</Name>
+					<Abstract type="html">The test suite that started. Additional information can be retrieved from the associated XCTestRun.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testSuiteWillStart:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuite:didFailWithDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html">@method -testSuiteDidFail:withDescription:inFile:atLine:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuite:(XCTestSuite *)testSuite didFailWithDescription:(NSString *)description inFile:(nullable NSString *)filePath atLine:(NSUInteger)lineNumber</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testSuite</Name>
+					<Abstract type="html">The test suite that failed. Additional information can be retrieved from the associated XCTestRun.</Abstract>
+				</Parameter><Parameter>
+					<Name>description</Name>
+					<Abstract type="html">A textual description of the failure.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The path of file where the failure occurred, nil if unknown.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineNumber</Name>
+					<Abstract type="html">The line where the failure was reported.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testSuite:didFailWithDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testSuiteDidFinish:</TokenIdentifier>
+			<Abstract type="html">@method -testSuiteDidFinish:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testSuiteDidFinish:(XCTestSuite *)testSuite</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testSuite</Name>
+					<Abstract type="html">The test suite that finished. Additional information can be retrieved from the associated XCTestRun.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testSuiteDidFinish:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCaseWillStart:</TokenIdentifier>
+			<Abstract type="html">@method -testCaseWillStart:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseWillStart:(XCTestCase *)testCase</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testCase</Name>
+					<Abstract type="html">The test case that started. Additional information can be retrieved from the associated XCTestRun.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testCaseWillStart:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCase:didFailWithDescription:inFile:atLine:</TokenIdentifier>
+			<Abstract type="html">@method -testCaseDidFail:withDescription:inFile:atLine:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testCase:(XCTestCase *)testCase didFailWithDescription:(NSString *)description inFile:(nullable NSString *)filePath atLine:(NSUInteger)lineNumber</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testCase</Name>
+					<Abstract type="html">The test case that failed. Additional information can be retrieved from the associated XCTestRun.</Abstract>
+				</Parameter><Parameter>
+					<Name>description</Name>
+					<Abstract type="html">A textual description of the failure.</Abstract>
+				</Parameter><Parameter>
+					<Name>filePath</Name>
+					<Abstract type="html">The path of file where the failure occurred, nil if unknown.</Abstract>
+				</Parameter><Parameter>
+					<Name>lineNumber</Name>
+					<Abstract type="html">The line where the failure was reported.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testCase:didFailWithDescription:inFile:atLine:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/XCTestObservation/testCaseDidFinish:</TokenIdentifier>
+			<Abstract type="html">@method -testCaseDidFinish:</Abstract>
+			<DeclaredIn>XCTestObservation.h</DeclaredIn>
+			
+			<Declaration>- (void)testCaseDidFinish:(XCTestCase *)testCase</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>testCase</Name>
+					<Abstract type="html">The test case that finished. Additional information can be retrieved from the associated XCTestRun.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/testCaseDidFinish:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

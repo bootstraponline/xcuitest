@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XCElementSnapshot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XCElementSnapshot</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XCElementSnapshot/supportsSecureCoding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>+ (_Bool)supportsSecureCoding</Declaration>
+			
+			
+			<Anchor>//api/name/supportsSecureCoding</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_allDescendants</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)_allDescendants</Declaration>
+			
+			
+			<Anchor>//api/name/_allDescendants</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_frameFuzzyMatchesElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_frameFuzzyMatchesElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_frameFuzzyMatchesElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_fuzzyMatchesElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_fuzzyMatchesElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_fuzzyMatchesElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_isAncestorOfElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_isAncestorOfElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_isAncestorOfElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_isDescendantOfElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_isDescendantOfElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_isDescendantOfElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_matchesElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)_matchesElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/_matchesElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_rootElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)_rootElement</Declaration>
+			
+			
+			<Anchor>//api/name/_rootElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_uniquelyIdentifyingObjectiveCCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)_uniquelyIdentifyingObjectiveCCode</Declaration>
+			
+			
+			<Anchor>//api/name/_uniquelyIdentifyingObjectiveCCode</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/_uniquelyIdentifyingSwiftCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)_uniquelyIdentifyingSwiftCode</Declaration>
+			
+			
+			<Anchor>//api/name/_uniquelyIdentifyingSwiftCode</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *accessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/accessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/accessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *accessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/accessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/accessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *accessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/accessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setAdditionalAttributes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDictionary *additionalAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/additionalAttributes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/additionalAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDictionary *additionalAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/additionalAttributes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/additionalAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSDictionary *additionalAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/additionalAttributes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setApplication:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) XCUIApplication *application</Declaration>
+			
+			
+			<Anchor>//api/name/application</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/application</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) XCUIApplication *application</Declaration>
+			
+			
+			<Anchor>//api/name/application</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/application</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) XCUIApplication *application</Declaration>
+			
+			
+			<Anchor>//api/name/application</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setChildren:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/children</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/children</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *children</Declaration>
+			
+			
+			<Anchor>//api/name/children</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setCompactDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *compactDescription</Declaration>
+			
+			
+			<Anchor>//api/name/compactDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/compactDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *compactDescription</Declaration>
+			
+			
+			<Anchor>//api/name/compactDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/compactDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *compactDescription</Declaration>
+			
+			
+			<Anchor>//api/name/compactDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/descendantsByFilteringWithBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)descendantsByFilteringWithBlock:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/descendantsByFilteringWithBlock:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/elementSnapshotMatchingAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)elementSnapshotMatchingAccessibilityElement:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/elementSnapshotMatchingAccessibilityElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setElementType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long elementType</Declaration>
+			
+			
+			<Anchor>//api/name/elementType</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/elementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long elementType</Declaration>
+			
+			
+			<Anchor>//api/name/elementType</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/elementType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long elementType</Declaration>
+			
+			
+			<Anchor>//api/name/elementType</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/enumerateDescendantsUsingBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (void)enumerateDescendantsUsingBlock:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/enumerateDescendantsUsingBlock:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property struct CGRect frame</Declaration>
+			
+			
+			<Anchor>//api/name/frame</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/frame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property struct CGRect frame</Declaration>
+			
+			
+			<Anchor>//api/name/frame</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/frame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property struct CGRect frame</Declaration>
+			
+			
+			<Anchor>//api/name/frame</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setGeneration:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long generation</Declaration>
+			
+			
+			<Anchor>//api/name/generation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/generation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long generation</Declaration>
+			
+			
+			<Anchor>//api/name/generation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/generation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) unsigned long long generation</Declaration>
+			
+			
+			<Anchor>//api/name/generation</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/hasDescendantMatchingFilter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (_Bool)hasDescendantMatchingFilter:(CDUnknownBlockType)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/hasDescendantMatchingFilter:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setHasFocus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasFocus</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/hasFocus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasFocus</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/hasFocus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasFocus</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setHasKeyboardFocus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasKeyboardFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasKeyboardFocus</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/hasKeyboardFocus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasKeyboardFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasKeyboardFocus</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/hasKeyboardFocus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool hasKeyboardFocus</Declaration>
+			
+			
+			<Anchor>//api/name/hasKeyboardFocus</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setHitPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint hitPoint</Declaration>
+			
+			
+			<Anchor>//api/name/hitPoint</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/hitPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint hitPoint</Declaration>
+			
+			
+			<Anchor>//api/name/hitPoint</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/hitPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint hitPoint</Declaration>
+			
+			
+			<Anchor>//api/name/hitPoint</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setHitPointForScrolling:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint hitPointForScrolling</Declaration>
+			
+			
+			<Anchor>//api/name/hitPointForScrolling</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/hitPointForScrolling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint hitPointForScrolling</Declaration>
+			
+			
+			<Anchor>//api/name/hitPointForScrolling</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/hitPointForScrolling</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGPoint hitPointForScrolling</Declaration>
+			
+			
+			<Anchor>//api/name/hitPointForScrolling</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/hitTest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)hitTest:(struct CGPoint)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/hitTest:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setHorizontalSizeClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property long long horizontalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalSizeClass</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/horizontalSizeClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property long long horizontalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalSizeClass</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/horizontalSizeClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property long long horizontalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalSizeClass</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setIdentifiers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *identifiers</Declaration>
+			
+			
+			<Anchor>//api/name/identifiers</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/identifiers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *identifiers</Declaration>
+			
+			
+			<Anchor>//api/name/identifiers</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/identifiers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSArray *identifiers</Declaration>
+			
+			
+			<Anchor>//api/name/identifiers</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(id)arg1</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setEnabled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (getter=isEnabled) _Bool enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/isEnabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (getter=isEnabled) _Bool enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/enabled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (getter=isEnabled) _Bool enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setIsMainWindow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool isMainWindow</Declaration>
+			
+			
+			<Anchor>//api/name/isMainWindow</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/isMainWindow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool isMainWindow</Declaration>
+			
+			
+			<Anchor>//api/name/isMainWindow</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/isMainWindow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property _Bool isMainWindow</Declaration>
+			
+			
+			<Anchor>//api/name/isMainWindow</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setSelected:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (getter=isSelected) _Bool selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/isSelected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (getter=isSelected) _Bool selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/selected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (getter=isSelected) _Bool selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/label</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/label</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setParent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property XCElementSnapshot *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/parent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property XCElementSnapshot *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/parent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property XCElementSnapshot *parent</Declaration>
+			
+			
+			<Anchor>//api/name/parent</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setParentAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *parentAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/parentAccessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/parentAccessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *parentAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/parentAccessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/parentAccessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (retain) XCAccessibilityElement *parentAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/parentAccessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setPathDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *pathDescription</Declaration>
+			
+			
+			<Anchor>//api/name/pathDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/pathDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *pathDescription</Declaration>
+			
+			
+			<Anchor>//api/name/pathDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/pathDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *pathDescription</Declaration>
+			
+			
+			<Anchor>//api/name/pathDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setPlaceholderValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/placeholderValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/placeholderValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *placeholderValue</Declaration>
+			
+			
+			<Anchor>//api/name/placeholderValue</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setRecursiveDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *recursiveDescription</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/recursiveDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *recursiveDescription</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/recursiveDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *recursiveDescription</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescription</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setRecursiveDescriptionIncludingAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *recursiveDescriptionIncludingAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescriptionIncludingAccessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/recursiveDescriptionIncludingAccessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *recursiveDescriptionIncludingAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescriptionIncludingAccessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/recursiveDescriptionIncludingAccessibilityElement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSString *recursiveDescriptionIncludingAccessibilityElement</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescriptionIncludingAccessibilityElement</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/recursiveDescriptionWithIndent:includeAccessibilityElement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>- (id)recursiveDescriptionWithIndent:(id)arg1 includeAccessibilityElement:(_Bool)arg2</Declaration>
+			
+			
+			<Anchor>//api/name/recursiveDescriptionWithIndent:includeAccessibilityElement:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setScrollView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCElementSnapshot *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/scrollView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCElementSnapshot *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/scrollView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) XCElementSnapshot *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setTraits:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long traits</Declaration>
+			
+			
+			<Anchor>//api/name/traits</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/traits</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long traits</Declaration>
+			
+			
+			<Anchor>//api/name/traits</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/traits</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property unsigned long long traits</Declaration>
+			
+			
+			<Anchor>//api/name/traits</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setUserTestingAttributes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *userTestingAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/userTestingAttributes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/userTestingAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *userTestingAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/userTestingAttributes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/userTestingAttributes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) NSArray *userTestingAttributes</Declaration>
+			
+			
+			<Anchor>//api/name/userTestingAttributes</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (copy) id value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setVerticalSizeClass:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property long long verticalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/verticalSizeClass</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/verticalSizeClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property long long verticalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/verticalSizeClass</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/verticalSizeClass</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property long long verticalSizeClass</Declaration>
+			
+			
+			<Anchor>//api/name/verticalSizeClass</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setSuggestedHitpoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *suggestedHitpoints</Declaration>
+			
+			
+			<Anchor>//api/name/suggestedHitpoints</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/suggestedHitpoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *suggestedHitpoints</Declaration>
+			
+			
+			<Anchor>//api/name/suggestedHitpoints</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/suggestedHitpoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSArray *suggestedHitpoints</Declaration>
+			
+			
+			<Anchor>//api/name/suggestedHitpoints</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setTruncatedValueString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *truncatedValueString</Declaration>
+			
+			
+			<Anchor>//api/name/truncatedValueString</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/truncatedValueString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *truncatedValueString</Declaration>
+			
+			
+			<Anchor>//api/name/truncatedValueString</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/truncatedValueString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, copy) NSString *truncatedValueString</Declaration>
+			
+			
+			<Anchor>//api/name/truncatedValueString</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/setVisibleFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGRect visibleFrame</Declaration>
+			
+			
+			<Anchor>//api/name/visibleFrame</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XCElementSnapshot/visibleFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGRect visibleFrame</Declaration>
+			
+			
+			<Anchor>//api/name/visibleFrame</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XCElementSnapshot/visibleFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XCElementSnapshot.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) struct CGRect visibleFrame</Declaration>
+			
+			
+			<Anchor>//api/name/visibleFrame</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
