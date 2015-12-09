@@ -83,7 +83,9 @@ class XCUITest
 
     cmd = [classdump,
            xctest_framework,
-           '-H',
+           '-S', # sort methods by name
+           '-s', # sort classes and categories by name
+           '-H', # generate header files
            %Q(-o "#{output_folder}")
     ].join(' ')
 
